@@ -261,7 +261,7 @@ hammerbeakLand:
 
 
 hammerbeakSwoopS:
-  Cooldown: 2
+  Cooldown: 6
   Conditions:
   - targetwithin{d=12}
   - stance{s=idleAir} true

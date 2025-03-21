@@ -21,8 +21,8 @@ range:
   defaultNearbyRange: 120.0
 # How often should each spawn category, attempt spawns. The higher a value, the more time between spawn attempts.
 runTimes:
-  GROUND: 500ms
-  WATER: 500ms
-  AIR: 7s
+  GROUND: 800ms
+  WATER: 800ms
+  AIR: 11s
 # How many times to try and find a valid spawn position around a player before giving up.
 maxSpawnAttemptsPerPlayer: 12
