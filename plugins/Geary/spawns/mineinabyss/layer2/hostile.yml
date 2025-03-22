@@ -24,6 +24,7 @@ l2_silkfang:
   inherit: l2_hostile
   type: mm:silkfang
   priority: 0.8
+  chance: 0.7
   conditions:
     - $inherit
     - gap: 4..600
@@ -33,7 +34,8 @@ l2_silkfang:
 l2_woodcrier:
   inherit: l2_hostile
   type: mm:woodcrier
-  priority: 0.8
+  priority: 0.5
+  chance: 0.4
   conditions:
     - $inherit
     - maxNearby:
@@ -45,6 +47,7 @@ l2_hammerbeakLarge:
   inherit: l2_hostile
   type: mm:hammerbeakLarge
   priority: 0.25
+  chance: 0.7
   conditions:
     - $inherit
     - $remove maxNearby
