@@ -4,7 +4,7 @@ set.item:
     type: PAPER
     customModelData: 137
     lore:
-      - ":temeyes: Grade IV Relic"
+      - ":troll: Grade IV Relic"
       - <gold>Found during April Fools 2025.
       - <gold>A relic able to replicate specific sounds.
       - <#D2D489><i>On use it sounds Tamas cries.
