@@ -49,7 +49,8 @@ FapuKuonDrops:
   - playerwithin 32
   Drops:
     - normalchicken 1 0.03
-    - fools_cradle 1 1 nolooting
+    - amogus_token 1 1 nolooting
+    - geary mineinabyss:fools_cradle 1 0.1 nolooting
 
 WoodballerDrops:
   MaxItems: 2
@@ -57,7 +58,9 @@ WoodballerDrops:
   - playerwithin 32
   Drops:
     - toypufferfish 1 0.05
-    - fools_cradle 1 1 nolooting
+    - amogus_token 1 1 nolooting
+    - geary mineinabyss:fools_cradle 1 0.1 nolooting
+
 
 HornballerDrops:
   MaxItems: 3
@@ -65,7 +68,7 @@ HornballerDrops:
   - playerwithin 32
   Drops:
     - toypufferfish 1 0.1
-    - fools_cradle 1 1 nolooting
+    - amogus_token 1 1 nolooting
     - geary mineinabyss:horncrier_horn_0 1 0.004 nolooting
     - geary mineinabyss:horncrier_horn_1 1 0.004 nolooting
     - geary mineinabyss:horncrier_horn_2 1 0.004 nolooting
@@ -74,6 +77,8 @@ HornballerDrops:
     - geary mineinabyss:horncrier_horn_5 1 0.004 nolooting
     - geary mineinabyss:horncrier_horn_6 1 0.004 nolooting
     - geary mineinabyss:horncrier_horn_7 1 0.004 nolooting
+    - geary mineinabyss:fools_cradle 1 0.1 nolooting
+
 
 TamaDrops:
   MaxItems: 3
@@ -81,5 +86,6 @@ TamaDrops:
   - playerwithin 32
   Drops:
     - goldslime 1 0.08
-    - geary mineinabyss:tama_chime 1 0.08 nolooting
-    - fools_cradle 1 1 nolooting
+    - geary mineinabyss:tama_chime 1 0.05 nolooting
+    - amogus_token 1 1 nolooting
+    - geary mineinabyss:fools_cradle 1 0.1 nolooting

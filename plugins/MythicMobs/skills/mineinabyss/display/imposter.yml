@@ -4,9 +4,9 @@
 mgsignal:
   Cooldown: 0
   TriggerConditions:
-  - holding{m=fools_cradle;amount=1} true
+  - holding{m=amogus_token;amount=1} true
   Skills:
-  - takeitem{i=fools_cradle;a=1} @trigger
+  - takeitem{i=amogus_token;a=1} @trigger
   - Aura{auraName=amogusturnin;duration=99999;c=1;maxStacks=500;cotd=false} @self
   - skill{s=amogus50} @self
   - skill{s=amogus100} @self
