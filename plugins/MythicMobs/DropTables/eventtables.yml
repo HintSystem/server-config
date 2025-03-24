@@ -43,32 +43,14 @@ PSIntroHeadDrops:
   - brokenskull 1 0.06
   - verticalcore 0.08
 
-FapuKuonDrops:
-  MaxItems: 2
-  Conditions:
-  - playerwithin 32
-  Drops:
-    - normalchicken 1 0.03
-    - amogus_token 1 
-
-
-WoodballerDrops:
-  MaxItems: 2
-  Conditions:
-  - playerwithin 32
-  Drops:
-    - toypufferfish 1 0.05
-    - amogus_token 1 1 nolooting
-    - geary mineinabyss:fools_cradle 1 0.1 nolooting
-
 
 HornballerDrops:
   MaxItems: 3
   Conditions:
   - playerwithin 32
   Drops:
-    - toypufferfish 1 0.1
-    - amogus_token 1 1 nolooting
+    - toypufferfish 1 0.04
+    - water_bottle{name="Balling Tears";lore=":troll:"} 1 0.1
     - geary mineinabyss:horncrier_horn_0 1 0.004 nolooting
     - geary mineinabyss:horncrier_horn_1 1 0.004 nolooting
     - geary mineinabyss:horncrier_horn_2 1 0.004 nolooting
@@ -77,7 +59,7 @@ HornballerDrops:
     - geary mineinabyss:horncrier_horn_5 1 0.004 nolooting
     - geary mineinabyss:horncrier_horn_6 1 0.004 nolooting
     - geary mineinabyss:horncrier_horn_7 1 0.004 nolooting
-    - geary mineinabyss:fools_cradle 1 0.1 nolooting
+    - amogus_token 1 1
 
 
 TamaDrops:
@@ -88,4 +70,3 @@ TamaDrops:
     - goldslime 1 0.08
     - geary mineinabyss:tama_chime 1 0.05 nolooting
     - amogus_token 1 1 nolooting
-    - geary mineinabyss:fools_cradle 1 0.1 nolooting

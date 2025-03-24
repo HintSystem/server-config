@@ -8,3 +8,6 @@ set.item:
       - <gold>Found during April Fools 2025.
       - <gold>A relic able to replicate specific sounds.
       - <#D2D489><i>On use it sounds Tamas cries.
+
+resourcepack:
+  textures: mineinabyss:item/event/tama_chime
