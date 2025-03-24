@@ -33,18 +33,18 @@ amogus:
     PreventSunburn: true
   DropOptions:
     ChatMessage:
-    - '<#F28800>===================================='
-    - '<#FFA300>BOSS DEFEATED!'
-    - '<#F2B600><mob.name>'
+    - '<#F28800>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+    - '<gold>CONGRATULATIONS!'
+    - '<#AD0009><mob.name> DEFEATED!'
     - ''
-    - '<#ffe259>1st Place »<#ffe259> <1.name> - <1.damage>'
-    - '<#D1FFFF>2nd Place »<#D1FFFF> <2.name> - <2.damage>'
-    - '<#D1FFFF>3rd Place »<#D1FFFF> <3.name> - <3.damage>'
-    - '<#E57A00>4th Place »<#E57A00> <4.name> - <4.damage>'
-    - '<#E57A00>5th Place »<#E57A00> <5.name> - <5.damage>'
+    - '<#FFCF21>1st Place »<#FFCF21> <1.name> - <1.damage>'
+    - '<#C4C1B3>2nd Place »<#C4C1B3> <2.name> - <2.damage>'
+    - '<#9E7108>3rd Place »<#9E7108> <3.name> - <3.damage>'
+    - '<#068F2A>4th Place »<#068F2A> <4.name> - <4.damage>'
+    - '<#6D6E6D>5th Place »<#6D6E6D> <5.name> - <5.damage>'
     - ''
-    - '<#F2B600>Your rank: #<player.rank> - <player.damage>'
-    - '<#F28800>===================================='
+    - '<#539C33>Your rank: #<player.rank> - <player.damage>'
+    - '<#F28800>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
     ShowDeathChatMessage: true
     DropMethod: FANCY
     ClientSideDrops: true
