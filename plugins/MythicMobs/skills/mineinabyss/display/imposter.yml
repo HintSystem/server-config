@@ -32,7 +32,7 @@ amogus50:
   Skills:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
-  - jsonmessage{m="[{'text':'&aHey, i am 50!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&dNPC - &fCool goodies, give me more!'}]"} @server ~onInteract
 
 amogus100:
   Cooldown: 1
@@ -42,7 +42,7 @@ amogus100:
   Skills:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
-  - jsonmessage{m="[{'text':'&aHey, i am 100!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&dNPC - &fFeed me more goodies!'}]"} @server ~onInteract
 
 amogus150:
   Cooldown: 1
@@ -52,7 +52,7 @@ amogus150:
   Skills:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
-  - jsonmessage{m="[{'text':'&aHey, i am 150!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&dNPC - &fHungry for more goodies!'}]"} @server ~onInteract
 
 amogus200:
   Cooldown: 1
@@ -62,7 +62,7 @@ amogus200:
   Skills:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
-  - jsonmessage{m="[{'text':'&aHey, i am 200!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&dNPC - &fYummy, loads of goodies!'}]"} @server ~onInteract
 
 amogus250:
   Cooldown: 1
@@ -72,7 +72,7 @@ amogus250:
   Skills:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
-  - jsonmessage{m="[{'text':'&aHey, i am 250!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&dNPC - &fMore More More!'}]"} @server ~onInteract
 
 amogus300:
   Cooldown: 1
@@ -82,7 +82,7 @@ amogus300:
   Skills:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
-  - jsonmessage{m="[{'text':'&aHey, i am 300!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&dNPC - &fHmmm, quite close to being done!'}]"} @server ~onInteract
 
 amogus350:
   Cooldown: 1
@@ -92,7 +92,7 @@ amogus350:
   Skills:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
-  - jsonmessage{m="[{'text':'&aHey, i am 350!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&dNPC - &fNicesu, more goodies for me!'}]"} @server ~onInteract
 
 amogus400:
   Cooldown: 1
@@ -102,7 +102,7 @@ amogus400:
   Skills:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
-  - jsonmessage{m="[{'text':'&aHey, i am 400!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&cUnknown Voice - &fDo you have any idea, who you are giving these to?'}]"} @server ~onInteract
 
 amogus450:
   Cooldown: 1
@@ -112,7 +112,7 @@ amogus450:
   Skills:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
-  - jsonmessage{m="[{'text':'&aHey, i am 450!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&cUnknown Voice - &fVery well...'}]"} @server ~onInteract
 
 amogus500:
   Cooldown: 1
@@ -122,6 +122,7 @@ amogus500:
   Skills:
   - gcd{ticks=100}
   - skill{s=skeldbyedoor} @Self
+  - jsonmessage{m="[{'text':'&4I am Amongus!'}]"} @server ~onInteract
   - jsonmessage{m="[{'text':'&aBoss Spawning in 2 minutes!'}]"} @server ~onInteract
   - delay 2400
   - summon{t=amogus} @Location{c=20.5,83.5,-0.5,0,0}
