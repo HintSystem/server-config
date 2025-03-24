@@ -9,7 +9,6 @@ set.item:
       - <gold>A relic capable of summoning random effects.
       - <#D2D489><i>Works only during April Fools. 
 
-disableItemInteractions: {}
 observe:
   itemRightClick:
     - become: parent

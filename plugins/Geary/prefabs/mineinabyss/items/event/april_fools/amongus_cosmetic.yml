@@ -1,0 +1,14 @@
+set.item:
+  item:
+    itemName: <#C21807>Among Us
+    type: PAPER
+    customModelData: 161
+    lore:
+      - ":troll:"
+      - <gold>Found during April Fools 2025.
+      - <gold>Inconveniently conspicious.
+prevent.enchanting: {}
+hat: {}
+disableItemInteractions: {}
+resourcepack:
+  model: mineinabyss:item/event/camera_gold
