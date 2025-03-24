@@ -31,7 +31,7 @@ amogus50:
   - hasaurastacks{n=amogusturnin;s=50} true
   Skills:
   - gcd{ticks=100}
-  - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&aHey, i am 50!'}]"} @server ~onInteract
 
 amogus100:
@@ -41,7 +41,7 @@ amogus100:
   - hasaurastacks{n=amogusturnin;s=100} true
   Skills:
   - gcd{ticks=100}
-  - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&aHey, i am 100!'}]"} @server ~onInteract
 
 amogus150:
@@ -51,7 +51,7 @@ amogus150:
   - hasaurastacks{n=amogusturnin;s=150} true
   Skills:
   - gcd{ticks=100}
-  - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&aHey, i am 150!'}]"} @server ~onInteract
 
 amogus200:
@@ -61,7 +61,7 @@ amogus200:
   - hasaurastacks{n=amogusturnin;s=200} true
   Skills:
   - gcd{ticks=100}
-  - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&aHey, i am 200!'}]"} @server ~onInteract
 
 amogus250:
@@ -71,7 +71,7 @@ amogus250:
   - hasaurastacks{n=amogusturnin;s=250} true
   Skills:
   - gcd{ticks=100}
-  - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&aHey, i am 250!'}]"} @server ~onInteract
 
 amogus300:
@@ -81,7 +81,7 @@ amogus300:
   - hasaurastacks{n=amogusturnin;s=300} true
   Skills:
   - gcd{ticks=100}
-  - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&aHey, i am 300!'}]"} @server ~onInteract
 
 amogus350:
@@ -91,7 +91,7 @@ amogus350:
   - hasaurastacks{n=amogusturnin;s=350} true
   Skills:
   - gcd{ticks=100}
-  - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&aHey, i am 350!'}]"} @server ~onInteract
 
 amogus400:
@@ -101,7 +101,7 @@ amogus400:
   - hasaurastacks{n=amogusturnin;s=400} true
   Skills:
   - gcd{ticks=100}
-  - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&aHey, i am 400!'}]"} @server ~onInteract
 
 amogus450:
@@ -111,7 +111,7 @@ amogus450:
   - hasaurastacks{n=amogusturnin;s=450} true
   Skills:
   - gcd{ticks=100}
-  - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&aHey, i am 450!'}]"} @server ~onInteract
 
 amogus500:
@@ -123,8 +123,7 @@ amogus500:
   - gcd{ticks=100}
   - skill{s=skeldbyedoor} @Self
   - jsonmessage{m="[{'text':'&aBoss Spawning in 2 minutes!'}]"} @server ~onInteract
-  #- delay 2400
-  - delay 100
+  - delay 2400
   - summon{t=amogus} @Location{c=20.5,83.5,-0.5,0,0}
 
 skelddoor:

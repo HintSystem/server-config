@@ -49,8 +49,8 @@ FapuKuonDrops:
   - playerwithin 32
   Drops:
     - normalchicken 1 0.03
-    - amogus_token 1 1 nolooting
-    - geary mineinabyss:fools_cradle 1 0.1 nolooting
+    - amogus_token 1 
+
 
 WoodballerDrops:
   MaxItems: 2

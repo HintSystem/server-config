@@ -2,7 +2,7 @@ set.item:
   item:
     itemName: <#03AC13>Fools Cradle
     type: PAPER
-    customModelData: 137
+    customModelData: 158
     lore:
       - ":troll: Grade IV Relic"
       - <gold>Found during April Fools 2025.

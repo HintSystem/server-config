@@ -2,7 +2,7 @@ set.item:
   item:
     itemName: <#C21807>Tama Chime
     type: PAPER
-    customModelData: 137
+    customModelData: 159
     lore:
       - ":troll: Grade IV Relic"
       - <gold>Found during April Fools 2025.
