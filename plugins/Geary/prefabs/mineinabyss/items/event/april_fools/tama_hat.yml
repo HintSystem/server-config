@@ -11,4 +11,4 @@ prevent.enchanting: {}
 hat: {}
 disableItemInteractions: {}
 resourcepack:
-  model: mineinabyss:item/event/amongus_knife
+  model: mineinabyss:item/event/tama_hat
