@@ -33,8 +33,8 @@ l2prayingskeleton:
   Drops:
     - exp 10-15
     - bone 1-3 0.7
-    - PSIntroDrops #to be removed after the event
-    - PSIntroHeadDrops #to be removed after the event
+   # - PSIntroDrops #to be removed after the event
+   # - PSIntroHeadDrops #to be removed after the event
     - L2PSHeadDrops
     - L2PSOreDrops
     - PSHeadDrops
@@ -67,9 +67,9 @@ l2prayingskeleton:
     - skill{s=animalcharmdrop;delay=20} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
     - skill{s=relicbowdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
 
-    - skill{s=dropletdrop;delay=10} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
-    - skill{s=uncertaindrop;delay=5} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
-    - skill{s=flatdrop} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+    #- skill{s=dropletdrop;delay=10} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+    #- skill{s=uncertaindrop;delay=5} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+    #- skill{s=flatdrop} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
 
 backupskele2:
   Type: ZOMBIE
@@ -106,8 +106,8 @@ backupskele2:
   Drops:
     - exp 10-15
     - bone 1-3 0.7
-    - PSIntroDrops #to be removed after the event
-    - PSIntroHeadDrops #to be removed after the event
+   # - PSIntroDrops #to be removed after the event
+    #- PSIntroHeadDrops #to be removed after the event
     - L2PSHeadDrops
     - L2PSOreDrops
     - PSHeadDrops
@@ -135,7 +135,7 @@ backupskele2:
     - skill{s=animalcharmdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
     - skill{s=relicbowdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
 
-    - skill{s=dropletdrop;delay=10} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
-    - skill{s=uncertaindrop;delay=5} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
-    - skill{s=flatdrop} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+   # - skill{s=dropletdrop;delay=10} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+   # - skill{s=uncertaindrop;delay=5} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+   # - skill{s=flatdrop} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
 

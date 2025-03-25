@@ -6,7 +6,7 @@ l1_vineflowers:
   regions: [ layerone ]
   conditions:
     - blockBelow:
-        allow: [ "#dirt", "moss_carpet" ]
+        allow: [ "#dirt", "moss_carpet", "#leaves" ]
     - maxNearby:
         amount: 2
 
@@ -16,4 +16,4 @@ l1_vineflowers:
 l1_vinebinder: { inherit: l1_vineflowers, type: mm:vinebinder }
 l1_vinepoofer: { inherit: l1_vineflowers, type: mm:vinepoofer }
 l1_vineblaster: { inherit: l1_vineflowers, type: mm:vineblaster, priority: 0.5 }
-l1_spittleshrub: { inherit: l1_vineflowers, type: mm:spittleshrub, priority: 0.2  }
+l1_spittleshrub: { inherit: l1_vineflowers, type: mm:spittleshrub, priority: 0.2, chance: 0.5  }
