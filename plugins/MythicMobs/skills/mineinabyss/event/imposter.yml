@@ -1067,8 +1067,8 @@ herobrineCROSSBOWGROUND:
   Cooldown: 5
   TargetConditions:
   - lineofsight true
-  Conditions:
-  - targetwithin{d=5} false
+ # Conditions:
+  #- targetwithin{d=5} false
   Skills:
   - sound{s=minecraft:item.crossbow.loading_start;v=1;sc=HOSTILE} @self
  # - setspeed{speed=0.3;type=walking} @self
@@ -1076,6 +1076,10 @@ herobrineCROSSBOWGROUND:
   - sound{s=minecraft:item.crossbow.shoot;v=1;sc=HOSTILE} @self
   - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine_bits;newpart=crossbow_unloaded} @self
   - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true}
+  - delay 2
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true;a=0.8}
+  - delay 2
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true;a=0.8}
   - delay 2
   - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true;a=0.8}
   - delay 2

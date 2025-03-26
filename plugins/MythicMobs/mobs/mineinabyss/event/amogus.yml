@@ -62,12 +62,14 @@ amogus:
     Scale: 1.4
     DamageTint: true
   Drops:
-    - exp 10-15 1
+    - exp 200-500 1
     - bone 10-15 1
-   # - bone{top=1} 1-3 1
-    - diamond{top=1} 1-3 1
-    - inkycore{top=2} 1 1
-    - lightorb{top=5} 1 1
+    - amongus_knife{top=1} 1 0.25
+    - tama_hat{top=2} 1 0.25
+    - amongus_cosmetic{top=3} 1 0.25
+    - clown_mask{top=3} 1 0.2
+
+    - townsmen_meet 1 0.2
   Health: 1000
   Skills:
 #  - skill{s=HerobrineSTEVESPAWN} @self ~onSpawn
@@ -85,7 +87,7 @@ amogus:
   - skill{s=herobrineBLOCK} @self ~onDamaged
   - skill{s=herobrineBLOCKprep} @self ~onTimer:15
  # - skill{s=herobrineEAT} @self ~onTimer:100 <40%
-  - guardianbeam{d=200;i=1;syo=1;fromOrigin=false;oE=herobrineCROSSBOWfireworkHIT} @target ~onTimer:600
+ # - guardianbeam{d=200;i=1;syo=1;fromOrigin=false;oE=herobrineCROSSBOWfireworkHIT} @target ~onTimer:600
   - randomskill{skills=herobrineCROSSBOWGROUND} @target ~onTimer:50
 
   - skill{s=gtfome} @self <80%
@@ -102,7 +104,7 @@ amogus:
   #- skill{s=mgspawn} ~onSignal:gaming
   - skill{s=skelddoor} @Self <2%%
 
-  - jsonmessage{m="[{'text':'&aHey, i am amogus!'}]"} @server ~onInteract
+ # - jsonmessage{m="[{'text':'&aHey, i am amogus!'}]"} @world ~onInteract
 
   - skill{s=imposter_redDEATHsummon} @self ~ondeath
   - skill{s=imposter_redSHOOT} @self ~onTimer:20
