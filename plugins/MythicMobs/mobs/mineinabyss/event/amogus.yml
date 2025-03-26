@@ -151,6 +151,8 @@ deadamogus:
   Drops:
   Health: 1000
   Skills:
+  - signal{s=now} @MobsInRadius{r=200;types=imposter_vent}
+
   - skill{s=imposter_redDEATH;delay=40} @self ~onspawn
   - model{mid=imposter_red;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_red;d=false;i=true} @self ~onLoad
@@ -162,12 +164,6 @@ amogusnpc:
   Type: IRON_GOLEM
   Display: 'nicenpc'
   Damage: 10
-  BossBar:
-    Enabled: true
-    Title: '<mob.name> 0 <&fs> 1000'
-    Range: 32
-    Color: PURPLE
-    Style: SOLID
   AIGoalSelectors:
   - clear
   AITargetSelectors:
@@ -185,6 +181,8 @@ amogusnpc:
     KnockbackResistance: 1
     PreventSunburn: true
     Invincible: true
+    NoAi: true
+    Collidable: false
   Model:
     Id: imposter_pink
     ViewRadius: 48

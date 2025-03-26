@@ -51,15 +51,7 @@ HornballerDrops:
   Drops:
     - toypufferfish 1 0.04
     - water_bottle{name="Balling Tears";lore=":troll:"} 1 0.1
-    - geary mineinabyss:horncrier_horn_0 1 0.004 nolooting
-    - geary mineinabyss:horncrier_horn_1 1 0.004 nolooting
-    - geary mineinabyss:horncrier_horn_2 1 0.004 nolooting
-    - geary mineinabyss:horncrier_horn_3 1 0.004 nolooting
-    - geary mineinabyss:horncrier_horn_4 1 0.004 nolooting
-    - geary mineinabyss:horncrier_horn_5 1 0.004 nolooting
-    - geary mineinabyss:horncrier_horn_6 1 0.004 nolooting
-    - geary mineinabyss:horncrier_horn_7 1 0.004 nolooting
-    - amogus_token 1 1
+    - amogus_token 1 5
 
 
 TamaDrops:
@@ -69,4 +61,10 @@ TamaDrops:
   Drops:
     - goldslime 1 0.08
     - geary mineinabyss:tama_chime 1 0.05 nolooting
-    - amogus_token 1 1 nolooting
+    - amogus_token 1 15 nolooting
+
+fools_cradle:
+  MaxItems: 1
+  Conditions:
+  Drops:
+    - geary mineinabyss:fools_cradle 1 1 nolooting

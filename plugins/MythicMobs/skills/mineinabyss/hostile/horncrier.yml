@@ -70,12 +70,12 @@ hb_dash:
     - state{s=charge_windup;li=0;lo=0} @self
     - look{headOnly=false;immediately=false;repeat=100;repeatinterval=1} @target
     - delay 30
-    - setspeed{speed=2;type=walking} @self
+    - setspeed{speed=1.2;type=walking} @self
     - state{s=charge_windup;r=true} @self
     - state{s=charge_run;li=0;lo=0} @self
     #- look{headOnly=false;immediately=false;repeat=100;repeatinterval=1} @target
     - totem{md=2;c=1;oH=hb_dashhit;hnp=false;hp=true;hR=1;vR=2;i=1;repeat=100;repeatinterval=1} @forward{f=1}
-    - delay 110
+    - delay 60
     - state{s=charge_run;remove=true} @self
     - skill{s=hc_dashmiss} @self
     - setspeed{speed=1;type=walking} @self
@@ -83,7 +83,7 @@ hb_dash:
 
     #- setai{ai=true}
 hb_dashhit:
-  Cooldown: 1.5
+  Cooldown: 6
   Conditions:
     - targetwithin 3
   Skills:
@@ -91,27 +91,27 @@ hb_dashhit:
     - state{s=charge_hit;li=0;lo=0} @self
     - setstance{stance=dashhit} @self
     # - shieldbreak{duration=200} @target
-    - damage{a=8}
-    - throw{v=5;vy=25}
+    - damage{a=4}
+    - throw{v=5;vy=16}
+    - skill{s=dunk_damage} @PIR{r=5}
     - state{s=charge_hit;li=0;lo=0;r=true} @self
     - state{s=spikedown;li=0;lo=0} @self
-    - throw{v=5;vy=25} @self
+
     - potion{type=SLOW_FALLING;duration=35;level=1} @self
     - delay 10
+    - teleport{spreadh=2;spreadv=0} @target
     - velocity{m=set;x=0;y=0;z=0} @self
     - velocity{m=add;x=0;y=0.15;z=0} @self
+    - velocity{m=set;x=0;y=0;z=0} @target
+    - velocity{m=add;x=0;y=0.15;z=0} @target
     - skill{s=dunk_damage} @PIR{r=5}
+    - damage{a=8}
+    - leap{velocity=70} @forward{f=2;y=-5}
     - delay 25
     - state{s=spikedown;li=0;lo=0;r=true} @self
     - setAI{ai=true} @self
    # - sound{s=entity.warden.attack_impact;sc=master;p=<random.float.0.2to0.5>;v=0.7} @self
-dunk_damage:
-  TargetConditions:
-    - owner{} false
-  Skills:
-    - leap{velocity=70} @forward{f=2;y=-5}
-    - damage{a=8} @PIR{r=4}
-    - damage{a=15} @self
+
 hb_dashmiss:
   Conditions:
     - stance{s=dashhit} false
