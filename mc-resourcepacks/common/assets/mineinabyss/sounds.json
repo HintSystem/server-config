@@ -119,9 +119,104 @@
 			"mineinabyss:equipment/backpack/open"
 		]
 	},
-	"equipment.backpack.close": {
+	"entity.amongus.drip": {
 		"sounds": [
-			"mineinabyss:equipment/backpack/close"
+			"mineinabyss:entity/amongus/drip"
+		]
+	},
+	"entity.amongus.imposter_sound": {
+		"sounds": [
+			"mineinabyss:entity/amongus/imposter_sound"
+		]
+	},
+	"entity.amongus.kill": {
+		"sounds": [
+			"mineinabyss:entity/amongus/kill"
+		]
+	},
+	"entity.amongus.meeting_sound": {
+		"sounds": [
+			"mineinabyss:entity/amongus/meeting_sound"
+		]
+	},
+	"entity.herobrine.axe_spinning": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/meeting_sound"
+		]
+	},
+	"entity.herobrine.heal": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/heal"
+		]
+	},
+	"entity.herobrine.impact1": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/impact1"
+		]
+	},
+	"entity.herobrine.impact2": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/impact2"
+		]
+	},
+	"entity.herobrine.impact3": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/impact3"
+		]
+	},
+	"entity.herobrine.impact4": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/impact4"
+		]
+	},
+	"entity.herobrine.jump": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/jump"
+		]
+	},
+	"entity.herobrine.powerpunch": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/powerpunch"
+		]
+	},
+	"entity.herobrine.powerup": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/powerup"
+		]
+	},
+	"entity.herobrine.reel": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/reel"
+		]
+	},
+	"entity.herobrine.roll": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/roll"
+		]
+	},
+	"entity.herobrine.swing1": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/swing1"
+		]
+	},
+	"entity.herobrine.swing2": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/swing2"
+		]
+	},
+	"entity.herobrine.swing3": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/swing3"
+		]
+	},
+	"entity.herobrine.swing4": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/swing4"
+		]
+	},
+	"entity.herobrine.swing5": {
+		"sounds": [
+			"mineinabyss:entity/herobrine/swing5"
 		]
 	}
 }

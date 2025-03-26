@@ -1,5 +1,7 @@
 Backstep:
   Skills:
+  - command{repeat=5;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -5";op=true}
+  - lunge{velocity=1.2;velocityY=0.1} @forward{f=-6;y=0.1}
   - command{repeat=3;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -5";op=true}
   - lunge{velocity=1.22;velocityY=0.1} @forward{f=-6;y=0.1}
   - sound{s=entity.breeze.idle_air;sc=players;p=1.1;v=1} @self

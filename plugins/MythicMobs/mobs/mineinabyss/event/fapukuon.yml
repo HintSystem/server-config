@@ -1,0 +1,94 @@
+fapukuon:
+  Type: CAVE_SPIDER
+  SpawnCategory: hostile
+  Display: "<#1FB53D>fapugatari"
+  Health: 40
+  Damage: 7
+  AIGoalSelectors:
+    - clear
+    - meleeattack
+    - float
+    - randomstroll
+    - randomlookaround
+  AITargetSelectors:
+    - clear
+    - players
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 0.2
+    #DigOutOfGround: true
+    Collidable: true
+    #Silent: false
+    FollowRange: 20
+    MovementSpeed: 0.42
+    MaxCombatDistance: 20
+    DigOutOfGround: true
+    PreventOtherDrops: true
+  Model:
+    Id: faputa
+    ViewRadius: 48
+    Drive: false
+    DamageTint: true
+    Scale: 1
+  DamageModifiers:
+    - DROWNING 0
+    - FIRE 15
+    - FIRE_TICK 3
+  Drops:
+    - exp 15-25
+    - normalchicken 1 0.02
+    - amogus_token 1 0.5
+    - geary mineinabyss:kuongatari_juice 1 0.3
+    - geary mineinabyss:kuongatari_silk 1 0.3
+    - geary mineinabyss:kuongatari_abdomen_raw 1-2 0.35
+
+  Skills:
+    - skill{s=displayHealth} ~onDamaged
+    - state{mid=kuongatari;s=attack} @self ~onAttack
+    - skill{s=Kuon_Summon} @target ~onDamaged 0.13
+    - skill{s=Changetarget} ~onTimer:160 <99%
+    - shieldbreak{duration=100} @target ~onattack 0.35
+    - dismount ~onTimer:20
+    - skill:MIAPetExpNearby{exp=1} ~onDeath
+fapugatari_summon:
+  Type: SPIDER
+  Display: "<#1FB53D>Little Fapugatari"
+  Health: 35
+  Damage: 7
+  AITargetSelectors:
+    - clear
+    - attacker
+    - players
+  Options:
+    PreventSunburn: true
+    PreventOtherDrops: true
+    KnockbackResistance: 0
+    #DigOutOfGround: true
+    Collidable: true
+    # Silent: true
+    FollowRange: 30
+    MovementSpeed: 0.42
+    MaxCombatDistance: 20
+  Equipment:
+    - TORCH HAND
+  Drops:
+    - exp 5-15
+    - geary mineinabyss:kuongatari_juice 1 0.04
+    - geary mineinabyss:kuongatari_silk 1 0.1
+    - geary mineinabyss:kuongatari_abdomen_raw 1 0.3
+  Model:
+    Id: faputa
+    ViewRadius: 48
+    Drive: false
+    DamageTint: true
+    Scale: 0.5
+  DamageModifiers:
+    - DROWNING 0
+    - FIRE 15
+    - FIRE_TICK 3
+  Skills:
+    - dismount ~onTimer:20
+    - shieldbreak{duration=100} @target ~onattack 0.35
+    - skill{s=Kuon_Summon} @target ~onDamaged 0.01
+    #- skill:MIAPetExpNearby{exp=1} ~onDeath
+    - skill{s=Changetarget} ~onTimer:160 <99%

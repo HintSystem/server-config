@@ -111,7 +111,7 @@ vaend2:
   - summon{type=vac2;amount=1;radius=0} @origin
   - delay 40
   - effect:particlesphere{p=spell_instant;color=#FFFFFF;amount=100;radius=3.1;size=4;repeat=2;repeatinterval=2} @origin
-  - delay 3
+  - delay 30
   - skill{s=blackholedamage} @origin
   - delay 4
   - effect:particles{p=largeexplode;amount=8;speed=0.6;hS=4;vS=4;repeat=8;repeatinterval=2} @origin

@@ -35,11 +35,26 @@ l4_horncrier:
         allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
         deny: ["moss_block"] # prevents from spawning on goblets
 
+l4_hornballer:
+  inherit: l4_hostile
+  priority: 0.3
+  chance: 0.3
+  type: mm:hornballer
+  conditions:
+    - $inherit
+    - $remove blockBelow
+    - blockBelow:
+        allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
+        deny: ["moss_block"] # prevents from spawning on goblets
+
+
+
+
 l4_orbpiercer:
   inherit: l4_hostile
   type: mm:orbpiercer
   chance: 0.015
-  priority: 0.4
+  priority: 0.15
   conditions:
     - $inherit
     - $remove maxNearby
@@ -47,6 +62,18 @@ l4_orbpiercer:
         amount: 2
 #    - mythicConditions:
  #       - lightlevelfromblocks{l=<12}
+
+
+l4_tama:
+  inherit: l4_hostile
+  type: mm:tama
+  chance: 0.01
+  priority: 0.1
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 1
 
 
 l4_tachikatana:

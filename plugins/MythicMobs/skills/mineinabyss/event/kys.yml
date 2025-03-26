@@ -1,0 +1,4 @@
+kys:
+  Cooldown: 1
+  Skills:
+  - remove{delay=5} @self

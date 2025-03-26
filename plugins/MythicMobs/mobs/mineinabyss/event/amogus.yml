@@ -1,0 +1,195 @@
+
+amogus:
+  Type: IRON_GOLEM
+  Display: 'AMOGUS'
+  Damage: 10
+  BossBar:
+    Enabled: true
+    Title: '<mob.name> <caster.hp{round=0}> <&fs> <caster.mhp{round=0}>'
+    Range: 32
+    Color: PURPLE
+    Style: SOLID
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - float
+  AITargetSelectors:
+  - clear
+  - attacker
+  - players
+  Modules:
+    ThreatTable: true
+  Options:
+    Despawn: false
+    MaxCombatDistance: 30
+    AlwaysShowName: true
+    MovementSpeed: 0.43
+    Collidable: false
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Silent: true
+    KnockbackResistance: 1
+    PreventSunburn: true
+  DropOptions:
+    ChatMessage:
+    - '<#F28800>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+    - '<gold>CONGRATULATIONS!'
+    - '<#AD0009><mob.name> DEFEATED!'
+    - ''
+    - '<#FFCF21>1st Place »<#FFCF21> <1.name> - <1.damage>'
+    - '<#C4C1B3>2nd Place »<#C4C1B3> <2.name> - <2.damage>'
+    - '<#9E7108>3rd Place »<#9E7108> <3.name> - <3.damage>'
+    - '<#068F2A>4th Place »<#068F2A> <4.name> - <4.damage>'
+    - '<#6D6E6D>5th Place »<#6D6E6D> <5.name> - <5.damage>'
+    - ''
+    - '<#539C33>Your rank: #<player.rank> - <player.damage>'
+    - '<#F28800>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+    ShowDeathChatMessage: true
+    DropMethod: FANCY
+    ClientSideDrops: true
+    PerPlayerDrops: true
+    Lootsplosion: false
+    HologramItemNames: true
+    ItemGlowByDefault: true
+    ItemBeamByDefault: true
+    ItemVFXByDefault: false
+    HologramTimeout: 2000
+  Model:
+    Id: imposter_red
+    ViewRadius: 48
+    Drive: false
+    Scale: 1.4
+    DamageTint: true
+  Drops:
+    - exp 10-15 1
+    - bone 10-15 1
+   # - bone{top=1} 1-3 1
+    - diamond{top=1} 1-3 1
+    - inkycore{top=2} 1 1
+    - lightorb{top=5} 1 1
+  Health: 1000
+  Skills:
+#  - skill{s=HerobrineSTEVESPAWN} @self ~onSpawn
+  - potion{type=FIRE_RESISTANCE;duration=99999;level=1} @self
+  - skill{s=bossping} ~onSignal:location
+  - skill{s=Changetarget} ~onTimer:100 <99%
+  - sound{s=mineinabyss:entity.amogus.drip.;v=1;sc=MUSIC} @world #@PIR{r=30}
+  - sound{s=mineinabyss:entity.amogus.kill;v=1;sc=HOSTILE} @self ~onPlayerKill
+  - randomskill{skills=herobrineFISHING,herobrineAXE,herobrineLEAPKICK} @target ~onTimer:50
+
+  - setmobscore{o=herodamage;v=15} @self ~onSpawn
+  - skill{s=herobrineULTRAtele} @self ~onDamaged .5
+  - skill{s=swaprandom} @self ~onDamaged .2
+  - skill{s=skelddoor} @self ~onDeath
+  - skill{s=herobrineBLOCK} @self ~onDamaged
+  - skill{s=herobrineBLOCKprep} @self ~onTimer:15
+ # - skill{s=herobrineEAT} @self ~onTimer:100 <40%
+  - guardianbeam{d=200;i=1;syo=1;fromOrigin=false;oE=herobrineCROSSBOWfireworkHIT} @target ~onTimer:600
+  - randomskill{skills=herobrineCROSSBOWGROUND} @target ~onTimer:50
+
+  - skill{s=gtfome} @self <80%
+  - skill{s=gtfome} @self <60%
+  - skill{s=gtfome} @self <40%
+  - skill{s=gtfome} @self <24%
+
+  - skill{s=summonvent1} @self <80%
+  - skill{s=summonvent2} @self <60%
+  - skill{s=summonvent3} @self <40%
+  - skill{s=summonvent4} @self <25%
+
+  - skill{s=bondrewdULTRA} @self ~onDamaged <25%
+  #- skill{s=mgspawn} ~onSignal:gaming
+  - skill{s=skelddoor} @Self <2%%
+
+  - jsonmessage{m="[{'text':'&aHey, i am amogus!'}]"} @server ~onInteract
+
+  - skill{s=imposter_redDEATHsummon} @self ~ondeath
+  - skill{s=imposter_redSHOOT} @self ~onTimer:20
+
+  - randomskill{skills=imposter_redATTACKsync,imposter_redATTACKsync,imposter_redATTACKsync,herobrinePICKAXEsync,herobrineROUNDHOUSEsync,herobrineDOWNPUNCHsync,herobrinePOWERPUNCHsync;sync=true} @self ~onAttack
+  - skill{s=herobrineLEAPBACK} @self ~onTimer:60
+  - skill{s=herobrineLAND} @self ~onTimer:1
+  - model{mid=imposter_red;n=false} @self ~onSpawn
+#  - DefaultState{m=herobrine;t=WALK;s=run} @self ~onEnterCombat
+  #- DefaultState{m=herobrine;t=WALK;s=walk} @self ~onDropCombat
+  - state{s=idle} @self ~onDropCombat
+ # - skill{s=herobrineDEATH} @self ~onDeath
+
+deadamogus:
+  Type: IRON_GOLEM
+  Display: 'AMOGUS'
+  Damage: 10
+  BossBar:
+    Enabled: true
+    Title: '<mob.name> 0 <&fs> 1000'
+    Range: 32
+    Color: PURPLE
+    Style: SOLID
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
+  Modules:
+    ThreatTable: true
+  Options:
+    MaxCombatDistance: 30
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Silent: true
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Model:
+    Id: imposter_red
+    ViewRadius: 48
+    Drive: false
+    Scale: 1.6
+    DamageTint: true
+  Drops:
+  Health: 1000
+  Skills:
+  - signal{s=now} @MobsInRadius{r=200;types=imposter_vent}
+
+  - skill{s=imposter_redDEATH;delay=40} @self ~onspawn
+  - model{mid=imposter_red;d=false;i=true} @self ~onSpawn
+  - model{mid=imposter_red;d=false;i=true} @self ~onLoad
+  - ChangePart{model=imposter_yellow;part=body;newmodel=imposter_parts;newpart=dead_yellow;delay=40} @self ~onSpawn
+
+
+
+amogusnpc:
+  Type: IRON_GOLEM
+  Display: 'nicenpc'
+  Damage: 10
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
+  Modules:
+    ThreatTable: true
+  Options:
+    MaxCombatDistance: 30
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Silent: true
+    KnockbackResistance: 1
+    PreventSunburn: true
+    Invincible: true
+    NoAi: true
+    Collidable: false
+  Model:
+    Id: imposter_pink
+    ViewRadius: 48
+    Drive: false
+    Scale: 1.4
+    DamageTint: true
+  Drops:
+  Health: 1000
+  Skills:
+  - skill{s=mgsignal} @Self ~oninteract
