@@ -23,7 +23,6 @@ sporemanta:
     FollowRange: 25
     KnockbackResistance: 0.0
     PreventSunburn: true
-    PreventOtherDrops: true
     PreventJockeyMounts: true
   Model:
     Id: sporemanta

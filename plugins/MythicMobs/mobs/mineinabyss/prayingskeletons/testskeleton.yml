@@ -30,8 +30,8 @@ testskeleton:
     - DROWNING 0.001
     - ENTITY_SWEEP_ATTACK 0.001
   Drops:
-    - PSIntroDrops #to be removed after the event
-    - PSIntroHeadDrops #to be removed after the event
+   # - PSIntroDrops #to be removed after the event
+    #- PSIntroHeadDrops #to be removed after the event
     - L2PSHeadDrops
     - L2PSOreDrops
     - L1PSHeadDrops
@@ -111,8 +111,8 @@ testbackup:
     - DROWNING 0.001
     - ENTITY_SWEEP_ATTACK 0.001
   Drops:
-    - PSIntroDrops #to be removed after the event
-    - PSIntroHeadDrops #to be removed after the event
+   # - PSIntroDrops #to be removed after the event
+   # - PSIntroHeadDrops #to be removed after the event
     - L2PSHeadDrops
     - L2PSOreDrops
     - L1PSHeadDrops

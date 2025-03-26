@@ -37,6 +37,16 @@ l5_hostile_sand:
           - SOUL_SOIL
           - SOUL_SAND
 
+l5_hostile_quartz_cave:
+  inherit: l5_hostile
+  conditions:
+    - $inherit
+    - $remove blockBelow
+    - blockBelow:
+        allow: [ "moss_carpet", "lily_pad", "pink_stained_glass", "purple_stained_glass", "quartz_block", "quartz_stairs", "sea_lantern" ]
+        deny: [ "diorite" ]
+
+
 
 # Mob spawns
 

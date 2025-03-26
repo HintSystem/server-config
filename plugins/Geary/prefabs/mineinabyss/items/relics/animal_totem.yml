@@ -10,21 +10,21 @@ set.item:
       - <#D2D489><i>It grants the wearer adrenaline when used.
 #ghost_seek:
 disableItemInteractions: {}
-observe:
-  itemRightClick:
-    - become: parent
-    - ensure:
-        player:
-          sneaking: true
-    - cooldown:
-        id: animal_totem
-        length: 60s
-        display: <#88D481>Fright Instinct
-    - applyPotionEffects:
-        - type: minecraft:speed
-          duration: 2s
-          amplifier: 3
-          hasParticles: false
+#observe:
+  #itemRightClick:
+ #   - become: parent
+ #   - ensure:
+  #      player:
+ #         sneaking: true
+ #   - cooldown:
+ #       id: animal_totem
+ #       length: 60s
+  #      display: <#88D481>Fright Instinct
+ #   - applyPotionEffects:
+ #       - type: minecraft:speed
+#          duration: 2s
+#          amplifier: 3
+#          hasParticles: false
 passive:
   - match: [ inInventory ]
     every: 30s
