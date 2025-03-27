@@ -39,18 +39,17 @@ hornballer:
     ThreatTable: true
   Drops:
     - exp 30-60
-    - geary mineinabyss:fools_cradle 1 0.5 nolooting
     - toypufferfish 1 0.04
-    - water_bottle{name="<gold>Balling Tears";lore=":troll:"} 1 0.1
+    - potion{name="<#94bcd4>Balling Tears";lore=":troll:";enchants=THORNS:1} 1 0.06
     - amogus_token 5 1
-    - geary mineinabyss:horncrier_horn_0 1 0.001 nolooting
-    - geary mineinabyss:horncrier_horn_1 1 0.001 nolooting
-    - geary mineinabyss:horncrier_horn_2 1 0.001 nolooting
-    - geary mineinabyss:horncrier_horn_3 1 0.001 nolooting
-    - geary mineinabyss:horncrier_horn_4 1 0.001 nolooting
-    - geary mineinabyss:horncrier_horn_5 1 0.001 nolooting
-    - geary mineinabyss:horncrier_horn_6 1 0.001 nolooting
-    - geary mineinabyss:horncrier_horn_7 1 0.001 nolooting
+    - geary mineinabyss:horncrier_horn_0 1 0.005 nolooting
+    - geary mineinabyss:horncrier_horn_1 1 0.005 nolooting
+    - geary mineinabyss:horncrier_horn_2 1 0.005 nolooting
+    - geary mineinabyss:horncrier_horn_3 1 0.005 nolooting
+    - geary mineinabyss:horncrier_horn_4 1 0.005 nolooting
+    - geary mineinabyss:horncrier_horn_5 1 0.005 nolooting
+    - geary mineinabyss:horncrier_horn_6 1 0.005 nolooting
+    - geary mineinabyss:horncrier_horn_7 1 0.005 nolooting
     - GREEN_WOOL 1-3 0.6
   Skills:
     # - CancelEvent{sync=true} ~onAttack

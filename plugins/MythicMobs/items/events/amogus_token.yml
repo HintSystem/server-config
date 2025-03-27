@@ -1,7 +1,13 @@
 amogus_token:
   Id: PAPER
   Display: <#03AC13>Amogus Token</#03AC13>
+  CustomModelData: 169
+  Enchantments: 
+   - THORNS: 1
+  Hide:
+   - ENCHANTS
   Lore:
     - ':troll:'
     - '<gold>Found during April Fools 2025.</gold>'
     - '<#D2D489><i>Used to summon the Among Us boss.</#D2D489>'
+    - '<#D2D489><i>Use /warp AprilFools to contribute towards the summon.</#D2D489>'
