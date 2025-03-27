@@ -43,7 +43,7 @@ green_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_greenSPAWN} @self ~onSpawn
@@ -68,7 +68,7 @@ black_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_blackSPAWN} @self ~onSpawn
@@ -93,7 +93,7 @@ purple_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_purpleSPAWN} @self ~onSpawn
@@ -118,7 +118,7 @@ blue_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_blueSPAWN} @self ~onSpawn
@@ -143,7 +143,7 @@ lime_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_limeSPAWN} @self ~onSpawn
@@ -168,7 +168,7 @@ white_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_whiteSPAWN} @self ~onSpawn
@@ -193,7 +193,7 @@ pink_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_pinkSPAWN} @self ~onSpawn
@@ -242,7 +242,7 @@ yellow_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_yellowSPAWN} @self ~onSpawn
@@ -267,7 +267,7 @@ red_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_redSPAWN} @self ~onSpawn
@@ -292,7 +292,7 @@ brown_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_brownSPAWN} @self ~onSpawn
@@ -317,7 +317,7 @@ orange_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
 
   Skills:
   - skill{s=imposter_orangeSPAWN} @self ~onSpawn
