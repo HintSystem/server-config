@@ -4,7 +4,7 @@
 spawnrandomamongus:
   Type: SILVERFISH
   SpawnCategory: skeleton
-  Display: "<green>Praying Skeleton"
+  Display: "<green>Imposter"
   Modules:
     ThreatTable: true
   AIGoalSelectors:
@@ -218,7 +218,7 @@ cyan_imposter_map:
     MovementSpeed: 0.4
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
   Skills:
   - skill{s=imposter_cyanSPAWN} @self ~onSpawn
   - skill{s=imposter_cyanATTACKsyncmap;sync=true} @self ~onAttack

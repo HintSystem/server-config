@@ -1,0 +1,16 @@
+amongus_cosmetic_token:
+  Id: PAPER
+  Display: <gold><b>Amongus Cosmetic Token</gold>
+  CustomModelData: 168
+  Enchantments: 
+    - THORNS: 1
+  Hide:
+   - ENCHANTS
+  Options:
+   PreventStacking: true
+
+  Lore:
+    - ':troll:'
+    - '<gold>Found during April Fools 2025.</gold>'
+    - '<#D2D489><i>Please make sure to trade it in at the NPC.</#D2D489>'
+    - '<#D2D489><i>Once the event ends it will NOT be possible to redeem.</#D2D489>'
