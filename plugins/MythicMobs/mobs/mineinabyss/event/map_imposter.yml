@@ -28,7 +28,7 @@ spawnrandomamongus:
   - skill{s=spawnrandomimpostermap} @self ~onspawn
   - remove{delay=5} @Self ~onSpawn
 
-green_imposter_map:
+green_impostermap:
   Type: SILVERFISH
   #Disguise: ARMOR_STAND setInvisible
   Display: 'an Imposter'
@@ -53,7 +53,7 @@ green_imposter_map:
   - model{mid=imposter_green;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_green;d=false;i=true} @self ~onLoad 
   
-black_imposter_map:
+black_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -78,7 +78,7 @@ black_imposter_map:
   - model{mid=imposter_black;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_black;d=false;i=true} @self ~onLoad
   
-purple_imposter_map:
+purple_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -103,7 +103,7 @@ purple_imposter_map:
   - model{mid=imposter_purple;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_purple;d=false;i=true} @self ~onLoad
   
-blue_imposter_map:
+blue_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -128,7 +128,7 @@ blue_imposter_map:
   - model{mid=imposter_blue;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_blue;d=false;i=true} @self ~onLoad
   
-lime_imposter_map:
+lime_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -153,7 +153,7 @@ lime_imposter_map:
   - model{mid=imposter_lime;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_lime;d=false;i=true} @self ~onLoad
   
-white_imposter_map:
+white_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -178,7 +178,7 @@ white_imposter_map:
   - model{mid=imposter_white;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_white;d=false;i=true} @self ~onLoad
   
-pink_imposter_map:
+pink_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -203,7 +203,7 @@ pink_imposter_map:
   - model{mid=imposter_pink;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_pink;d=false;i=true} @self ~onLoad
   
-cyan_imposter_map:
+cyan_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -227,7 +227,7 @@ cyan_imposter_map:
   - model{mid=imposter_cyan;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_cyan;d=false;i=true} @self ~onLoad
   
-yellow_imposter_map:
+yellow_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -252,7 +252,7 @@ yellow_imposter_map:
   - model{mid=imposter_yellow;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_yellow;d=false;i=true} @self ~onLoad
   
-red_imposter_map:
+red_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -272,12 +272,12 @@ red_imposter_map:
   Skills:
   - skill{s=imposter_redSPAWN} @self ~onSpawn
   - skill{s=imposter_redATTACKsyncmap;sync=true} @self ~onAttack
-  - skill{s=imposter_redDEATH} @self ~onDeath
+ # - skill{s=imposter_redDEATH} @self ~onDeath
   - skill{s=imposter_redSHOOTmap} @self ~onTimer:20
   - model{mid=imposter_red;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_red;d=false;i=true} @self ~onLoad
   
-brown_imposter_map:
+brown_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
@@ -302,7 +302,7 @@ brown_imposter_map:
   - model{mid=imposter_brown;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_brown;d=false;i=true} @self ~onLoad
   
-orange_imposter_map:
+orange_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible

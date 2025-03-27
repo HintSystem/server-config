@@ -12,7 +12,7 @@ spawn_imposter_map:
 
 spawnrandomimpostermap:
   Skills:
-  - randomskill{skills=spawngreenimpostermap,spawnblackimpostermap,spawnpurpleimpostermap,spawnblueimpostermap,spawnlimeimpostermap,spawnpinkimpostermap,spawncyanimpostermap,spawnwhiteimpostermap,spawnyellowimpostermap,spawnbrownimpostermap,spawnorangeimposter} @self
+  - randomskill{skills=spawngreenimpostermap,spawnblackimpostermap,spawnpurpleimpostermap,spawnblueimpostermap,spawnlimeimpostermap,spawnpinkimpostermap,spawncyanimpostermap,spawnwhiteimpostermap,spawnyellowimpostermap,spawnbrownimpostermap,spawnorangeimpostermap} @self
 
 imposter_redDEATHsummon:
   Skills:
