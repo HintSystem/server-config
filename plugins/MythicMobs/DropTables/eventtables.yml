@@ -43,17 +43,7 @@ PSIntroHeadDrops:
   - brokenskull 1 0.06
   - verticalcore 0.08
 
-
-HornballerDrops:
-  MaxItems: 3
-  Conditions:
-  - playerwithin 32
-  Drops:
-    - toypufferfish 1 0.04
-    - water_bottle{name="Balling Tears";lore=":troll:"} 1 0.1
-    - amogus_token 1 5
-
-
+#Leaving TamaDrops here till we have tama.yml
 TamaDrops:
   MaxItems: 3
   Conditions:
@@ -61,10 +51,4 @@ TamaDrops:
   Drops:
     - goldslime 1 0.08
     - geary mineinabyss:tama_chime 1 0.05 nolooting
-    - amogus_token 1 15 nolooting
-
-fools_cradle:
-  MaxItems: 1
-  Conditions:
-  Drops:
-    - geary mineinabyss:fools_cradle 1 1 nolooting
+    - amogus_token 15 1 nolooting

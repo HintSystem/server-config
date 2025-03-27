@@ -39,7 +39,10 @@ hornballer:
     ThreatTable: true
   Drops:
     - exp 30-60
-    - HornballerDrops
+    - geary mineinabyss:fools_cradle 1 0.5 nolooting
+    - toypufferfish 1 0.04
+    - water_bottle{name="<gold>Balling Tears";lore=":troll:"} 1 0.1
+    - amogus_token 5 1
     - geary mineinabyss:horncrier_horn_0 1 0.001 nolooting
     - geary mineinabyss:horncrier_horn_1 1 0.001 nolooting
     - geary mineinabyss:horncrier_horn_2 1 0.001 nolooting
