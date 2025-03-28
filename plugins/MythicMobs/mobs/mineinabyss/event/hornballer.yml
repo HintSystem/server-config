@@ -29,7 +29,7 @@ hornballer:
   KillMessages:
   - '<target.name> was Dunked by hornballer'
   Model:
-    Id: horncrier
+    Id: hornballer
     ViewRadius: 48
     Drive: false
     DamageTint: true

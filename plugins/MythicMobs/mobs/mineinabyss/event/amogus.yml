@@ -79,6 +79,7 @@ amogus:
   - sound{s=mineinabyss:entity.amogus.kill;v=1;sc=HOSTILE} @self ~onPlayerKill
   - randomskill{skills=herobrineFISHING,herobrineAXE,herobrineLEAPKICK} @target ~onTimer:50
 
+  - signal{s=kys} @EIR{r=50;ignore=self} ~onDeath
   - setmobscore{o=herodamage;v=15} @self ~onSpawn
   - skill{s=herobrineULTRAtele} @self ~onDamaged .5
   - skill{s=swaprandom} @self ~onDamaged .2
@@ -185,7 +186,7 @@ amogusnpc:
     NoAi: true
     Collidable: false
   Model:
-    Id: imposter_pink
+    Id: among_pakko
     ViewRadius: 48
     Drive: false
     Scale: 1.4

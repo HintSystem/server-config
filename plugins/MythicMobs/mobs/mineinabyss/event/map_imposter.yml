@@ -44,8 +44,8 @@ green_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_greenSPAWN} @self ~onSpawn
   - skill{s=imposter_greenATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_greenDEATH} @self ~onDeath
@@ -69,8 +69,8 @@ black_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_blackSPAWN} @self ~onSpawn
   - skill{s=imposter_blackATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_blackDEATH} @self ~onDeath
@@ -94,8 +94,8 @@ purple_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_purpleSPAWN} @self ~onSpawn
   - skill{s=imposter_purpleATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_purpleDEATH} @self ~onDeath
@@ -119,8 +119,8 @@ blue_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_blueSPAWN} @self ~onSpawn
   - skill{s=imposter_blueATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_blueDEATH} @self ~onDeath
@@ -144,8 +144,8 @@ lime_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_limeSPAWN} @self ~onSpawn
   - skill{s=imposter_limeATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_limeDEATH} @self ~onDeath
@@ -169,8 +169,8 @@ white_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_whiteSPAWN} @self ~onSpawn
   - skill{s=imposter_whiteATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_whiteDEATH} @self ~onDeath
@@ -194,8 +194,8 @@ pink_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_pinkSPAWN} @self ~onSpawn
   - skill{s=imposter_pinkATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_pinkDEATH} @self ~onDeath
@@ -220,6 +220,7 @@ cyan_impostermap:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_cyanSPAWN} @self ~onSpawn
   - skill{s=imposter_cyanATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_cyanDEATH} @self ~onDeath
@@ -243,8 +244,8 @@ yellow_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_yellowSPAWN} @self ~onSpawn
   - skill{s=imposter_yellowATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_yellowDEATH} @self ~onDeath
@@ -268,8 +269,8 @@ red_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_redSPAWN} @self ~onSpawn
   - skill{s=imposter_redATTACKsyncmap;sync=true} @self ~onAttack
  # - skill{s=imposter_redDEATH} @self ~onDeath
@@ -293,8 +294,8 @@ brown_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_brownSPAWN} @self ~onSpawn
   - skill{s=imposter_brownATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_brownDEATH} @self ~onDeath
@@ -318,8 +319,8 @@ orange_impostermap:
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
-
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
   - skill{s=imposter_orangeSPAWN} @self ~onSpawn
   - skill{s=imposter_orangeATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_orangeDEATH} @self ~onDeath
