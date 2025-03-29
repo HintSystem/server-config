@@ -33,6 +33,7 @@ tama:
     - amogus_token 15 1
     - geary mineinabyss:orb_piercer_face_fragments 1-1 1 nolooting
     - geary mineinabyss:orb_piercer_spike 2-6 1
+
   Model:
     Id: tama
     ViewRadius: 64
@@ -44,6 +45,9 @@ tama:
     - PROJECTILE 0.25
     - SUFFOCATION 0
   Skills:
+    - skill{s=tamachime;delay=20} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
+    - skill{s=tamahatdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
+
     - skill{s=Changetarget} ~onTimer:160 <99%
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath

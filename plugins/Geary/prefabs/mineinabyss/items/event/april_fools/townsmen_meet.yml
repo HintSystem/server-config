@@ -18,4 +18,4 @@ observe:
         length: 10s
         id: 
     - playSound:
-        sound: 
+        sound: mineinabyss:entity/amongus/meeting_sound

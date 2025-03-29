@@ -59,7 +59,7 @@ spawnorangeimpostermap:
 
 imposter_ATTACKDamagemap:
   Skills:
-  - damage{a=5;ie=true}
+  - damage{a=5}
   - effect:particles{particle=block;m=redstone_block;amount=50;hS=.25;vS=.25;y=.5}
 
 #### green imposter ####
@@ -652,7 +652,7 @@ imposter_redSHOOTmap:
   - ChangePart{model=imposter_red;part=right_hand;newmodel=imposter_red;newpart=right_hand} @self
   - ChangePart{model=imposter_red;part=left_hand;newmodel=imposter_red;newpart=left_hand} @self
   
-imposter_redDEATH:
+imposter_redDEATHmap:
   Skills:
   - remove @children
   - skill{s=MithraDeathAnimation} @self

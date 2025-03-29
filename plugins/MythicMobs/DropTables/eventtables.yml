@@ -44,12 +44,16 @@ PSIntroHeadDrops:
   - verticalcore 0.08
 
 #Leaving TamaDrops here till we have tama.yml
-TamaDrops:
-  MaxItems: 3
+TamaHatDrops:
+  MaxItems: 1
   Conditions:
-  - playerwithin 32
   Drops:
-    - goldslime 1 0.08
-    - geary mineinabyss:tama_hat 1 0.01 nolooting
-    - geary mineinabyss:tama_chime 1 0.05 nolooting
-    - amogus_token 15 1 nolooting
+    - geary mineinabyss:tama_hat 1 1 nolooting
+
+
+TamaChimeDrops:
+  MaxItems: 1
+  Conditions:
+  Drops:
+    - geary mineinabyss:tama_chime 1 1 nolooting
+

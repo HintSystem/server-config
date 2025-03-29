@@ -1,7 +1,7 @@
 #########################################################
 ## Developed by Little Room, patreon.com/littleroomdev ##
 #########################################################
-mgsignal:
+impostersignal:
   Cooldown: 0
   TriggerConditions:
   - holding{m=amogus_token;amount=1} true
@@ -18,12 +18,18 @@ mgsignal:
   - skill{s=amogus350} @self
   - skill{s=amogus400} @self
   - skill{s=amogus450} @self
+  - skill{s=amogus490} @self
   - skill{s=amogus500} @self
   - effect:particles{particle=heart;amount=10;hS=0.5;vS=1;speed=0;y=0.5}
-tridentstack:
-  Conditions:
+
+
+feedmeimposter:
+  Cooldown: 0
+  TriggerConditions:
+  - holding{m=amogus_token;amount=1} fal;se
   Skills:
- # - effect:particles{particle=splash;amount=20;hS=0.5;vS=1;speed=0;y=0.5}
+  - jsonmessage{m="[{'text':'&dFeed me tokens!'}]"} @trigger ~onInteract
+
 
 amogus50:
   Cooldown: 1
@@ -114,6 +120,16 @@ amogus450:
   - gcd{ticks=100}
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&c50 tokens left!'}]"} @server ~onInteract
+
+amogus490:
+  Cooldown: 1
+  Conditions:
+  - offgcd true
+  - hasaurastacks{n=amogusturnin;s=450} true
+  Skills:
+  - gcd{ticks=100}
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
+  - jsonmessage{m="[{'text':'&c10 tokens left!'}]"} @server ~onInteract
 
 amogus500:
   Cooldown: 1
@@ -233,7 +249,7 @@ spawnorangeimposter:
 
 imposter_ATTACKDamage:
   Skills:
-  - damage{a=11;ie=true}
+  - damage{a=10;ie=true}
   - effect:particles{particle=block;m=redstone_block;amount=50;hS=.25;vS=.25;y=.5}
 
 #### green imposter ####
@@ -1410,7 +1426,18 @@ herobrineBLOODfx:
   Skills:
   - skill{s=herobrineimpactsound} @self
   - effect:particles{particle=block;m=redstone_block;amount25;hS=.25;vS=.25;y=1.25}
+amongusknife:
+  TargetConditions:
+  - isblocking false
+  Skills:
+  - onAttack{auraName=bloodfx;onHit=knifefx;duration=100;charges=99;multiplier=1} @self
+knifefx:
+  TargetConditions:
+  - isblocking false
+  Skills:
+  - effect:particles{particle=block;m=redstone_block;amount25;hS=.25;vS=.25;y=1.25}
   
+
 herobrineBLOCKprep:
   Cooldown: 5
   Skills:

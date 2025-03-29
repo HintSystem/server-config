@@ -11,3 +11,13 @@ set.item:
 
 resourcepack:
   textures: mineinabyss:item/event/tama_chime
+observe:
+  itemRightClick:
+    - become: parent
+    - cooldown:
+        length: 10s
+        id: 
+    - playSound:
+        sound: minecraft:entity.wither.ambient
+        pitch: 2
+        

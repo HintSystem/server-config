@@ -19,11 +19,11 @@ Frost_Beam_TICK:
 Frost_Beam_HIT:
   TargetConditions:
   Skills:
-  - damage{a=5;pkb=true} @EntitiesNearOrigin{r=3}
+  - damage{a=5;pkb=true} @EntitiesNearOrigin{r=2}
   - potion{type=SLOW;duration=40;level=3;hasParticles=false} @EntitiesNearOrigin{r=3}
-  - skill{s=Frost_Bolt_HIT_FX} @EntitiesNearOrigin{r=3}
+  - skill{s=Frost_Bolt_HIT_FX} @EntitiesNearOrigin{r=1}
   #- effect:sound{s=glacia_sounds:samus.ice_freeze;volume=0.4;pitch=1} @self
-  - skill{s=SLOW_FX_60} @EntitiesNearOrigin{r=3}
+  - skill{s=SLOW_FX_60} @EntitiesNearOrigin{r=1}
   
 Frost_Beam_EXPLODE:
   Skills:
@@ -38,13 +38,13 @@ Frost_Beam_EXPLODE:
 
 Frost_Bolt_HIT_FX:
   Skills:
-  - effect:particles{particle=block_crack;m=ICE;amount=5;hS=0.2;vS=0.2;speed=0;forwardOffset=0;sideOffset=0}
+  - effect:particles{particle=block_crack;m=ICE;amount=3;hS=0.2;vS=0.2;speed=0;forwardOffset=0;sideOffset=0}
 
 SLOW_FX_60:
   Skills:
-  - effect:particles{particle=block_crack;m=ICE;amount=8;hS=0.35;vS=0.15;y=0.1;speed=0;forwardOffset=0;sideOffset=0;repeat=11;repeatinterval=5}
+  - effect:particles{particle=block_crack;m=ICE;amount=5;hS=0.35;vS=0.15;y=0.1;speed=0;forwardOffset=0;sideOffset=0;repeat=11;repeatinterval=5}
   
 SLOW_FX_100:
   Skills:
-  - effect:particles{particle=block_crack;m=ICE;amount=8;hS=0.35;vS=0.15;y=0.1;speed=0;forwardOffset=0;sideOffset=0;repeat=19;repeatinterval=5}
+  - effect:particles{particle=block_crack;m=ICE;amount=5;hS=0.35;vS=0.15;y=0.1;speed=0;forwardOffset=0;sideOffset=0;repeat=19;repeatinterval=5}
   

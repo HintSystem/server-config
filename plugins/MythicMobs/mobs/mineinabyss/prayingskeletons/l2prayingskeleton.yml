@@ -61,7 +61,7 @@ l2prayingskeleton:
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=500;minradius=200;spacing=1;onSurface=true} ~onspawn
 
 
-    - skill{s=boundinglancedrop2;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
+    #- skill{s=boundinglancedrop2;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
     - skill{s=vinecharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
     - skill{s=verdaueffaxdrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
     - skill{s=animalcharmdrop;delay=20} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05

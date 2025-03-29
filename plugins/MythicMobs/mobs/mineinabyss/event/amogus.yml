@@ -63,7 +63,6 @@ amogus:
     DamageTint: true
   Drops:
     - exp 200-500 1
-    - bone 10-15 1
     - amongus_knife_token{top=1} 1 0.25
     - amongus_cosmetic_token{top=2} 1 0.25
     - clown_mask_token{top=3} 1 0.25
@@ -185,6 +184,8 @@ amogusnpc:
     Invincible: true
     NoAi: true
     Collidable: false
+    despawn: false
+    persistant: true
   Model:
     Id: among_pakko
     ViewRadius: 48
@@ -194,4 +195,4 @@ amogusnpc:
   Drops:
   Health: 1000
   Skills:
-  - skill{s=mgsignal} @Self ~oninteract
+  - skill{s=impostersignal} @Self ~oninteract

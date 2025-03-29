@@ -8,7 +8,6 @@ imposter_vent:
     Marker: true
   Skills:
   - skill{s=kys} @self ~onSignal:kys
-  - skill{s=kys} ~onSignal:now
   - skill{s=spawn_imposter} @self ~onTimer:20
   - model{mid=imposter_vent;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_vent;d=false;i=true} @self ~onLoad
