@@ -106,9 +106,9 @@ l5_ikonia: { inherit: l5_hostile_sand, type: mm:ikonia, priority: 0.02, chance: 
 #  inherit: l5_hostile
 #  priority: 0.3
 #  chance: 0.3
-#  type: mm:hornballer
-#  conditions:
-#    - blockBelow:
-#        allow: [ "#dirt", "moss_carpet", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
-#    - maxNearby:
-#        amount: 5
+ # type: mm:hornballer
+ # conditions:
+ #   - blockBelow:
+ #       allow: [ "#dirt", "moss_carpet", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
+ #   - maxNearby:
+ #       amount: 5
