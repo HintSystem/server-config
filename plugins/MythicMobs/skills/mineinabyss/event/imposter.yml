@@ -1,13 +1,13 @@
 #########################################################
 ## Developed by Little Room, patreon.com/littleroomdev ##
 #########################################################
-mgsignal:
+impostersignal:
   Cooldown: 0
   TriggerConditions:
   - holding{m=amogus_token;amount=1} true
   Skills:
   - takeitem{i=amogus_token;a=1} @trigger
-  - giveitem{i=fools_cradle} @PIR{r=20} @trigger 0.1
+  - giveitem{i=fools_cradledrops} @trigger 0.1
   - Aura{auraName=amogusturnin;duration=99999;c=1;maxStacks=500;cotd=false} @self
   - skill{s=amogus50} @self
   - skill{s=amogus100} @self
@@ -18,13 +18,25 @@ mgsignal:
   - skill{s=amogus350} @self
   - skill{s=amogus400} @self
   - skill{s=amogus450} @self
+  - skill{s=amogus490} @self
   - skill{s=amogus500} @self
   - effect:particles{particle=heart;amount=10;hS=0.5;vS=1;speed=0;y=0.5}
-tridentstack:
-  Conditions:
-  Skills:
- # - effect:particles{particle=splash;amount=20;hS=0.5;vS=1;speed=0;y=0.5}
 
+
+feedmeimposter:
+  Cooldown: 0
+  TriggerConditions:
+  - holding{m=amogus_token;amount=1} false
+  Skills:
+  - jsonmessage{m="[{'text':'&dFeed me tokens!'}]"} @trigger ~onInteract
+
+lookatmehector:
+  Cooldown: 0
+  TriggerConditions:
+  - holding{m=va1;amount=1} true
+  Skills:
+  - look{headOnly=false;immediately=true} @self
+  - spin{duration=10;velocity=2} @self
 amogus50:
   Cooldown: 1
   Conditions:
@@ -115,6 +127,16 @@ amogus450:
   - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
   - jsonmessage{m="[{'text':'&c50 tokens left!'}]"} @server ~onInteract
 
+amogus490:
+  Cooldown: 1
+  Conditions:
+  - offgcd true
+  - hasaurastacks{n=amogusturnin;s=450} true
+  Skills:
+  - gcd{ticks=100}
+  - sound{s=mineinabyss:entity.amogus.imposter_sound;sc=master;p=1;v=1} @server
+  - jsonmessage{m="[{'text':'&c10 tokens left!'}]"} @server ~onInteract
+
 amogus500:
   Cooldown: 1
   Conditions:
@@ -123,7 +145,8 @@ amogus500:
   Skills:
   - gcd{ticks=100}
   - skill{s=skeldbyedoor} @Self
-  - jsonmessage{m="[{'text':'&eThe players have called upon the menace of the &4SUS &6Join the fight at /warp AprilFools!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&eThe players have called upon the menace of the &4SUS!'}]"} @server ~onInteract
+  - jsonmessage{m="[{'text':'&6Join the fight at /warp AprilFools!'}]"} @server ~onInteract
   - jsonmessage{m="[{'text':'&aBoss will be spawning in 2 minutes!'}]"} @server ~onInteract
   - delay 2400
   - summon{t=amogus} @Location{c=20.5,83.5,-0.5,0,0}
@@ -190,7 +213,7 @@ spawnrandomimposter:
 imposter_redDEATHsummon:
   Skills:
   - summon{t=deadamogus} @self
-  - clear @children
+  - remove @children
 
 spawngreenimposter:
   Skills:
@@ -232,7 +255,7 @@ spawnorangeimposter:
 
 imposter_ATTACKDamage:
   Skills:
-  - damage{a=11;ie=true}
+  - damage{a=10;ie=true}
   - effect:particles{particle=block;m=redstone_block;amount=50;hS=.25;vS=.25;y=.5}
 
 #### green imposter ####
@@ -963,6 +986,20 @@ imposter_orangeDEATH:
 
 #### SOUNDS ####
 
+townsman_meet_sound:
+  Skills:
+  - sound{s=mineinabyss:entity.amongus.meeting_sound;v=0.5;sc=HOSTILE} @self
+
+drip_song:
+  Skills:
+  - sound{s=mineinabyss:entity.amongus.drip;v=0.8;sc=HOSTILE} @world
+    
+amogus_kill:
+  Skills:
+
+  - sound{s=mineinabyss:entity.amogus.kill;v=1;sc=HOSTILE} @self
+
+
 herobrineswingsound:
   Skills:
   - randomskill{skills=herobrineswing1,herobrineswing2,herobrineswing3,herobrineswing4,herobrineswing5} @self
@@ -1067,8 +1104,8 @@ herobrineCROSSBOWGROUND:
   Cooldown: 5
   TargetConditions:
   - lineofsight true
-  Conditions:
-  - targetwithin{d=5} false
+ # Conditions:
+  #- targetwithin{d=5} false
   Skills:
   - sound{s=minecraft:item.crossbow.loading_start;v=1;sc=HOSTILE} @self
  # - setspeed{speed=0.3;type=walking} @self
@@ -1076,6 +1113,10 @@ herobrineCROSSBOWGROUND:
   - sound{s=minecraft:item.crossbow.shoot;v=1;sc=HOSTILE} @self
   - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine_bits;newpart=crossbow_unloaded} @self
   - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true}
+  - delay 2
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true;a=0.8}
+  - delay 2
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true;a=0.8}
   - delay 2
   - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true;a=0.8}
   - delay 2
@@ -1311,7 +1352,7 @@ herobrineEAT:
   - gcd{ticks=30}
   - state{s=eat} @self
   - delay 8
-  - healpercent{m=0.05} @self
+  - healpercent{m=0.07} @self
   - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine_bits;newpart=beef} @self
   - delay 5
   - sound{s=minecraft:entity.generic.eat;v=1;sc=HOSTILE;repeat=3;repeatInterval=4} @self
@@ -1405,7 +1446,18 @@ herobrineBLOODfx:
   Skills:
   - skill{s=herobrineimpactsound} @self
   - effect:particles{particle=block;m=redstone_block;amount25;hS=.25;vS=.25;y=1.25}
+amongusknife:
+  TargetConditions:
+  - isblocking false
+  Skills:
+  - onAttack{auraName=bloodfx;onHit=knifefx;duration=100;charges=99;multiplier=1} @self
+knifefx:
+  TargetConditions:
+  - isblocking false
+  Skills:
+  - effect:particles{particle=block;m=redstone_block;amount=35;hS=.25;vS=.25;y=1.25}
   
+
 herobrineBLOCKprep:
   Cooldown: 5
   Skills:
@@ -1452,8 +1504,8 @@ herobrineULTRA:
   - skill{s=summonvent4} @self
   - throw{velocity=20;velocityY=2} @EIR{r=4}
   - potion{type=SPEED;duration=2880;level=1} @self
-  - potion{type=STRENGTH;duration=2880;level=1} @self
-  - potion{type=REGENERATION;duration=2000;level=1} @self
+  - potion{type=STRENGTH;duration=2880;level=2} @self
+  - potion{type=REGENERATION;duration=2000;level=2} @self
   - effect:particles{particle=dragon_breath;amount=5;hs=.5;vs=.5;y=0.5;repeat=480;repeatInterval=1} @self
   - effect:particles{particle=flash;amount=1} @self
   - effect:particlesphere{particle=end_rod;amount=128;radius=3;speed=1} @self

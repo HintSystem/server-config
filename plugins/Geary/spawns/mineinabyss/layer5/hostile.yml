@@ -105,7 +105,7 @@ l5_ikonia: { inherit: l5_hostile_sand, type: mm:ikonia, priority: 0.02, chance: 
 #l5_hornballer:
 #  inherit: l5_hostile
 #  priority: 0.3
-##  chance: 0.3
+#  chance: 0.3
  # type: mm:hornballer
  # conditions:
  #   - blockBelow:

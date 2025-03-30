@@ -4,7 +4,7 @@ damagethrow:
     - offgcd true
   Skills:
     - gcd{ticks=50}
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=damage_impact;onEnd=d_end;v=30;g=0.7;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5;vO=0.1} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=damage_impact;onEnd=d_end;v=35;g=0.5;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5;vO=0.1} @targetlocation
 
 aoethrow:
   Cooldown: 0
@@ -12,7 +12,7 @@ aoethrow:
     - offgcd true
   Skills:
     - gcd{ticks=50}
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=aoe_impact;onEnd=a_end;v=20;g=0.8;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5;vO=0.1} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=aoe_impact;onEnd=a_end;v=25;g=0.7;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5;vO=0.1} @targetlocation
 
 spreadthrow:
   Cooldown: 0
@@ -61,13 +61,13 @@ aoe_impact:
 spread_impact:
   Skills:
     - effect:particles{particle=Electric_Spark;amount=50;hS=3;vS=3;y=.5}
-    - damage{a=10}
+    - damage{a=15}
    # - dropitem{i=SpreadDrops}
     - sound{s=entity.snow_golem.hurt;sc=hostile;p=1;v=0.6}
 fakespread_impact:
   Skills:
     - effect:particles{particle=Electric_Spark;amount=50;hS=3;vS=3;y=.5}
-    - damage{a=10}
+    - damage{a=15}
     - sound{s=entity.snow_golem.hurt;sc=hostile;p=1;v=0.6}
 damage_impact:
   Skills:
@@ -86,14 +86,14 @@ a_end:
   Skills:
     - dropitem{i=AoeDrops}
     - effect:particles{particle=Electric_Spark;amount=50;hS=3;vS=3;y=.5}
-    - damage{a=15} @EntitiesNearOrigin{r=5}
+    - damage{a=15} @EntitiesNearOrigin{r=6}
 s_end:
   Skills:
     - dropitem{i=SpreadDrops}
 l_end:
   Skills:
     - effect:particles{particle=Wax_Off;amount=100;hS=4;vS=4;y=.5}
-    - pull{velocity=4} @EntitiesNearOrigin{r=4}
+    - pull{velocity=3} @EntitiesNearOrigin{r=4}
     - dropitem{i=LureDrops}
 sun_end:
   Skills:

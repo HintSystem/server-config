@@ -1,5 +1,5 @@
 HeatRay:
-  Cooldown: 25
+  Cooldown: 1
   Conditions:
   - offgcd
   Skills:

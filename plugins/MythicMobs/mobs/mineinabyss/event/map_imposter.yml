@@ -4,7 +4,7 @@
 spawnrandomamongus:
   Type: SILVERFISH
   SpawnCategory: skeleton
-  Display: "<green>Praying Skeleton"
+  Display: "<green>Imposter"
   Modules:
     ThreatTable: true
   AIGoalSelectors:
@@ -28,11 +28,11 @@ spawnrandomamongus:
   - skill{s=spawnrandomimpostermap} @self ~onspawn
   - remove{delay=5} @Self ~onSpawn
 
-green_imposter_map:
+green_impostermap:
   Type: SILVERFISH
   #Disguise: ARMOR_STAND setInvisible
   Display: 'an Imposter'
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -40,12 +40,18 @@ green_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_greenSPAWN} @self ~onSpawn
   - skill{s=imposter_greenATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_greenDEATH} @self ~onDeath
@@ -53,11 +59,11 @@ green_imposter_map:
   - model{mid=imposter_green;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_green;d=false;i=true} @self ~onLoad 
   
-black_imposter_map:
+black_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -65,12 +71,18 @@ black_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_blackSPAWN} @self ~onSpawn
   - skill{s=imposter_blackATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_blackDEATH} @self ~onDeath
@@ -78,11 +90,11 @@ black_imposter_map:
   - model{mid=imposter_black;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_black;d=false;i=true} @self ~onLoad
   
-purple_imposter_map:
+purple_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -90,12 +102,18 @@ purple_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_purpleSPAWN} @self ~onSpawn
   - skill{s=imposter_purpleATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_purpleDEATH} @self ~onDeath
@@ -103,11 +121,11 @@ purple_imposter_map:
   - model{mid=imposter_purple;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_purple;d=false;i=true} @self ~onLoad
   
-blue_imposter_map:
+blue_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -115,12 +133,18 @@ blue_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_blueSPAWN} @self ~onSpawn
   - skill{s=imposter_blueATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_blueDEATH} @self ~onDeath
@@ -128,11 +152,11 @@ blue_imposter_map:
   - model{mid=imposter_blue;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_blue;d=false;i=true} @self ~onLoad
   
-lime_imposter_map:
+lime_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -140,12 +164,18 @@ lime_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_limeSPAWN} @self ~onSpawn
   - skill{s=imposter_limeATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_limeDEATH} @self ~onDeath
@@ -153,11 +183,11 @@ lime_imposter_map:
   - model{mid=imposter_lime;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_lime;d=false;i=true} @self ~onLoad
   
-white_imposter_map:
+white_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -165,12 +195,18 @@ white_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_whiteSPAWN} @self ~onSpawn
   - skill{s=imposter_whiteATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_whiteDEATH} @self ~onDeath
@@ -178,11 +214,11 @@ white_imposter_map:
   - model{mid=imposter_white;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_white;d=false;i=true} @self ~onLoad
   
-pink_imposter_map:
+pink_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -190,12 +226,18 @@ pink_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_pinkSPAWN} @self ~onSpawn
   - skill{s=imposter_pinkATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_pinkDEATH} @self ~onDeath
@@ -203,11 +245,11 @@ pink_imposter_map:
   - model{mid=imposter_pink;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_pink;d=false;i=true} @self ~onLoad
   
-cyan_imposter_map:
+cyan_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -215,11 +257,18 @@ cyan_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_cyanSPAWN} @self ~onSpawn
   - skill{s=imposter_cyanATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_cyanDEATH} @self ~onDeath
@@ -227,11 +276,11 @@ cyan_imposter_map:
   - model{mid=imposter_cyan;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_cyan;d=false;i=true} @self ~onLoad
   
-yellow_imposter_map:
+yellow_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -239,12 +288,18 @@ yellow_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_yellowSPAWN} @self ~onSpawn
   - skill{s=imposter_yellowATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_yellowDEATH} @self ~onDeath
@@ -252,11 +307,11 @@ yellow_imposter_map:
   - model{mid=imposter_yellow;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_yellow;d=false;i=true} @self ~onLoad
   
-red_imposter_map:
+red_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -264,24 +319,30 @@ red_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_redSPAWN} @self ~onSpawn
   - skill{s=imposter_redATTACKsyncmap;sync=true} @self ~onAttack
-  - skill{s=imposter_redDEATH} @self ~onDeath
+  - skill{s=imposter_redDEATHmap} @self ~onDeath
   - skill{s=imposter_redSHOOTmap} @self ~onTimer:20
   - model{mid=imposter_red;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_red;d=false;i=true} @self ~onLoad
   
-brown_imposter_map:
+brown_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -289,12 +350,18 @@ brown_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_brownSPAWN} @self ~onSpawn
   - skill{s=imposter_brownATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_brownDEATH} @self ~onDeath
@@ -302,11 +369,11 @@ brown_imposter_map:
   - model{mid=imposter_brown;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_brown;d=false;i=true} @self ~onLoad
   
-orange_imposter_map:
+orange_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -314,12 +381,18 @@ orange_imposter_map:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.25
-
+  - amogus_token 1 0.5
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_orangeSPAWN} @self ~onSpawn
   - skill{s=imposter_orangeATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_orangeDEATH} @self ~onDeath

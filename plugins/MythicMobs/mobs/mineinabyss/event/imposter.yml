@@ -2,12 +2,28 @@
 
 
 imposter_vent:
-  Type: ARMOR_STAND
+  Type: SILVERFISH
   Display: 'Vent'
   Options:
     Marker: true
+    AlwaysShowName: true
+    FollowRange: 40
+    MovementSpeed: 0
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Silent: true
+    KnockbackResistance: 1
+    PreventSunburn: true
+    Invincible: true
+    Collidable: false
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
   Skills:
-  - skill{s=kys} ~onSignal:now
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=spawn_imposter} @self ~onTimer:20
   - model{mid=imposter_vent;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_vent;d=false;i=true} @self ~onLoad
@@ -24,9 +40,18 @@ green_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_greenSPAWN} @self ~onSpawn
   - skill{s=imposter_greenATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_greenDEATH} @self ~onDeath
@@ -46,9 +71,18 @@ black_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_blackSPAWN} @self ~onSpawn
   - skill{s=imposter_blackATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_blackDEATH} @self ~onDeath
@@ -68,9 +102,18 @@ purple_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_purpleSPAWN} @self ~onSpawn
   - skill{s=imposter_purpleATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_purpleDEATH} @self ~onDeath
@@ -90,9 +133,18 @@ blue_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_blueSPAWN} @self ~onSpawn
   - skill{s=imposter_blueATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_blueDEATH} @self ~onDeath
@@ -112,9 +164,18 @@ lime_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_limeSPAWN} @self ~onSpawn
   - skill{s=imposter_limeATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_limeDEATH} @self ~onDeath
@@ -134,9 +195,18 @@ white_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_whiteSPAWN} @self ~onSpawn
   - skill{s=imposter_whiteATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_whiteDEATH} @self ~onDeath
@@ -156,9 +226,18 @@ pink_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_pinkSPAWN} @self ~onSpawn
   - skill{s=imposter_pinkATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_pinkDEATH} @self ~onDeath
@@ -178,8 +257,16 @@ cyan_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_cyanSPAWN} @self ~onSpawn
   - skill{s=imposter_cyanATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_cyanDEATH} @self ~onDeath
@@ -199,9 +286,18 @@ yellow_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_yellowSPAWN} @self ~onSpawn
   - skill{s=imposter_yellowATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_yellowDEATH} @self ~onDeath
@@ -221,12 +317,21 @@ red_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_redSPAWN} @self ~onSpawn
   - skill{s=imposter_redATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_redDEATH} @self ~onDeath
+  - skill{s=imposter_redDEATHmap} @self ~onDeath
   - skill{s=imposter_redSHOOT} @self ~onTimer:20
   - model{mid=imposter_red;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_red;d=false;i=true} @self ~onLoad
@@ -243,9 +348,18 @@ brown_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_brownSPAWN} @self ~onSpawn
   - skill{s=imposter_brownATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_brownDEATH} @self ~onDeath
@@ -265,9 +379,18 @@ orange_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
-
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
+  Drops:
+  - exp 10-25
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_orangeSPAWN} @self ~onSpawn
   - skill{s=imposter_orangeATTACKsync;sync=true} @self ~onAttack
   - skill{s=imposter_orangeDEATH} @self ~onDeath
@@ -302,6 +425,8 @@ fighter_herobrine:
   - golems
   Health: 4000
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - Skill{s=SaveBossLocation} @self ~onSpawn
   - skill{s=bossping} ~onSignal:location
   - message{m="&e &BHerobrine&e &ehas spawned at <caster.var.SpawnLoc>"} ~onSpawn @PlayersOnServer
@@ -341,6 +466,8 @@ herobrine_fireworkFX:
     Invincible: true
     Silent: true
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - ignite{ticks=40} @PIR{r=2} ~onTimer:5
   - effect:particles{particle=flame;amount=10;hS=.1;vS=.1;speed=0.02} @self ~onTimer:2
   - effect:particles{particle=large_smoke;amount=10;hS=.2;vS=.2;speed=0;size=2} @self ~onTimer:2
@@ -350,6 +477,8 @@ herobrine_axe:
   Type: ARMOR_STAND
   Display: 'amogus axe'
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - model{mid=herobrine_axe;n=false;d=false} @self ~onSpawn
   
 herobrine_bobber:
@@ -362,6 +491,8 @@ herobrine_bobber:
     Scale: 1
     DamageTint: false
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=herobrinebobberSPAWN} @self ~onSpawn
   - model{mid=herobrine_bobber;n=false;d=false} @self ~onSpawn
   
@@ -392,6 +523,8 @@ fighter_steve:
   - golems
   Health: 300
   Skills:
+  - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=HerobrineSTEVESPAWN} @self ~onSpawn
   - randomskill{skills=herobrineHEIGHTJUMP4,herobrineHEIGHTJUMP2,herobrineFISHING,herobrineAXE,herobrineROLL,herobrineLEAPKICK} @target ~onTimer:15
   - setmobscore{o=herodamage;v=7} @self ~onSpawn

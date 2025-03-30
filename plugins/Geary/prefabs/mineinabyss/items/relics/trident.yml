@@ -32,7 +32,7 @@ observe:
         - "throwtrident"
 passive:
   - match: [ inHand ]
-    every: 1s
+    every: 1.2s
     run:
       - become: parent
       - ensure:

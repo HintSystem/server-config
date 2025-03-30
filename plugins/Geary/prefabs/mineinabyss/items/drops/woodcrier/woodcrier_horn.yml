@@ -4,7 +4,7 @@ set.item:
     itemName: <#963c0f>Woodcrier Horn
     customModelData: 1
     lore:
-      - ":layer_2:"
+      - ":layer_1::layer_2:"
       - <#A68348><i>Its hard and solid...
       - <#A68348><i>I can build structures with this.
 resourcepack:

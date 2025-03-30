@@ -48,7 +48,7 @@ woodcrier:
     - skill{s=Changetarget} ~onTimer:160 <99%
 
     # - skill{s=hc_dash} @target ~onTimer:20
-    - skill{s=hc_Attack} @self ~onAttack
+    - skill{s=hb_Attack} @self ~onAttack
     # - skill:MIAPetExpNearby{exp=1} ~onDeath
 
     # - skill{s=hc_backup} @self ~ondamaged

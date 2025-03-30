@@ -16,6 +16,8 @@ observe:
     - become: parent
     - cooldown:
         length: 10s
-        id: 
-    - playSound:
-        sound: 
+        id: townsmanmeet
+        display: <#617B94>Meeting
+    - mythicSkills:
+        - "townsman_meet_sound"
+

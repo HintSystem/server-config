@@ -27,7 +27,7 @@ observe:
             text: <red>Not Primed
     - cooldown:
         id: BlazeReap
-        length: 35s
+        length: 50s
         display: <#617B94>Blaze Reap
     - mythicSkills:
         - "BlazeReap"
