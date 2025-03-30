@@ -1,11 +1,9 @@
 clown_mask_token:
-  Id: gold_nugget
+  Id: clay_ball
   Display: <gold><b>Clown Mask Token</gold>
   Model: 12
-  Enchantments: 
-    - THORNS: 1
-  Hide:
-   - ENCHANTS
+  Enchantments:
+  - FORTUNE 1
   Lore:
     - ':troll:'
     - '<gold>Found during April Fools 2025.</gold>'

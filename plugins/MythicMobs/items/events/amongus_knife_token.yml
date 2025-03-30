@@ -1,11 +1,9 @@
 amongus_knife_token:
-  Id: gold_nugget
+  Id: clay_ball
   Display: <gold><b>Amongus Knife Token</gold>
   Model: 12
-  Enchantments: 
-    - THORNS: 1
-  Hide:
-   - ENCHANTS
+  Enchantments:
+  - FORTUNE 1
   Lore:
     - ':troll:'
     - '<gold>Found during April Fools 2025.</gold>'
