@@ -275,6 +275,11 @@ red_impostermap:
     PreventBlockInfection: true
     PreventOtherDrops: true
     MovementSpeed: 0.3
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.5

@@ -68,3 +68,27 @@ hb_dashmiss:
 
 
 
+
+hb_Attack:
+  Cooldown: 1.2
+  Conditions:
+    - offgcd true
+    - targetwithin{d=5} true
+  Skills:
+    - CancelEvent
+    - gcd{ticks=20}
+    - setAI{ai=false} @self
+    - state{s=horn_swipe} @self
+    #- effect:sound{s=;volume=0.65;pitch=1} @self
+    - delay 15
+    - totem{md=2;c=1;oH=hb_Attack_DAMAGE;hp=true;hR=2;vR=2;i=1} @forward{f=1.5}
+    - setAI{ai=true} @self
+hb_Attack_DAMAGE:
+  # TargetConditions:
+  #  - isblocking false
+  Cooldown: 1.5
+  Skills:
+    - damage{a=8;pkb=true;hp=true} @target
+    #- skill{s=Bleeding} @target
+    - effect:particles{particle=block_crack;m=redstone_block;amount=45;hS=.25;vS=1;speed=.01} @target
+    - throw{v=5;vy=3} @target

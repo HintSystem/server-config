@@ -128,12 +128,6 @@ deadamogus:
   Type: IRON_GOLEM
   Display: 'AMOGUS'
   Damage: 10
-  BossBar:
-    Enabled: true
-    Title: '<mob.name> 0 <&fs> 1000'
-    Range: 32
-    Color: PURPLE
-    Style: SOLID
   AIGoalSelectors:
   - clear
   AITargetSelectors:
