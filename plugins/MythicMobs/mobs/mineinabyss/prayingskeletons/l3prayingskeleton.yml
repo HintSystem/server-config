@@ -52,10 +52,10 @@ l3prayingskeleton:
     - cancelevent{sync=true} @Self ~onAttack
     - remove{delay=240000} @self ~onSpawn
     - skill{s=skelewet} @Self ~onTimer:20
-    - skill{s=skelehigh} @Self ~onTimer:20
+   # - skill{s=skelehigh} @Self ~onTimer:20
     - skill{s=skelerock} @Self ~onTimer:20
-    - skill{s=ylevelhigh} @Self ~onTimer:20
-    - skill{s=ylevellow} @Self ~onTimer:20
+#    - skill{s=ylevelhigh} @Self ~onTimer:20
+  #  - skill{s=ylevellow} @Self ~onTimer:20
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=350;minradius=150;spacing=1;onSurface=true} ~onspawn
 
     - skill{s=giantrelicsworddrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.0015
@@ -116,10 +116,10 @@ backupskele3:
     - cancelevent{sync=true} @Self ~onAttack
     - remove{delay=240000} @self ~onSpawn
     - skill{s=skelewet} @Self ~onTimer:20
-    - skill{s=skelehigh} @Self ~onTimer:20
+   # - skill{s=skelehigh} @Self ~onTimer:20
     - skill{s=skelerock} @Self ~onTimer:20
-    - skill{s=ylevelhigh} @Self ~onTimer:20
-    - skill{s=ylevellow} @Self ~onTimer:20
+#    - skill{s=ylevelhigh} @Self ~onTimer:20
+  #  - skill{s=ylevellow} @Self ~onTimer:20
 
 
 

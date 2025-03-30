@@ -6,9 +6,6 @@ amongus_cosmetic_token:
     - THORNS: 1
   Hide:
    - ENCHANTS
-  Options:
-   PreventStacking: true
-
   Lore:
     - ':troll:'
     - '<gold>Found during April Fools 2025.</gold>'

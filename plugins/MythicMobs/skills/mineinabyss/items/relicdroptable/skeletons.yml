@@ -10,7 +10,7 @@ skelerock:
   - remove{delay=200} @self
 skelehigh:
   Conditions:
-  - altitude{h=20-255} true
+  - altitude{h=-245-245} true
   Skills:
   - remove{delay=20} @self
 
