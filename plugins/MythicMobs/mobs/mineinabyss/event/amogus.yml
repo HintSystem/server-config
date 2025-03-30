@@ -54,6 +54,7 @@ amogus:
     ItemGlowByDefault: true
     ItemBeamByDefault: true
     ItemVFXByDefault: false
+    RequiredDamagePercent: 5
     HologramTimeout: 2000
   Model:
     Id: imposter_red
@@ -78,8 +79,10 @@ amogus:
   - potion{type=FIRE_RESISTANCE;duration=99999;level=1} @self
   - skill{s=bossping} ~onSignal:location
   - skill{s=Changetarget} ~onTimer:100 <99%
-  - sound{s=mineinabyss:entity.amogus.drip.;v=1;sc=MUSIC} @world #@PIR{r=30}
-  - sound{s=mineinabyss:entity.amogus.kill;v=1;sc=HOSTILE} @self ~onPlayerKill
+  - skill{s=Changetarget} ~onTimer:100 <99%
+  - skill{s=drip_song} @self ~onSpawn 
+  - skill{s=amogus_kill} @self ~onPlayerKill
+  - sound{s=mineinabyss:entity.amogus.kill;v=1;sc=HOSTILE} @self 
   - randomskill{skills=herobrineFISHING,herobrineAXE,herobrineLEAPKICK} @target ~onTimer:50
 
   - signal{s=kys} @EIR{r=50} ~onDeath
@@ -192,6 +195,7 @@ amogusnpc:
     Collidable: false
     despawn: false
     persistant: true
+    
   Model:
     Id: among_pakko
     ViewRadius: 48

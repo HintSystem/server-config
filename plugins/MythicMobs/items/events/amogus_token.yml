@@ -1,7 +1,7 @@
 amogus_token:
-  Id: CLAY_BALL
+  Id: clay_ball
   Display: <#03AC13>Amogus Token</#03AC13>
-  CustomModelData: 13
+  Model: 12
   Enchantments: 
    - THORNS: 1
   Hide:
@@ -10,4 +10,4 @@ amogus_token:
     - ':troll:'
     - '<gold>Found during April Fools 2025.</gold>'
     - '<#D2D489><i>Used to summon the Among Us boss.</#D2D489>'
-    - '<#D2D489><i>Use /warp AprilFools to contribute towards the summon.</#D2D489>'
+    - '<#D2D489><i>Use /warp aprilfools to contribute towards the summon.</#D2D489>'

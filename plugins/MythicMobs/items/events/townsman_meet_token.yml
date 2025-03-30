@@ -1,7 +1,7 @@
 townsman_meet_token:
-  Id: CLAY_BALL
+  Id: clay_ball
   Display: <gold><b>Clown Mask Token</gold>
-  CustomModelData: 13
+  Model: 12
   Enchantments: 
     - THORNS: 1
   Hide:

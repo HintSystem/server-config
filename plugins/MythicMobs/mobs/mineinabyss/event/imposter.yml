@@ -2,10 +2,20 @@
 
 
 imposter_vent:
-  Type: ARMOR_STAND
+  Type: SILVERFISH
   Display: 'Vent'
   Options:
     Marker: true
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Silent: true
+    KnockbackResistance: 1
+    PreventSunburn: true
+    Invincible: true
+    Collidable: false
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys

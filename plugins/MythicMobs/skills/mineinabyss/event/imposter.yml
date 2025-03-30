@@ -984,10 +984,14 @@ townsman_meet_sound:
   Skills:
   - sound{s=mineinabyss:entity.amongus.meeting_sound;v=0.5;sc=HOSTILE} @self
 
-townsman_meet_sound:
+drip_song:
   Skills:
   - sound{s=mineinabyss:entity.amongus.drip;v=0.8;sc=HOSTILE} @world
     
+amogus_kill:
+  Skills:
+
+  - sound{s=mineinabyss:entity.amogus.kill;v=1;sc=HOSTILE} @self
 
 
 herobrineswingsound:

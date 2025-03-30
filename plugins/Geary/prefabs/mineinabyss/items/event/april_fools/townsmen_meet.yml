@@ -18,5 +18,6 @@ observe:
         length: 10s
         id: townsmanmeet
         display: <#617B94>Meeting
-    - playSound:
-        sound: mineinabyss:entity/amongus/meeting_sound
+    - mythicSkills:
+        - "townsman_meet_sound"
+

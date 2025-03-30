@@ -3,7 +3,7 @@
 	"textures": {
 		"1": "mineinabyss:item/event/imposter_visor",
 		"3": "mineinabyss:item/event/imposter_red",
-		"particle": "modelengine:entity/imposter_visor"
+		"particle": "mineinabyss:item/event/imposter_visor"
 	},
 	"elements": [
 		{
@@ -112,8 +112,8 @@
 			"translation": [0.75, -8, 0]
 		},
 		"head": {
-			"translation": [-1, -10.75, 2.5],
-			"scale": [1.52, 1.21484, 1.51172]
+			"translation": [-1, -15.25, 2.5],
+			"scale": [1.6, 1.6, 1.6]
 		},
 		"fixed": {
 			"rotation": [-89.5, 0, 0],
