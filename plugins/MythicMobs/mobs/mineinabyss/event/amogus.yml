@@ -31,6 +31,11 @@ amogus:
     Silent: true
     KnockbackResistance: 1
     PreventSunburn: true
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   DropOptions:
     ChatMessage:
     - '<#F28800>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
@@ -200,3 +205,5 @@ amogusnpc:
   Health: 1000
   Skills:
   - skill{s=impostersignal} @Self ~oninteract
+  - skill{s=feedmeimposter} @Self ~oninteract
+  - skill{s=lookatmehector} @Self ~oninteract

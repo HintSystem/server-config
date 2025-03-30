@@ -26,11 +26,17 @@ impostersignal:
 feedmeimposter:
   Cooldown: 0
   TriggerConditions:
-  - holding{m=amogus_token;amount=1} fal;se
+  - holding{m=amogus_token;amount=1} false
   Skills:
   - jsonmessage{m="[{'text':'&dFeed me tokens!'}]"} @trigger ~onInteract
 
-
+lookatmehector:
+  Cooldown: 0
+  TriggerConditions:
+  - holding{m=va1;amount=1} true
+  Skills:
+  - look{headOnly=true;immediately=true} @self
+  - spin{duration=10;velocity=2} @self
 amogus50:
   Cooldown: 1
   Conditions:

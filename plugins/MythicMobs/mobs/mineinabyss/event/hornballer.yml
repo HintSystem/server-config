@@ -28,7 +28,7 @@ hornballer:
     PreventOtherDrops: true
   KillMessages:
   - '<target.name> was Dunked by hornballer'
-  - '<target.name> was a stepping stoen in hornballers legacy'
+  - '<target.name> was a stepping stone in hornballers legacy'
   - 'hornballer broke <target.name> knees on the court'
   - '<target.name> was finessed by hornballer'
   - '<target.name> got nothing on hornballer'

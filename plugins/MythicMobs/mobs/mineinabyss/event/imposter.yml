@@ -7,7 +7,8 @@ imposter_vent:
   Options:
     Marker: true
     AlwaysShowName: true
-    MovementSpeed: 0.4
+    FollowRange: 40
+    MovementSpeed: 0
     FollowRange: 40
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -16,6 +17,10 @@ imposter_vent:
     PreventSunburn: true
     Invincible: true
     Collidable: false
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -35,7 +40,13 @@ green_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -60,7 +71,13 @@ black_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -85,7 +102,13 @@ purple_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -110,7 +133,13 @@ blue_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -135,7 +164,13 @@ lime_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -160,7 +195,13 @@ white_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -185,7 +226,13 @@ pink_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -210,7 +257,13 @@ cyan_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -233,7 +286,13 @@ yellow_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -258,7 +317,13 @@ red_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -283,7 +348,13 @@ brown_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
@@ -308,7 +379,13 @@ orange_imposter:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.4
+  KillMessages:
+  - '<target.name> was voted out by the imposter'
+  - '<target.name> was was sent out the airlock'
+  - '<target.name> stole too many tasks from the imposter'
+  - '<target.name> was caught alone in electrical'
   Drops:
   - exp 10-25
   Skills:
