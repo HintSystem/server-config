@@ -35,7 +35,7 @@ lookatmehector:
   TriggerConditions:
   - holding{m=va1;amount=1} true
   Skills:
-  - look{headOnly=true;immediately=true} @self
+  - look{headOnly=false;immediately=true} @self
   - spin{duration=10;velocity=2} @self
 amogus50:
   Cooldown: 1
