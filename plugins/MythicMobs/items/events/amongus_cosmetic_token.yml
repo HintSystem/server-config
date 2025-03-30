@@ -1,7 +1,7 @@
 amongus_cosmetic_token:
-  Id: PAPER
+  Id: CLAY_BALL
   Display: <gold><b>Amongus Cosmetic Token</gold>
-  CustomModelData: 168
+  CustomModelData: 13
   Enchantments: 
     - THORNS: 1
   Hide:

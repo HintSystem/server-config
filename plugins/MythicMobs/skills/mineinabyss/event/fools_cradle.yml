@@ -1,5 +1,5 @@
 foolscradlethrow:
-  Cooldown: 0
+  Cooldown: 1
   Conditions:
     - offgcd true
   Skills:
@@ -8,10 +8,11 @@ foolscradlethrow:
 
 
 foolscradle_impact:
+  Cooldown: 1
   Skills:
-    - randomskill{skills=cradlefaputa,cradleamongus,cradlesunsphere,cradlespin,cradleslow,cradleswap,throw} @target
-    - effect:particles{particle=angry_villager;amount=1;hS=.25;vS=.5;y=.5;repeat=120;repeatInterval=7}
-    - effect:particles{particle=raid_omen;amount=2;hS=.25;vS=.5;y=.5;repeat=120;repeatInterval=7}
+    - randomskill{skills=cradlefaputa,cradleamongus,cradlesunsphere,cradlespin,cradleslow,cradleswap,cradlethrow} @target
+    - effect:particles{particle=angry_villager;amount=10;hS=.25;vS=.5;y=.5}
+    - effect:particles{particle=raid_omen;amount=20;hS=.25;vS=.5;y=.5}
 
 
 cradlefaputa:
@@ -25,8 +26,8 @@ cradleamongus:
 
 cradlesunsphere:
   Skills:
-    - particleorbital{r=0.8;points=16;t=50;i=1;particle=Electric_Spark;oy=2.3}
-    - blackscreen{d=40}
+    - particleorbital{r=0.8;points=16;t=50;i=1;particle=Electric_Spark;oy=2.1} @target
+    - blackscreen{d=40} @target
 
 cradlespin:
   Skills:

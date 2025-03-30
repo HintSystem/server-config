@@ -1,7 +1,7 @@
 amogus_token:
-  Id: PAPER
+  Id: CLAY_BALL
   Display: <#03AC13>Amogus Token</#03AC13>
-  CustomModelData: 169
+  CustomModelData: 13
   Enchantments: 
    - THORNS: 1
   Hide:

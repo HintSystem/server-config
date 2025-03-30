@@ -16,6 +16,7 @@ observe:
     - become: parent
     - cooldown:
         length: 10s
-        id: 
+        id: townsmanmeet
+        display: <#617B94>Meeting
     - playSound:
         sound: mineinabyss:entity/amongus/meeting_sound

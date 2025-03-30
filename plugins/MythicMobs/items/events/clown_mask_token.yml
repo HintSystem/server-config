@@ -1,7 +1,7 @@
 clown_mask_token:
-  Id: PAPER
+  Id: CLAY_BALL
   Display: <gold><b>Clown Mask Token</gold>
-  CustomModelData: 167
+  CustomModelData: 13
   Enchantments: 
     - THORNS: 1
   Hide:

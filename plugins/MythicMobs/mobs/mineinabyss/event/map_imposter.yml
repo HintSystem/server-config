@@ -32,7 +32,7 @@ green_impostermap:
   Type: SILVERFISH
   #Disguise: ARMOR_STAND setInvisible
   Display: 'an Imposter'
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -40,12 +40,13 @@ green_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_greenSPAWN} @self ~onSpawn
   - skill{s=imposter_greenATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_greenDEATH} @self ~onDeath
@@ -57,7 +58,7 @@ black_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -65,12 +66,13 @@ black_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_blackSPAWN} @self ~onSpawn
   - skill{s=imposter_blackATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_blackDEATH} @self ~onDeath
@@ -82,7 +84,7 @@ purple_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -90,12 +92,13 @@ purple_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_purpleSPAWN} @self ~onSpawn
   - skill{s=imposter_purpleATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_purpleDEATH} @self ~onDeath
@@ -107,7 +110,7 @@ blue_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -115,12 +118,13 @@ blue_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_blueSPAWN} @self ~onSpawn
   - skill{s=imposter_blueATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_blueDEATH} @self ~onDeath
@@ -132,7 +136,7 @@ lime_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -140,12 +144,13 @@ lime_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_limeSPAWN} @self ~onSpawn
   - skill{s=imposter_limeATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_limeDEATH} @self ~onDeath
@@ -157,7 +162,7 @@ white_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -165,12 +170,13 @@ white_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_whiteSPAWN} @self ~onSpawn
   - skill{s=imposter_whiteATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_whiteDEATH} @self ~onDeath
@@ -182,7 +188,7 @@ pink_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -190,12 +196,13 @@ pink_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_pinkSPAWN} @self ~onSpawn
   - skill{s=imposter_pinkATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_pinkDEATH} @self ~onDeath
@@ -207,7 +214,7 @@ cyan_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -215,12 +222,13 @@ cyan_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_cyanSPAWN} @self ~onSpawn
   - skill{s=imposter_cyanATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_cyanDEATH} @self ~onDeath
@@ -232,7 +240,7 @@ yellow_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -240,12 +248,13 @@ yellow_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_yellowSPAWN} @self ~onSpawn
   - skill{s=imposter_yellowATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_yellowDEATH} @self ~onDeath
@@ -257,7 +266,7 @@ red_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -265,12 +274,13 @@ red_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_redSPAWN} @self ~onSpawn
   - skill{s=imposter_redATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_redDEATHmap} @self ~onDeath
@@ -282,7 +292,7 @@ brown_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -290,12 +300,13 @@ brown_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_brownSPAWN} @self ~onSpawn
   - skill{s=imposter_brownATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_brownDEATH} @self ~onDeath
@@ -307,7 +318,7 @@ orange_impostermap:
   Type: SILVERFISH
   Display: 'an Imposter'
   #Disguise: ARMOR_STAND setInvisible
-  Health: 18
+  Health: 13
   AITargetSelectors:
   - players
   Options:
@@ -315,12 +326,13 @@ orange_impostermap:
     Silent: true
     PreventBlockInfection: true
     PreventOtherDrops: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
   Drops:
   - exp 5-15
   - amogus_token 1 0.5
   Skills:
   - skill{s=kys} @self ~onSignal:kys
+  - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_orangeSPAWN} @self ~onSpawn
   - skill{s=imposter_orangeATTACKsyncmap;sync=true} @self ~onAttack
   - skill{s=imposter_orangeDEATH} @self ~onDeath

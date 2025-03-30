@@ -35,6 +35,7 @@ hornballer:
     DamageTint: true
   DamageModifiers:
     - PROJECTILE 0.5
+    - FALL 0.01
   Modules:
     ThreatTable: true
   Drops:

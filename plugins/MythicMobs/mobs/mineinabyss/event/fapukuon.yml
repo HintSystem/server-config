@@ -29,7 +29,7 @@ fapukuon:
     ViewRadius: 48
     Drive: false
     DamageTint: true
-    Scale: 1
+    Scale: 0.7
   DamageModifiers:
     - DROWNING 0
     - FIRE 15
@@ -82,7 +82,7 @@ fapugatari_summon:
     ViewRadius: 48
     Drive: false
     DamageTint: true
-    Scale: 0.5
+    Scale: 0.35
   DamageModifiers:
     - DROWNING 0
     - FIRE 15

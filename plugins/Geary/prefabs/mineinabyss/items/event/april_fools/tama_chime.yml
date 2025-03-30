@@ -16,8 +16,9 @@ observe:
     - become: parent
     - cooldown:
         length: 10s
-        id: 
+        id: tamachime
+        display: <#617B94>Tama call
     - playSound:
         sound: minecraft:entity.wither.ambient
         pitch: 2
-        
+

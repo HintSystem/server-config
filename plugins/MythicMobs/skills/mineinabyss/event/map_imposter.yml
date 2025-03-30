@@ -17,7 +17,7 @@ spawnrandomimpostermap:
 imposter_redDEATHsummon:
   Skills:
   - summon{t=deadamogus} @self
-  - clear @children
+  - remove @children
 
 spawngreenimpostermap:
   Skills:

@@ -1,6 +1,6 @@
-amongus_knife_token:
+townsman_meet_token:
   Id: CLAY_BALL
-  Display: <gold><b>Amongus Knife Token</gold>
+  Display: <gold><b>Clown Mask Token</gold>
   CustomModelData: 13
   Enchantments: 
     - THORNS: 1

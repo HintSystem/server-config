@@ -43,7 +43,6 @@ PSIntroHeadDrops:
   - brokenskull 1 0.06
   - verticalcore 0.08
 
-#Leaving TamaDrops here till we have tama.yml
 TamaHatDrops:
   MaxItems: 1
   Conditions:
@@ -57,3 +56,8 @@ TamaChimeDrops:
   Drops:
     - geary mineinabyss:tama_chime 1 1 nolooting
 
+fools_cradledrops:
+  MaxItems: 1
+  Conditions:
+  Drops:
+    - geary mineinabyss:fools_cradle 1 1 nolooting

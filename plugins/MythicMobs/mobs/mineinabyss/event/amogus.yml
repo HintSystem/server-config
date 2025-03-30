@@ -64,12 +64,16 @@ amogus:
   Drops:
     - exp 200-500 1
     - amongus_knife_token{top=1} 1 0.25
-    - amongus_cosmetic_token{top=2} 1 0.25
-    - clown_mask_token{top=3} 1 0.25
+    - amongus_cosmetic_token{top=2} 1 0.2
+    - clown_mask_token{top=3} 1 0.15
     - moaiface 1 0.2
-    - townsmen_meet 1 0.2
-  Health: 1000
+    - townsmen_meet_token 1 0.1
+  Health: 1337
+  DamageModifiers:
+    - PROJECTILE 0.5
+    - FALL 0.01
   Skills:
+  - threat{amount=10000} @NearestPlayer ~onDamaged 0.1
 #  - skill{s=HerobrineSTEVESPAWN} @self ~onSpawn
   - potion{type=FIRE_RESISTANCE;duration=99999;level=1} @self
   - skill{s=bossping} ~onSignal:location
@@ -78,7 +82,7 @@ amogus:
   - sound{s=mineinabyss:entity.amogus.kill;v=1;sc=HOSTILE} @self ~onPlayerKill
   - randomskill{skills=herobrineFISHING,herobrineAXE,herobrineLEAPKICK} @target ~onTimer:50
 
-  - signal{s=kys} @EIR{r=50;ignore=self} ~onDeath
+  - signal{s=kys} @EIR{r=50} ~onDeath
   - setmobscore{o=herodamage;v=15} @self ~onSpawn
   - skill{s=herobrineULTRAtele} @self ~onDamaged .5
   - skill{s=swaprandom} @self ~onDamaged .2
@@ -152,7 +156,9 @@ deadamogus:
   Drops:
   Health: 1000
   Skills:
-  - signal{s=now} @MobsInRadius{r=200;types=imposter_vent}
+  - signal{s=kys} @MobsInRadius{r=200;types=imposter_vent} ~onspawn
+  - signal{s=kys} @EIR{r=200} ~onspawn
+
 
   - skill{s=imposter_redDEATH;delay=40} @self ~onspawn
   - model{mid=imposter_red;d=false;i=true} @self ~onSpawn
@@ -166,6 +172,7 @@ amogusnpc:
   Display: 'nicenpc'
   Damage: 10
   AIGoalSelectors:
+  - lookatplayers
   - clear
   AITargetSelectors:
   - clear
@@ -182,7 +189,6 @@ amogusnpc:
     KnockbackResistance: 1
     PreventSunburn: true
     Invincible: true
-    NoAi: true
     Collidable: false
     despawn: false
     persistant: true

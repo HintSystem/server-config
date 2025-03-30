@@ -7,7 +7,7 @@ impostersignal:
   - holding{m=amogus_token;amount=1} true
   Skills:
   - takeitem{i=amogus_token;a=1} @trigger
-  - giveitem{i=fools_cradle} @trigger 0.1
+  - giveitem{i=fools_cradledrops} @trigger 0.1
   - Aura{auraName=amogusturnin;duration=99999;c=1;maxStacks=500;cotd=false} @self
   - skill{s=amogus50} @self
   - skill{s=amogus100} @self
@@ -980,6 +980,16 @@ imposter_orangeDEATH:
 
 #### SOUNDS ####
 
+townsman_meet_sound:
+  Skills:
+  - sound{s=mineinabyss:entity.amongus.meeting_sound;v=0.5;sc=HOSTILE} @self
+
+townsman_meet_sound:
+  Skills:
+  - sound{s=mineinabyss:entity.amongus.drip;v=0.8;sc=HOSTILE} @world
+    
+
+
 herobrineswingsound:
   Skills:
   - randomskill{skills=herobrineswing1,herobrineswing2,herobrineswing3,herobrineswing4,herobrineswing5} @self
@@ -1332,7 +1342,7 @@ herobrineEAT:
   - gcd{ticks=30}
   - state{s=eat} @self
   - delay 8
-  - healpercent{m=0.05} @self
+  - healpercent{m=0.07} @self
   - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine_bits;newpart=beef} @self
   - delay 5
   - sound{s=minecraft:entity.generic.eat;v=1;sc=HOSTILE;repeat=3;repeatInterval=4} @self
@@ -1435,7 +1445,7 @@ knifefx:
   TargetConditions:
   - isblocking false
   Skills:
-  - effect:particles{particle=block;m=redstone_block;amount25;hS=.25;vS=.25;y=1.25}
+  - effect:particles{particle=block;m=redstone_block;amount=35;hS=.25;vS=.25;y=1.25}
   
 
 herobrineBLOCKprep:
@@ -1484,8 +1494,8 @@ herobrineULTRA:
   - skill{s=summonvent4} @self
   - throw{velocity=20;velocityY=2} @EIR{r=4}
   - potion{type=SPEED;duration=2880;level=1} @self
-  - potion{type=STRENGTH;duration=2880;level=1} @self
-  - potion{type=REGENERATION;duration=2000;level=1} @self
+  - potion{type=STRENGTH;duration=2880;level=2} @self
+  - potion{type=REGENERATION;duration=2000;level=2} @self
   - effect:particles{particle=dragon_breath;amount=5;hs=.5;vs=.5;y=0.5;repeat=480;repeatInterval=1} @self
   - effect:particles{particle=flash;amount=1} @self
   - effect:particlesphere{particle=end_rod;amount=128;radius=3;speed=1} @self
