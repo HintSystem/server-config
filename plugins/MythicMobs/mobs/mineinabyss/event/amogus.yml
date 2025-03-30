@@ -159,9 +159,9 @@ deadamogus:
   Drops:
   Health: 1000
   Skills:
-  - signal{s=kys} @MobsInRadius{r=200;types=imposter_vent} ~onspawn
-  - signal{s=kys} @EIR{r=200} ~onspawn
-
+  - signal{s=kys} @MobsInRadius{r=200;types=imposter_vent} ~onSpawn
+  - signal{s=kys} @EIR{r=200} ~onSpawn
+  - remove @children ~onSpawn
 
   - skill{s=imposter_redDEATH;delay=40} @self ~onspawn
   - model{mid=imposter_red;d=false;i=true} @self ~onSpawn

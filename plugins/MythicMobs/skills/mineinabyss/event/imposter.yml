@@ -207,7 +207,7 @@ spawnrandomimposter:
 imposter_redDEATHsummon:
   Skills:
   - summon{t=deadamogus} @self
-  - clear @children
+  - remove @children
 
 spawngreenimposter:
   Skills:

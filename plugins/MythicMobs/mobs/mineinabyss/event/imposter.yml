@@ -266,7 +266,7 @@ red_imposter:
   - remove{delay=1} @Self ~onSignal:kys
   - skill{s=imposter_redSPAWN} @self ~onSpawn
   - skill{s=imposter_redATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_redDEATH} @self ~onDeath
+  - skill{s=imposter_redDEATHmap} @self ~onDeath
   - skill{s=imposter_redSHOOT} @self ~onTimer:20
   - model{mid=imposter_red;d=false;i=true} @self ~onSpawn
   - model{mid=imposter_red;d=false;i=true} @self ~onLoad
