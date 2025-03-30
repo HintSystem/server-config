@@ -1,13 +1,13 @@
-set.item:
-  item:
-    type: minecraft:paper
-    itemName: Knife
-    customModelData: 129
-    maxStackSize: 1
-    lore:
-      - <yellow>Used to cut meat into smaller pieces.
-resourcepack:
-  textures: mineinabyss:item/tools/knife
+#set.item:
+#  item:
+#    type: minecraft:paper
+#    itemName: Knife
+#    customModelData: 129
+#    maxStackSize: 1
+#    lore:
+#      - <yellow>Used to cut meat into smaller pieces.
+#resourcepack:
+#  textures: mineinabyss:item/tools/knife
 
 #set.recipes:
 #  discoverRecipes: true
