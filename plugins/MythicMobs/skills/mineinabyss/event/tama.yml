@@ -1,15 +1,12 @@
 tamachimedrop:
   Conditions:
-  - playerwithin 32
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Tama Chime</#AA00AA><#D2D489>.'} @World
   - dropitem{i=TamaChimeDrops} @trigger
+
 tamahatdrop:
   Conditions:
-  - playerwithin 32
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Tama hat</#AA00AA><#D2D489> relic.'} @World
   - dropitem{i=TamaHatDrops} @trigger
 meteorONSPAWN:
@@ -134,16 +131,16 @@ tama_shout:
 tama_knockback:
   Skills:
     - delay 1
-    - throw{v=17;vy=2} @pir{r=8}
+    - throw{v=23;vy=3} @pir{r=8}
 tama_screenshake:
   Skills:
-    # - recoil{r=15;pitch=-0.2}
+     - recoil{r=15;pitch=-0.2}
     - delay 2
-    # - recoil{r=15;pitch=.1}
+     - recoil{r=15;pitch=.1}
     - delay 2
-    # - recoil{r=15;pitch=-0.1}
+     - recoil{r=15;pitch=-0.1}
     - delay 2
-    # - recoil{r=15;pitch=0.1}
+     - recoil{r=15;pitch=0.1}
 tama_knockback2:
   Skills:
     - delay 1

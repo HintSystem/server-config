@@ -115,7 +115,7 @@ amogus:
   #- skill{s=mgspawn} ~onSignal:gaming
   - skill{s=skelddoor} @Self <2%%
 
- # - jsonmessage{m="[{'text':'&aHey, i am amogus!'}]"} @world ~onInteract
+  - jsonmessage{m="[{'text':'&4The Imposter &ahas been voted out'}]"} @server ~onDeath
 
   - skill{s=imposter_redDEATHsummon} @self ~ondeath
   - skill{s=imposter_redSHOOT} @self ~onTimer:20
