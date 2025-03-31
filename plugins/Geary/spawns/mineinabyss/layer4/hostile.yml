@@ -65,7 +65,7 @@ l4_orbpiercer:
  #       - lightlevelfromblocks{l=<12}
 
 
-#l4_tama:
+# l4_tama:
 #  inherit: l4_hostile
 #  type: mm:tama
 #  chance: 0.01
