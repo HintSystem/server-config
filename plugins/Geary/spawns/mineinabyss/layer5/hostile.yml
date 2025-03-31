@@ -112,3 +112,15 @@ l5_hornballer:
         allow: [ "#dirt", "moss_carpet", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
     - maxNearby:
         amount: 5
+
+l5_fapukuon:
+  inherit: l5_hostile
+  type: mm:kuongatari
+  chance: 0.5
+  priority: 0.4
+  conditions:
+    - $inherit
+    - $remove blockBelow
+    - blockBelow:
+        allow: [ "#dirt", "moss_carpet", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
+        deny: [ "diorite" ]
