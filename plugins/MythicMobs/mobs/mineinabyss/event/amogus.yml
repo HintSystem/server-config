@@ -73,7 +73,7 @@ amogus:
     - amongus_cosmetic_token{top=2} 1 0.2
     - clown_mask_token{top=3} 1 0.15
     - moaiface 1 0.2
-    - townsmen_meet_token 1 0.1
+    - townsman_meet_token 1 0.1
   Health: 1337
   DamageModifiers:
     - PROJECTILE 0.5
