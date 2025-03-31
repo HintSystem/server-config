@@ -46,7 +46,7 @@ hornballer:
     - exp 30-60
     - toypufferfish 1 0.04
     - potion{name="<#94bcd4>Balling Tears";lore=":troll:";enchants=THORNS:1} 1 0.06
-    - amogus_token 5 1
+    - amogus_token 1-3 1
     - geary mineinabyss:horncrier_horn_0 1 0.005 nolooting
     - geary mineinabyss:horncrier_horn_1 1 0.005 nolooting
     - geary mineinabyss:horncrier_horn_2 1 0.005 nolooting
