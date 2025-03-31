@@ -192,8 +192,8 @@ amogusnpc:
     PreventSunburn: true
     Invincible: true
     Collidable: false
-    despawn: true
-    persistant: true
+    Despawn: false
+    Persistent: true
     
   Model:
     Id: among_pakko
