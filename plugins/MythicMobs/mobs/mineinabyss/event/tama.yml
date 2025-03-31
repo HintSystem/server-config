@@ -30,10 +30,11 @@ tama:
     - TORCH HAND
   Drops:
     - exp 100-250
-    - amogus_token 10-25 1
+    - amogus_token 10-20 1
     - geary mineinabyss:orb_piercer_face_fragments 1-1 1 nolooting
     - geary mineinabyss:orb_piercer_spike 2-6 1
-
+    - geary mineinabyss:tama_hat 1 0.005 nolooting
+    - geary mineinabyss:tama_chime 1 0.025 nolooting
   Model:
     Id: tama
     ViewRadius: 64
@@ -45,9 +46,6 @@ tama:
     - PROJECTILE 0.25
     - SUFFOCATION 0
   Skills:
-    - skill{s=tamachimedrop} @trigger ~onDeath 0.05
-    - skill{s=tamahatdrop} @trigger ~onDeath 0.01
-
     - skill{s=Changetarget} ~onTimer:160 <99%
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
