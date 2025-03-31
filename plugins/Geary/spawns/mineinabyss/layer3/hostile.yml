@@ -35,7 +35,7 @@ l3_himushi:
     - blockBelow:
         allow: ["gilded_blackstone", "coal_block", "black_concrete", "obsidian" ]
 
-#l3_spawnrandomamongus:
-#  inherit: l3_hostile
-#  type: mm:spawnrandomamongus
-##  chance: 0.7
+l3_spawnrandomamongus:
+  inherit: l3_hostile
+  type: mm:spawnrandomamongus
+  chance: 0.7

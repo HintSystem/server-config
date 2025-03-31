@@ -54,9 +54,9 @@ l2_hammerbeakLarge:
     - maxNearby:
         amount: 2
 
-#l2_spawnrandomamongus:
-#  inherit: l2_hostile
-#  type: mm:spawnrandomamongus
-#  chance: 0.7
-#  amount: 1-2
+l2_spawnrandomamongus:
+  inherit: l2_hostile
+  type: mm:spawnrandomamongus
+  chance: 0.7
+  amount: 1-2
 

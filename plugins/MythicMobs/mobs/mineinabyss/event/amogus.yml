@@ -192,7 +192,7 @@ amogusnpc:
     PreventSunburn: true
     Invincible: true
     Collidable: false
-    despawn: false
+    despawn: true
     persistant: true
     
   Model:
