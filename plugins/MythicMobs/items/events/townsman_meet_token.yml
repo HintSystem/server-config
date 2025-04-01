@@ -4,8 +4,3 @@ townsman_meet_token:
   Model: 12
   Enchantments:
   - FORTUNE 1
-  Lore:
-    - ':troll:'
-    - '<gold>Found during April Fools 2025.</gold>'
-    - '<#D2D489><i>Please make sure to trade it in at the NPC.</#D2D489>'
-    - '<#D2D489><i>Once the event ends it will NOT be possible to redeem.</#D2D489>'
