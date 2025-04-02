@@ -138,31 +138,20 @@ amogus490:
   - jsonmessage{m="[{'text':'&c10 tokens left!'}]"} @server ~onInteract
 
 amogus500:
-  Cooldown: 200
+  Cooldown: 999
   Conditions:
   - offgcd true
   - hasaurastacks{n=amogusturnin;s=500} true
   Skills:
   - auraremove{aura=amogusturnin;stacks=500} @self
-  - gcd{ticks=200}
+  - gcd{ticks=1000}
   - skill{s=skeldbyedoor} @Self
   - jsonmessage{m="[{'text':'&eThe players have called upon the menace of the &4SUS!'}]"} @server ~onInteract
   - jsonmessage{m="[{'text':'&6Join the fight at /warp AprilFools!'}]"} @server ~onInteract
   - jsonmessage{m="[{'text':'&aBoss will be spawning in 2 minutes!'}]"} @server ~onInteract
   - delay 2400
   - summon{t=amogus} @Location{c=20.5,83.5,-0.5,0,0}
-
-skelddoor:
-  Cooldown: 0
-  Conditions:
-  Skills:
-  - fawePaste{schematic=skelddoor.schem;air=false} @Location{c=-18,81,39,180,0}
-skeldbyedoor:
-  Cooldown: 0
-  Conditions:
-  Skills:
-  - fawePaste{schematic=skeldbyedoor.schem;air=false} @Location{c=-18,81,39,180,0}
-
+  
 summonvent1:
   Cooldown: 999
   Skills:
