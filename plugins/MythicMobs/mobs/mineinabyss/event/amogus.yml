@@ -153,7 +153,7 @@ deadamogus:
     Id: imposter_red
     ViewRadius: 48
     Drive: false
-    Scale: 1.6
+    Scale: 1.4
     DamageTint: true
   Drops:
   Health: 1000

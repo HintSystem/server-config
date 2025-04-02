@@ -1,6 +1,6 @@
-amongus_knife_token:
+amongus_knife_token_new:
   Id: clay_ball
   Display: <gold><b>Amongus Knife Token</gold>
   Model: 12
   Enchantments:
-  - FORTUNE 1
+  - FORTUNE 3

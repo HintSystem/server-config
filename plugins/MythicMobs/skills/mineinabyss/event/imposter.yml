@@ -8,7 +8,7 @@ impostersignal:
   Skills:
   - takeitem{i=amogus_token;a=1} @trigger
   - giveitem{i=fools_cradledrops} @trigger 0.1
-  - Aura{auraName=amogusturnin;duration=99999;c=1;maxStacks=500;cotd=false} @self
+  - Aura{auraName=amogusturnin;duration=999999;c=1;maxStacks=500;cotd=false} @self
   - skill{s=amogus50} @self
   - skill{s=amogus100} @self
   - skill{s=amogus150} @self
@@ -20,7 +20,7 @@ impostersignal:
   - skill{s=amogus450} @self
   - skill{s=amogus490} @self
   - skill{s=amogus500} @self
-  - effect:particles{particle=heart;amount=10;hS=0.5;vS=1;speed=0;y=0.5}
+  - effect:particles{particle=heart;amount=5;hS=0.5;vS=1;speed=0;y=0.5}
 
 
 feedmeimposter:
@@ -36,7 +36,7 @@ lookatmehector:
   - holding{m=va1;amount=1} true
   Skills:
   - look{headOnly=false;immediately=true} @self
-  - spin{duration=10;velocity=2} @self
+  - spin{duration=20;velocity=2} @self
 amogus50:
   Cooldown: 1
   Conditions:

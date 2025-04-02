@@ -102,12 +102,12 @@ l5_fapukuon:
   inherit: l5_hostile
   type: mm:fapukuon
   priority: 0.4
-
+  chance: 0.3
 l5_tama:
   inherit: l5_hostile
   type: mm:tama
-  chance: 0.02
-  priority: 0.2
+  chance: 0.05
+  priority: 0.4
   conditions:
     - $inherit
     - $remove maxNearby
@@ -117,5 +117,5 @@ l5_tama:
 l5_spawnrandomamongus:
   inherit: l5_hostile
   type: mm:spawnrandomamongus
-  chance: 0.7
-  amount: 1-2
+  chance: 0.5
+  amount: 1

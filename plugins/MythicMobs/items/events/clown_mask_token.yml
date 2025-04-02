@@ -1,6 +1,6 @@
-clown_mask_token:
+clown_mask_token_new:
   Id: clay_ball
   Display: <gold><b>Clown Mask Token</gold>
   Model: 12
   Enchantments:
-  - FORTUNE 1
+  - FORTUNE 3

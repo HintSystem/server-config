@@ -37,7 +37,7 @@ fapukuon:
   Drops:
     - exp 15-25
     - normalchicken 1 0.02
-    - amogus_token 1 0.5
+    - amogus_token 1 0.6
 
   Skills:
     - skill{s=displayHealth} ~onDamaged
@@ -70,7 +70,7 @@ fapugatari_summon:
     - TORCH HAND
   Drops:
     - exp 5-15
-    - amogus_token 1 0.25
+    - amogus_token 1 0.05
   Model:
     Id: faputa
     ViewRadius: 48

@@ -1,6 +1,6 @@
-amongus_cosmetic_token:
+amongus_cosmetic_token_new:
   Id: clay_ball
   Display: <gold><b>Amongus Cosmetic Token</gold>
   Model: 12
   Enchantments:
-  - FORTUNE 1
+  - FORTUNE 3
