@@ -111,13 +111,14 @@ amogus:
   - skill{s=summonvent3} @self <40%
   - skill{s=summonvent4} @self <25%
 
-  - skill{s=bondrewdULTRA} @self ~onDamaged <25%
+  - skill{s=herobrineULTRA} @self ~onDamaged <25%
   #- skill{s=mgspawn} ~onSignal:gaming
   - skill{s=skelddoor} @Self <2%%
 
   - jsonmessage{m="[{'text':'&4The Imposter &ahas been voted out'}]"} @server ~onDeath
 
   - skill{s=imposter_redDEATHsummon} @self ~ondeath
+  - summon{t=deadamogus} @self ~ondeath
   - skill{s=imposter_redSHOOT} @self ~onTimer:20
 
   - randomskill{skills=imposter_redATTACKsync,imposter_redATTACKsync,imposter_redATTACKsync,herobrinePICKAXEsync,herobrineROUNDHOUSEsync,herobrineDOWNPUNCHsync,herobrinePOWERPUNCHsync;sync=true} @self ~onAttack
