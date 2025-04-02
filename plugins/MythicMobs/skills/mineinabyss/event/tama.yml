@@ -112,7 +112,7 @@ tama_shout:
     - potion{type=RESISTANCE;duration=480;level=1;p=false} @self
     - delay 10
     - skill{s=tama_knockback} @PIR{r=10}
-    - skill{s=tama_screenshake;repeat=6;repeatInterval=8} @pir{r=20}
+    - skill{s=tama_screenshake} @pir{r=20}
     - particles{p=crit_magic;a=50;speed=2;hs=1;vs=1;repeat=6;repeatInterval=3} @ModelPart{mid=tama;part=torso}
     - effect:sound{s=entity.polar_bear.warning;v=0.8;p=2} @self
     - effect:sound{s=entity.polar_bear.warning;v=0.8;p=1.9} @self
