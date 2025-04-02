@@ -48,7 +48,7 @@ green_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -79,7 +79,7 @@ black_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -110,7 +110,7 @@ purple_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -141,7 +141,7 @@ blue_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -172,7 +172,7 @@ lime_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -203,7 +203,7 @@ white_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -234,7 +234,7 @@ pink_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -265,7 +265,7 @@ cyan_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -296,7 +296,7 @@ yellow_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -327,7 +327,7 @@ red_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -358,7 +358,7 @@ brown_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys
@@ -389,7 +389,7 @@ orange_impostermap:
   - '<target.name> was caught alone in electrical'
   Drops:
   - exp 5-15
-  - amogus_token 1 0.5
+  - amogus_token 1 0.33
   Skills:
   - skill{s=kys} @self ~onSignal:kys
   - remove{delay=1} @Self ~onSignal:kys

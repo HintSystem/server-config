@@ -89,5 +89,5 @@ l4_tachikatana:
 l4_spawnrandomamongus:
   inherit: l4_hostile
   type: mm:spawnrandomamongus
-  chance: 0.5
+  chance: 0.3
   amount: 1
