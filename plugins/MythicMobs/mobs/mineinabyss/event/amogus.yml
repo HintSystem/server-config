@@ -32,10 +32,10 @@ amogus:
     KnockbackResistance: 1
     PreventSunburn: true
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §4§lthe imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §4§lthe imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   DropOptions:
     ChatMessage:
     - '<#F28800>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'

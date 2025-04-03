@@ -42,10 +42,10 @@ green_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out by §2the imposter'
+  - '<target.name> §cwas was sent out §fthe airlock'
+  - '<target.name> §cstole too many tasks §ffrom §2the imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -73,10 +73,10 @@ black_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §0the imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §0the imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -104,10 +104,10 @@ purple_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §5the imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §5the imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -135,10 +135,10 @@ blue_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §9the imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §9the imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -166,10 +166,10 @@ lime_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §athe imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §athe imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -197,10 +197,10 @@ white_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §f§lthe imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §f§lthe imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -228,10 +228,10 @@ pink_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §dthe imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §dthe imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -259,10 +259,10 @@ cyan_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §bthe imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §bthe imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -290,10 +290,10 @@ yellow_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §ethe imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §ethe imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -321,10 +321,10 @@ red_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §c§lthe imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §c§lthe imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -352,10 +352,10 @@ brown_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §6the imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §6the imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
@@ -383,10 +383,10 @@ orange_impostermap:
     PreventOtherDrops: true
     MovementSpeed: 0.3
   KillMessages:
-  - '<target.name> was voted out by the imposter'
-  - '<target.name> was was sent out the airlock'
-  - '<target.name> stole too many tasks from the imposter'
-  - '<target.name> was caught alone in electrical'
+  - '<target.name> §cwas voted out §fby §6the imposter'
+  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cstole too many tasks §ffrom §6the imposter'
+  - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
   - exp 5-15
   - amogus_token 1 0.33
