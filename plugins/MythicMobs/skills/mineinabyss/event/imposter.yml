@@ -8,6 +8,8 @@ impostersignal:
   Skills:
   - takeitem{i=amogus_token;a=1} @trigger
   - giveitem{i=fools_cradledrops} @trigger 0.1
+  - giveitem{i=amongcosmeticdrops} @trigger 0.001
+  - giveitem{i=clownmaskdrops} @trigger 0.001
   - Aura{auraName=amogusturnin;duration=999999;c=1;maxStacks=500;cotd=false} @self
   - skill{s=amogus50} @self
   - skill{s=amogus100} @self

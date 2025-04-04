@@ -61,3 +61,17 @@ fools_cradledrops:
   Conditions:
   Drops:
     - geary mineinabyss:fools_cradle 1 1 nolooting
+
+
+amongcosmeticdrops:
+  MaxItems: 1
+  Conditions:
+  Drops:
+    - geary mineinabyss:amongus_cosmetic_new 1 1 nolooting
+
+
+clownmaskdrops:
+  MaxItems: 1
+  Conditions:
+  Drops:
+    - geary mineinabyss:clown_mask_new 1 1 nolooting

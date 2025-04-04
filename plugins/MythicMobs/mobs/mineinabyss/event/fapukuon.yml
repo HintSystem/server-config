@@ -50,7 +50,7 @@ fapukuon:
 fapugatari_summon:
   Type: SPIDER
   Display: "<#1FB53D>Little Fapugatari"
-  Health: 35
+  Health: 31
   Damage: 7
   AITargetSelectors:
     - clear
@@ -64,7 +64,7 @@ fapugatari_summon:
     Collidable: true
     # Silent: true
     FollowRange: 30
-    MovementSpeed: 0.42
+    MovementSpeed: 0.35
     MaxCombatDistance: 20
   Equipment:
     - TORCH HAND
