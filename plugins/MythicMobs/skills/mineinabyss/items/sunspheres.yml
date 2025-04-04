@@ -93,8 +93,10 @@ s_end:
 l_end:
   Skills:
     - effect:particles{particle=Wax_Off;amount=100;hS=4;vS=4;y=.5}
-    - pull{velocity=3} @EntitiesNearOrigin{r=4}
     - dropitem{i=LureDrops}
+    - throw{v=0;vy=5} @EntitiesNearOrigin{r=4}
+    - delay 2
+    - pull{velocity=1} @EntitiesNearOrigin{r=4}
 sun_end:
   Skills:
     - dropitem{i=SunDrops}

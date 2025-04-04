@@ -35,7 +35,7 @@ tamaATTACKskill:
 tamaATTACKDamage:
   Skills:
     - shieldbreak{duration=50} @target
-    - damage{amount=12} @target
+    - damage{amount=10} @target
     - effect:particles{particle=block_crack;m=redstone_block;amount=45;hS=.25;vS=1;speed=.01} @target
     #- skill{s=Bleeding} @target
     - throw{v=4;vy=1} @target
@@ -87,14 +87,14 @@ tamahit:
   Skills:
     - shieldbreak{duration=50} @target
     - damage{amount=10} @target
-    - potion{type=POISON;duration=100;level=5}
+    - potion{type=POISON;duration=60;level=5}
     - potion{type=WITHER;duration=60;level=5}
     - skill{s=Bleeding} @target
 
 tamaend:
   Skills:
     - damage{amount=10} @target
-    - potion{type=POISON;duration=100;level=5}
+    - potion{type=POISON;duration=60;level=5}
     - potion{type=WITHER;duration=50;level=5}
     - skill{s=Bleeding} @target
 ###### tama shout

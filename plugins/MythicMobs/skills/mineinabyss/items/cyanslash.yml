@@ -38,6 +38,6 @@ Cyan_Slash_4:
 
 Cyan_Slash_DAMAGE:
   Skills:
-  - damage{a=4;pkb=false;hnp=true;hp=false;pi=true
+  #- damage{a=4;pkb=false;hnp=true;hp=false;pi=true
   - damage{a=2;pkb=false;hnp=false;hp=true;pi=true}
   

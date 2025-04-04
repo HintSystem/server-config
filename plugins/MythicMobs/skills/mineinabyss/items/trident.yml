@@ -34,5 +34,5 @@ throwtrident:
 trident_impact:
   Skills:
     - sound{s=item.trident.hit;sc=players;p=1;v=0.6} @self
-    - damage{a=15;ie=true}
+    - damage{a=15}
     - shieldbreak{duration=150}
