@@ -27,11 +27,11 @@ hornballer:
     PreventSunburn: true
     PreventOtherDrops: true
   KillMessages:
-  - '<target.name> was Dunked by hornballer'
-  - '<target.name> was a stepping stone in hornballers legacy'
-  - 'hornballer broke <target.name> knees on the court'
-  - '<target.name> was finessed by hornballer'
-  - '<target.name> got nothing on hornballer'
+  - '<target.name> §cwas Dunked §fby §2Hornballer'
+  - '<target.name> §cwas a stepping stone §fin §2Hornballers §6legacy'
+  - '§2Hornballer §fbroke <target.name> §cknees on the court'
+  - '<target.name> §cwas finessed §fby §2Hornballer'
+  - '<target.name> §cgot nothing §fon §2Hornballer'
   Model:
     Id: hornballer
     ViewRadius: 48
