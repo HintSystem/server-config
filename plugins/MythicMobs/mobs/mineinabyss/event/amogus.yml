@@ -14,9 +14,9 @@ amogus:
   - meleeattack
   - float
   AITargetSelectors:
-  - clear
   - attacker
   - players
+  - clear
   Modules:
     ThreatTable: true
   Options:
@@ -78,7 +78,8 @@ amogus:
     - PROJECTILE 0.5
     - FALL 0.01
   Skills:
-  - threat{amount=10000} @NearestPlayer ~onDamaged 0.1
+  - threat{amount=10000} @NearestPlayer ~onDamaged 0.25
+  - clearThreat @self ~onTimer:300
 #  - skill{s=HerobrineSTEVESPAWN} @self ~onSpawn
   - potion{type=FIRE_RESISTANCE;duration=99999;level=1} @self
   - skill{s=bossping} ~onSignal:location

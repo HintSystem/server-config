@@ -191,7 +191,7 @@ swaprandom:
   - skill{s=spawnrandomimposter} @self
   - sound{s=mineinabyss:entity.amogus.imposter_sound;v=1;sc=HOSTILE} @self
   - effect:particles{particle=squid_ink;amount=100;vs=1;hs=.5;y=1} @self
-  - swap @RandomThreatTarget
+  - swap @Target
   - delay 1
   - effect:particles{particle=squid_ink;amount=100;vs=1;hs=.5;y=1} @self
 
