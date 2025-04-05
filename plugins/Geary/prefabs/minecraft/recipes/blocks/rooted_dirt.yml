@@ -13,3 +13,11 @@ set.recipes:
         |SSS|
         |SDS|
         |SSS|
+    - type: shaped
+      items:
+        S: { type: minecraft:dirt }
+        D: { type: mineinabyss:sprittleshrub_root }
+      configuration: |-
+        |SSS|
+        |SDS|
+        |SSS|
