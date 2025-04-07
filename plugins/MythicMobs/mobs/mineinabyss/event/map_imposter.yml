@@ -43,7 +43,7 @@ green_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out by §2the imposter'
-  - '<target.name> §cwas was sent out §fthe airlock'
+  - '<target.name> §cwas sent out §fthe airlock'
   - '<target.name> §cstole too many tasks §ffrom §2the imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -74,7 +74,7 @@ black_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §0the imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §0the imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -105,7 +105,7 @@ purple_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §5the imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §5the imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -136,7 +136,7 @@ blue_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §9the imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §9the imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -167,7 +167,7 @@ lime_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §athe imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §athe imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -198,7 +198,7 @@ white_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §f§lthe imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §f§lthe imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -229,7 +229,7 @@ pink_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §dthe imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §dthe imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -260,7 +260,7 @@ cyan_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §bthe imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §bthe imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -291,7 +291,7 @@ yellow_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §ethe imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §ethe imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -322,7 +322,7 @@ red_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §c§lthe imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §c§lthe imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -353,7 +353,7 @@ brown_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §6the imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §6the imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:
@@ -384,7 +384,7 @@ orange_impostermap:
     MovementSpeed: 0.3
   KillMessages:
   - '<target.name> §cwas voted out §fby §6the imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §6the imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   Drops:

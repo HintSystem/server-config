@@ -33,7 +33,7 @@ amogus:
     PreventSunburn: true
   KillMessages:
   - '<target.name> §cwas voted out §fby §4§lthe imposter'
-  - '<target.name> §cwas was sent out §fthe §7airlock'
+  - '<target.name> §cwas sent out §fthe §7airlock'
   - '<target.name> §cstole too many tasks §ffrom §4§lthe imposter'
   - '<target.name> §cwas caught alone §fin §9electrical'
   DropOptions:
