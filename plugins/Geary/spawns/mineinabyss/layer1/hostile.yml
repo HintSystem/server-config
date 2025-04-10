@@ -28,11 +28,11 @@ l1_mantoyer:
   chance: 0.7
   amount: 1-2
 
-l1_spawnrandomamongus:
-  inherit: l1_hostile
-  type: mm:spawnrandomamongus
-  chance: 0.7
-  amount: 1
+#l1_spawnrandomamongus:
+#  inherit: l1_hostile
+#  type: mm:spawnrandomamongus
+#  chance: 0.7
+#  amount: 1
 
 l1_woodcrier: # uncommon spawn
   inherit: l1_hostile
