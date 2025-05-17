@@ -22,3 +22,5 @@ observe:
       display: <dark_aqua>Moniscelti
   - mythicSkills:
     - moniscelti
+resourcepack:
+  model: mineinabyss:item/relics/moniscelti

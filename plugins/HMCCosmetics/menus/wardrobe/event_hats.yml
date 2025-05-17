@@ -15,20 +15,10 @@ items:
       lore:
         - ""
         - "<red>[Left Click - <i>Unequip</i>]"
-    locked-equipped-item:
-
-      material: hmccosmetics:tama_hat
-      lore:
-        - "<red>Locked</red> <white>|</white> <gold>20:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Unequip</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
     locked-item:
-
       material: hmccosmetics:tama_hat
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>20:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Try</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
+        - "<red>Locked</red>"
     type: cosmetic
     cosmetic: tama_hat
   amongus_cosmetic:
@@ -43,20 +33,10 @@ items:
       lore:
         - ""
         - "<red>[Left Click - <i>Unequip</i>]"
-    locked-equipped-item:
-
-      material: hmccosmetics:amongus_cosmetic
-      lore:
-        - "<red>Locked</red> <white>|</white> <gold>20:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Unequip</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
     locked-item:
-
       material: hmccosmetics:amongus_cosmetic
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>20:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Try</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
+        - "<red>Locked</red>"
     type: cosmetic
     cosmetic: amongus_cosmetic
   clown_mask:
@@ -71,20 +51,10 @@ items:
       lore:
         - ""
         - "<red>[Left Click - <i>Unequip</i>]"
-    locked-equipped-item:
-
-      material: hmccosmetics:clown_mask
-      lore:
-        - "<red>Locked</red> <white>|</white> <gold>20:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Unequip</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
     locked-item:
-
       material: hmccosmetics:clown_mask
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>20:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Try</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
+        - "<red>Locked</red>"
     type: cosmetic
     cosmetic: clown_mask
 
