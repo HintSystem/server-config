@@ -1,11 +1,14 @@
 set.item:
   itemName: <gold>Damaged Ghost Seek
-  type: PAPER
+  type: minecraft:paper
   itemModel: mineinabyss:ghost_seek_off
   lore:
   - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
   - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
   - <#D2D489>guiding its wielder toward hidden relics.
+  equippable:
+    slot: HEAD
+    cameraOverlay: mineinabyss:misc/ghost_seek_overlay
 prevent.enchanting: {}
 disableItemInteractions: {}
 passive:
