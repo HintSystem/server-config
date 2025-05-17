@@ -1,9 +1,7 @@
 set.item:
   type: minecraft:paper
   itemName: <dark_aqua>Zephyr Disk
-  customModelData:
-    floats:
-    - 105
+  itemModel: mineinabyss:zephyr_disk
 disableItemInteractions: {}
 observe:
   itemRightClick:

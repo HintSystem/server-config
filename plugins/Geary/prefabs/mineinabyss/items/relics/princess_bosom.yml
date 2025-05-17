@@ -2,9 +2,6 @@ set.item:
   itemName: <#C13523><b>Princess Bosom
   type: minecraft:paper
   itemModel: mineinabyss:princess_bosom
-  customModelData:
-    floats:
-    - 101
   lore:
   - <#D2D489>It is an egg-shaped Relic with
   - <#D2D489>patterns on its surface and has
