@@ -2,6 +2,8 @@ set.item:
   type: minecraft:paper
   itemName: <dark_aqua>Flamethrower
   itemModel: mineinabyss:flamethrower
+resourcepack:
+  model: mineinabyss:item/relics/flamethrower
 observe:
   itemRightClick:
   - become: parent

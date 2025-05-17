@@ -1,6 +1,6 @@
 set.item:
+  itemName: Sonic Stone
   type: minecraft:paper
-  customModelData:
-    floats:
-    - 103
-disableItemInteractions: {}
+  itemModel: mineinabyss:sonic_stone
+resourcepack:
+  model: mineinabyss:item/relics/sonic_stone

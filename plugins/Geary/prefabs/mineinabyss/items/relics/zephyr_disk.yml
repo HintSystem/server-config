@@ -3,6 +3,8 @@ set.item:
   itemName: <dark_aqua>Zephyr Disk
   itemModel: mineinabyss:zephyr_disk
 disableItemInteractions: {}
+resourcepack:
+  model: mineinabyss:item/relics/zephyr_disk
 observe:
   itemRightClick:
   - become: parent

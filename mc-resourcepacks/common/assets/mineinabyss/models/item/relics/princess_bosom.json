@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mineinabyss:item/relics/boob_stone",
-		"particle": "mineinabyss:item/relics/boob_stone"
+		"0": "mineinabyss:item/relics/princess_bosom",
+		"particle": "mineinabyss:item/relics/princess_bosom"
 	},
 	"elements": [
 		{

@@ -1,7 +1,6 @@
 set.item:
   itemName: <dark_gray>Grim Ripper
   type: minecraft:paper
-  customModelData:
-    floats:
-    - 106
-disableItemInteractions: {}
+  itemModel: mineinabyss:grim_ripper
+resourcepack:
+  model: mineinabyss:item/relics/grim_ripper

@@ -1,9 +1,7 @@
 set.item:
   itemName: <#68CCBF><b>Arc Staff
   type: minecraft:netherite_hoe
-  customModelData:
-    floats:
-    - 5
+  itemModel: mineinabyss:arc_staff
   lore:
   - ':layer_4: Grade I Relic'
   - <#3C8C82>A spear shape object carved out of the core from
@@ -20,6 +18,8 @@ set.item:
   unbreakable: {}
 prevent.enchanting: {}
 disableItemInteractions: {}
+resourcepack:
+  model: mineinabyss:item/relics/arc_staff
 observe:
   itemRightClick:
   - become: parent
