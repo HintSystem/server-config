@@ -19,7 +19,7 @@ cosmetic-settings:
   tick-period: 20
   # Ticking periods is something that ensures new players near a player get the packets to actually apply to the user.
 
-  unapply-on-death: true
+  unapply-on-death: false
   force-permission-join: true
   force-show-join: false
 

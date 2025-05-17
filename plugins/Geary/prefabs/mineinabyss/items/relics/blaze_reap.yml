@@ -39,3 +39,5 @@ observe:
       display: <#617B94>Primer
   - mythicSkills:
     - blazereap_charge
+resourcepack:
+  model: mineinabyss:item/relics/blaze_reap
