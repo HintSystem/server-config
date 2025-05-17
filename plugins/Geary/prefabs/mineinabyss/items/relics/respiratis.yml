@@ -1,6 +1,7 @@
 set.item:
   itemName: <#1F88ED>Respiratis
   type: PAPER
+  itemModel: mineinabyss:respiratis
   customModelData:
     floats:
     - 117

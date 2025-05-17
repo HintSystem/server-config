@@ -1,6 +1,7 @@
 set.item:
   type: minecraft:paper
   itemName: <#302D2D><b>Event Horizon
+  itemModel: mineinabyss:blackhole_staff
   customModelData:
     floats:
     - 139

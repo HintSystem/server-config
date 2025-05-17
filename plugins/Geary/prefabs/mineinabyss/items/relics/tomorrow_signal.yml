@@ -1,6 +1,7 @@
 set.item:
   type: minecraft:paper
   itemName: <dark_gray>Tomorrow Signal
+  itemModel: mineinabyss:tommorow_signal
   customModelData:
     floats:
     - 112

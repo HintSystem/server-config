@@ -6,9 +6,21 @@ set.item:
   - ':troll:'
   - <gold>Found during April Fools 2025.
   - <gold>Inconveniently conspicious.
-  equippable:
-    slot: HEAD
+  - <gold>RIGHT CLICK TO OBTAIN WARDROBE COSMETIC
+  - <gold>THIS WILL CONSUME YOUR ITEM
 prevent.enchanting: {}
-disableItemInteractions: {}
+observe:
+  itemRightClick:
+  - become: parent
+  - cooldown:
+      id: cosmetic
+      length: 10s
+      display: <#454A46>You already have this cosmetic
+  - mythicSkills:
+    - hmc_amongus_cosmetic
+  - consumeItem:
+      type: mineinabyss:amongus_cosmetic_new
+    when:
+    - chance: 1
 resourcepack:
   model: mineinabyss:item/event/red_imposter_hat

@@ -1,6 +1,7 @@
 set.item:
   type: minecraft:paper
   itemName: <dark_aqua>Moniscelti
+  itemModel: mineinabyss:moniscelti
   customModelData:
     floats:
     - 120
