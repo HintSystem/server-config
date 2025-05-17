@@ -1,0 +1,15 @@
+set.recipes:
+  discoverRecipes: true
+  result:
+    type: DEAD_BUBBLE_CORAL
+    amount: 8
+  group: "looty:dead_bubble_coral"
+  recipes:
+    - type: shaped
+      items:
+        S: { type: minecraft:bubble_coral }
+        B: { type: mineinabyss:bundle_of_silkfang_silk }
+      configuration: |-
+        |SSS|
+        |SBS|
+        |SSS|

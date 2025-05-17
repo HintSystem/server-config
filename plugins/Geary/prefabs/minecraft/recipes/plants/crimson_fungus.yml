@@ -1,0 +1,14 @@
+set.recipes:
+  discoverRecipes: true
+  result:
+    type: CRIMSON_FUNGUS
+  group: "looty:crimson_fungus"
+  recipes:
+    - type: shapeless
+      items:
+        - prefab: mineinabyss:parasitic_watershrooms
+        - prefab: mineinabyss:yomotsubi_abdomen_cooked
+    - type: shapeless
+      items:
+        - prefab: mineinabyss:parasitic_watershrooms
+        - prefab: mineinabyss:yomotsubi_abdomen_raw

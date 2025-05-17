@@ -1,5 +1,5 @@
 set.item:
-  type: minecraft:brown_concrete
+  type: minecraft:resin_brick
   itemName: <#963c0f>Woodcrier Horn
   itemModel: mineinabyss:woodcrier_horn
   lore:
