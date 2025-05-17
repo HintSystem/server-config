@@ -294,3 +294,13 @@ items:
     actions:
       any:
         - "[MENU] wardrobe_mia_backpacks"
+  next_button:
+    slots: 51
+    item:
+      material: PAPER
+      name: "<white>Next Page"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] wardrobe_event_backpacks"
