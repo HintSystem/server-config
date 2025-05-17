@@ -1,0 +1,296 @@
+title: ":space_-8::cosmetic_grid_menu_2:"
+rows: 6
+id: wardrobe_other_backpacks
+items:
+  fantasy_mining_backpack:
+    slots: 0
+    item:
+      material: hmccosmetics:fantasy_mining_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:fantasy_mining_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:fantasy_mining_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:fantasy_mining_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 50
+    cosmetic: fantasy_mining_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  cauldron_backpack:
+    slots: 1
+    item:
+      material: hmccosmetics:cauldron_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:cauldron_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:cauldron_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:cauldron_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 50
+    cosmetic: cauldron_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  fantasy_explorer_backpack:
+    slots: 2
+    item:
+      material: hmccosmetics:fantasy_explorer_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:fantasy_explorer_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:fantasy_explorer_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:fantasy_explorer_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 80
+    cosmetic: fantasy_explorer_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  fantasy_fishing_rod:
+    slots: 3
+    item:
+      material: hmccosmetics:fantasy_fishing_rod
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:fantasy_fishing_rod
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:fantasy_fishing_rod
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>60:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:fantasy_fishing_rod
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>60:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 60
+    cosmetic: fantasy_fishing_rod
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  adventurer_backpack:
+    slots: 4
+    item:
+      material: hmccosmetics:adventurer_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:adventurer_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:adventurer_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:adventurer_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 80
+    cosmetic: adventurer_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  miner_backpack:
+    slots: 5
+    item:
+      material: hmccosmetics:miner_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    equipped-item:
+      material: hmccosmetics:miner_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:miner_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:miner_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 80
+    cosmetic: miner_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  explorer_backpack:
+    slots: 6
+    item:
+      material: hmccosmetics:explorer_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    equipped-item:
+      material: hmccosmetics:explorer_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:explorer_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>150:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:explorer_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>150:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 150
+    cosmetic: explorer_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+
+  camper_backpack:
+    slots: 36
+    item:
+      material: hmccosmetics:camper_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    equipped-item:
+      material: hmccosmetics:camper_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:camper_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>2:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:camper_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>2:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: mitty_token
+    cost: 2
+    cosmetic: camper_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+
+  home_button:
+    slots: 49
+    item:
+      material: PAPER
+      name: "<red>To Main Menu"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] wardrobe_main_menu"
+  prev_button:
+    slots: 47
+    item:
+      material: PAPER
+      name: "<white>Previous Page"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] wardrobe_mia_backpacks"

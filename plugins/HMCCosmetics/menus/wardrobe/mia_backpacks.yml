@@ -1,0 +1,169 @@
+title: ":space_-8::cosmetic_grid_menu_1:"
+rows: 6
+id: wardrobe_mia_backpacks
+items:
+  backpack:
+    slots: 0
+    item:
+      material: hmccosmetics:backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+
+      material: hmccosmetics:backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>20:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+
+      material: hmccosmetics:backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>20:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 20
+    cosmetic: backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  satchel:
+    slots: 1
+    item:
+      material: hmccosmetics:satchel
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    equipped-item:
+      material: hmccosmetics:satchel
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    locked-equipped-item:
+
+      material: hmccosmetics:satchel
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>40:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+
+      material: hmccosmetics:satchel
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>40:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 40
+    cosmetic: satchel
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+
+
+  bondrewd_backpack:
+    slots: 36
+    item:
+      material: hmccosmetics:bondrewd_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    equipped-item:
+      material: hmccosmetics:bondrewd_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+
+      material: hmccosmetics:bondrewd_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>2:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+
+      material: hmccosmetics:bondrewd_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>2:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: mitty_token
+    cost: 2
+    cosmetic: bondrewd_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  neritantan_backpack:
+    slots: 37
+    item:
+      material: hmccosmetics:neritantan_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:neritantan_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:neritantan_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>2:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+
+      material: hmccosmetics:neritantan_backpack
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>2:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: mitty_token
+    cost: 2
+    cosmetic: neritantan_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+
+  back_button:
+    slots: 49
+    item:
+      material: PAPER
+      name: "<red>To Main Menu"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] wardrobe_main_menu"
+  next_button:
+    slots: 51
+    item:
+      material: PAPER
+      name: "<white>Next Page"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] wardrobe_other_backpacks"

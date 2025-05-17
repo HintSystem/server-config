@@ -1,19 +1,16 @@
 set.item:
-  item:
-    type: minecraft:potion
-    itemName: "<#b5955f>Haste Potion"
-    lore:
-      - <light_purple>Haste II</light_purple> <blue>(3:00)</blue>
+  type: minecraft:potion
+  itemName: <#b5955f>Haste Potion
+  lore:
+  - <light_purple>Haste II</light_purple> <blue>(3:00)</blue>
+  potionContents:
+    customEffects:
+    - type: minecraft:haste
+      duration: 3m
+      amplifier: 1
+  dyedColor:
     color: 233,177,21
-    itemFlags:
-      - HIDE_ADDITIONAL_TOOLTIP
-      - HIDE_ENCHANTS
-    customPotionEffects:
-      - type: minecraft:haste
-        duration: 3m
-        amplifier: 1
-
 set.potionMixes:
   potionmixes:
-    - ingredient: minecraft:glowstone_dust
-      input: mineinabyss:haste_potion
+  - ingredient: minecraft:glowstone_dust
+    input: mineinabyss:haste_potion

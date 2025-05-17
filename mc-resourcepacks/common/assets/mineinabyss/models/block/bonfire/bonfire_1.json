@@ -194,7 +194,6 @@
 			"translation": [1.25, -8.5, 3.5]
 		},
 		"ground": {
-			"rotation": [115, 106, 0],
 			"translation": [0, 0, 6.25],
 			"scale": [0.75, 0.75, 0.75]
 		},

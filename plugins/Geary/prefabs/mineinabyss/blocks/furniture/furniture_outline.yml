@@ -1,9 +1,9 @@
 set.item:
-  item:
-    type: minecraft:structure_void
-    itemName: Furniture Outline
-    customModelData: 1
-geary:resourcepack:
+  type: minecraft:structure_void
+  itemName: Furniture Outline
+  itemModel: mineinabyss:furniture_outline
+resourcepack:
   parentModel: block/cube_all
-  textures: 
-    all: mineinabyss:furniture/furniture_outline
+  textures:
+    variables:
+      all: mineinabyss:furniture/furniture_outline

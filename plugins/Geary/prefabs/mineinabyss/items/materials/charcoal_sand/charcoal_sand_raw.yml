@@ -1,7 +1,8 @@
 set.item:
-  item:
-    itemName: <dark_aqua>Raw Charcoal Sand
-    type: RAW_IRON
-    customModelData: 1
+  itemName: <dark_aqua>Raw Charcoal Sand
+  type: PAPER
+  itemModel: mineinabyss:charcoal_sand_raw
 resourcepack:
-  textures: mineinabyss:item/materials/charcoal_sand_raw
+  textures:
+    layers:
+    - mineinabyss:item/materials/charcoal_sand_raw

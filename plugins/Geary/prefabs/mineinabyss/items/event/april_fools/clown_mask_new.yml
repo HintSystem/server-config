@@ -1,14 +1,14 @@
 set.item:
-  item:
-    itemName: <#C21807>Clown Mask
-    type: PAPER
-    customModelData: 163
-    lore:
-      - ":troll:"
-      - <gold>Found during April Fools 2025.
-      - <gold>You thought this was a good item didn't you.
+  itemName: <#C21807>Clown Mask
+  type: PAPER
+  itemModel: mineinabyss:clown_mask
+  lore:
+  - ':troll:'
+  - <gold>Found during April Fools 2025.
+  - <gold>You thought this was a good item didn't you.
+  equippable:
+    slot: HEAD
 prevent.enchanting: {}
-hat: {}
 disableItemInteractions: {}
 resourcepack:
   model: mineinabyss:item/event/clown_mask

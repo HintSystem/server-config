@@ -56,6 +56,10 @@ feat/cosmetics:
       dest: plugins/Geary/prefabs/cosmetics
     - source: mc-resourcepacks/cosmetics
       dest: plugins/Packy/resourcepacks/cosmetics
+    - source: plugins/HMCCosmetics
+      dest: plugins/HMCCosmetics
+    - source: plugins/HMCColor
+      dest: plugins/HMCColor
 
 feat/bosses:
   copyPaths:
@@ -88,13 +92,6 @@ feat/hud:
   copyPaths:
       - source: plugins/MythicHUD
         dest: plugins/MythicHUD
-
-feat/pets:
-  copyPaths:
-    - source: plugins/MythicMobs/packs/pets
-      dest: plugins/MythicMobs/packs/pets
-    - source: plugins/MCPets
-      dest: plugins/MCPets
 
 feat/delvers:
   copyPaths:
@@ -194,7 +191,6 @@ dev:
     - feat/loot_chests
     - feat/cosmetics
     - feat/mobs
-    - feat/pets
     - feat/delvers
     - feat/bosses
     - feat/hud

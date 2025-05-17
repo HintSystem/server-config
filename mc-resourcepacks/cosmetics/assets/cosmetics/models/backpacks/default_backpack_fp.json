@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [64, 64],
 	"textures": {
 		"6": "cosmetics:backpacks/default_backpack/yellow_backpack"
 	},
@@ -617,7 +616,6 @@
 			}
 		},
 		{
-			"name": "body",
 			"from": [8.1018, -12.52632, 7.445],
 			"to": [9.7018, -11.24632, 9.045],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.84132, -12.13107, 8.4302]},
@@ -631,7 +629,6 @@
 			}
 		},
 		{
-			"name": "base",
 			"from": [8.2618, -12.84632, 7.605],
 			"to": [9.5418, -10.92632, 8.885],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.84132, -12.13107, 8.4302]},
@@ -645,7 +642,6 @@
 			}
 		},
 		{
-			"name": "top",
 			"from": [8.4858, -10.92632, 7.829],
 			"to": [9.2858, -10.60632, 8.629],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.84132, -12.13107, 8.4302]},
@@ -687,93 +683,16 @@
 		},
 		"gui": {
 			"rotation": [20, -145, 0],
-			"translation": [0, 1.75, 0]
+			"translation": [0, 7.5, 0],
+			"scale": [2, 2, 2]
 		},
 		"head": {
 			"rotation": [0, -180, 0],
-			"translation": [0, -72, 7.25],
+			"translation": [0, -73, 7.25],
 			"scale": [2.6, 2.6, 2.6]
 		},
 		"fixed": {
 			"translation": [0, 3.75, -4.25]
 		}
-	},
-	"groups": [
-		{
-			"name": "backpack",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29,
-				30,
-				{
-					"name": "cover_1",
-					"origin": [13.68264, 14.98785, -1.3896],
-					"color": 0,
-					"children": [31, 32, 33, 34]
-				},
-				{
-					"name": "cover_2",
-					"origin": [13.68264, 14.98785, -1.3896],
-					"color": 0,
-					"children": [35, 36]
-				},
-				{
-					"name": "backpack_contents",
-					"origin": [13.5, 24.8, -1.8],
-					"color": 0,
-					"children": [
-						{
-							"name": "rations",
-							"origin": [13.5, 24.8, -1.8],
-							"color": 0,
-							"children": [37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
-						},
-						{
-							"name": "boob_stone",
-							"origin": [8, 8, 8],
-							"color": 0,
-							"children": [
-								{
-									"name": "model",
-									"origin": [8, 8, 8],
-									"color": 0,
-									"children": [47, 48, 49]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+	}
 }

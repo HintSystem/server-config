@@ -21,24 +21,23 @@ tutorialEntities:
     text: <lang:mineinabyss.tutorial.rules.1>
     alignment: LEFT
     billboard: FIXED
-    scale:
-      x: 0.9999999
-      y: 1.0
-      z: 0.9999999
     leftRotation:
-      x: 0.0
       y: 0.43837118
-      z: 0.0
       w: 0.8987941
   - location:
-      x: -16.0
+      x: -112.0
+      y: 136.0
+      z: -564.5
+    text: <lang:mineinabyss.tutorial.cosmetics.1></lang>
+  - location:
+      x: -14.0
       y: 141.0
       z: -522.5
-    text: <lang:mineinabyss.tutorial.cosmetics></lang>
+    text: <lang:mineinabyss.tutorial.cosmetics.2></lang>
   - location:
       x: -183.5
       y: 52.5
-      z: -473.5
+      z: -471.5
     text: <lang:mineinabyss.tutorial.end></lang>
   - location:
       x: -142.5
@@ -57,14 +56,12 @@ tutorialEntities:
     text: <lang:mineinabyss.tutorial.start.2></lang>
     billboard: FIXED
     leftRotation:
-      x: 0.0
       y: 0.9781476
-      z: 0.0
       w: 0.20791149
   - location:
-      x: -133
+      x: -133.0
       y: 110.5
-      z: -606
+      z: -606.0
     text: <lang:mineinabyss.tutorial.climb.1></lang>
     alignment: LEFT
   - location:
@@ -74,7 +71,7 @@ tutorialEntities:
     text: <lang:mineinabyss.tutorial.climb.2></lang>
   - location:
       x: -160.5
-      y: 105
+      y: 105.0
       z: -617.5
     text: <lang:mineinabyss.tutorial.rules.1></lang>
     alignment: LEFT
@@ -84,9 +81,7 @@ tutorialEntities:
       y: 1.0
       z: 0.9999999
     leftRotation:
-      x: 0.0
       y: 0.6
-      z: 0.0
       w: 0.8
   - location:
       x: -160.5
@@ -100,9 +95,7 @@ tutorialEntities:
     text: <lang:mineinabyss.tutorial.recipes></lang>
     billboard: FIXED
     leftRotation:
-      x: 0.0
       y: 0.819152
-      z: 0.0
       w: -0.57357645
   - location:
       x: -170.5
@@ -120,9 +113,7 @@ tutorialEntities:
       y: 1.0
       z: 1.0000001
     leftRotation:
-      x: 0.0
       y: -0.09584575
-      z: 0.0
       w: 0.9953962
   - location:
       x: -146.5
@@ -151,9 +142,7 @@ tutorialEntities:
     text: <lang:mineinabyss.tutorial.bonfire></lang>
     billboard: FIXED
     leftRotation:
-      x: 0.0
       y: 0.26723838
-      z: 0.0
       w: 0.96363044
 start:
   region:

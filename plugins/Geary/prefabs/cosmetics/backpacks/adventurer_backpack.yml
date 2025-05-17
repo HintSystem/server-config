@@ -1,0 +1,11 @@
+set.item:
+  itemName: <#BAB86C>Adventurer's Backpack
+  type: minecraft:paper
+  dyedColor:
+    color: "#2D5B2C"
+  itemModel: cosmetics:adventurer_backpack
+resourcepack:
+  model: cosmetics:backpacks/adventurer_backpack
+  tintSources:
+    - type: DYE
+      defaultColor: "#2D5B2C"

@@ -29,7 +29,7 @@ openinv_addon:
     org: Jikoo
     repo: OpenInv
     branch: master
-    subFolder: resource-pack
+    subFolder: resource-pack/openinv-legibility-pack
 custom_blocks:
   default: true
   required: true
@@ -40,7 +40,7 @@ premium_content:
   githubDownload:
     org: MineInAbyss
     repo: ResourcePack-Premium-Content
-    branch: master
+    branch: develop
 tools_2d:
   default: true
   required: false

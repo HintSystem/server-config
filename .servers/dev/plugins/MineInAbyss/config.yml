@@ -7,11 +7,14 @@ antiCheese:
   enabled: true
 core:
   enabled: true
+  waterfallDamageMultiplier: 1.0
+  waterfallMoveMultiplier: 0.15
+  bubbleColumnDamageMultiplier: 2.0
+  bubbleColumnBreathMultiplier: 2
+  serverLinks: []
 cosmetics:
   enabled: true
-  equipWhistleCosmetic: false
-  equipBackpacks: false
-  defaultBackpack: "backpack"
+  equipWhistleCosmetic: true
 curse:
   enabled: true
 custom_hud:

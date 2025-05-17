@@ -1,0 +1,95 @@
+title: ":space_-8::cosmetic_grid_menu_3:"
+rows: 6
+id: command_event_hats
+items:
+
+  tama_hat:
+    slots: 0
+    item:
+      material: hmccosmetics:tama_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:tama_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:tama_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:tama_hat
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    currency: mitty_token
+    cost: 1
+    cosmetic: tama_hat
+  amongus_cosmetic:
+    slots: 1
+    item:
+      material: hmccosmetics:amongus_cosmetic
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:amongus_cosmetic
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:amongus_cosmetic
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    currency: mitty_token
+    cost: 1
+    cosmetic: amongus_cosmetic
+  clown_mask:
+    slots: 2
+    item:
+      material: hmccosmetics:clown_mask
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:clown_mask
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:clown_mask
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    currency: mitty_token
+    cost: 1
+    cosmetic: clown_mask
+
+  home_button:
+    slots: 49
+    item:
+      material: PAPER
+      name: "<red>To Main Menu"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] command_main_menu"
+  prev_button:
+    slots: 47
+    item:
+      material: PAPER
+      name: "<white>Previous Page"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] command_other_hats"

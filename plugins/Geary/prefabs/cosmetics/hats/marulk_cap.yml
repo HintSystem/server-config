@@ -1,12 +1,12 @@
 set.item:
-  item:
-    itemName: <#1900FF>Marulk's Cap
-    lore:
-      - <#6F19D1><i>
-      - <#0268ED><i>Cap worn by #1 femboy maid
-    type: POTION
-    customModelData: 305
-    itemFlags:
-      - HIDE_ADDITIONAL_TOOLTIP
-hat: {}
+  itemName: <#1900FF>Marulk's Cap
+  lore:
+  - <#6F19D1><i>
+  - <#0268ED><i>Cap worn by
+  type: PAPER
+  itemModel: mineinabyss:marulk_hat
+  equippable:
+    slot: HEAD
 disableItemInteractions: {}
+resourcepack:
+  model: cosmetics:hats/marulk_hat

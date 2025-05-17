@@ -1,10 +1,5 @@
 set.item:
-  item:
-    itemName: <#FF9D26>Backpack
-    type: POTION
-    color: "220, 192, 105"
-    customModelData: 110
-    itemFlags:
-      - HIDE_ADDITIONAL_TOOLTIP
-disableItemInteractions: {}
-backpack: {}
+  type: minecraft:paper
+  itemModel: cosmetics:default_backpack_fp
+resourcepack:
+  model: cosmetics:backpacks/default_backpack_fp

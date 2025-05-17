@@ -1,6 +1,6 @@
 set.item:
-  item:
-    type: PAPER
-    customModelData: 4001
+  itemName: "Camera"
+  type: PAPER
+  itemModel: event:camera
 resourcepack:
   model: event:item/camera

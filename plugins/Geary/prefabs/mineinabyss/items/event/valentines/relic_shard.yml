@@ -1,9 +1,8 @@
 set.item:
-  item:
-    type: minecraft:paper
-    itemName: <#FFC0CB><b>Relic Shard
-    customModelData: 134
-    # TODO add lore
-#disableItemInteractions: { }
+  type: minecraft:paper
+  itemName: <#FFC0CB><b>Relic Shard
+  itemModel: mineinabyss:relic_shard
 resourcepack:
-  textures: mineinabyss:item/event/crystal_shard
+  textures:
+    layers:
+    - mineinabyss:item/event/relic_shard

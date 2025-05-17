@@ -1,0 +1,291 @@
+title: ":space_-8::cosmetic_grid_menu_2:"
+rows: 6
+id: wardrobe_other_hats
+items:
+  fantasy_mining_helmet:
+    slots: 0
+    item:
+      material: hmccosmetics:fantasy_mining_helmet
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:fantasy_mining_helmet
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:fantasy_mining_helmet
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:fantasy_mining_helmet
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 50
+    cosmetic: fantasy_mining_helmet
+  fantasy_cook_hat:
+    slots: 1
+    item:
+      material: hmccosmetics:fantasy_cook_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:fantasy_cook_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:fantasy_cook_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:fantasy_cook_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 50
+    cosmetic: fantasy_cook_hat
+  fantasy_fisher_hat:
+    slots: 2
+    item:
+      material: hmccosmetics:fantasy_fisher_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:fantasy_fisher_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:fantasy_fisher_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>60:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:fantasy_fisher_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>60:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 60
+    cosmetic: fantasy_fisher_hat
+  fantasy_explorer_hat:
+    slots: 3
+    item:
+      material: hmccosmetics:fantasy_explorer_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:fantasy_explorer_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:fantasy_explorer_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:fantasy_explorer_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 80
+    cosmetic: fantasy_explorer_hat
+  adventurer_hat:
+    slots: 4
+    item:
+      material: hmccosmetics:adventurer_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    equipped-item:
+      material: hmccosmetics:adventurer_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:adventurer_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:adventurer_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 80
+    cosmetic: adventurer_hat
+  fantasy_straw_hat:
+    slots: 5
+    item:
+      material: hmccosmetics:fantasy_straw_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:fantasy_straw_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:fantasy_straw_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:fantasy_straw_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>50:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 50
+    cosmetic: fantasy_straw_hat
+  mechanic_glasses:
+    slots: 6
+    item:
+      material: hmccosmetics:mechanic_glasses
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:mechanic_glasses
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:mechanic_glasses
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:mechanic_glasses
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: orth_coin
+    cost: 80
+    cosmetic: mechanic_glasses
+
+
+  dooby_helmet:
+    slots: 36
+    item:
+      material: hmccosmetics:dooby_helmet
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:dooby_helmet
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:dooby_helmet
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>2:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:dooby_helmet
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>2:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: mitty_token
+    cost: 2
+    cosmetic: dooby_helmet
+  henya_helmet:
+    slots: 37
+    item:
+      material: hmccosmetics:henya_helmet
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:henya_helmet
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:henya_helmet
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>3:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:henya_helmet
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>3:cosmetic_mitty_token:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: mia_cosmetic
+    currency: mitty_token
+    cost: 3
+    cosmetic: henya_helmet
+
+  home_button:
+    slots: 49
+    item:
+      material: PAPER
+      name: "<red>To Main Menu"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] wardrobe_main_menu"
+  prev_button:
+    slots: 47
+    item:
+      material: PAPER
+      name: "<white>Previous Page"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] wardrobe_mia_hats"
+  next_button:
+    slots: 51
+    item:
+      material: PAPER
+      name: "<white>Next Page"
+      model-id: minecraft:empty
+    type: empty
+    actions:
+      any:
+        - "[MENU] wardrobe_event_hats"

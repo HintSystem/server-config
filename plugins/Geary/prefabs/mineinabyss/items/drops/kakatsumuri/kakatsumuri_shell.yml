@@ -1,11 +1,12 @@
 set.item:
-  item:
-    type: minecraft:prismarine_crystals
-    itemName: <#7D93FF>Kakatsumuri Shell
-    customModelData: 2
-    lore:
-      - ":layer_3:"
-      - <#B8FFBA><i>Even after death the shell
-      - <#B8FFBA><i>still keeps it bright glow.
+  type: minecraft:prismarine_crystals
+  itemName: <#7D93FF>Kakatsumuri Shell
+  itemModel: mineinabyss:kakatsumuri_shell
+  lore:
+  - ':layer_3:'
+  - <#B8FFBA><i>Even after death the shell
+  - <#B8FFBA><i>still keeps it bright glow.
 resourcepack:
-  textures: mineinabyss:item/creature_drops/kakatsumuri_shell
+  textures:
+    layers:
+    - mineinabyss:item/creature_drops/kakatsumuri_shell

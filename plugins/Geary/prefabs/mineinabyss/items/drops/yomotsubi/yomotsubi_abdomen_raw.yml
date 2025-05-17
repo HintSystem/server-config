@@ -1,15 +1,16 @@
 set.item:
-  item:
-    type: minecraft:apple
-    itemName: <#9C0F2C>Yomotsubi Abdomen
-    customModelData: 21
-    lore:
-      - ":layer_3::layer_5:"
-      - <#9c5d2c><i>Perhaps this could be cooked...
-    food:
-      saturation: 0.2
-      nutrition: 1
+  type: minecraft:apple
+  itemName: <#9C0F2C>Yomotsubi Abdomen
+  itemModel: mineinabyss:yomotsubi_abdomen_raw
+  lore:
+  - ':layer_3::layer_5:'
+  - <#9c5d2c><i>Perhaps this could be cooked...
+  food:
+    saturation: 0.2
+    nutrition: 1
 replaceBurnedDrop:
   prefab: mineinabyss:yomotsubi_abdomen_cooked
 resourcepack:
-  textures: mineinabyss:item/food/creatures/yomotsubi_abdomen_raw
+  textures:
+    layers:
+    - mineinabyss:item/food/creatures/yomotsubi_abdomen_raw

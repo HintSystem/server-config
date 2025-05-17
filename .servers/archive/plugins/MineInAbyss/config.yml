@@ -7,10 +7,14 @@ configManagement:
   enabled: true
 core:
   enabled: true
+  waterfallDamageMultiplier: 1.0
+  waterfallMoveMultiplier: 0.15
+  bubbleColumnDamageMultiplier: 2.0
+  bubbleColumnBreathMultiplier: 2
+  serverLinks: []
 cosmetics:
-  enabled: false
-  equipBackpacks: false
-  defaultBackpack: "backpack"
+  enabled: true
+  equipWhistleCosmetic: false
 curse:
   enabled: false
 custom_hud:

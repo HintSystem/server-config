@@ -1,0 +1,6 @@
+set.item:
+  itemName: "Mallet"
+  type: PAPER
+  itemModel: event:mallet_chisel
+resourcepack:
+  model: event:item/mallet_chisel

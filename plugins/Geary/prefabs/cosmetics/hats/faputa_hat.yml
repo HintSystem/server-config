@@ -1,9 +1,9 @@
 set.item:
-  item:
-    itemName: <#536b92>Faputa Hat
-    type: POTION
-    customModelData: 302
-    itemFlags:
-      - HIDE_ADDITIONAL_TOOLTIP
-hat: {}
+  itemName: <#536b92>Faputa Hat
+  type: PAPER
+  itemModel: mineinabyss:faputa_hat
+  equippable:
+    slot: HEAD
 disableItemInteractions: {}
+resourcepack:
+  model: cosmetics:hats/faputa_hat

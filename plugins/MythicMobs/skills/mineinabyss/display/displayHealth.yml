@@ -11,6 +11,3 @@ SaveBossLocation:
 bossping:
   Skills:
   - message{m="&eA &B<caster.name>&e &eis at <caster.var.SpawnLoc>"} @Trigger
-
-qmob_shroombearstep:
-  Skills:

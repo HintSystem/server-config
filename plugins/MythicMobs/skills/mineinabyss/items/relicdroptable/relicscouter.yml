@@ -222,4 +222,4 @@ godping:
     - message{m="&eA &B<caster.name>&e &eis residing at <caster.var.SpawnLoc>"} @Trigger
 increasexp:
   Skills:
-  - command{repeat=10;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> 500";op=true} @trigger
+  - command{c="execute at <caster.uuid> run xp add <caster.name> 5000";op=true} @trigger

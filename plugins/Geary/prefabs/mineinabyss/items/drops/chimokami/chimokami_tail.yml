@@ -1,11 +1,12 @@
 set.item:
-  item:
-    type: minecraft:red_wool
-    itemName: "<#eeffff>Chimokami Tail"
-    customModelData: 1
-    lore:
-      - ":layer_2:"
-      - <#7a243f><i>These critters like darkness.
+  type: minecraft:red_wool
+  itemName: <#eeffff>Chimokami Tail
+  itemModel: mineinabyss:chimokami_tail
+  lore:
+  - ':layer_2:'
+  - <#7a243f><i>These critters like darkness.
 disableItemInteractions: {}
 resourcepack:
-  textures: mineinabyss:item/creature_drops/chimokami_tail
+  textures:
+    layers:
+    - mineinabyss:item/creature_drops/chimokami_tail

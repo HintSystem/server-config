@@ -1,11 +1,12 @@
 set.item:
-  item:
-    type: minecraft:black_wool
-    itemName: <#3D3D3D>Inbyo Fur
-    customModelData: 1
-    lore:
-      - ":layer_2:"
-      - <#B5B5B5><i>This stench is nauseating...
+  type: minecraft:black_wool
+  itemName: <#3D3D3D>Inbyo Fur
+  itemModel: mineinabyss:inbyo_fur
+  lore:
+  - ':layer_2:'
+  - <#B5B5B5><i>This stench is nauseating...
 disableItemInteractions: {}
 resourcepack:
-  textures: mineinabyss:item/creature_drops/inbyo_fur
+  textures:
+    layers:
+    - mineinabyss:item/creature_drops/inbyo_fur

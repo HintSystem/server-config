@@ -1,16 +1,17 @@
 set.item:
-  item:
-    type: minecraft:paper
-    itemName: <#D8D8D8>Raw Ottobas Meat
-    customModelData: 314
-    lore:
-      - ":layer_2:"
-      - <white><i>A thick layer of fat clings to the meat.
-      - <white><i>Cooking it should help making it edible.
-    food:
-      saturation: 1.8
-      nutrition: 3
+  type: minecraft:paper
+  itemName: <#D8D8D8>Raw Ottobas Meat
+  itemModel: mineinabyss:ottobas_meat_raw
+  lore:
+  - ':layer_2:'
+  - <white><i>A thick layer of fat clings to the meat.
+  - <white><i>Cooking it should help making it edible.
+  food:
+    saturation: 1.8
+    nutrition: 3
 replaceBurnedDrop:
   prefab: mineinabyss:ottobas_meat_cooked
 resourcepack:
-  textures: mineinabyss:item/food/creatures/ottobas_meat_raw
+  textures:
+    layers:
+    - mineinabyss:item/food/creatures/ottobas_meat_raw

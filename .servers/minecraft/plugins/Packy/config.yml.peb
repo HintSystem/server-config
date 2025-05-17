@@ -8,8 +8,8 @@ server:
   port: 8082
   publicAddress: "{{ env.PACKY_PUBLIC_ADDRESS | default("https://pack.mineinabyss.com/" + env.SERVER_NAME) }}"
 prompt: ""
-force: true
-sendOnReload: false
+force: false
+sendOnReload: true
 # What ObfuscationType to use, valid options are FULL, SIMPLE & NONE
 obfuscation: NONE
 # This will use PackSquash to automatically squash all templates
@@ -96,16 +96,16 @@ menu:
       packs:
         tools_2d:
           button:
-            type: minecraft:diamond_sword
-            customModelData: 1
+            type: minecraft:paper
+            itemModel: "packy:2d_sword"
             itemName: <gold>2D Tools
         tools_3d:
           button:
-            type: minecraft:golden_sword
-            customModelData: 2
+            type: minecraft:paper
+            itemModel: "packy:3d_sword"
             itemName: <gold>3D Tools
         vanilla_tools:
           button:
-            type: minecraft:iron_sword
-            customModelData: 3
+            type: minecraft:paper
+            itemModel: "packy:vanilla_sword"
             itemName: <gold>Vanilla Tools

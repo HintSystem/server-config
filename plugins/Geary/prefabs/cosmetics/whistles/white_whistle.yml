@@ -1,6 +1,0 @@
-set.item:
-  item:
-    itemName: <#FFFFFF>White Whistle
-    type: POTION
-    color: "#FFFFFF"
-    customModelData: 205

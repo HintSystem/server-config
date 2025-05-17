@@ -1,17 +1,18 @@
 set.item:
-  item:
-    type: minecraft:paper
-    itemName: <#85512E>Squidfly Brain
-    customModelData: 319
-    lore:
-      - ":layer_3:"
-      - <#C27643><i>Eating it raw might not
-      - <#C27643><i>be the brighest idea
-      - <#C27643><i>I've come up with...
-    food:
-      saturation: 1.2
-      nutrition: 2
+  type: minecraft:paper
+  itemName: <#85512E>Squidfly Brain
+  itemModel: mineinabyss:squidfly_brain_raw
+  lore:
+  - ':layer_3:'
+  - <#C27643><i>Eating it raw might not
+  - <#C27643><i>be the brighest idea
+  - <#C27643><i>I've come up with...
+  food:
+    saturation: 1.2
+    nutrition: 2
 replaceBurnedDrop:
   prefab: mineinabyss:squidfly_brain_cooked
 resourcepack:
-  textures: mineinabyss:item/food/creatures/squidfly_brain_raw
+  textures:
+    layers:
+    - mineinabyss:item/food/creatures/squidfly_brain_raw

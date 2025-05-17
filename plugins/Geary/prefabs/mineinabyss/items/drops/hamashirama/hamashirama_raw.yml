@@ -1,17 +1,18 @@
 set.item:
-  item:
-    type: minecraft:paper
-    itemName: <#1B91B5>Raw Hamashirama
-    customModelData: 317
-    lore:
-      - <yellow>Can be obtained by finding and
-      - <yellow>catching a <#1B91B5>Hamashirama <yellow>in the
-      - <yellow>waters of the <green>Sea of Corpses<yellow>.
-      - <#A759FF>Seems like a great source for food!
-    food:
-      saturation: 0.4
-      nutrition: 2
+  type: minecraft:paper
+  itemName: <#1B91B5>Raw Hamashirama
+  itemModel: mineinabyss:hamashirama_raw
+  lore:
+  - <yellow>Can be obtained by finding and
+  - <yellow>catching a <#1B91B5>Hamashirama <yellow>in the
+  - <yellow>waters of the <green>Sea of Corpses<yellow>.
+  - <#A759FF>Seems like a great source for food!
+  food:
+    saturation: 0.4
+    nutrition: 2
 replaceBurnedDrop:
   prefab: mineinabyss:hamashirama_cooked
 resourcepack:
-  textures: mineinabyss:item/food/creatures/hamashirama_raw
+  textures:
+    layers:
+    - mineinabyss:item/food/creatures/hamashirama_raw

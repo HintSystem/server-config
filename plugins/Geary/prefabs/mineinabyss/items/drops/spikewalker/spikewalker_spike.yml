@@ -1,11 +1,12 @@
 set.item:
-  item:
-    type: minecraft:quartz
-    itemName: <#755237>Spikewalker Spike
-    customModelData: 2
-    lore:
-      - ":layer_5:"
-      - <#ccbd99><i>It may not look pointy,
-      - <#ccbd99><i>but don't let it poke ya!
+  type: minecraft:quartz
+  itemName: <#755237>Spikewalker Spike
+  itemModel: mineinabyss:spikewalker_spike
+  lore:
+  - ':layer_5:'
+  - <#ccbd99><i>It may not look pointy,
+  - <#ccbd99><i>but don't let it poke ya!
 resourcepack:
-  textures: mineinabyss:item/creature_drops/spikewalker_spike
+  textures:
+    layers:
+    - mineinabyss:item/creature_drops/spikewalker_spike

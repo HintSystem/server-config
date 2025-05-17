@@ -1,8 +1,11 @@
 set.item:
-  item:
-    itemName: <#FF9D26>Camper Backpack
-    type: POTION
-    color: "98, 168, 255"
-    customModelData: 104
-    itemFlags:
-      - HIDE_ADDITIONAL_TOOLTIP
+  itemName: <#FF9D26>Camper Backpack
+  type: minecraft:paper
+  dyedColor:
+    color: "#62A8FF"
+  itemModel: cosmetics:camper_backpack
+resourcepack:
+  model: cosmetics:backpacks/camper_backpack
+  tintSources:
+    - type: DYE
+      defaultColor: "#62A8FF"

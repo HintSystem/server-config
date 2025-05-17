@@ -1,10 +1,11 @@
 set.item:
-  item:
-    type: minecraft:gunpowder
-    itemName: <gold>Sakuranbo Dust
-    customModelData: 1
-    lore:
-      - ":layer_3:"
-      - <gold><i>Careful! Ignites easily.
+  type: minecraft:gunpowder
+  itemName: <gold>Sakuranbo Dust
+  itemModel: mineinabyss:sakuranbo_dust
+  lore:
+  - ':layer_3:'
+  - <gold><i>Careful! Ignites easily.
 resourcepack:
-  textures: mineinabyss:item/creature_drops/sakuranbo_dust
+  textures:
+    layers:
+    - mineinabyss:item/creature_drops/sakuranbo_dust
