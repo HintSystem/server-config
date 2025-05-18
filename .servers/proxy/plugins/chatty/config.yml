@@ -1,0 +1,10 @@
+join:
+  message: ""
+  otherServerMessage: ""
+  firstJoinMessage: ""
+leave:
+  message: ""
+  otherServerMessage: ""
+switch:
+  toMessage: ""
+  fromMessage: ""
