@@ -65,12 +65,12 @@ nicknames:
   nickNameOtherPrefix: '@'
 
 join:
-  enabled: false
+  enabled: true
   firstJoin:
-    enabled: false
+    enabled: true
 
 leave:
-  enabled: false
+  enabled: true
 
 proxy:
   enableProxySwitchMessages: false
