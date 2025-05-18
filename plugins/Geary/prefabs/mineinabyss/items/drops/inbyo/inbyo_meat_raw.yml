@@ -8,6 +8,8 @@ set.item:
   food:
     saturation: 1.8
     nutrition: 3
+  consumable:
+    animation: EAT
 replaceBurnedDrop:
   prefab: mineinabyss:inbyo_meat_cooked
 resourcepack:

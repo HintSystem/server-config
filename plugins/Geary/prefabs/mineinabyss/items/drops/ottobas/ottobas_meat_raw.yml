@@ -9,6 +9,8 @@ set.item:
   food:
     saturation: 1.8
     nutrition: 3
+  consumable:
+    animation: EAT
 replaceBurnedDrop:
   prefab: mineinabyss:ottobas_meat_cooked
 resourcepack:

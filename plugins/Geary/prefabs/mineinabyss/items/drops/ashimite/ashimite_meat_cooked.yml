@@ -8,6 +8,8 @@ set.item:
   food:
     nutrition: 8
     saturation: 12.8
+  consumable:
+    animation: EAT
   useRemainder:
     prefab: mineinabyss:ashimite_meat_bone
 set.recipes:

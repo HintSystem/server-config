@@ -9,6 +9,8 @@ set.item:
   food:
     saturation: 1.2
     nutrition: 2
+  consumable:
+    animation: EAT
 replaceBurnedDrop:
   prefab: mineinabyss:onitsuchi_wing_cooked
 resourcepack:

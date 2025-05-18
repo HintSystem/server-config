@@ -9,6 +9,8 @@ set.item:
   food:
     saturation: 0.4
     nutrition: 2
+  consumable:
+    animation: EAT
 replaceBurnedDrop:
   prefab: mineinabyss:hashofu_tail_cooked
 resourcepack:
