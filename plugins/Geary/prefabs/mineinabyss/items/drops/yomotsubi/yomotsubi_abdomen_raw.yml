@@ -8,6 +8,8 @@ set.item:
   food:
     saturation: 0.2
     nutrition: 1
+  consumable:
+    animation: EAT
 replaceBurnedDrop:
   prefab: mineinabyss:yomotsubi_abdomen_cooked
 resourcepack:

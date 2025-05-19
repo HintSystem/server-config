@@ -9,6 +9,8 @@ set.item:
   food:
     saturation: 6
     nutrition: 5
+  consumable:
+    animation: EAT
 set.recipes:
   discoverRecipes: true
   recipes:

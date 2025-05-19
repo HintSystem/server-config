@@ -10,6 +10,8 @@ set.item:
   food:
     saturation: 1.2
     nutrition: 2
+  consumable:
+    animation: EAT
 replaceBurnedDrop:
   prefab: mineinabyss:squidfly_brain_cooked
 resourcepack:

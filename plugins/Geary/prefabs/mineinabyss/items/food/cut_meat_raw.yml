@@ -5,6 +5,8 @@ set.item:
   food:
     saturation: 1.8
     nutrition: 3
+  consumable:
+    animation: EAT
 resourcepack:
   textures:
     layers:

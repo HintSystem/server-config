@@ -9,5 +9,7 @@ set.item:
   food:
     saturation: 10
     nutrition: 6
+  consumable:
+    animation: EAT
 resourcepack:
   model: mineinabyss:item/event/valentines_chocolates
