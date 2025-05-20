@@ -9,8 +9,7 @@ set.item:
   equippable:
     slot: HEAD
     cameraOverlay: mineinabyss:misc/ghost_seek_overlay
-prevent.enchanting: {}
-disableItemInteractions: {}
+  enchantmentGlintOverride: true
 passive:
 - match:
   - equipped

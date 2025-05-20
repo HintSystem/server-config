@@ -15,7 +15,7 @@ set.item:
       - enchant: minecraft:sharpness
         level: 5
   unbreakable: {}
-prevent.enchanting: {}
+  enchantable: 0
 disableItemInteractions: {}
 observe:
   itemLeftClick:

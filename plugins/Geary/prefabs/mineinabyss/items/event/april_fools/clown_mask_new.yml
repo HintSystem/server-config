@@ -8,7 +8,7 @@ set.item:
   - <gold>You thought this was a good item didn't you.
   equippable:
     slot: HEAD
-prevent.enchanting: {}
+  enchantable: 0
 disableItemInteractions: {}
 resourcepack:
   model: mineinabyss:item/event/clown_mask

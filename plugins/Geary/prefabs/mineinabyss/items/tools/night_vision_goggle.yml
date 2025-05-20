@@ -22,4 +22,4 @@ passive:
       amplifier: 1
       hasParticles: false
 resourcepack:
-  model: mineinabyss:item/relics/ngv_alt
+  model: mineinabyss:item/relics/night_vision_goggles

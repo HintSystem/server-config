@@ -1,26 +1,22 @@
 set.item:
-  itemName: <gold>Repaired Ghost Seek
+  itemName: <gold>Enhanced Ghost Seek
   type: minecraft:paper
-  itemModel: mineinabyss:ghost_seek_off
+  itemModel: mineinabyss:ghost_seek_on
   lore:
   - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
   - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
   - <#D2D489>guiding its wielder toward hidden relics.
-  enchantments:
-    enchantments:
-    - enchant: minecraft:sharpness
-      level: 1
+  enchantmentGlintOverride: true
   equippable:
     slot: HEAD
-prevent.enchanting: {}
-disableItemInteractions: {}
+    cameraOverlay: mineinabyss:misc/ghost_seek_overlay
 passive:
 - match:
   - equipped
-  every: 13s
+  every: 10s
   run:
   - become: parent
   - mythicSkills:
-    - repairscout
+    - enchancedrelicscout
 resourcepack:
-  model: mineinabyss:item/relics/ghost_seek_off
+  model: mineinabyss:item/relics/ghost_seek_on

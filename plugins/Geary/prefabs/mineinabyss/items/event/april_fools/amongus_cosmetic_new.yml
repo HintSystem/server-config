@@ -8,7 +8,7 @@ set.item:
   - <gold>Inconveniently conspicious.
   - <gold>RIGHT CLICK TO OBTAIN WARDROBE COSMETIC
   - <gold>THIS WILL CONSUME YOUR ITEM
-prevent.enchanting: {}
+  enchantable: 0
 observe:
   itemRightClick:
   - become: parent

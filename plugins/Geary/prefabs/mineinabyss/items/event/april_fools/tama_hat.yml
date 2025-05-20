@@ -8,7 +8,7 @@ set.item:
   - <gold>All hail the princess.
   equippable:
     slot: HEAD
-prevent.enchanting: {}
+  enchantable: 0
 disableItemInteractions: {}
 resourcepack:
   model: mineinabyss:item/event/tama_hat
