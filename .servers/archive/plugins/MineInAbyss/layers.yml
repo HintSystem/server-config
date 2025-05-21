@@ -1,0 +1,146 @@
+layers:
+  - id: "hub"
+    name: "World-Hub"
+    sub: ""
+  - id: "orth"
+    name: "<#FFA812>Orth"
+    sub: "<#FFC421>City of the Great Pit"
+    deathMessage: "in the city of <#ffa812>Orth<white> :bell:"
+    depth:
+      start: -1
+      end: 0
+    effects: []
+    hasPvpDefault: false
+    liquidFlowLimit: -1
+    blockBlacklist: []
+    songs: []
+    sections:
+      - "2021_orth"
+      - "2023_orth"
+    equipWhistleCosmetic: false
+  - id: "layerone"
+    name: "<#DB4040>Edge of the Abyss"
+    sub: "<#BA1E1E>0-1510 blocks"
+    deathMessage: "at the <#db4040>Edge of the Abyss<white> :redw:"
+    depth:
+      start: 0
+      end: 1510
+    effects: []
+    hasPvpDefault: false
+    liquidFlowLimit: -1
+    blockBlacklist: []
+    songs: []
+    sections:
+      - "2021_l1s1"
+      - "2021_l1s2"
+      - "2021_l1s3"
+      - "2021_l1s4"
+      - "2021_l1s5"
+      - "2021_l1s6"
+
+      - "2023_l1s0"
+      - "2023_l1s1"
+      - "2023_l1s2"
+      - "2023_l1s3"
+    equipWhistleCosmetic: true
+  - id: "layertwo"
+    name: "<#175ABF>Forest of Temptation"
+    sub: "<#286FBF>1510-2580 blocks"
+    deathMessage: "in the <#175abf>Forest of Temptation<white> :bluew:"
+    depth:
+      start: 1510
+      end: 2580
+    effects: []
+    hasPvpDefault: false
+    liquidFlowLimit: -1
+    blockBlacklist: []
+    songs: []
+    sections:
+      - "2021_l2s1"
+      - "2021_l2s2"
+      - "2021_l2s3"
+      - "2021_l2s4"
+      - "2021_l2s5"
+
+      - "2023_l2s0"
+      - "2023_l2s1"
+      - "2023_l2s2"
+    equipWhistleCosmetic: true
+  - id: "layerthree"
+    name: "<#D428B1>Great Fault"
+    sub: "<#E82CC2>2580–4020 blocks"
+    deathMessage: "in the <#d428b1>Great Fault<white> :moonw:"
+    depth:
+      start: 2580
+      end: 4020
+    effects: []
+    hasPvpDefault: true
+    liquidFlowLimit: -1
+    blockBlacklist: []
+    songs: []
+    sections:
+      - "2021_l3s1"
+      - "2021_l3s2"
+      - "2021_l3s3"
+      - "2021_l3s4"
+      - "2021_l3s5"
+      - "2021_l3s6"
+      - "2021_l3s7"
+
+      - "2023_l3s0"
+      - "2023_l3s1"
+      - "2023_l3s2"
+      - "2023_l3s3"
+    equipWhistleCosmetic: true
+  - id: "layerfour"
+    name: "<#9E1E84>The Goblets of Giants"
+    sub: "<#77237A>4020–5850 blocks"
+    deathMessage: "in the <#9e1e84>Goblets of Giants<white> :moonw:"
+    depth:
+      start: 4020
+      end: 5850
+    effects: []
+    hasPvpDefault: false
+    liquidFlowLimit: -1
+    blockBlacklist: []
+    songs: []
+    sections:
+      - "2021_l4s1"
+      - "2021_l4s2"
+      - "2021_l4s3"
+      - "2021_l4s4"
+      - "2021_l4s5"
+      - "2021_l4s6"
+      - "2021_l4s7"
+      - "2021_l4s8"
+
+      - "2023_l4s1"
+      - "2023_l4s2"
+      - "2023_l4s3"
+      - "2023_l4s4"
+      - "2023_l4s5"
+    equipWhistleCosmetic: true
+  - id: "layerfive"
+    name: "<#3B3B3B>Sea of Corpses"
+    sub: "<#545454>5850–7200 blocks"
+    deathMessage: "in the <#3b3b3b>Sea of Corpses<white> :blackw:"
+    depth:
+      start: 5850
+      end: 7200
+    effects: []
+    hasPvpDefault: false
+    liquidFlowLimit: -1
+    blockBlacklist: []
+    songs: []
+    sections:
+      - "2021_l5s1"
+      - "2021_l5s2"
+      - "2021_l5s3"
+      - "2021_l5s4"
+      - "2021_l5s5"
+
+      - "2023_l5s1"
+      - "2023_l5s2"
+      - "2023_l5s3"
+    equipWhistleCosmetic: true
+hubSectionName: "hub"
