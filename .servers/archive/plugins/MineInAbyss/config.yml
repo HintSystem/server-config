@@ -1,9 +1,9 @@
 # Ignore following options, enable all features
 enableAll: false
+ansiblePull:
+  enabled: true
 # Choose which features to enable with true/false
 antiCheese:
-  enabled: false
-configManagement:
   enabled: true
 core:
   enabled: true
@@ -14,7 +14,7 @@ core:
   serverLinks: []
 cosmetics:
   enabled: true
-  equipWhistleCosmetic: false
+  equipWhistleCosmetic: true
 curse:
   enabled: false
 custom_hud:
@@ -39,7 +39,7 @@ lootCrates:
 misc:
   enabled: false
 music:
-  enabled: false
+  enabled: true
 shopkeeping:
   enabled: false
 okiboTravel:
@@ -51,7 +51,16 @@ orthBanking:
 patreon:
   enabled: false
 playerProfile:
-  enabled: false
+  enabled: true
+  validBackgroundIds:
+    - "orth_background"
+    - "ancient_ship"
+    - "nanachi_hut"
+    - "golden_bridge"
+    - "layer2_windmills"
+    - "layer6"
+    - "seeker_camp"
+    - "funeral_plaque"
 pvp:
   enabled: false
 relics:
