@@ -18,13 +18,6 @@ playerprofile_background:
   font: mineinabyss:playerprofile
   height: 72
   ascent: -2
-orth_map:
-  texture: mineinabyss:ui/orth_map.png
-  font: mineinabyss:orth_map
-  height: 30
-  ascent: 30
-  bitmapWidth: 2
-  bitmapHeight: 2
 cosmetic_shade:
   texture: minecraft:hmccosmetics/shade.png
   font: mineinabyss:cosmetics

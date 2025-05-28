@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "packy:item/tools/3d_sword",
-    "particle": "packy:item/tools/3d_sword"
+    "0": "packy:item/tools/3d",
+    "particle": "packy:item/tools/3d"
   },
   "elements": [
     {

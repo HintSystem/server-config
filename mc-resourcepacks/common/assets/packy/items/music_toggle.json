@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "custom_model_data",
+    "index": 0,
+    "on_true": {
+      "type": "composite",
+      "models": [
+        {
+          "type": "model",
+          "model": "minecraft:block/jukebox"
+        },
+        {
+          "type": "model",
+          "model": "packy:music_disc_droplets_lament"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "model",
+      "model": "minecraft:block/jukebox"
+    }
+  },
+  "fallback": {
+    "type": "model",
+    "model": "minecraft:block/jukebox"
+  }
+}
