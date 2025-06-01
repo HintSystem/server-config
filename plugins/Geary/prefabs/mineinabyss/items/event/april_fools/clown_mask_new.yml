@@ -6,9 +6,24 @@ set.item:
   - ':troll:'
   - <gold>Found during April Fools 2025.
   - <gold>You thought this was a good item didn't you.
+  - <gold>RIGHT CLICK TO OBTAIN WARDROBE COSMETIC
+  - <gold>THIS WILL CONSUME YOUR ITEM
   equippable:
     slot: HEAD
   enchantable: 0
 disableItemInteractions: {}
+observe:
+  itemRightClick:
+  - become: parent
+  - cooldown:
+      id: cosmetic
+      length: 10s
+      display: <#454A46>You already have this cosmetic
+  - mythicSkills:
+    - hmc_clown_mask_cosmetic
+  - consumeItem:
+      type: mineinabyss:clown_mask_new
+    when:
+    - chance: 1
 resourcepack:
   model: mineinabyss:item/event/clown_mask
