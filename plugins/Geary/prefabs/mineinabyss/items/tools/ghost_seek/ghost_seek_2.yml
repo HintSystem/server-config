@@ -1,5 +1,5 @@
 set.item:
-  itemName: <gold>Repaired Ghost Seek
+  itemName: <gold>Repaired Ghost Seek <red>(Temporarily Disabled)
   type: minecraft:paper
   itemModel: mineinabyss:ghost_seek_off
   lore:
@@ -9,13 +9,13 @@ set.item:
   equippable:
     slot: HEAD
   enchantmentGlintOverride: true
-passive:
-- match:
-  - equipped
-  every: 13s
-  run:
-  - become: parent
-  - mythicSkills:
-    - repairscout
+#passive:
+#- match:
+#  - equipped
+#  every: 13s
+#  run:
+#  - become: parent
+#  - mythicSkills:
+#    - repairscout
 resourcepack:
   model: mineinabyss:item/relics/ghost_seek_off

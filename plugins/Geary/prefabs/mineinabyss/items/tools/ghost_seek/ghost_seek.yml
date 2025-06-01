@@ -1,5 +1,5 @@
 set.item:
-  itemName: <gold>Damaged Ghost Seek
+  itemName: <gold>Damaged Ghost Seek <red>(Temporarily Disabled)
   type: minecraft:paper
   itemModel: mineinabyss:ghost_seek_off
   lore:
@@ -10,13 +10,13 @@ set.item:
     slot: HEAD
     cameraOverlay: mineinabyss:misc/ghost_seek_overlay
   enchantmentGlintOverride: true
-passive:
-- match:
-  - equipped
-  every: 20s
-  run:
-  - become: parent
-  - mythicSkills:
-    - brokenscout
+#passive:
+#- match:
+#  - equipped
+#  every: 20s
+#  run:
+#  - become: parent
+#  - mythicSkills:
+#    - brokenscout
 resourcepack:
   model: mineinabyss:item/relics/ghost_seek_off

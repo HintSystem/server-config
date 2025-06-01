@@ -1,5 +1,5 @@
 set.item:
-  itemName: <gold>Enhanced Ghost Seek
+  itemName: <gold>Enhanced Ghost Seek <red>(Temporarily Disabled)
   type: minecraft:paper
   itemModel: mineinabyss:ghost_seek_on
   lore:
@@ -10,13 +10,13 @@ set.item:
   equippable:
     slot: HEAD
     cameraOverlay: mineinabyss:misc/ghost_seek_overlay
-passive:
-- match:
-  - equipped
-  every: 10s
-  run:
-  - become: parent
-  - mythicSkills:
-    - enchancedrelicscout
+#passive:
+#- match:
+#  - equipped
+#  every: 10s
+#  run:
+#  - become: parent
+#  - mythicSkills:
+#    - enchancedrelicscout
 resourcepack:
   model: mineinabyss:item/relics/ghost_seek_on
