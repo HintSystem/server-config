@@ -30,7 +30,6 @@ ikonia:
     - skill{s=tjAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
     - skill{s=tjHurt} @self ~onHurt
     - skill{s=tjDeath} @self ~onDeath
-    - skill:MIAPetExpNearby{exp=1} ~onDeath
     - skill{s=i_retreat} @self ~onDamaged
     - skill{s=i_hurt} @self ~onTimer:10
 baby_ikonia:
@@ -73,4 +72,3 @@ baby_ikonia:
     - skill{s=tjAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
     - skill{s=tjHurt} @self ~onHurt
     - skill{s=tjDeath} @self ~onDeath
-    - skill:MIAPetExpNearby{exp=1} ~onDeath

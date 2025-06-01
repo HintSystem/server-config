@@ -49,7 +49,6 @@ l2prayingskeleton2:
     - skill{s=skeleping} @self ~onSignal:location
     - skill{s=godping} ~onSignal:location
     - skill{s=displayHealth} ~onDamaged
-    - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
     - remove{delay=240000} @self ~onSpawn

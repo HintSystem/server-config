@@ -80,9 +80,7 @@ faputa:
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
-    - skill:MIAPetExpNearby{exp=1} ~onDeath
     - skill{s=Changetarget} ~onTimer:160 <99%
-  #- skill:MIAPetExpNearby{exp=1} ~onDeath
 
 nanachi:
   Type: SPIDER
@@ -120,6 +118,4 @@ nanachi:
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
-    - skill:MIAPetExpNearby{exp=1} ~onDeath
     - skill{s=Changetarget} ~onTimer:160 <99%
-  #- skill:MIAPetExpNearby{exp=1} ~onDeath
