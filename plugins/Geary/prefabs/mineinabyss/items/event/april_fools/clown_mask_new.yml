@@ -15,6 +15,12 @@ disableItemInteractions: {}
 observe:
   itemRightClick:
   - become: parent
+  - ensure:
+      mythicConditions:
+      - haspermission{p=hmccosmetics.hat.clown_mask} true
+    onFail:
+    - sendActionBar:
+        text: <#454A46>You already have this cosmetic
   - cooldown:
       id: cosmetic
       length: 10s
