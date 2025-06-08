@@ -2,9 +2,34 @@ title: ":space_-8::cosmetic_grid_menu_3:"
 rows: 6
 id: command_event_backpacks
 items:
-  mallet_chisel_bronze:
+  mallet_chisel_wooden:
     slots:
       - 0
+    item:
+      material: hmccosmetics:mallet_chisel_wooden
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:mallet_chisel_wooden
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:mallet_chisel_wooden
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    cosmetic: mallet_chisel_wooden
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  mallet_chisel_bronze:
+    slots:
+      - 1
     item:
       material: hmccosmetics:mallet_chisel_bronze
       lore:
@@ -29,7 +54,7 @@ items:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   mallet_chisel_silver:
     slots:
-      - 1
+      - 2
     item:
       material: hmccosmetics:mallet_chisel_silver
       lore:
@@ -54,7 +79,7 @@ items:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   mallet_chisel_gold:
     slots:
-      - 2
+      - 3
     item:
       material: hmccosmetics:mallet_chisel_gold
       lore:
@@ -78,9 +103,34 @@ items:
       on-unequip:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
 
-  camera_bronze:
+  camera_normal:
     slots:
       - 6
+    item:
+      material: hmccosmetics:camera_normal
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:camera_normal
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:camera_normal
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    cosmetic: camera_normal
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  camera_bronze:
+    slots:
+      - 7
     item:
       material: hmccosmetics:camera_bronze
       lore:
@@ -105,7 +155,7 @@ items:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   camera_silver:
     slots:
-      - 7
+      - 8
     item:
       material: hmccosmetics:camera_silver
       lore:
@@ -130,7 +180,7 @@ items:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   camera_gold:
     slots:
-      - 8
+      - 9
     item:
       material: hmccosmetics:camera_gold
       lore:
