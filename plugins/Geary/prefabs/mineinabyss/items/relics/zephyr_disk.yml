@@ -5,21 +5,21 @@ set.item:
 disableItemInteractions: {}
 resourcepack:
   model: mineinabyss:item/relics/zephyr_disk
-observe:
-  itemRightClick:
-  - become: parent
-  - ensure:
-      cooldownsComplete:
-      - zephyr_disk
-  - eval: entity.getLocation
-    register: center
-  - run:
-    - become: it
-    - playSound:
-        sound: minecraft:entity.generic.extinguish_fire
-    - particle:
-        particle: CLOUD
-        count: 3
-      with:
-        location: '{{ entity.getLocation }}'
-        loop: 'entity.getNearbyEntities { radius: 10 }'
+#observe:
+#  itemRightClick:
+#  - become: parent
+#  - ensure:
+#      cooldownsComplete:
+#      - zephyr_disk
+#  - eval: entity.getLocation
+#    register: center
+#  - run:
+#    - become: it
+#    - playSound:
+#        sound: minecraft:entity.generic.extinguish_fire
+#    - particle:
+#        particle: CLOUD
+#        count: 3
+#      with:
+#        location: '{{ entity.getLocation }}'
+#        loop: 'entity.getNearbyEntities { radius: 10 }'
