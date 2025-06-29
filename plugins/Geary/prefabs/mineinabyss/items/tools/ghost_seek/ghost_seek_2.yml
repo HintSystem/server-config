@@ -8,6 +8,7 @@ set.item:
   - <#D2D489>guiding its wielder toward hidden relics.
   equippable:
     slot: HEAD
+    cameraOverlay: mineinabyss:misc/ghost_seek_overlay
   enchantmentGlintOverride: true
 #passive:
 #- match:
