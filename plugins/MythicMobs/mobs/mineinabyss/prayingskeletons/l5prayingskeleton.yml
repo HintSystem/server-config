@@ -52,7 +52,9 @@ l5prayingskeleton:
     - remove{delay=240000} @self ~onSpawn
     - skill{s=skelewet} @Self ~onTimer:20
    # - skill{s=skelehigh} @Self ~onTimer:20
-    - skill{s=skelerock} @Self ~onTimer:20
+    - skill{s=kys;delay=20} @trigger ~onspawn ?heightbelow{h=-240}
+    - skill{s=kys;delay=20} @trigger ~onspawn ?heightabove{h=240}
+    - skill{s=kys;delay=20} @trigger ~onspawn ?mobsInRadius{types=l5prayingskeleton,backupskele5;amount=2to50;radius=200} 
 #    - skill{s=ylevelhigh} @Self ~onTimer:20
   #  - skill{s=ylevellow} @Self ~onTimer:20
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=500;minradius=200;spacing=1;onSurface=true} ~onspawn
@@ -119,7 +121,9 @@ backupskele5:
     - remove{delay=240000} @self ~onSpawn
     - skill{s=skelewet} @Self ~onTimer:20
    # - skill{s=skelehigh} @Self ~onTimer:20
-    - skill{s=skelerock} @Self ~onTimer:20
+    - skill{s=kys;delay=20} @trigger ~onspawn ?heightbelow{h=-240}
+    - skill{s=kys;delay=20} @trigger ~onspawn ?heightabove{h=240}
+    - skill{s=kys;delay=20} @trigger ~onspawn ?mobsInRadius{types=l5prayingskeleton,backupskele5;amount=2to50;radius=200} 
 #    - skill{s=ylevelhigh} @Self ~onTimer:20
   #  - skill{s=ylevellow} @Self ~onTimer:20
 
