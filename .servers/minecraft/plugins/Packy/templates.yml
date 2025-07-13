@@ -14,14 +14,14 @@ modelengine:
   default: true
   required: true
   filePath: ModelEngine/resource pack.zip
-custom_hud:
-  default: true
-  required: false
-  filePath: MythicHUD/built-pack
 emotes:
   default: true
   required: true
   filePath: Emojy/pack.zip
+custom_hud:
+  default: true
+  required: false
+  filePath: MythicHUD/built-pack
 openinv_addon:
   default: true
   required: true

@@ -1,6 +1,6 @@
 #version 110
 
-#moj_import <fog.glsl>
+#moj_import <minecraft:fog.glsl>
 
 uniform sampler2D Sampler0;
 
@@ -17,7 +17,7 @@ out vec4 fragColor;
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
-    
+
     if (color.a < 0.1 || color.w == 0) {
         discard;
     }
