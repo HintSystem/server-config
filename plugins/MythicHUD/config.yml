@@ -7,7 +7,9 @@ layout:
     - effect
     - orthbanking
 check-update: 5
+placeholder-update: 5
 decimal-format: '#.##'
+nexo-hook: false
 copy-pack:
   enabled: false
   path: Nexo/pack/external_packs/MythicHud.zip
@@ -21,10 +23,10 @@ elements:
   EXPERIENCE_LEVEL: default
 updaters:
   ARMOR: true
-  AIR: true
-  RESPAWNING: true
-  EXPERIENCE: true
   CONSUMING: true
+  AIR: true
+  EXPERIENCE: true
+  RESPAWNING: true
 pack-support: all
 default-namespace: mythichud
-config-version: 9
+config-version: 10
