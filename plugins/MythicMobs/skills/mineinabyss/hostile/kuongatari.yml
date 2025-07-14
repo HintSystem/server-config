@@ -16,4 +16,4 @@ fapukuon_summon:
     #- incombat true
   Skills:
     - gcd{ticks=20}
-    - summon{type=fapugatari_summon;amount=2;radius=3} @self
+    - summon{type=fapukuon_summon;amount=2;radius=3} @self
