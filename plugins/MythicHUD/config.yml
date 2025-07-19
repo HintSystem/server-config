@@ -4,7 +4,6 @@ layout:
   default:
     - backgrounds
     - vanilla
-    - effect
     - orthbanking
 check-update: 5
 placeholder-update: 5

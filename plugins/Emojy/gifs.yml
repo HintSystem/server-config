@@ -64,3 +64,7 @@ gifs:
     framePath: emotes:gifs/yepcat
     ascent: 9
     height: 11
+  - id: nyanorb
+    framePath: emotes:gifs/nyanorb
+    ascent: 9
+    height: 11
