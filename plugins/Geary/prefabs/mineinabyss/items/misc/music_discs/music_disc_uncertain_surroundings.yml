@@ -4,9 +4,7 @@ set.item:
   itemModel: mineinabyss:uncertain_surroundings
   maxStackSize: 1
   rarity: RARE
-  jukeboxPlayable:
-    jukeboxSong: mineinabyss:the_lilypad_uncertain_surroundings
-    showInToolTip: true
+  jukeboxPlayable: mineinabyss:the_lilypad_uncertain_surroundings
 resourcepack:
   textures:
     layers:

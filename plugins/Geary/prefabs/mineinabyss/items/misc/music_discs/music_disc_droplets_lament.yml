@@ -4,9 +4,7 @@ set.item:
   itemModel: mineinabyss:droplents_lament
   maxStackSize: 1
   rarity: RARE
-  jukeboxPlayable:
-    jukeboxSong: mineinabyss:the_lilypad_droplets_lament
-    showInToolTip: true
+  jukeboxPlayable: mineinabyss:the_lilypad_droplets_lament
 resourcepack:
   textures:
     layers:

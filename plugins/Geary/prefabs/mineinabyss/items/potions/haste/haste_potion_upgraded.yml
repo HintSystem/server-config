@@ -8,8 +8,7 @@ set.item:
     - type: minecraft:haste
       duration: 3m
       amplifier: 1
-  dyedColor:
-    color: 233,177,21
+  dyedColor: 233,177,21
 set.potionMixes:
   potionmixes:
   - ingredient: minecraft:glowstone_dust

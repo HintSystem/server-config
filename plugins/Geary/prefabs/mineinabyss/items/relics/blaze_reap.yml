@@ -9,11 +9,10 @@ set.item:
   - <#C6CC8A>on whatever it is struck on.
   - <#948E61><i>Used to create powerful explosions.
   enchantments:
-    enchantments:
-      - enchant: minecraft:fortune
-        level: 3
-      - enchant: minecraft:efficiency
-        level: 5
+    - enchant: minecraft:fortune
+      level: 3
+    - enchant: minecraft:efficiency
+      level: 5
   enchantable: 0
   unbreakable: {}
 observe:

@@ -1,5 +1,6 @@
 set.item:
-  hideTooltip: {}
+  tooltipDisplay:
+    hideTooltip: true
   type: minecraft:paper
   itemModel: cosmetics:scrollable_next
 resourcepack:
