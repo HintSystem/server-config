@@ -13,7 +13,8 @@ geary:
 modelengine:
   default: true
   required: true
-  filePath: ModelEngine/resource pack.zip
+  loadTrigger:
+    type: ModelEngine
 emotes:
   default: true
   required: true

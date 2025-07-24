@@ -18,8 +18,8 @@ boss-bar:
   color: white
 disable-geyser-players: true
 disable-netty-injection: false
-elements:
-  EXPERIENCE_LEVEL: default
+hide-exp: true
+hide-vanilla-hud: true
 updaters:
   ARMOR: true
   CONSUMING: true
@@ -28,4 +28,4 @@ updaters:
   RESPAWNING: true
 pack-support: all
 default-namespace: mythichud
-config-version: 10
+config-version: 11
