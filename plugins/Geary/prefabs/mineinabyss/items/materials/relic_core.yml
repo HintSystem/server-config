@@ -2,26 +2,26 @@ set.item:
   itemName: Relic Core
   type: PAPER
   itemModel: mineinabyss:relic_core
-set.recipes:
-  discoverRecipes: true
-  result:
-    prefab: mineinabyss:relic_core
-  group: mineinabyss:relic_core
-  recipes:
-  - type: shaped
-    items:
-      G:
-        prefab: mineinabyss:ikonia_plate
-      H:
-        prefab: mineinabyss:himushi_core
-      P:
-        prefab: mineinabyss:tachikatana_claw
-      C:
-        prefab: mineinabyss:unpowered_core
-    configuration: |-
-      |GPG|
-      |HCH|
-      |GPG|
+#set.recipes:
+#  discoverRecipes: true
+#  result:
+#    prefab: mineinabyss:relic_core
+#  group: mineinabyss:relic_core
+#  recipes:
+#  - type: shaped
+#    items:
+#      G:
+#        prefab: mineinabyss:ikonia_plate
+#      H:
+#        prefab: mineinabyss:himushi_core
+#      P:
+#        prefab: mineinabyss:tachikatana_claw
+#      C:
+#        prefab: mineinabyss:unpowered_core
+#    configuration: |-
+#      |GPG|
+#      |HCH|
+#      |GPG|
 resourcepack:
   textures:
     layers:
