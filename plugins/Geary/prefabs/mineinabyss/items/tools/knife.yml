@@ -2,9 +2,18 @@ set.item:
   type: minecraft:paper
   itemName: Knife
   itemModel: mineinabyss:knife
-  maxStackSize: 1
+  maxStackSize: 64
   lore:
   - <yellow>Used to cut meat into smaller pieces.
+set.recipes: 
+  discoverRecipes: true
+  result:
+    amount: 8
+  recipes:
+    - type: shapeless
+      items:
+        - type: STICK
+        - type: IRON_INGOT
 resourcepack:
   textures:
     layers:
