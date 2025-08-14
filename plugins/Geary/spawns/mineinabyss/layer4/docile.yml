@@ -17,7 +17,7 @@ l4_docile:
 l4_stinger:
   inherit: l4_docile
   type: mm:stinger
-  amount: 3-5
+  amount: 3-4
   regions: [ layerfour ]
   conditions:
     - $inherit

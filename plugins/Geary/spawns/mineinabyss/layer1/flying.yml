@@ -18,4 +18,4 @@ l1_splitjaw:
   inherit: l1_flying
   type: mm:splitjaw
   priority: 0.5
-  chance: 0.05
+  chance: 0.04
