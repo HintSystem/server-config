@@ -11,19 +11,13 @@ prayingSkeleton_base:
     Silent: true
     PreventOtherDrops: true
     Collidable: false
-  Model:
-    Id: praying_skeleton_1
-    ViewRadius: 100
-    Drive: false
-    DamageTint: false
-    Scale: 1
   Skills:
     # Choose a random model for this skeleton
     - randomskill{skills=
-      [- model{modelid=praying_skeleton_1} @self],
-      [- model{modelid=praying_skeleton_2} @self],
-      [- model{modelid=praying_skeleton_3} @self],
-      [- model{modelid=praying_skeleton_4} @self],
-      [- model{modelid=praying_skeleton_5} @self]
+      [- model{modelid=praying_skeleton_1;radius=100;damagetint=false} @self],
+      [- model{modelid=praying_skeleton_2;radius=100;damagetint=false} @self],
+      [- model{modelid=praying_skeleton_3;radius=100;damagetint=false} @self],
+      [- model{modelid=praying_skeleton_4;radius=100;damagetint=false} @self],
+      [- model{modelid=praying_skeleton_5;radius=100;damagetint=false} @self]
       } @self ~onSpawn
     - skill{s=displayHealth} ~onDamaged
