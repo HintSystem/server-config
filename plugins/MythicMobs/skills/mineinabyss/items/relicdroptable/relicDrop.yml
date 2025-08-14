@@ -4,11 +4,12 @@ relicDrop:
   TargetConditions:
     # Aura used to prevent multiple items from dropping currently, as well as particle effect
     - hasaura{aura=relicdrop} false
-  Skill:
+    - playerwithin 32
+  Skills:
     - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
-    - giveitem{i=<skill.item>} @trigger
+    - dropitem{i=<skill.item>} @self
     # Send a message based on a grade parameter
-    - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I</#AA00AA><#D2D489> relic.'} @World ?varEquals{var=skill.grade;value=1}
-    - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II</#AA00AA><#D2D489> relic.'} @World ?varEquals{var=skill.grade;value=2}
-    - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade III</#AA00AA><#D2D489> relic.'} @World ?varEquals{var=skill.grade;value=3}
-    - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV</#AA00AA><#D2D489> relic.'} @World ?varEquals{var=skill.grade;value=4}
+    - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I</#AA00AA><#D2D489> relic.'} @World ?stringequals{val1=<skill.grade>;val2="1"}
+    - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II</#AA00AA><#D2D489> relic.'} @World ?stringequals{val1=<skill.grade>;val2="2"}
+    - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade III</#AA00AA><#D2D489> relic.'} @World ?stringequals{val1=<skill.grade>;val2="3"}
+    - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV</#AA00AA><#D2D489> relic.'} @World ?stringequals{val1=<skill.grade>;val2="4"}

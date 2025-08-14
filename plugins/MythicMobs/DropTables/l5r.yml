@@ -1,41 +1,21 @@
 BlackholeStaffDrop:
-
-  MaxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
   - geary mineinabyss:blackhole_staff 1-1 1 nolooting  
 
 
 FrostStaffDrop:
-
-  MaxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
   - geary mineinabyss:frost_staff 1-1 1 nolooting 
 
 BoneStaffDrop:
-
-  MaxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
   - geary mineinabyss:bone_staff 1-1 1 nolooting 
 
 VoidCharmDrop:
-
-  MaxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
   - geary mineinabyss:void_charm 1-1 1 nolooting   
 
 
 MonisceltiDrop:
-
-  MaxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
   - geary mineinabyss:moniscelti 1-1 1 nolooting     
