@@ -14,6 +14,8 @@ feat/mobs:
       dest: plugins/Geary/spawns
     - source: plugins/Geary/spawning.yml
       dest: plugins/Geary/
+    - source: plugins/Geary/spread_config.yml
+      dest: plugins/Geary/
     - source: plugins/MythicMobs
       dest: plugins/MythicMobs
     - source: .servers/disable_mythic_examples
