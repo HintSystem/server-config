@@ -3,7 +3,7 @@ set.item:
   itemName: <#5C471D>Onitsuchi Feather
   itemModel: mineinabyss:onitsuchi_feather
   lore:
-  - ':layer_4::layer_5:'
+  - ':layer_4::layer_5::cosmetic_orth_coin:'
   - <#A9CCCA>Just a feather, innit?
 resourcepack:
   textures:

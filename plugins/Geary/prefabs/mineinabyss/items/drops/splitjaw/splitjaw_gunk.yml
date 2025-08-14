@@ -3,7 +3,7 @@ set.item:
   itemName: <#38E016>Splitjaw Gunk
   itemModel: mineinabyss:splitjaw_gunk
   lore:
-  - ':layer_1::layer_2::layer_3:'
+  - ':layer_1::layer_2::layer_3::cosmetic_orth_coin:'
   - <#40FF19>Yucky.
 resourcepack:
   textures:
