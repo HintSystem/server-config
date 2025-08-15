@@ -18,20 +18,12 @@ passive:
       - geary:ghost_seek:
           radii:
             200:
-              - playSound: { sound: mineinabyss:item.ghost_seek_1 }
-              - mythicSkills:
-                  - ghost_seek_particles_1
+              - mythicSkills: [ ghost_seek_effect_1 ]
             100:
-              - playSound: { sound: mineinabyss:item.ghost_seek_2 }
-              - mythicSkills:
-                  - ghost_seek_particles_2
+              - mythicSkills: [ ghost_seek_effect_2 ]
             50:
-              - playSound: { sound: mineinabyss:item.ghost_seek_3 }
-              - mythicSkills:
-                  - ghost_seek_particles_3
+              - mythicSkills: [ ghost_seek_effect_3 ]
             25:
-              - playSound: { sound: mineinabyss:item.ghost_seek_4 }
-              - mythicSkills:
-                  - ghost_seek_particles_4
+              - mythicSkills: [ ghost_seek_effect_4 ]
 resourcepack:
   model: mineinabyss:item/relics/ghost_seek_on
