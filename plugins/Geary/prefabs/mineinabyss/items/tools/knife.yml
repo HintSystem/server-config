@@ -21,7 +21,7 @@ observe:
   - become: parent
   - cooldown:
       id: knife
-      length: 5s
+      length: 7s
       display: <#BFBFBF>Knife
   - mythicSkills:
     - knifethrow
