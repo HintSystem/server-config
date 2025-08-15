@@ -1,5 +1,5 @@
 set.item:
-  itemName: <gold>Repaired Ghost Seek
+  itemName: <gold>Refined Ghost Seek
   type: minecraft:paper
   itemModel: mineinabyss:ghost_seek_on
   lore:
@@ -12,7 +12,7 @@ set.item:
 passive:
   - match:
       - equipped
-    every: 13s
+    every: 15s
     run:
       - become: parent
       - geary:ghost_seek:

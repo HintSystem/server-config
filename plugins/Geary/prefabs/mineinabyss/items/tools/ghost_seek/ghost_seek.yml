@@ -12,7 +12,7 @@ set.item:
 passive:
   - match:
       - equipped
-    every: 20s
+    every: 25s
     run:
       - become: parent
       - geary:ghost_seek:
