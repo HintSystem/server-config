@@ -16,6 +16,18 @@ passive:
     run:
       - become: parent
       - geary:ghost_seek:
-          radii: [ 100, 75, 50, 25 ]
+          radii:
+            100:
+              - playSound: { sound: mineinabyss:item.ghost_seek_1 }
+              - mythicSkills:
+                - skill{s=ghost_seek_particles_1} @self
+            50:
+              - playSound: { sound: mineinabyss:item.ghost_seek_2 }
+              - mythicSkills:
+                  - skill{s=ghost_seek_particles_2} @self
+            25:
+              - playSound: { sound: mineinabyss:item.ghost_seek_3 }
+              - mythicSkills:
+                  - skill{s=ghost_seek_particles_3} @self
 resourcepack:
   model: mineinabyss:item/relics/ghost_seek_on

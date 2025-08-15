@@ -1,0 +1,27 @@
+{
+  "item.ghost_seek_1": {
+    "sounds": [
+      "mineinabyss:relic/ghost_seek/jingle_1"
+    ]
+  },
+  "item.ghost_seek_2": {
+    "sounds": [
+      "mineinabyss:relic/ghost_seek/jingle_2"
+    ]
+  },
+  "item.ghost_seek_3": {
+    "sounds": [
+      "mineinabyss:relic/ghost_seek/jingle_3"
+    ]
+  },
+  "item.ghost_seek_4": {
+    "sounds": [
+      "mineinabyss:relic/ghost_seek/jingle_4"
+    ]
+  },
+  "item.ghost_seek_5": {
+    "sounds": [
+      "mineinabyss:relic/ghost_seek/jingle_5"
+    ]
+  }
+}

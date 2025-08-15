@@ -13,6 +13,27 @@ observe:
   itemRightClick:
     - become: parent
     - geary:ghost_seek:
-        radii: [ 250, 200, 150, 100, 50, 25, 10 ]
+        radii:
+          250:
+            - playSound: { sound: mineinabyss:item.ghost_seek_1 }
+            - mythicSkills:
+                - skill{s=ghost_seek_particles_1} @self
+          150:
+            - playSound: { sound: mineinabyss:item.ghost_seek_2 }
+            - mythicSkills:
+                - skill{s=ghost_seek_particles_2} @self
+          100:
+            - playSound: { sound: mineinabyss:item.ghost_seek_3 }
+            - mythicSkills:
+                - skill{s=ghost_seek_particles_3} @self
+          50:
+            - playSound: { sound: mineinabyss:item.ghost_seek_4 }
+            - mythicSkills:
+                - skill{s=ghost_seek_particles_4} @self
+          25:
+            - playSound: { sound: mineinabyss:item.ghost_seek_5 }
+            - mythicSkills:
+                - skill{s=ghost_seek_particles_5} @self
+                - skill{s=ghost_seek_glow_nearby} @self
 resourcepack:
   model: mineinabyss:item/relics/ghost_seek_on
