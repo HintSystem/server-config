@@ -1,0 +1,17 @@
+knifethrow:
+  Cooldown: 0
+  Conditions:
+    - offgcd true
+  Skills:
+    - gcd{ticks=50}
+    - projectile{bulletType=ITEM;material=redstone;onTick=knifetick;onHit=knifeimpact;v=35;g=0.5;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5;vO=0.1} @targetlocation
+
+knifeimpact:
+  Skills:
+    - effect:particles{particle=Electric_Spark;amount=50;hS=3;vS=3;y=.5}
+    - damage{a=3}
+    - sound{s=entity.snow_golem.hurt;sc=hostile;p=1;v=0.6}    
+
+knifetick:
+  Skills:
+    - effect:particles{particle=Crit;amount=1;hS=.1;vS=.1;speed=0}    
