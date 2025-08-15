@@ -20,14 +20,14 @@ passive:
             100:
               - playSound: { sound: mineinabyss:item.ghost_seek_1 }
               - mythicSkills:
-                - skill{s=ghost_seek_particles_1} @self
+                  - ghost_seek_particles_1
             50:
               - playSound: { sound: mineinabyss:item.ghost_seek_2 }
               - mythicSkills:
-                  - skill{s=ghost_seek_particles_2} @self
+                  - ghost_seek_particles_2
             25:
               - playSound: { sound: mineinabyss:item.ghost_seek_3 }
               - mythicSkills:
-                  - skill{s=ghost_seek_particles_3} @self
+                  - ghost_seek_particles_3
 resourcepack:
   model: mineinabyss:item/relics/ghost_seek_on
