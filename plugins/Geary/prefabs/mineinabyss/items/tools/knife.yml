@@ -8,6 +8,7 @@ set.item:
 set.recipes: 
   discoverRecipes: true
   result:
+    prefab: mineinabyss:knife
     amount: 8
   recipes:
     - type: shapeless

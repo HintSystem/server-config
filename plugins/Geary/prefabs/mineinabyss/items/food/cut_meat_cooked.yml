@@ -61,6 +61,10 @@ set.recipes:
       items:
         - prefab: mineinabyss:knife
         - prefab: mineinabyss:onitsuchi_wing_cooked
+    - type: shapeless
+      items:
+        - prefab: mineinabyss:knife
+        - prefab: mineinabyss:cyatoria_drumstick_cooked
 
 #  recipes:
 #    - type: shapeless

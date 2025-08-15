@@ -89,8 +89,8 @@
 			"translation": [0, 4.5, 0]
 		},
 		"head": {
-			"translation": [0, 12.25, 0],
-			"scale": [1.6, 1.6, 1.6]
+			"translation": [0, 12.5, 0],
+			"scale": [1.63, 1.63, 1.63]
 		},
 		"fixed": {
 			"translation": [0, -6.25, 0]
