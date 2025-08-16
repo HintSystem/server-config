@@ -81,7 +81,7 @@ sectionsConfig:
         - isOpenArea: { range: 3 }
     spreadRadius: 500
     spawnCap: 10
-    sectionMinY: -20
+    sectionMinY: -10
     sectionMaxY: 220
     spawnNoise: 5
     splitSize: 250
