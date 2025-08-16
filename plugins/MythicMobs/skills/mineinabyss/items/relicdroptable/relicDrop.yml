@@ -4,7 +4,6 @@ relicDrop:
   TargetConditions:
     # Aura used to prevent multiple items from dropping currently, as well as particle effect
     - hasaura{aura=relicdrop} false
-    - playerwithin 32
   Skills:
     - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
     - dropitem{i=<skill.item>} @self

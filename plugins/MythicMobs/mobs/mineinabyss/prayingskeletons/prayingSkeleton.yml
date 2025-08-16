@@ -18,6 +18,10 @@ prayingSkeleton_base:
     ViewRadius: 100
     DamageTint: false
     Drive: false
+  DamageModifiers:
+    - FALL 0.001
+    - DROWNING 0.001
+    - ENTITY_SWEEP_ATTACK 0.001
   Skills:
     # Choose a random model for this skeleton
     #    - randomskill{skills=
