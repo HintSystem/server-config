@@ -126,8 +126,8 @@ spam-limiter:
   tab-spam-increment: 1
   tab-spam-limit: 500
 spark:
-  enable-immediately: false
-  enabled: false
+  enable-immediately: true
+  enabled: true
 timings:
   enabled: false
   hidden-config-entries:
