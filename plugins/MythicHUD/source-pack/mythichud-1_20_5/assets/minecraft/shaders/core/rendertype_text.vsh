@@ -20,7 +20,7 @@ out float vertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
 
-#define MH_VERSION 3
+#define MH_VERSION 5
 #define MH_OFFSET %BOSSBAR_OFFSET%
 #define XP_COLOR vec3(0.501, 1.0, 0.125)
 #define XP_COLOR_SHADOW vec3(0.0, 0.0, 0.0)

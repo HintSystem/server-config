@@ -13,6 +13,15 @@ set.recipes:
         T: { prefab: mineinabyss:tachikatana_scale}
         E: { prefab: mineinabyss:edusan_scale}
       configuration: |-
-        |ETE|
+        | E |
         |TCT|
-        |ETE|
+        | E |
+    - type: shaped
+      items:
+        C: { prefab: mineinabyss:corpse_weeper_eye}
+        D: { prefab: mineinabyss:daikonchu_carapace}
+        H: { prefab: mineinabyss:himushi_core}
+      configuration: |-
+        |DHD|
+        |DCD|
+        |DDD|

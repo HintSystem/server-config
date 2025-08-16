@@ -51,7 +51,7 @@ l4_horncrier:
 l4_orbpiercer:
   inherit: l4_hostile
   type: mm:orbpiercer
-  chance: 0.015
+  chance: 0.017
   priority: 0.15
   conditions:
     - $inherit

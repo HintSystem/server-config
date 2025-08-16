@@ -1,43 +1,19 @@
 BlazeReapDrop:
-
-  MaxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
-  - geary mineinabyss:blaze_reap 1-1 1 nolooting  
-
+    - geary mineinabyss:blaze_reap 1-1 1 nolooting
 
 TridentDrop:
-
-  MaxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
-  - geary mineinabyss:trident 1-1 1 nolooting  
-
+    - geary mineinabyss:trident 1-1 1 nolooting
 
 HealingStaffDrop:
-
-  MaxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
-  - geary mineinabyss:healing_staff 1-1 1 nolooting   
-
+    - geary mineinabyss:healing_staff 1-1 1 nolooting
 
 RespiratisDrop:
-
-  MaxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
-  - geary mineinabyss:respiratis 1-1 1 nolooting     
-
+    - geary mineinabyss:respiratis 1-1 1 nolooting
 
 WaveCharmDrop:
-
-  MAxItems: 1
-  Conditions:
-  - playerwithin 32
   Drops:
-  - geary mineinabyss:wave_charm 1-1 1 nolooting 
+    - geary mineinabyss:wave_charm 1-1 1 nolooting

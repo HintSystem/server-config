@@ -5,8 +5,7 @@ set.item:
   - <#EDE134><b>Helmet worn by <reset><white><b>The Annihilator
   type: PAPER
   itemModel: mineinabyss:lyza_hat
-  dyedColor:
-    color: '#FFFFFF'
+  dyedColor: '#FFFFFF'
   equippable:
     slot: HEAD
 disableItemInteractions: {}

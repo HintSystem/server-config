@@ -4,8 +4,7 @@ set.item:
   - '<gray>:ozensmug:'
   type: PAPER
   itemModel: mineinabyss:ozen_hat
-  dyedColor:
-    color: '#FFFFFF'
+  dyedColor: '#FFFFFF'
   equippable:
     slot: HEAD
 disableItemInteractions: {}

@@ -4,8 +4,7 @@ inherit:
 set.item:
   type: minecraft:leather_horse_armor
   itemName: <white>Bamboo Chair
-  dyedColor:
-    color: 255, 255, 255
+  dyedColor: 255, 255, 255
   itemModel: hmcmodels:bamboo_chair
 resourcepack:
   model: hmcmodels:furniture/bamboo_furniture/bamboo_chair

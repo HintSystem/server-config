@@ -20,7 +20,7 @@ out float vertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
 
-#define MH_VERSION 3
+#define MH_VERSION 5
 #define MH_OFFSET %BOSSBAR_OFFSET%
 
 // Function to convert a vertical ascent into a ID.

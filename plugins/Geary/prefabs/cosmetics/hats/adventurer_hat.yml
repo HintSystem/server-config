@@ -2,8 +2,7 @@ set.item:
   itemName: <#BAB86C>Adventurer's Hat
   type: PAPER
   itemModel: cosmetics:adventurer_hat
-  dyedColor:
-    color: "#2D5B2C"
+  dyedColor: "#2D5B2C"
 resourcepack:
   model: cosmetics:hats/adventurer_hat
   tintSources:

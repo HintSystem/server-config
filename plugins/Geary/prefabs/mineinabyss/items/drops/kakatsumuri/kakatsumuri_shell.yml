@@ -3,7 +3,7 @@ set.item:
   itemName: <#7D93FF>Kakatsumuri Shell
   itemModel: mineinabyss:kakatsumuri_shell
   lore:
-  - ':layer_3:'
+  - ':layer_3::cosmetic_orth_coin:'
   - <#B8FFBA><i>Even after death the shell
   - <#B8FFBA><i>still keeps it bright glow.
 resourcepack:

@@ -4,9 +4,7 @@ set.item:
   itemModel: mineinabyss:flat_kazura
   maxStackSize: 1
   rarity: RARE
-  jukeboxPlayable:
-    jukeboxSong: mineinabyss:the_lilypad_the_flat_kazura
-    showInToolTip: true
+  jukeboxPlayable: mineinabyss:the_lilypad_the_flat_kazura
 resourcepack:
   textures:
     layers:

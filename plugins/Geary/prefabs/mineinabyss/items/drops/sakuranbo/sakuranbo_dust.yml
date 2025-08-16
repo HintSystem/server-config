@@ -3,7 +3,7 @@ set.item:
   itemName: <gold>Sakuranbo Dust
   itemModel: mineinabyss:sakuranbo_dust
   lore:
-  - ':layer_3:'
+  - ':layer_3::cosmetic_orth_coin:'
   - <gold><i>Careful! Ignites easily.
 resourcepack:
   textures:

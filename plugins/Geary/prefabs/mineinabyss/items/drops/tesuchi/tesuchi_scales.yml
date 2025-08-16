@@ -3,7 +3,7 @@ set.item:
   itemName: <dark_green>Tesuchi Scales
   itemModel: mineinabyss:tesuchi_scales
   lore:
-  - ':layer_2:'
+  - ':layer_2::cosmetic_orth_coin:'
   - <green><i>Crispy
   food:
     saturation: 1.2

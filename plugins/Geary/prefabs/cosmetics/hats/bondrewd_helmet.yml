@@ -5,8 +5,7 @@ set.item:
   - <#6F19D1><i>Helmet worn by
   type: PAPER
   itemModel: mineinabyss:bondrewd_helmet
-  dyedColor:
-    color: '#FFFFFF'
+  dyedColor: '#FFFFFF'
   equippable:
     slot: HEAD
 disableItemInteractions: {}

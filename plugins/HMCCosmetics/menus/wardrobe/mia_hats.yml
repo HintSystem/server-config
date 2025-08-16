@@ -143,6 +143,174 @@ items:
     currency: orth_coin
     cost: 400
     cosmetic: reg_helmet
+  feather_hat_blue:
+    slots: 5
+    item:
+      material: hmccosmetics:feather_hat_blue
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:feather_hat_blue
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:feather_hat_blue
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>100:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:feather_hat_blue
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>100:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: cosmetic
+    currency: orth_coin
+    cost: 100
+    cosmetic: feather_hat_blue
+  feather_hat_black:
+    slots: 6
+    item:
+      material: hmccosmetics:feather_hat_black
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:feather_hat_black
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:feather_hat_black
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>100:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:feather_hat_black
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>100:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: cosmetic
+    currency: orth_coin
+    cost: 100
+    cosmetic: feather_hat_black
+  agile_hat_black:
+    slots: 7
+    item:
+      material: hmccosmetics:agile_hat_black
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:agile_hat_black
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:agile_hat_black
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:agile_hat_black
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: cosmetic
+    currency: orth_coin
+    cost: 80
+    cosmetic: agile_hat_black
+  agile_hat_green:
+    slots: 8
+    item:
+      material: hmccosmetics:agile_hat_green
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:agile_hat_green
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:agile_hat_green
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:agile_hat_green
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>80:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: cosmetic
+    currency: orth_coin
+    cost: 80
+    cosmetic: agile_hat_green
+  ocean_hat:
+    slots: 9
+    item:
+      material: hmccosmetics:ocean_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:ocean_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:ocean_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>60:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:ocean_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>60:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: cosmetic
+    currency: orth_coin
+    cost: 60
+    cosmetic: ocean_hat
+  detchuanga_hat:
+    slots: 10
+    item:
+      material: hmccosmetics:detchuanga_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:detchuanga_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-equipped-item:
+      material: hmccosmetics:detchuanga_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>100:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Unequip</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    locked-item:
+      material: hmccosmetics:detchuanga_hat
+      lore:
+        - "<red>Locked</red> <white>|</white> <gold>100:cosmetic_orth_coin:"
+        - "<yellow>[Left Click - <i>Try</i>]"
+        - "<red>[Right Click - <i>Buy</i>]"
+    type: cosmetic
+    currency: orth_coin
+    cost: 100
+    cosmetic: detchuanga_hat
 
 
   lyza_hat:

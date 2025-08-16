@@ -1,7 +1,6 @@
 set.item:
   type: minecraft:paper
-  dyedColor:
-    color: "#FFFFFF"
+  dyedColor: "#FFFFFF"
   itemModel: cosmetics:neritantan_backpack_fp
 resourcepack:
   model: cosmetics:backpacks/neritantan_backpack_fp

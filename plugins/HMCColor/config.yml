@@ -12,12 +12,12 @@ buttons:
   # prefab: namespace:something
   item:
     type: minecraft:leather_horse_armor
-    dyedColor:
-      showInTooltip: false
-      color: "#FFFFFF"
-    attributeModifiers:
-      showInTooltip: false
-      attributes: []
+    tooltipDisplay:
+      hiddenComponents:
+      - dyed_color
+      - attribute_modifiers
+    dyedColor: "#FFFFFF"
+    attributeModifiers: []
     itemModel: cosmetics:paintbrush
   inputSlot: 10
   outputSlot: 16
@@ -58,7 +58,8 @@ buttons:
     subColorItem:
       type: minecraft:leather_horse_armor
       itemModel: cosmetics:paintbrush
-      hideTooltip: {}
+      tooltipDisplay:
+        hideTooltip: true
   effectButton: 31
 blacklistedItems:
   nexoItems:

@@ -1,7 +1,6 @@
 set.item:
   type: minecraft:paper
-  dyedColor:
-    color: "#62A8FF"
+  dyedColor: "#62A8FF"
   itemModel: cosmetics:explorer_backpack_fp
 resourcepack:
   model: cosmetics:backpacks/explorer_backpack_fp

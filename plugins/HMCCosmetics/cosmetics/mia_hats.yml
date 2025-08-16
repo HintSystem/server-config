@@ -52,3 +52,33 @@ faputa_hat:
   dyeable: false
   item:
     material: geary:cosmetics:faputa_hat
+feather_hat_blue:
+  slot: HELMET
+  permission: "hmccosmetics.hat.feather_hat_blue"
+  item:
+    material: geary:cosmetics:feather_hat_blue
+feather_hat_black:
+  slot: HELMET
+  permission: "hmccosmetics.hat.feather_hat_black"
+  item:
+    material: geary:cosmetics:feather_hat_black
+agile_hat_black:
+  slot: HELMET
+  permission: "hmccosmetics.hat.agile_hat_black"
+  item:
+    material: geary:cosmetics:agile_hat_black
+agile_hat_green:
+  slot: HELMET
+  permission: "hmccosmetics.hat.agile_hat_green"
+  item:
+    material: geary:cosmetics:agile_hat_green
+ocean_hat:
+  slot: HELMET
+  permission: "hmccosmetics.hat.ocean_hat"
+  item:
+    material: geary:cosmetics:ocean_hat
+detchuanga_hat:
+  slot: HELMET
+  permission: "hmccosmetics.hat.detchuanga_hat"
+  item:
+    material: geary:cosmetics:detchuanga_hat

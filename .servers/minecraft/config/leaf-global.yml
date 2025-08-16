@@ -8,24 +8,27 @@ config-version: '3.0'
 ###########
 async:
   # **Experimental feature**
-  # Enables parallel world ticking to improve performance on multi-core systems..
-  parallel-world-tracking:
+  # Enables parallel world ticking to improve performance on multi-core systems.
+  parallel-world-ticking:
     enabled: false
     threads: 8
     log-container-creation-stacktraces: false
     disable-hard-throw: false
-  # Make entity tracking saving asynchronously, can improve performance significantly,
+    async-unsafe-read-handling: BUFFERED
+  # ** Experimental Feature **
+  # Make entity tracking asynchronously, can improve performance significantly,
   # especially in some massive entities in small area situations.
   async-entity-tracker:
     enabled: true
-    # Enable compat mode ONLY if Citizens or NPC plugins using real entity has installed,
-    # Compat mode fixed visible issue with player type NPCs of Citizens,
-    # But still recommend to use packet based / virtual entity NPC plugin, e.g. ZNPC Plus, Adyeshach, Fancy NPC or else.
-    compat-mode: false
-    max-threads: 8
-    keepalive: 60
+    threads: 0
+  # This moves the expensive entity and block search calculations to background thread while
+  # keeping the actual validation on the main thread.
+  async-target-finding:
+    enabled: false
+    async-alert-other: true
+    async-search-block: true
+    async-search-entity: true
     queue-size: 0
-  # **Experimental feature, may have data lost in some circumstances!**
   # Make PlayerData saving asynchronously.
   async-playerdata-save:
     enabled: false
@@ -37,7 +40,8 @@ async:
     # The policy to use when the queue is full and a new task is submitted.
     # FLUSH_ALL: All pending tasks will be run on server thread.
     # CALLER_RUNS: Newly submitted task will be run on server thread.
-    reject-policy: FLUSH_ALL
+    # DISCARD: Newly submitted task will be dropped directly.
+    reject-policy: DISCARD
   # Whether or not asynchronous mob spawning should be enabled.
   # On servers with many entities, this can improve performance by up to 15%. You must have
   # paper's per-player-mob-spawns setting set to true for this to work.
@@ -63,23 +67,73 @@ async:
 performance:
   # Use the new Virtual Thread introduced in JDK 21 for User Authenticator.
   use-virtual-thread-for-user-authenticator: true
+  # Use the new Virtual Thread introduced in JDK 21 for profile lookup executor.
+  use-virtual-thread-for-profile-executor: true
   # Use the new Virtual Thread introduced in JDK 21 for Async Chat Executor.
   use-virtual-thread-for-async-chat-executor: true
   # Use the new Virtual Thread introduced in JDK 21 for CraftAsyncScheduler.
   use-virtual-thread-for-async-scheduler: true
   create-snapshot-on-retrieving-blockstate: false
+  # Skip mob spawning for chunks with repeated failures exceeding `min-failed`.
+  # Randomly skip 1-`spawn-chance`% of these chunks from spawning attempts.
+  # Failure counter does not increment when spawn limits are reached.
+  throttle-mob-spawning:
+    enabled: false
+    monster:
+      min-failed: 8
+      spawn-chance: 25.0
+    creature:
+      min-failed: 8
+      spawn-chance: 25.0
+    ambient:
+      min-failed: 8
+      spawn-chance: 25.0
+    axolotls:
+      min-failed: 8
+      spawn-chance: 25.0
+    underground_water_creature:
+      min-failed: 8
+      spawn-chance: 25.0
+    water_creature:
+      min-failed: 8
+      spawn-chance: 25.0
+    water_ambient:
+      min-failed: 8
+      spawn-chance: 25.0
+    misc:
+      min-failed: 8
+      spawn-chance: 25.0
   # Throttles the AI goal selector in entity inactive ticks.
   # This can improve performance by a few percent, but has minor gameplay implications.
   inactive-goal-selector-throttle: true
   throttle-hopper-when-full:
     # Throttles the hopper if target container is full.
-    enabled: false
+    enabled: true
     # How many ticks to throttle when the Hopper is throttled.
     skip-ticks: 0
   skip-map-item-data-updates-if-map-does-not-have-craftmaprenderer: true
+  datapack:
+    # Skip selecting inactive entities when using execute command.
+    # Will improve performance on servers with massive datapack functions.
+    skip-inactive-entity-for-execute-command: false
   skip-ai-for-non-aware-mob: true
   reduce-packets:
-    reduce-entity-move-packets: false
+    reduce-entity-move-packets: true
+  optimized-powered-rails: false
+  optimize-waypoint: false
+  optimize-random-tick: true
+  # Whether to optimize player movement processing by skipping unnecessary edge checks and avoiding redundant view distance updates.
+  optimize-player-movement: true
+  optimize-no-action-time:
+    disable-light-check: false
+  # Whether to only tick / update items in main hand and offhand instead of the entire inventory.
+  only-tick-items-in-hand: false
+  optimize-mob-despawn: true
+  optimize-block-entities: true
+  cache-biome:
+    enabled: true
+    mob-spawning: true
+    advancements: false
   # May cause the inconsistent order of future compose tasks.
   faster-structure-gen-future-sequencing: true
   # Use faster random generator?
@@ -98,6 +152,14 @@ performance:
     # Use legacy random source for slime chunk generation,
     # to follow vanilla behavior.
     use-legacy-random-for-slime-chunk: false
+    # Use direct random implementation instead of delegating to Java's RandomGenerator.
+    # This may improve performance but potentially changes RNG behavior.
+    use-direct-implementation: false
+  fast-biome-manager-seed-obfuscation:
+    # Replace vanilla SHA-256 seed obfuscation in BiomeManager with XXHash.
+    enabled: false
+    # Seed obfuscation key for XXHash.
+    seed-obfuscation-key: -4673744080820096550
   # Whether to cache expensive CraftEntityType#minecraftToBukkit call.
   enable-cached-minecraft-to-bukkit-entitytype-convert: true
   # Optimizes entity brains when
@@ -126,13 +188,15 @@ performance:
     # when player disconnected caused by Internet issue.
     dont-save-primed-tnt: false
     dont-save-falling-block: false
-  # How often entity update current brain running behavior list.
-  entity-running-behavior-cache-update-interval: 5
+  check-survival-before-growth:
+    # Check if a cactus can survive before growing.
+    cactus-check-survival: false
 
 ###########
 #  FIXES  #
 ###########
 fixes:
+  fix-mc298464: false
   # Don't let player join server if the server is full.
   # If enable this, you should use 'purpur.joinfullserver' permission instead of
   # PlayerLoginEvent#allow to let player join full server.
@@ -155,18 +219,16 @@ gameplay-mechanisms:
       spawner-max-nearby-check: true
       # Check if any players are in a radius to spawn the mob
       check-for-nearby-players: true
-      # Check if there are blocks blocking the spawner to spawn the mob
+      # Check if there are physical blocks obstructing the spawn location, or if custom spawn rules (isValidPosition) fail due to block conditions.
       spawner-block-checks: false
       # Checks if there is water around that prevents spawning
       water-prevent-spawn-check: false
+      # Ignore mob-specific spawn rules, like animals needing grass or specific biomes/blocks (does not affect light level or physical obstruction checks).
+      ignore-spawn-rules: false
     # Minimum delay (in ticks) between spawner spawns. Higher values slow down spawners.
     min-spawn-delay: 200
     # Maximum delay (in ticks) between spawner spawns. Higher values slow down spawners.
     max-spawn-delay: 800
-  # **Experimental feature**
-  # Whether to make a "smooth teleport" when players changing dimension.
-  # This requires original world and target world have same logical height to work.
-  smooth-teleport: false
   # Enable to make only player pushable
   only-player-pushable: false
   knockback:
@@ -176,6 +238,8 @@ gameplay-mechanisms:
     egg-knockback-players: false
     # Make players can knockback zombie.
     can-player-knockback-zombie: true
+    flush-location-while-knockback-player: false
+    old-blast-protection-explosion-knockback: false
   # Controls whether specified component information would be sent to clients.
   # It may break resource packs and mods that rely on the information.
   # Also, it can avoid some frequent client animations.
@@ -186,6 +250,13 @@ gameplay-mechanisms:
     hidden-types: []
     # If enabled, specified item component information from player's inventory will be hided.
     enabled: false
+  death-item-drop-knockback:
+    # If true, items will drop randomly around the player on death.
+    drop-around: true
+    # Base speed for horizontal velocity when randomly dropping items.
+    horizontal-force: 0.5
+    # Upward motion for randomly dropped items.
+    vertical-force: 0.2
   allow-tripwire-dupe: false
   player:
     # The max distance of UseItem for players.
@@ -194,6 +265,14 @@ gameplay-mechanisms:
     # players are able to use some packet modules of hack clients,
     # and NoCom Exploit!!
     max-use-item-distance: 1.0000001
+  inventory-overflow-event:
+    # The event called when used plugin to Inventory#addItem
+    # into player's inventory, and the inventory is full.
+    # This is not recommended to use, please re-design to use the
+    # returned map of Inventory#addItem method as soon as possible!
+    enabled: false
+    # The full class name of the listener which listens to this inventory overflow event.
+    listener-class: com.example.package.PlayerInventoryOverflowEvent
   afk-command:
     # The AFK command based on Minecraft built-in idle-timeout mechanism
     # Rest of AFK settings are in the Purpur config
@@ -214,17 +293,26 @@ network:
     syncmatica-protocol: false
     syncmatica-quota: false
     syncmatica-quota-limit: 40000000
-  # This replaces ConcurrentLinkedQueue with ArrayDeque for better performance
-  # and uses the Netty event loop to ensure thread safety.
-  # 
-  # May increase the Netty thread usage and requires server restart to take effect
-  # Default: false
-  connection-flush-queue-rewrite: false
+    do-a-barrel-roll-protocol: false
+    do-a-barrel-roll-allow-thrusting: false
+    do-a-barrel-roll-force-enabled: false
+    do-a-barrel-roll-force-installed: false
+    do-a-barrel-roll-installed-timeout: 0
+  # WARNING: This option is NOT compatible with ProtocolLib and may cause
+  # issues with other plugins that modify packet handling.
+  #
+  # Optimizes non-flush packet sending by using Netty's lazyExecute method to avoid
+  # expensive thread wakeup calls when scheduling packet operations.
+  #
+  # Requires server restart to take effect.
+  OptimizeNonFlushPacketSending: false
   # Whether or not enable chat message signature,
   # disable will prevent players to report chat messages.
   # And also disables the popup when joining a server without
   # 'secure chat', such as offline-mode servers.
   chat-message-signature: true
+  # Async switch connection state.
+  async-switch-state: true
 
 ##########
 #  MISC  #
@@ -232,7 +320,9 @@ network:
 misc:
   message:
     # Unknown command message, using MiniMessage format, set to "default" to use vanilla message,
-    # placeholder: <detail>, shows detail of the unknown command information.
+    # placeholder:
+    # <message>, show message of the command exception.
+    # <detail>, shows detail of the command exception.
     unknown-command: <red><lang:command.unknown.command><newline><detail>
   rebrand:
     server-mod-name: Cartridge
@@ -257,18 +347,11 @@ misc:
   remove-spigot-check-bungee-config: true
   # Enable to prevent console spam.
   remove-change-non-editable-sign-warning: false
-  # Linear is a region file format that uses ZSTD compression instead of
-  # ZLIB.
-  # This format saves about 50% of disk space.
-  # Read Documentation before using: https://github.com/xymb-endcrystalme/LinearRegionFileFormatTools
-  # Disclaimer: This is an experimental feature, there is potential risk to lose chunk data.
-  # So backup your server before switching to Linear.
-  region-format-settings:
-    # Available region formats: MCA, LINEAR
-    region-format: MCA
-    linear-compress-level: 1
-    throw-on-unknown-extension-detected: false
-    flush-interval-seconds: 5
+  # When enabled, prevents plugins from programmatically changing player operator status.
+  # This helps maintain server security by blocking unauthorized op modifications.
+  # Server administrators can still manually manage ops through console/commands.
+  op-system-protection:
+    prevent-op-changes: false
   # This section contains lag compensation features,
   # which could ensure basic playing experience during a lag.
   lag-compensation:
@@ -295,3 +378,9 @@ misc:
     cache-player-profile-result: true
     # The timeout of the cache. Unit: Minutes.
     cache-player-profile-result-timeout: 1440
+  # !!! WARNING !!!
+  # Disabling this is NOT recommended and can lead to severe server instability.
+  # Only disable this if you are an advanced user or debugging a specific issue
+  # and understand the risks involved.
+  async-catcher:
+    enabled: true

@@ -1,7 +1,6 @@
 set.item:
   type: minecraft:paper
-  dyedColor:
-    color: "#DCC069"
+  dyedColor: "#DCC069"
   itemModel: cosmetics:satchel_fp
 resourcepack:
   model: cosmetics:backpacks/satchel_fp

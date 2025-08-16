@@ -1,0 +1,15 @@
+set.recipes:
+  discoverRecipes: true
+  result:
+    type: DEAD_HORN_CORAL_BLOCK
+    amount: 8
+  group: "looty:dead_horn_coral_block"
+  recipes:
+    - type: shaped
+      items:
+        S: { type: minecraft:horn_coral_block }
+        B: { type: COBWEB }
+      configuration: |-
+        |SSS|
+        |SBS|
+        |SSS|

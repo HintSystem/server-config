@@ -6,6 +6,9 @@ global:
       keep:
         - config.yml
         - resourcepack.zip
+        - spawns.db
+        - spawns.db-shm
+        - spawns.db-wal
 feat/mobs:
   copyPaths:
     - source: plugins/Geary/prefabs/mineinabyss/mobs
@@ -13,6 +16,8 @@ feat/mobs:
     - source: plugins/Geary/spawns
       dest: plugins/Geary/spawns
     - source: plugins/Geary/spawning.yml
+      dest: plugins/Geary/
+    - source: plugins/Geary/spread_config.yml
       dest: plugins/Geary/
     - source: plugins/MythicMobs
       dest: plugins/MythicMobs

@@ -3,7 +3,7 @@ set.item:
   itemName: <#03AC13>Stinger Horn
   itemModel: mineinabyss:stinger_horn
   lore:
-  - ':layer_2::layer_4::layer_5:'
+  - ':layer_2::layer_4::layer_5::cosmetic_orth_coin:'
   - <#167D2A><i>The beak of a Stinger sharp enough to pierce flesh.
 resourcepack:
   textures:

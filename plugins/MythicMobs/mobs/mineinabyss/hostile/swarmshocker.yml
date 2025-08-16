@@ -27,7 +27,7 @@ swarmshocker:
     PreventJockeyMounts: true
   Drops:
     - exp 5-15
-    - geary mineinabyss:swarmshocker_charged_powder 0-1 0.3 nolooting
+    - geary mineinabyss:swarmshocker_charged_powder 1-2 0.3 nolooting
 
   Model:
     Id: swarmshocker

@@ -1,0 +1,15 @@
+set.recipes:
+  discoverRecipes: true
+  result:
+    type: DEAD_TUBE_CORAL_BLOCK
+    amount: 8
+  group: "looty:dead_tube_coral_block"
+  recipes:
+    - type: shaped
+      items:
+        S: { type: minecraft:tube_coral_block }
+        B: { type: COBWEB }
+      configuration: |-
+        |SSS|
+        |SBS|
+        |SSS|
