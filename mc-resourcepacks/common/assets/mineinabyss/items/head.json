@@ -10,8 +10,7 @@
           "type": "minecraft:special",
           "base": "mineinabyss:ui/playerheads/flat",
           "model": {
-            "type": "minecraft:head",
-            "kind": "player"
+            "type": "minecraft:player_head"
           }
         }
       },
@@ -21,8 +20,7 @@
           "type": "minecraft:special",
           "base": "mineinabyss:ui/playerheads/large_flat",
           "model": {
-            "type": "minecraft:head",
-            "kind": "player"
+            "type": "minecraft:player_head"
           }
         }
       },
@@ -32,8 +30,7 @@
           "type": "minecraft:special",
           "base": "mineinabyss:ui/playerheads/centered_flat",
           "model": {
-            "type": "minecraft:head",
-            "kind": "player"
+            "type": "minecraft:player_head"
           }
         }
       },
@@ -43,8 +40,7 @@
           "type": "minecraft:special",
           "base": "mineinabyss:ui/playerheads/centered_large_flat",
           "model": {
-            "type": "minecraft:head",
-            "kind": "player"
+            "type": "minecraft:player_head"
           }
         }
       }

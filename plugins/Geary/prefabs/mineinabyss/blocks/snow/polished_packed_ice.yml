@@ -1,0 +1,19 @@
+inherit: [mineinabyss:snow]
+set.item:
+  type: minecraft:paper
+  itemName: Polished Packed Ice
+  itemModel: mineinabyss:polished_packed_ice
+resourcepack:
+  parentModel: block/cube_all
+  textures:
+    variables:
+      all: mineinabyss:block/snow/polished_packed_ice
+set.block:
+  blockType: NOTEBLOCK
+  blockId: 45
+blocky:pack:
+  model: "mineinabyss:block/snow/polished_packed_ice"
+blocky:drops:
+  drops:
+    - silkTouchedDrop:
+        prefab: mineinabyss:polished_packed_ice
