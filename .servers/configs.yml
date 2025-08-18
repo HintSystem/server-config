@@ -1,4 +1,4 @@
-#{% set privateSettingsDest = "/data/mineinabyss/server-config-private" %}#
+#{% set privateSettingsDest = "/configs/server-config-private" %}#
 global:
   files:
     plugins/Geary:
@@ -9,6 +9,13 @@ global:
         - spawns.db
         - spawns.db-shm
         - spawns.db-wal
+feat/bbmodels:
+  copyPaths:
+    - source: /configs/BBModels/blueprints
+      dest: plugins/ModelEngine/blueprints
+  files:
+    plugins/ModelEngine/blueprints:
+      deleteUntracked: true
 feat/mobs:
   copyPaths:
     - source: plugins/Geary/prefabs/mineinabyss/mobs
@@ -141,6 +148,7 @@ minecraft:
     - feat/emotes
     - feat/resourcepack-common
     - feat/deeperworld
+    - feat/bbmodels
 
 survival:
   copyPaths: [ .servers/survival ]
