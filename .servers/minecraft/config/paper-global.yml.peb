@@ -126,7 +126,7 @@ spam-limiter:
   tab-spam-increment: 1
   tab-spam-limit: 500
 spark:
-  enable-immediately: true
+  enable-immediately: false
   enabled: true
 timings:
   enabled: false
