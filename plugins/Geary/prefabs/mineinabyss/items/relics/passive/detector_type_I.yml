@@ -1,7 +1,7 @@
 set.item:
   itemName: <#88D481>Detector type I
   type: PAPER
-  itemModel: mineinabyss:detector_type_I
+  itemModel: mineinabyss:detector_type_i
   lore:
   - ':layer_1::layer_2: Grade IV Relic'
   - <gold>Stories have been passed around about a Cave Raider who used this 
@@ -18,9 +18,9 @@ passive:
   - ensure:
         inSlot:
           slots: [ 9, 10 ]
-          item: mineinabyss:detector_type_I
+          item: mineinabyss:detector_type_i
   - mythicSkills:
-    - detector_type_I
+    - detector_type_i
 resourcepack:
   textures:
     layers:
