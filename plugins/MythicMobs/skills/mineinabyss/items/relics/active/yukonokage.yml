@@ -1,0 +1,307 @@
+yukonokage_hit: # Shim for geary
+  Skills:
+  - skill{s=yukonokage_hit_}
+yukonokage_hit_:
+  Conditions:
+  - holding{m=NETHERITE_SWORD} true
+  - variableisset{n=caster.yukonokage_lock_hit} false
+  Skills:
+  - variableset{n=caster.yukonokage_lock_ability;val=0}
+  - skill{s=yukonokage_init_vars}
+  - onAttack{oH=yukonokage_stack;cE=false;auraname=y_h_s} @self
+  - pull{velocity=1} @target
+  - delay 1
+  - skill{s=yukonokage_soul_overload}
+  - variableunset{n=caster.yukonokage_lock_ability}
+
+yukonokage_init_vars:
+  Conditions:
+  - variableisset{var=caster.yukonokage_stacks} false
+  Skills:
+  - setvariable{var=caster.yukonokage_stacks;val=0}
+
+yukonokage_stack:
+  Cooldown: 0.2 # Cooldown field is in seconds, accounts for sword attack cooldown
+  Conditions:
+  - variableisset{var=caster.yukonokage_stacks} true
+  Skills:
+  - variableadd{var=caster.yukonokage_stacks;amount=1}
+  - onDeath{od=yukonokage_kill} @target
+  - effect:particles{particle=reverse_portal;amount=2;speed=0.1;y=1} @target
+  
+yukonokage_kill:
+  Conditions:
+  - variableisset{var=caster.yukonokage_stacks} true
+  Skills:
+  - variableadd{var=caster.yukonokage_stacks;amount=20}
+  - effect:particles{particle=soul;amount=20;speed=0.4;y=1} @target
+  - sound{s=entity.allay.death;p=0.6;v=0.7} @self
+
+yukonokage_soul_overload:
+  Conditions:
+  - variableisset{var=caster.yukonokage_stacks} true
+  - variableinrange{var=caster.yukonokage_stacks;value=>=200} true
+  Skills:
+  - effect:blockmask{m=SNOW_BLOCK;r=2;d=150} @self
+  - effect:particlesphere{particle=poof;amount=5;radius=2;hS=1;vS=0.5;s=0.1} @self
+  - effect:particlesphere{particle=reverse_portal;amount=5;radius=2;hS=1;vS=0.5;s=0.1} @self
+  - sound{s=entity.allay.death;p=0.1;v=0.3} @self
+  - sound{s=entity.allay.death;p=0.15;v=0.2} @self
+  - sound{s=entity.allay.death;p=0.2;v=0.1} @self
+  - delay 5
+  - effect:blockmask{m=SNOW_BLOCK;r=3;d=150} @self
+  - effect:particlesphere{particle=poof;amount=10;radius=3;hS=1;vS=0.5;s=0.1} @self
+  - skill{s=soul_overload_freeze}
+  - throw{velocity=30;velocityY=5} @EIR{r=3}
+  - delay 5
+  - effect:blockmask{m=SNOW_BLOCK;r=4;d=150} @self
+  - effect:particlesphere{particle=poof;amount=15;radius=4;hS=1;vS=0.5;s=0.1} @self
+  - setvariable{var=caster.yukonokage_stacks;val=0}
+
+soul_overload_freeze:
+  Skills:
+  - aura{d=300;i=20;onTick=soul_overload_freeze_effect} @EIR{r=4}
+  - aura{d=300;i=20;onTick=soul_overload_freeze_effect} @self
+
+soul_overload_freeze_effect:
+  Skills:
+  - freeze{ticks=30} @self
+  - damage{a=4;ie=true} @self
+
+yukonokage_ability: # Shim for geary
+  Skills:
+  - skill{s=yukonokage_ability_}
+yukonokage_ability_:
+  Conditions:
+  - variableisset{var=caster.yukonokage_stacks} true
+  - variableisset{var=caster.yukonokage_lock_ability} false
+  Skills:
+  - variableset{n=caster.yukonokage_lock_ability;val=0}
+  - skill{s=yukonokage_soul_shot}
+  - delay 1
+  - skill{s=yukonokage_soul_repel}
+  - delay 1
+  - variableunset{n=caster.yukonokage_lock_ability}
+
+yukonokage_soul_shot:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=>=20} true
+  Skills:
+  - shootskull{y=2;v=4} @targetlocation
+  #particles
+  #sound
+  - delay 1
+  - variablesubtract{var=caster.yukonokage_stacks;amount=20}
+
+yukonokage_soul_repel:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=>=80} true
+  - issneaking true
+  Skills:
+  - aura{d=80;i=1;onTick=soul_repel_effect} @self
+  - delay 1
+  - variablesubtract{var=caster.yukonokage_stacks;amount=80}
+
+soul_repel_effect:
+  Skills:
+  #particles
+  #sound
+  - freeze{ticks=30} @EIR{r=3}
+  - throw{velocity=20;velocityY=4} @EIR{r=3}
+
+yukonokage_soul_display: # Shim for geary
+  Skills:
+  - skill{s=yukonokage_soul_display_}
+yukonokage_soul_display_:
+  Conditions:
+  - variableisset{var=caster.yukonokage_stacks} true
+  - variableisset{var=caster.yukonokage_lock_display} false
+  Skills:
+  - variableset{n=caster.yukonokage_lock_display;val=0}
+  # - message{m="Stacks-> <caster.var.yukonokage_stacks>"} @self # Debug
+  - skill{s=yukonokage_soul_remove}
+  - delay 1
+  - skill{s=yukonokage_soul_display_1}
+  - delay 1
+  - skill{s=yukonokage_soul_display_2}
+  - delay 1
+  - skill{s=yukonokage_soul_display_3}
+  - delay 1
+  - skill{s=yukonokage_soul_display_4}
+  - delay 1
+  - skill{s=yukonokage_soul_display_5}
+  - delay 1
+  - skill{s=yukonokage_soul_display_6}
+  - delay 1
+  - skill{s=yukonokage_soul_display_7}
+  - delay 1
+  - skill{s=yukonokage_soul_display_8}
+  - delay 1
+  - skill{s=yukonokage_soul_display_9}
+  - delay 1
+  - skill{s=yukonokage_soul_display_10}
+  - variableunset{n=caster.yukonokage_lock_display}
+
+yukonokage_soul_remove:
+  Skills:
+  - skill{s=yukonokage_soul_remove_10}
+  - delay 1
+  - skill{s=yukonokage_soul_remove_9}
+  - delay 1
+  - skill{s=yukonokage_soul_remove_8}
+  - delay 1
+  - skill{s=yukonokage_soul_remove_7}
+  - delay 1
+  - skill{s=yukonokage_soul_remove_6}
+  - delay 1
+  - skill{s=yukonokage_soul_remove_5}
+  - delay 1
+  - skill{s=yukonokage_soul_remove_4}
+  - delay 1
+  - skill{s=yukonokage_soul_remove_3}
+  - delay 1
+  - skill{s=yukonokage_soul_remove_2}
+  - delay 1
+  - skill{s=yukonokage_soul_remove_1}
+
+yukonokage_soul_display_1:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=20to39} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull1;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=2;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+
+yukonokage_soul_display_2:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=40to59} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull2;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=2.2;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+
+yukonokage_soul_display_3:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=60to79} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull3;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=2.4;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+
+yukonokage_soul_display_4:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=80to99} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull4;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=2.6;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+
+yukonokage_soul_display_5:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=100to119} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull5;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=2.8;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+
+yukonokage_soul_display_6:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=120to139} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull6;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=3;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+
+yukonokage_soul_display_7:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=140to159} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull7;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=3.2;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+
+yukonokage_soul_display_8:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=160to179} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull8;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=3.4;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+
+yukonokage_soul_display_9:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=180to199} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull9;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=3.6;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+  - freeze{ticks=30} @EIR{r=3}
+
+yukonokage_soul_display_10:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=200to220} true
+  Skills:
+  - sound{s=entity.wither_skeleton.ambient;sc=players;p=1;v=0.6} @self
+  - orbital{auraName=yukonokageskull10;oT=yukonokage_soul_tick;hp=false;bullet=DISPLAY;bulletmaterial=WITHER_SKELETON_SKULL;rotate=true;interval=1;duration=9999;oy=1;scale=1,1,1;maxStacks=1;radius=3.8;sp=<random.0to10>;onEnd=yukonokage_skull_end;cao=True;hE=false} @self
+  - freeze{ticks=30} @EIR{r=3}
+
+yukonokage_soul_tick:
+  Skills:
+  - effect:particlesphere{particle=snowflake;amount=5;radius=2;hS=1;vS=0.5;s=0.2} @caster
+  - effect:particles{particle=reverse_portal;amount=1;speed=0} @origin
+
+yukonokage_skull_end:
+  Skills:
+  # - sound{s=entity.generic.explode;sc=players;p=1;v=0.6} @self # Too loud when overloaded
+  - effect:particles{particle=falling_dust;amount=20;hS=0.5;vS=1;speed=0;y=0.5} @origin
+
+yukonokage_soul_remove_1:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=19} true
+  Skills:
+  - auraremove{aura=yukonokageskull1} @self
+
+yukonokage_soul_remove_2:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=39} true
+  Skills:
+  - auraremove{aura=yukonokageskull2} @self
+
+yukonokage_soul_remove_3:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=59} true
+  Skills:
+  - auraremove{aura=yukonokageskull3} @self
+
+yukonokage_soul_remove_4:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=79} true
+  Skills:
+  - auraremove{aura=yukonokageskull4} @self
+
+yukonokage_soul_remove_5:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=99} true
+  Skills:
+  - auraremove{aura=yukonokageskull5} @self
+
+yukonokage_soul_remove_6:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=119} true
+  Skills:
+  - auraremove{aura=yukonokageskull6} @self
+
+yukonokage_soul_remove_7:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=139} true
+  Skills:
+  - auraremove{aura=yukonokageskull7} @self
+
+yukonokage_soul_remove_8:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=159} true
+  Skills:
+  - auraremove{aura=yukonokageskull8} @self
+
+yukonokage_soul_remove_9:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=179} true
+  Skills:
+  - auraremove{aura=yukonokageskull9} @self
+
+yukonokage_soul_remove_10:
+  Conditions:
+  - variableinrange{var=caster.yukonokage_stacks;value=<=199} true
+  Skills:
+  - auraremove{aura=yukonokageskull10} @self

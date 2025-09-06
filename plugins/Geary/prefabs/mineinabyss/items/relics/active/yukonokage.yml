@@ -17,10 +17,10 @@ observe:
   - become: parent
   - ensure:
       mythicConditions:
-      - hasaurastacks{n=yukonokagestack;s=20to220} true
+      - hasaurastacks{n=yukonokageskull1} true
     onFail:
     - sendActionBar:
-        text: <red>You have no souls
+        text: <red>You have insufficient souls
   - cooldown:
       id: yukonokage
       length: 5s
