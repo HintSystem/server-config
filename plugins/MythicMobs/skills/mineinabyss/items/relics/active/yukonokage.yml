@@ -90,8 +90,8 @@ yukonokage_soul_shot:
   Conditions:
   - variableinrange{var=caster.yukonokage_stacks;value=>=20} true
   Skills:
-  - particlelinehelix{Fo=true;db=0.4;hl=4;syo=1.8;p=scrape;hr=0.5;md=40} @targetlocation # or orbital around the projectile
-  - projectile{bulletType=MOB;mob=yukonokage_soul_wisp;syo=1.8;hnp=true;oH=yukonokage_soul_collision;v=20} @targetlocation
+  - particlelinehelix{Fo=true;db=0.4;hl=4;syo=1.8;p=scrape;hr=0.5;md=40} @Forward{f=1000} # or orbital around the projectile
+  - projectile{bulletType=MOB;mob=yukonokage_soul_wisp;syo=1.8;hnp=true;oH=yukonokage_soul_collision;v=40;hR=3;vR=3} @Forward{f=1000}
   #particles
   #sound
   - delay 1
