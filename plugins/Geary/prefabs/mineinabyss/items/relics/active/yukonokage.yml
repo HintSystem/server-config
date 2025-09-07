@@ -1,12 +1,16 @@
 set.item:
   type: minecraft:netherite_sword
   itemModel: mineinabyss:yukonokage
-  itemName: <#15ABC2><b>Yukonokage
+  itemName: <#c7f9ff><b>Yukonokage
   lore:
-  - ':layer_3: Grade I Relic'
-  - <#249C9C>A weapon that can tear into the fabric of the force field.
-  - <#195959><i>It is known to create crescent shaped slashes damaging
-  - <#195959><i>all organic matter that it comes into contact with.
+  - ':layer_5: Grade I Relic'
+  - <#80d0d9>A cursed scythe crafted from a forgotten 
+  - <#80d0d9>relic ore that feeds on the essence of the living.
+  - <#83a0a3><i>Each swing with its jagged blade rends not 
+  - <#83a0a3><i>just flesh—but the soul itself. When
+  - <#83a0a3><i>right-clicked and crouching, the scythe unleashes 
+  - <#83a0a3><i>the pent-up souls in a violent burst of
+  - <#83a0a3><i>spectral energy, tearing through all nearby life.
   unbreakable: {}
 observe:
   itemLeftClick:
