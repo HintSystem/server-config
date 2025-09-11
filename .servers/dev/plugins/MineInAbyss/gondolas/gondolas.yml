@@ -1,0 +1,76 @@
+gondolas:
+  l1_wwgondola_a:
+    upperLoc:
+      x: -287
+      y: -59
+      z: 367
+    lowerLoc:
+      x: 16097
+      y: -208
+      z: 368
+    displayItem:
+      type: minecraft:stone
+    displayName: WW A
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Helke at the Waterwheel Gondola in Orth.
+    warpCooldown: 5000
+  l1_wwgondola_b:
+    upperLoc:
+      x: 32807
+      y: 124
+      z: 185
+    lowerLoc:
+      x: 49205
+      y: 163
+      z: 175
+    displayItem:
+      type: minecraft:stone
+    displayName: WW B
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Helke at the Waterwheel Gondola in Orth.
+    warpCooldown: 5000
+  l1_grandpier_a:
+    upperLoc:
+      x: -394
+      y: 128
+      z: -31
+    lowerLoc:
+      x: 15995
+      y: 43
+      z: -31
+    displayItem:
+      type: minecraft:stone
+    displayName: GP A
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Belze at the Grand Pier in Orth.
+    warpCooldown: 5000
+  l1_grandpier_b:
+    upperLoc:
+      x: 16062
+      y: -57
+      z: -50
+    lowerLoc:
+      x: 16050
+      y: -171
+      z: -51
+    displayItem:
+      type: minecraft:stone
+    displayName: GP B
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Belze at the Grand Pier in Orth.
+    warpCooldown: 5000
+  l1_grandpier_c:
+    upperLoc:
+      x: 16202
+      y: -239
+      z: -16
+    lowerLoc:
+      x: 32594
+      y: -160
+      z: -6
+    displayItem:
+      type: minecraft:stone
+    displayName: GP C
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Belze at the Grand Pier in Orth.
+    warpCooldown: 5000
