@@ -20,8 +20,8 @@ observe:
       display: <#AC8053>Cradle of Fertility
   - geary:bonemeal_radius:
        radius: 5
-       AllowCrops: true
-       AllowSaplings: true
+       allowCrops: true
+       allowSaplings: true
        excludedBlocks:
          - GRASS_BLOCK
          - DIRT
