@@ -14,6 +14,6 @@ observe:
   - cooldown:
       id: shieldretreat
       length: 25s
-      display: <#0047AB>shieldretreat
+      display: <#0047AB>Scaled Umbrella
   - mythicSkills:
     - scaled_umbrella

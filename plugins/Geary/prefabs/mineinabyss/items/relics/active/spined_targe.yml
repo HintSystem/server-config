@@ -14,6 +14,6 @@ observe:
   - cooldown:
       id: shieldbash
       length: 20s
-      display: <#0047AB>shieldbash
+      display: <#0047AB>Spined Targe
   - mythicSkills:
     - shieldbash
