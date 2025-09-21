@@ -7,11 +7,22 @@ necrometallic_hit_:
   Conditions:
     - isblocking false
   Skills:
-  - onAttack{auraName=necrometallicdebuff;onTick=necrometallic_tick;i=20;duration=101;c=1;maxStacks=30;cotd=false;cod=true;cocd=true;rd=true} @target
+  - onAttack{auraName=necrometallicvulnerable;oa=necrometallic_vulnerable;cE=false}
+
+necrometallic_vulnerable:
+  Skills:
+  - aura{auraName=necrometallicdebuff;
+              onTick=necrometallic_tick;
+              i=20;
+              duration=101;
+              c=1;
+              maxStacks=30;
+              cotd=false;
+              cod=true;
+              cocd=true;
+              rd=true} @target
 
 necrometallic_tick:
-  Cooldown:
-  Conditions:
   Skills:
   - skill{s=necrometallic_tick_1}
   - delay 1
@@ -23,41 +34,41 @@ necrometallic_tick:
 
 necrometallic_tick_1:
   Cooldown: 0.96
-  Conditions:
+  TargetConditions:
     - hasaurastacks{n=necrometallicdebuff;s=1to9} true
   Skills:
-  - effect:particles{particle=glow_squid_ink;amount=3;hS=1;vS=0.5;y=1} @self
-  - effect:particles{particle=sneeze;amount=1;hS=1;vS=0.5;y=1;speed=0} @self
-  - damage{a=1;pkb=true;ia=true} @self
+  - effect:particles{particle=glow_squid_ink;amount=3;hS=1;vS=0.5;y=1} @targetedtarget
+  - effect:particles{particle=sneeze;amount=1;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
+  - damage{a=1;pkb=true;ia=true} @targetedtarget
 
 necrometallic_tick_2:
   Cooldown: 0.96
-  Conditions:
+  TargetConditions:
     - hasaurastacks{n=necrometallicdebuff;s=10to17} true
   Skills:
-  - effect:particles{particle=glow_squid_ink;amount=4;hS=1;vS=0.5;y=1} @self
-  - effect:particles{particle=sneeze;amount=2;hS=1;vS=0.5;y=1;speed=0} @self
-  - damage{a=1.5;pkb=true;ia=true} @self
+  - effect:particles{particle=glow_squid_ink;amount=4;hS=1;vS=0.5;y=1} @targetedtarget
+  - effect:particles{particle=sneeze;amount=2;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
+  - damage{a=1.5;pkb=true;ia=true} @targetedtarget
 
 necrometallic_tick_3:
   Cooldown: 0.96
-  Conditions:
+  TargetConditions:
     - hasaurastacks{n=necrometallicdebuff;s=18to22} true
   Skills:
-  - effect:particles{particle=glow_squid_ink;amount=3;hS=1;vS=0.5;y=1} @self
-  - effect:particles{particle=sneeze;amount=2;hS=1;vS=0.5;y=1;speed=0} @self
-  - effect:particles{particle=trial_omen;amount=1;hS=1;vS=0.5;y=1;speed=0} @self
-  - damage{a=2;pkb=true;ia=true} @self
+  - effect:particles{particle=glow_squid_ink;amount=3;hS=1;vS=0.5;y=1} @targetedtarget
+  - effect:particles{particle=sneeze;amount=2;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
+  - effect:particles{particle=trial_omen;amount=1;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
+  - damage{a=2;pkb=true;ia=true} @targetedtarget
 
 necrometallic_tick_4:
   Cooldown: 0.96
-  Conditions:
+  TargetConditions:
     - hasaurastacks{n=necrometallicdebuff;s=25to30} true
   Skills:
-  - effect:particles{particle=glow_squid_ink;amount=2;hS=1;vS=0.5;y=1} @self
-  - effect:particles{particle=sneeze;amount=3;hS=1;vS=0.5;y=1;speed=0} @self
-  - effect:particles{particle=trial_omen;amount=3;hS=1;vS=0.5;y=1;speed=0} @self
-  - damage{a=3;pkb=true;ia=true} @self
+  - effect:particles{particle=glow_squid_ink;amount=2;hS=1;vS=0.5;y=1} @targetedtarget
+  - effect:particles{particle=sneeze;amount=3;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
+  - effect:particles{particle=trial_omen;amount=3;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
+  - damage{a=3;pkb=true;ia=true} @targetedtarget
 
 necrometallic_sledge_ability:
   Conditions:
