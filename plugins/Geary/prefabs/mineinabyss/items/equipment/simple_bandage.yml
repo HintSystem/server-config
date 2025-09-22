@@ -1,43 +1,49 @@
 set.item:
   type: minecraft:paper
   itemName: Simple Bandage
-  itemModel: mineinabyss:simple_bandage
+  itemModel: mineinabyss:bandages
   lore:
   - <#d4be90>A standard issue bandage. Treats most non-grievous wounds.
   - <#dfceac><i>Active ability. On right consumes bandage healing the user.
   maxStackSize: 16
   consumable:
       animation: TOOT_HORN
-      consume_seconds: 4
+      duration: 4s
       sound: item.bone_meal.use
-      has_consume_particles: false
-      on_consume_effects:
-        - applyPotionEffects:
+      particles: false
+      consumeEffects:
+        - type: APPLY
+          effects:
           - type: minecraft:instant_health
-          duration: 2s
-          hasParticles: false
-set.recipes:
-  discoverRecipes: true
-  result:
-    prefab: mineinabyss:simple_bandage
-    amount: 2
-  group: mineinabyss:simple_bandage
-  recipes:
-    - type: shaped
-      items:
-        M:
-          prefab: mineinabyss:mantoyer_horns
-        P:
-          prefab: mineinabyss:plant_matter
-        S:
-          type: SWEET_BERRIES
-        P: 
-          type: PAPER
+            duration: 2s
+            hasParticles: false
+resourcepack:
+  textures:
+    layers:
+    - mineinabyss:item/other/bandages
+
+# set.recipes:
+#   discoverRecipes: true
+#   result:
+#     prefab: mineinabyss:simple_bandage
+#     amount: 2
+#   group: mineinabyss:simple_bandage
+#   recipes:
+#     - type: shaped
+#       items:
+#         M:
+#           prefab: mineinabyss:mantoyer_horns
+#         P:
+#           prefab: mineinabyss:plant_matter
+#         S:
+#           type: SWEET_BERRIES
+#         A: 
+#           type: PAPER
           
-      configuration: |-
-        | P |
-        |SPM|
-        | P |
+#       configuration: |-
+#         | P |
+#         |SAM|
+#         | P |
 # observe:
 #   itemRightClick:
 #   - become: parent
@@ -53,8 +59,3 @@ set.recipes:
 #       id: bandage
 #       length: 20s
 #       display: <#617B94>Simple Bandage
-
-resourcepack:
-  textures:
-    layers:
-    - mineinabyss:item/other/bandages
