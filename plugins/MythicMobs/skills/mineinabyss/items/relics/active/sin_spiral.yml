@@ -8,24 +8,26 @@ sin_spiral:
   - delay 1
   - effect:particlelinehelix{db=0.4;hl=3;syo=0;p=smoke;hr=2.5;md=30;rot=90;y=0.1;fo=true}
   - delay 14
-  - skill{sin_spiral_effect} @self
+  - skill{s=sin_spiral_effect}
 
 sin_spiral_effect:
   Conditions:
     - hasaurastacks{n=sinspiralcharge} true
   Skills:
-  - totem{charges=20;i=5;md=150;onTick=shiver_mist_area_totem;hs=true;hugwater=true;hp=true;hnp=true} @origin{x=3,y=0,z=0}
-  - totem{charges=20;i=5;md=150;onTick=shiver_mist_area_totem;hs=true;hugwater=true;hp=true;hnp=true} @origin{x=-3,y=0,z=0}
-  - totem{charges=20;i=5;md=150;onTick=shiver_mist_area_totem;hs=true;hugwater=true;hp=true;hnp=true} @origin{x=0,y=0,z=3}
-  - totem{charges=20;i=5;md=150;onTick=shiver_mist_area_totem;hs=true;hugwater=true;hp=true;hnp=true} @origin{x=0,y=0,z=-3}
+  - sound{s=block.bell.resonate;sc=ui;volume=0.55;pitch=1.6} @self #thinking about sound
+  - totem{charges=20;i=5;md=100;onTick=sin_spiral_area_control;hs=true;hugwater=true;hp=true;hnp=true} @SelfLocation{x=4;y=0;z=0}
+  - totem{charges=20;i=5;md=100;onTick=sin_spiral_area_control;hs=true;hugwater=true;hp=true;hnp=true} @SelfLocation{x=-4;y=0;z=0}
+  - totem{charges=20;i=5;md=100;onTick=sin_spiral_area_control;hs=true;hugwater=true;hp=true;hnp=true} @SelfLocation{x=0;y=0;z=4}
+  - totem{charges=20;i=5;md=100;onTick=sin_spiral_area_control;hs=true;hugwater=true;hp=true;hnp=true} @SelfLocation{x=0;y=0;z=-4}
 
 sin_spiral_area_control:
   Skills:
-  - effect:particlering{particle=entity_effect;amount=2;r=2;p=15;hS=0.12;vS=0.12;speed=0.5;forwardOffset=0;sideOffset=0;y=0.1}
-  - effect:particlering{particle=entity_effect;amount=2;r=2;p=15;hS=0.12;vS=0.12;speed=0.5;forwardOffset=0;sideOffset=0;y=0.1} 
-  - effect:particlering{particle=entity_effect;amount=2;r=1;p=6;hS=0.5;vS=0.5;speed=0.5;forwardOffset=0;sideOffset=0;y=0.1} 
-  - effect:particlering{particle=entity_effect;amount=2;r=1;p=6;hS=0.5;vS=0.5;speed=0.5;forwardOffset=0;sideOffset=0;y=0.1} 
-  - potion{type=HARM;duration=30;level=0;hasParticles=true} @EntitiesInRadius{r=2}
+  - effect:particlering{particle=entity_effect;color=#000000;amount=2;r=2;p=15;hS=0.1;vS=0.12;speed=0;forwardOffset=0;sideOffset=0;y=-0.5;yOffset=-0.7} @origin
+  - effect:particlering{particle=entity_effect;color=#000000;amount=2;r=2;p=15;hS=0.1;vS=0.12;speed=0;forwardOffset=0;sideOffset=0;y=-0.5;yOffset=-0.7} @origin
+  - effect:particlering{particle=entity_effect;color=#000000;amount=2;r=1;p=6;hS=0.1;vS=0.5;speed=0;forwardOffset=0;sideOffset=0;y=-0.5;yOffset=-0.7} @origin
+  - effect:particlering{particle=entity_effect;color=#000000;amount=2;r=1;p=6;hS=0.1;vS=0.5;speed=0;forwardOffset=0;sideOffset=0;y=-0.5;yOffset=-0.7} @origin
+  # - potion{type=HARM;duration=30;level=0;hasParticles=true} @ENO{r=2}
+  - damage{a=5;ia=true;is=true;ie=true;pk=true} @ENO{r=2;self=true;player=true;targetself=true;targetplayer=true}
 
 sin_spiral_charge: # Shim for geary
   Skills:

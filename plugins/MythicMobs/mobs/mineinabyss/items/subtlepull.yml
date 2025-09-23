@@ -23,7 +23,8 @@ subtle_pull_center:
   - air:0
   Drops:
   Skills:
-   - projectile{bulletType=MYTHICITEM;material=va7;onTick=subtle_pull_center_tick;mr=170;v=0;i=1;hR=3;hp=true;hnp=true;vR=1;sE=true;hs=false;d=73;syo=0;g=0;tyo=0;onEnd=bam;sE=false;sB=false;hp=true;hnp=false} @origin ~onSpawn
+  #  - projectile{bulletType=MYTHICITEM;material=va7;onTick=subtle_pull_center_tick;mr=170;v=0;i=1;hR=3;hp=true;hnp=true;vR=1;sE=true;hs=false;d=73;syo=0;g=0;tyo=0;onEnd=bam;sE=false;sB=false;hp=true;hnp=false} @origin ~onSpawn
+   - projectile{bulletType=TEXT;onTick=subtle_pull_center_tick;mr=170;v=0;i=1;hR=3;hp=true;hnp=true;vR=1;sE=true;hs=false;d=73;syo=0;g=0;tyo=0;onEnd=bam;sE=false;sB=false;hp=true;hnp=false} @origin ~onSpawn
    - potion{type=INVISIBILITY;duration=99999;level=1;p=false} @self ~onSpawn
    - signal{s=NULLSAVE;repeat=37;repeatInterval=2} @EntitiesNearOrigin{r=16} ~onSpawn
    - potion{type=SLOW;duration=99999;level=100;p=false} @self ~onSpawn
@@ -67,12 +68,24 @@ subtle_pull_center_small:
   - air:0
   Drops:
   Skills:
-   - projectile{bulletType=MYTHICITEM;material=va7;onTick=subtle_pull_center_small_tick;mr=170;v=0;i=1;hR=3;hp=true;hnp=true;vR=1;sE=true;hs=false;d=73;syo=0;g=0;tyo=0;onEnd=bam;sE=false;sB=false;hp=true;hnp=false} @origin ~onSpawn
+  #  - projectile{bulletType=MYTHICITEM;material=va7;onTick=subtle_pull_center_small_tick;mr=170;v=0;i=1;hR=3;hp=true;hnp=true;vR=1;sE=true;hs=false;d=73;syo=0;g=0;tyo=0;onEnd=bam;sE=false;sB=false;hp=true;hnp=false} @origin ~onSpawn
+   - projectile{bulletType=TEXT;onTick=subtle_pull_center_small_tick;mr=170;v=0;i=1;hR=3;hp=true;hnp=true;vR=1;sE=true;hs=false;d=60;syo=0;g=0;tyo=0;onEnd=bam;sE=false;sB=false;hp=true;hnp=false} @origin ~onSpawn
+  #  - projectile{bulletType=TEXT;onTick=subtle_pull_center_small_tick;i=1;d=200;mr=170;syo=0;g=0;tyo=0;v=0;hp=true;hnp=true;hs=false;hR=3;vR=1;sE=true;sB=false} @origin ~onSpawn
+   
+   - effect:particleorbital{r=2.5;points=20;t=60;i=1;rX=90;rZ=0;rY=0;y=2;particle=reddust;color=#faf5f5;size=1.5} @origin ~onSpawn
+   - effect:particleorbital{r=2.5;points=20;t=60;i=1;rX=0;rZ=90;rY=0;y=2;particle=reddust;color=#faf5f5;size=1.5} @origin ~onSpawn
+   - effect:particleorbital{r=2.5;points=20;t=60;i=1;rX=45;rZ=0;rY=0;y=2;particle=reddust;color=#faf5f5;size=1.5} @origin ~onSpawn
+   - effect:particleorbital{r=2.5;points=20;t=60;i=1;rX=45;rZ=45;rY=0;y=2;particle=reddust;color=#faf5f5;size=1.5} @origin ~onSpawn
+   - effect:particle{p=reddust;color=#ae0000;amount=20;delay=2;hS=0.5;vS=0.5;y=2;size=3;repeat=30;repeatInterval=2;speed=0} @origin ~onSpawn
+   - sound{s=block.beacon.ambient;sc=ui;volume=2.5;pitch=0.4} @self ~onSpawn
+   - sound{s=block.beacon.ambient;sc=ui;volume=2.5;pitch=0.5} @self ~onSpawn
+   - sound{s=block.beacon.ambient;sc=ui;volume=2;pitch=1.6} @self ~onSpawn
+  #  - particlesphere{p=Entity_Effect;color=#ffdede;repeat=30;repeatInterval=2;r=1.5} @origin ~onSpawn
    - potion{type=INVISIBILITY;duration=99999;level=1;p=false} @self ~onSpawn
-   - signal{s=NULLSAVE;repeat=37;repeatInterval=2} @EntitiesNearOrigin{r=16} ~onSpawn
+   - signal{s=NULLSAVE;repeat=30;repeatInterval=2} @EntitiesNearOrigin{r=16} ~onSpawn
    - potion{type=SLOW;duration=99999;level=100;p=false} @self ~onSpawn
-   - potion{type=LEVITATION;duration=99999;level=1;p=false} @self ~onSpawn
-   - remove{delay=74} @self ~onSpawn
+  #  - potion{type=LEVITATION;duration=99999;level=1;p=false} @self ~onSpawn
+   - remove{delay=60} @self ~onSpawn
   Options:
     ApplyInvisibility: true
     Silent: true
@@ -83,7 +96,7 @@ subtle_pull_center_small:
     PreventItemPickup: true
     FollowRange: 50
     Despawn: true
-    Interactable: true
+    Interactable: false
     KnockbackResistance: 0
 
 vac2:
