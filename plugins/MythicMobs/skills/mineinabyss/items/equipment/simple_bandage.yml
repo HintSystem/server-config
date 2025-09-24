@@ -30,7 +30,5 @@ simple_bandage_windup:
   - effect:sound{s=item.bone_meal.use;sc=ui;v=0.6;p=0.2} @self #supporting sound to consumable within geary
 
 simple_bandage_consume:
-  Conditions:
   Skills:
-  - delay 2
-  - auraremove{n=consumedbandage} @self
+  - auraremove{n=consumedbandage} @self  

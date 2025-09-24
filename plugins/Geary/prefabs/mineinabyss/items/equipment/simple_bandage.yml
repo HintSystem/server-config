@@ -64,7 +64,7 @@ observe:
 passive:
 - match:
   - inInventory
-  every: 0.1s
+  every: 0.25s # Give some time for the aura to be removed, try to avoid deleting multiple
   run:
   - become: parent
   - ensure:
