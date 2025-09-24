@@ -56,7 +56,7 @@ set.recipes:
     configuration: |-
       |IHI|
       |FFF|
-      |ICI|    
+      |ICI|
   - type: shaped
     items:
       H:
@@ -70,4 +70,4 @@ set.recipes:
     configuration: |-
       |IHI|
       |FFF|
-      |ICI|    
+      |ICI|

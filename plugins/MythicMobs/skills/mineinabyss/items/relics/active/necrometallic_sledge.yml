@@ -3,7 +3,7 @@ necrometallic_sledge_hit: # Shim for geary
   - shieldbreak{duration=100} @target
   - skill{s=necrometallic_hit_}
 necrometallic_hit_:
-  Cooldown: 0.98 #to account for minecraft axe attack cooldown
+  Cooldown: 0.8 #to account for minecraft axe attack cooldown
   Conditions:
     - isblocking false
   Skills:
@@ -13,8 +13,8 @@ necrometallic_vulnerable:
   Skills:
   - aura{auraName=necrometallicdebuff;
               onTick=necrometallic_tick;
-              i=20;
-              duration=101;
+              i=10;
+              duration=121;
               c=1;
               maxStacks=30;
               cotd=false;
@@ -39,7 +39,8 @@ necrometallic_tick_1:
   Skills:
   - effect:particles{particle=glow_squid_ink;amount=3;hS=1;vS=0.5;y=1} @targetedtarget
   - effect:particles{particle=sneeze;amount=1;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
-  - damage{a=1;pkb=true;ia=true} @targetedtarget
+  #- damage{a=1;pkb=true;ia=true;preventimmunity=true;ignoreinvulnerability=true} @targetedtarget #interacts with main swing (cancels crit)
+  - potion{t=POISON;d=30;l=0} @targetedtarget
 
 necrometallic_tick_2:
   Cooldown: 0.96
@@ -48,7 +49,9 @@ necrometallic_tick_2:
   Skills:
   - effect:particles{particle=glow_squid_ink;amount=4;hS=1;vS=0.5;y=1} @targetedtarget
   - effect:particles{particle=sneeze;amount=2;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
-  - damage{a=1.5;pkb=true;ia=true} @targetedtarget
+  #- damage{a=1.5;pkb=true;ia=true;preventimmunity=true;ignoreinvulnerability=true} @targetedtarget #interacts with main swing (cancels crit)
+  - potion{t=POISON;d=30;l=0} @targetedtarget
+  - potion{t=WITHER;d=30;l=0} @targetedtarget
 
 necrometallic_tick_3:
   Cooldown: 0.96
@@ -58,7 +61,8 @@ necrometallic_tick_3:
   - effect:particles{particle=glow_squid_ink;amount=3;hS=1;vS=0.5;y=1} @targetedtarget
   - effect:particles{particle=sneeze;amount=2;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
   - effect:particles{particle=trial_omen;amount=1;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
-  - damage{a=2;pkb=true;ia=true} @targetedtarget
+  #- damage{a=2;pkb=true;ia=true;preventimmunity=true;ignoreinvulnerability=true} @targetedtarget #interacts with main swing (cancels crit)
+  - potion{t=POISON;d=30;l=1} @targetedtarget
 
 necrometallic_tick_4:
   Cooldown: 0.96
@@ -68,7 +72,9 @@ necrometallic_tick_4:
   - effect:particles{particle=glow_squid_ink;amount=2;hS=1;vS=0.5;y=1} @targetedtarget
   - effect:particles{particle=sneeze;amount=3;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
   - effect:particles{particle=trial_omen;amount=3;hS=1;vS=0.5;y=1;speed=0} @targetedtarget
-  - damage{a=3;pkb=true;ia=true} @targetedtarget
+  #- damage{a=3;pkb=true;ia=true;preventimmunity=true;ignoreinvulnerability=true} @targetedtarget #interacts with main swing (cancels crit)
+  - potion{t=POISON;d=30;l=1} @targetedtarget
+  - potion{t=WITHER;d=30;l=0} @targetedtarget
 
 necrometallic_sledge_ability:
   Conditions:
@@ -107,17 +113,21 @@ hammer_smash_damage:
   - damage{a=10;ignorearmor=false;pi=true} @EIR{r=6;ignore=players}
   - potion{t=POISON;d=100;l=1} @EIR{r=6;ignore=players}
   - throw{velocity=0;velocityY=6} @EIR{r=5}
-  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=1;points=5;amount=10;hS=1;vS=0.5} @self
-  - effect:particles{particle=glow_squid_ink;amount=20;hS=3;vS=1;y=0.5}
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=1;points=5;amount=20;hS=1;vS=0.5;size=0.6} @self
+  - effect:particlering{particle=reddust;color=#FF5C5C;radius=1;points=5;amount=10;hS=1.5;vS=0.5;speed=0;forwardOffset=0;sideOffset=0;size=0.7} @origin
+  - effect:particlering{particle=reddust;color=#FDE55D;radius=1;points=5;amount=10;hS=1.5;vS=0.5;speed=0;forwardOffset=0;sideOffset=0;size=0.7} @origin
+  - effect:particles{particle=glow_squid_ink;amount=30;hS=2.5;vS=0.5;y=0.5;size=0.6}
   - delay 2
-  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=2;points=10;amount=20;hS=1;vS=0.5} @self
-  - effect:particles{particle=sneeze;amount=100;hS=3;vS=1;y=0.5} 
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=2;points=15;amount=20;hS=1;vS=0.5;size=0.6} @self
+  - effect:particlering{particle=reddust;color=#FF5C5C;radius=2;points=10;amount=8;hS=1;vS=0.3;speed=0;forwardOffset=0;sideOffset=0;size=0.7} @origin
+  - effect:particlering{particle=reddust;color=#FDE55D;radius=2;points=10;amount=8;hS=1;vS=0.3;speed=0;forwardOffset=0;sideOffset=0;size=0.7} @origin
+  - effect:particles{particle=sneeze;amount=60;hS=3;vS=1;y=0.5}
   - delay 2
-  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=3;points=15;amount=40;hS=1;vS=0.5} @self
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=3;points=15;amount=40;hS=1;vS=0.5;size=0.6} @self
   - effect:particles{particle=spore_blossom_air;amount=20;hS=3;vS=1;y=0.5} 
   - delay 2
-  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=5;points=20;amount=60;hS=1;vS=0.5} @self
-  - effect:particles{particle=trial_omen;amount=25;hS=3;vS=1;y=1}
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=5;points=20;amount=60;hS=1;vS=0.5;size=0.6} @self
+  - effect:particles{particle=trial_omen;amount=15;hS=2.5;vS=1;y=1}
 
 necrometallic_sledge_charge: # Shim for geary
   Skills:

@@ -12,13 +12,14 @@ shiver_mist_hit_:
   - skill{s=shiver_mist_area_projectile;delay=40}
   - sound{s=entity.ender_dragon.flap;sc=ui;volume=0.3;pitch=1.6;repeat=2;repeatinterval=3} @self
   - sound{s=entity.wither.shoot;sc=ui;volume=0.1;pitch=1.5;repeat=2;repeatinterval=2} @self
+  - extinguish{delay=0} @self
   - delay 4
-  - freeze{ticks=21} @self #might not work without aura, to be changed to skill on chance its broken after testing
+  - freeze{ticks=21} @self #might not work without aura, to be changed to aura
   - freeze{ticks=21;delay=19} @self
   - freeze{ticks=21;delay=39} @self
   - freeze{ticks=21;delay=59} @self
   - freeze{ticks=21;delay=79} @self
-  - potion{t=SLOW;l=2;d=20;p=false} @self
+  - potion{t=SLOW;l=2;d=80;p=false} @self
   - extinguish{delay=0} @self
 
 shiver_mist_area_projectile:
@@ -70,7 +71,7 @@ shiver_mist: # Shim for geary
 shiver_mist_:
   Skills:
   - command{c="execute at <caster.uuid> run xp add <caster.name> -80";op=true}
-  - potion{t=SLOW;l=2;d=20;p=false} @Self
+  - potion{t=SLOW;l=2;d=60;p=false} @Self
   - sound{s=entity.evoker.prepare_attack;sc=ui;volume=0.6;pitch=1.2;repeat=3;repeatinterval=5} @self
   - sound{s=block.enchantment_table.use;sc=ui;volume=0.5;pitch=0.8;repeat=2;repeatinterval=6} @self
   - orbital{bulletType=MOB;mob=Frost_Beam;r=0;points=1;i=1;duration=2000;oy=1.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
@@ -80,11 +81,17 @@ shiver_mist_:
   - skill{s=shiver_mist_shoot}
   - delay 20
   - skill{s=shiver_mist_shoot}
+  - freeze{ticks=22} @self #might not work without aura, to be changed to aura
+  - extinguish{delay=0} @self
   - delay 20
   - skill{s=shiver_mist_shoot}
+  - freeze{ticks=21} @self
+  - extinguish{delay=0} @self
   - delay 4
-  - freeze{ticks=100} @self #might not work without aura, to be changed to skill on chance its broken after testing
-  - potion{t=SLOW;l=2;d=20;p=false} @self
+  - freeze{ticks=21;delay=15} @self
+  - freeze{ticks=21;delay=35} @self
+  - freeze{ticks=21;delay=55} @self
+  - potion{t=SLOW;l=2;d=80;p=false} @self
   - extinguish{delay=0} @self
 
 shiver_mist_shoot:
@@ -126,14 +133,14 @@ shiver_mist_throw:
 
 shiver_mist_projectile_tick:
   Skills:
-  - effect:particles{particle=redstone;color=#94d4ff;amount=7;hS=0.12;vS=0.12;speed=0;forwardOffset=0;sideOffset=0} @origin
-  - effect:particles{particle=redstone;color=#edfaff;amount=7;hS=0.12;vS=0.12;speed=0;forwardOffset=0;sideOffset=0} @origin
+  - effect:particles{particle=redstone;color=#94d4ff;amount=3;hS=0.12;vS=0.12;speed=0;forwardOffset=0;sideOffset=0} @origin
+  - effect:particles{particle=redstone;color=#edfaff;amount=3;hS=0.12;vS=0.12;speed=0;forwardOffset=0;sideOffset=0} @origin
   - effect:particles{particle=small_gust;color=#edfaff;amount=2;hS=0.25;vS=0.25;speed=0;forwardOffset=0;sideOffset=0} @origin
 
 shiver_mist_projectile_tick_damage:
   Skills:
-  - effect:particles{particle=redstone;color=#94d4ff;amount=3;hS=0.12;vS=0.12;speed=0;forwardOffset=0;sideOffset=0} @origin
-  - effect:particles{particle=redstone;color=#edfaff;amount=3;hS=0.12;vS=0.12;speed=0;forwardOffset=0;sideOffset=0} @origin
+  - effect:particles{particle=redstone;color=#94d4ff;amount=2;hS=0.12;vS=0.12;speed=0;forwardOffset=0;sideOffset=0} @origin
+  - effect:particles{particle=redstone;color=#edfaff;amount=2;hS=0.12;vS=0.12;speed=0;forwardOffset=0;sideOffset=0} @origin
   - effect:particles{particle=small_gust;color=#edfaff;amount=2;hS=0.25;vS=0.25;speed=0;forwardOffset=0;sideOffset=0} @origin
   - aura{auraName=shivermistfreeze;onStart=shiver_mist_projectile_hit_fx;onTick=shiver_mist_freeze_effect;duration=200;i=20;c=3;maxStacks=30;cotd=false;cod=true;rd=true} @ENO{r=1.5}
   - damage{a=3;pkb=true;ignoreshield=True} @ENO{r=2}

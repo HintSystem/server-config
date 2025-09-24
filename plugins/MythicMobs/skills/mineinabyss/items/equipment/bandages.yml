@@ -24,4 +24,5 @@ bandage_windup:
 simple_bandage_consume:
   Conditions:
   Skills:
+  - delay 2
   - variableunset{n=caster.simple_bandage_consume}

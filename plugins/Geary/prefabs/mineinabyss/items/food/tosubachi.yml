@@ -11,13 +11,13 @@ set.item:
     nutrition: 10
   consumable:
     animation: EAT
-    duration: 8s
+    duration: 6s
     particles: true
     consumeEffects:
         - type: APPLY
           effects:
           - type: minecraft:invisibility
-            duration: 2s
+            duration: 20s
             hasParticles: false
 resourcepack:
   textures:

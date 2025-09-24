@@ -29,8 +29,7 @@ PSSherdDrops:
 
 tosubachi_drop:
   MaxItems: 1
-  Conditions:
-    - hasaurastacks{n=flamethrowerroast} true
-    - chance{chance=0.05} true
+  TargetConditions:
+    - variableisset{var=caster.flamethrower-used} false
   Drops:
   - geary mineinabyss:tosubachi 1-1 1 nolooting

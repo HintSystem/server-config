@@ -1,15 +1,26 @@
-GrappleHook:
+grapplehook_shoot:
   Skills:
-  - projectile{bulletType=ITEM;material=GHAST_TEAR;onTick=GrappleHook_TICK;onHit=GrappleHook_END;onEnd=GrappleHook_END;v=16;i=1;hR=1;vR=1;g=0.5} @targetlocation
+  - projectile{bulletType=ARROW;onTick=GrappleHook_TICK;onHit=GrappleHook_HIT;onHitBlockSkill=GrappleHook_END;v=25;i=1;hR=1;vR=1;g=0.5;doEndSkillOnHit=false;hnp=true;dd=20} @forward{f=1000}
+
 GrappleHook_END:
   Skills:
-  - summon{type=grapplehook;amount=1;radius=0}
-GrappleHook_pull:
-  Cooldown: 10
+  - lunge{v=2;vy=1} @origin
+  - delay 5
+  - propel{v=1} @origin
+  - potion{type=JUMP_BOOST;duration=18;l=1} @self
+
+GrappleHook_HIT:
   Skills:
-  - pull{v=7;to=true} @parent
-  - delay 80
-  - remove @self
-MaxInvis:
+  - sound{s=block.chain.hit;sc=ui;volume=1} @self
+  - sound{s=block.chain.break;sc=ui;volume=0.55;repeat=10;repeati=1} @self
+  - pull{v=10} @targetedtarget{ignore=player} 
+  # - stun{duration=20} @targetedtarget{ignore=animal,creature,monster} # Maybe
+GrappleHook_TICK:
   Skills:
-  - potion{t=INVISIBILITY;d=999999;l=0}
+  - sound{s=block.chain.break;sc=ui;volume=0.25} @self
+  - sound{s=block.chain.break;sc=ui;volume=0.5} @origin
+  - effect:particle{p=ash}
+# Ideas:
+# consume stamina
+# wind back up
+# grapple air
