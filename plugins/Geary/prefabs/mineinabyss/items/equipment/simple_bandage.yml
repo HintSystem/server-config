@@ -25,9 +25,9 @@ resourcepack:
 set.recipes:
   discoverRecipes: true
   result:
-    prefab: mineinabyss:bandages
+    prefab: mineinabyss:simple_bandage
     amount: 2
-  group: mineinabyss:bandages
+  group: mineinabyss:simple_bandage
   recipes:
     - type: shaped
       items:
@@ -69,10 +69,10 @@ passive:
   - become: parent
   - ensure:
       hasConsumable:
-        type: mineinabyss:bandages
+        type: mineinabyss:simple_bandage
       mythicConditions:
       - variableisset{var=caster.simple_bandage_consume} true 
   - consumeItem:
-      type: mineinabyss:bandages
+      type: mineinabyss:simple_bandage
   - mythicSkills:
     - simple_bandage_consume
