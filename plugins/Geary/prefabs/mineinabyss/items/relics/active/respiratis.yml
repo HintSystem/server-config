@@ -11,7 +11,7 @@ set.item:
 resourcepack:
   textures:
     layers:
-    - mineinabyss:item/relics/morinaut_shell
+    - mineinabyss:items/relics/morinaut_shell
 observe:
   itemRightClick:
   - become: parent
