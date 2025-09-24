@@ -71,7 +71,7 @@ passive:
       hasConsumable:
         type: mineinabyss:simple_bandage
       mythicConditions:
-      - variableisset{var=caster.simple_bandage_consume} true 
+      - hasaurastacks{n=consumedbandage} true
   - consumeItem:
       type: mineinabyss:simple_bandage
   - mythicSkills:
