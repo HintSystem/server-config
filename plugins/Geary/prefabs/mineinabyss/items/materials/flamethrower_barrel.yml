@@ -1,6 +1,6 @@
 set.item:
   itemName: <#0047AB>Flamethrower Barrel
-  type: PAPER
+  type: minecraft:paper
   itemModel: mineinabyss:flamethrower_barrel
 resourcepack:
   textures:
@@ -16,7 +16,7 @@ set.recipes:
      C:
        prefab: mineinabyss:charcoal_sand_ingot
      I:
-       type: IRON_INGOT 
+       type: minecraft:iron_ingot
    configuration: |-
      |CCC|
      |III|

@@ -1,6 +1,6 @@
 set.item:
   itemName: <#6E260E>Detector type I
-  type: PAPER
+  type: minecraft:paper
   itemModel: mineinabyss:detector_type_i
   lore:
   - ':layer_5: Grade II Relic'

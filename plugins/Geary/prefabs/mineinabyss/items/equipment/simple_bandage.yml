@@ -36,9 +36,9 @@ set.recipes:
         A:
           prefab: mineinabyss:plant_matter
         S:
-          type: SWEET_BERRIES
+          type: minecraft:sweet_berries
         P: 
-          type: PAPER
+          type: minecraft:paper
           
       configuration: |-
         | P |

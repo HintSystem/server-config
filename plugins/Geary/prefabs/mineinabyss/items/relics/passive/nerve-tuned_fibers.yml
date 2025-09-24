@@ -1,6 +1,6 @@
 set.item:
   itemName: <#808000>Nerve-tuned Fibers
-  type: PAPER
+  type: minecraft:paper
   itemModel: mineinabyss:nerve-tuned_fibers
   lore:
   - ':layer_4: Grade III Relic'

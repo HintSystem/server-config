@@ -7,11 +7,11 @@ set.recipes:
     - type: shaped
       items:
         D:
-          type: SHIELD
+          type: minecraft:shield
         S:
-          type: STICK
+          type: minecraft:stick
         I:
-          type: IRON_INGOT
+          type: minecraft:iron_ingot
         L: 
           prefab: mineinabyss:charcoal_sand_ingot
           

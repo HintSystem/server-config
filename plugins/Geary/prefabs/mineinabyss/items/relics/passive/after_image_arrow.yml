@@ -1,6 +1,6 @@
 set.item:
   itemName: <#6E260E>After Image Arrow
-  type: PAPER
+  type: minecraft:paper
   itemModel: mineinabyss:after_image_arrow
   lore:
   - ':layer_2: Grade II Relic'

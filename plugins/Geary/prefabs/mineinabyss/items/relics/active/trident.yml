@@ -1,7 +1,7 @@
 set.item:
   itemName: <#68CCBF><b>Tranquil Pierce
   itemModel: mineinabyss:trident
-  type: TRIDENT
+  type: minecraft:trident
   lore:
   - ':layer_4: Grade I Relic'
   - <#3C8C82>A spear shape object carved out of the core from
