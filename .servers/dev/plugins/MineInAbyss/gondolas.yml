@@ -1,0 +1,86 @@
+gondolas:
+  l1_wwgondola_a:
+    upperLoc:
+      x: -287.0
+      y: -59.0
+      z: 367.0
+    lowerLoc:
+      x: 16097.0
+      y: -208.0
+      z: 368.0
+    displayItem:
+      type: minecraft:stone
+    displayName: WW A
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Helke at the Waterwheel
+      Gondola in Orth.
+    warpCooldown: 5000
+    consumeTicket: false
+  l1_wwgondola_b:
+    upperLoc:
+      x: 32807.0
+      y: 124.0
+      z: 185.0
+    lowerLoc:
+      x: 49205.0
+      y: 163.0
+      z: 175.0
+    displayItem:
+      type: minecraft:stone
+    displayName: WW B
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Helke at the Waterwheel
+      Gondola in Orth.
+    warpCooldown: 5000
+    consumeTicket: false
+  l1_grandpier_a:
+    upperLoc:
+      x: -394.0
+      y: 128.0
+      z: -31.0
+    lowerLoc:
+      x: 15995.0
+      y: 43.0
+      z: -31.0
+    displayItem:
+      type: minecraft:stone
+    displayName: GP A
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Belze at the Grand
+      Pier in Orth.
+    warpCooldown: 5000
+    consumeTicket: false
+  l1_grandpier_b:
+    upperLoc:
+      x: 16062.0
+      y: -57.0
+      z: -50.0
+    lowerLoc:
+      x: 16050.0
+      y: -171.0
+      z: -51.0
+    displayItem:
+      type: minecraft:stone
+    displayName: GP B
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Belze at the Grand
+      Pier in Orth.
+    warpCooldown: 5000
+    consumeTicket: false
+  l1_grandpier_c:
+    upperLoc:
+      x: 16202.0
+      y: -239.0
+      z: -16.0
+    lowerLoc:
+      x: 32594.0
+      y: -160.0
+      z: -6.0
+    displayItem:
+      type: minecraft:stone
+    displayName: GP C
+    warpZoneRange: 3.0
+    no_access_message: Buy access to this gondola from route warden Belze at the Grand
+      Pier in Orth.
+    warpCooldown: 5000
+    consumeTicket: false
