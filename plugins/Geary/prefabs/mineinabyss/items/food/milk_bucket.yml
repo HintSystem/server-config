@@ -1,0 +1,17 @@
+set.item:
+  type: minecraft:paper
+  itemName: Milk Bucket
+  itemModel: minecraft:milk_bucket
+  maxStackSize: 1
+  food:
+    saturation: 0
+    nutrition: 0
+  consumable:
+    animation: DRINK
+    sound: entity.generic.drink
+  useRemainder:
+    type: minecraft:bucket
+resourcepack:
+  textures:
+    layers:
+    - minecraft:item/milk_bucket

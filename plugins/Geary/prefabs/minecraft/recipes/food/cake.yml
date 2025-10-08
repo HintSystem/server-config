@@ -1,0 +1,19 @@
+set.recipes:
+  discoverRecipes: true
+  result:
+    type: minecraft:cake
+  recipes:
+    - type: shaped
+      items:
+        A:
+          prefab: mineinabyss:milk_bucket
+        B:
+          type: minecraft:sugar
+        C:
+          type: minecraft:wheat
+        E:
+          tag: minecraft:eggs
+      configuration: |-
+        |AAA|
+        |BEB|
+        |CCC|
