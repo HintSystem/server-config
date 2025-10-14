@@ -41,7 +41,7 @@ misc:
 music:
   enabled: true
 shopkeeping:
-  enabled: false
+  enabled: true
 okiboTravel:
   enabled: true
 orthBanking:
