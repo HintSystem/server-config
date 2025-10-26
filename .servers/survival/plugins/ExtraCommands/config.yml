@@ -1,0 +1,9 @@
+afk:
+  idleTime: 5m
+  text: ':space_-4::afk:'
+dailyRestarts:
+  enabled: true
+  # Seems to be dip for survival
+  hour: 2
+  minute: 0
+  timeZone: UTC

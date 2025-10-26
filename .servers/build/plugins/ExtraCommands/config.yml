@@ -1,0 +1,9 @@
+afk:
+  idleTime: 5m
+  text: ':space_-4::afk:'
+dailyRestarts:
+  enabled: true
+  # Aiming for survival + 12h
+  hour: 14
+  minute: 0
+  timeZone: UTC
