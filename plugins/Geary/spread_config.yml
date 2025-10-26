@@ -1,4 +1,4 @@
-spawnDelay: 40
+spawnDelay: 20
 worldName: "world"
 clearSpawnsOlderThan: 4h
 types:
