@@ -57,6 +57,60 @@ items:
         - "<red>Locked</red>"
     type: cosmetic
     cosmetic: clown_mask
+  pumpkin_hat_1:
+    slots: 3
+    item:
+      material: hmccosmetics:pumpkin_hat_1
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:pumpkin_hat_1
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      material: hmccosmetics:pumpkin_hat_1
+      lore:
+        - "<red>Locked</red>"
+    type: cosmetic
+    cosmetic: pumpkin_hat_1
+  witch_hat_1:
+    slots: 4
+    item:
+      material: hmccosmetics:witch_hat_1
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:witch_hat_1
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      material: hmccosmetics:witch_hat_1
+      lore:
+        - "<red>Locked</red>"
+    type: cosmetic
+    cosmetic: witch_hat_1
+  skull_gasmask:
+    slots: 4
+    item:
+      material: hmccosmetics:skull_gasmask
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:skull_gasmask
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      material: hmccosmetics:skull_gasmask
+      lore:
+        - "<red>Locked</red>"
+    type: cosmetic
+    cosmetic: skull_gasmask
 
   home_button:
     slots: 49

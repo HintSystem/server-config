@@ -72,6 +72,69 @@ items:
     currency: mitty_token
     cost: 1
     cosmetic: clown_mask
+  pumpkin_hat_1:
+    slots: 3
+    item:
+      material: hmccosmetics:pumpkin_hat_1
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:pumpkin_hat_1
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:pumpkin_hat_1
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    currency: mitty_token
+    cost: 1
+    cosmetic: pumpkin_hat_1
+  witch_hat_1:
+    slots: 4
+    item:
+      material: hmccosmetics:witch_hat_1
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:witch_hat_1
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:witch_hat_1
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    currency: mitty_token
+    cost: 1
+    cosmetic: witch_hat_1
+  skull_gasmask:
+    slots: 5
+    item:
+      material: hmccosmetics:skull_gasmask
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:skull_gasmask
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:skull_gasmask
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    currency: mitty_token
+    cost: 1
+    cosmetic: skull_gasmask
 
   home_button:
     slots: 49
