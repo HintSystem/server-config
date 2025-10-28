@@ -3,7 +3,7 @@ laser_charge:
   Cooldown: 
   Conditions:
   Skills:
-    - command{c="execute at <caster.uuid> run xp add <caster.name> -20";op=true}
+    - command{c="execute at <caster.uuid> run extracommands:exp <caster.name> -20";op=true}
     - aura{auraName=laser;onStart=laserstack;duration=9999;c=3;maxStacks=3;cotd=false} @self
     - skill{s=laserready} @self
     - effect:particles{particle=splash;amount=20;hS=0.5;vS=1;speed=0;y=0.5}

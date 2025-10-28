@@ -2,7 +2,7 @@ shadowball:
   Cooldown:
   Conditions:
   Skills:
-  - command{c="execute at <caster.uuid> run xp add <caster.name> -40";op=true}
+  - command{c="execute at <caster.uuid> run extracommands:exp <caster.name> -40";op=true}
   - sound{s=entity.ender_dragon.shoot;;volume=1;pitch=1.2} @origin
   - sound{s=entity.ender_dragon.shoot;;volume=1;pitch=1.6} @origin
   - effect:particles{particle=smoke;amount=25;hS=0.3;vS=0.2;speed=0.05;y=1.5} @origin
@@ -63,7 +63,7 @@ buddstone_tap_projectile:
     - hasaurastacks{n=buddstonetapcharge} true
   Cooldown: 1
   Skills:
-  - command{c="execute at <caster.uuid> run xp add <caster.name> -40";op=true}
+  - command{c="execute at <caster.uuid> run extracommands:exp <caster.name> -40";op=true}
   - sound{s=block.calcite.step;sc=ui;volume=1;pitch=1.2} @origin
   - sound{s=block.calcite.step;sc=ui;volume=1;pitch=1.6} @origin
   - projectile{onTick=tpmageTick;onHit=pgcrystalHit;onHitBlock=tpmageHit;i=1;v=14;mr=20;hnp=true;pi=true;sB=true;sE=true} @forward{f=1000}
