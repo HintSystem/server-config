@@ -222,6 +222,7 @@ dev:
     - feat/bosses
     - feat/hud
     - feat/ost
+    - feat/events
 
 dev-alpha:
   copyPaths: [ .servers/dev-alpha ]
