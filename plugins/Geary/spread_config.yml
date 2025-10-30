@@ -113,8 +113,8 @@ types:
           type: "mm:prayingSkeleton_l2"
           conditions:
             - isOpenArea: { range: 4 }
-        spreadRadius: 100
-        spawnCap: 10
+        spreadRadius: 90
+        spawnCap: 15
         sectionMinY: -10
         sectionMaxY: 220
         spawnNoise: 5
@@ -284,7 +284,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 400
-        spawnCap: 3
+        spawnCap: 10
         sectionMinY: -220
         sectionMaxY: 100
         spawnNoise: 5
@@ -301,7 +301,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 400
-        spawnCap: 8
+        spawnCap: 14
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 5

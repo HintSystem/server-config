@@ -31,7 +31,7 @@ L2MiscPSDrops:
   Drops:
   - bundle 1 0.1
   - experience_bottle 1-2 0.015
-  - geary mineinabyss:charcoal_sand_raw 1-1 0.06 nolooting
+  - geary mineinabyss:charcoal_sand_raw 1-1 0.05 nolooting
 
 L3MiscPSDrops:
 

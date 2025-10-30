@@ -18,6 +18,8 @@ GrappleHook_END:
 GrappleHook_HIT:
   Conditions:
     - hasaurastacks{n=gapplehookcharge} true
+  TargetConditions:
+    - mythicmobtype{t=prayingSkeleton_l1,prayingSkeleton_l2,prayingSkeleton_l3,prayingSkeleton_l4,prayingSkeleton_l5,goldenSkeleton,charredSkeleton,stingerhead,orbpiercer,tachikatana,virinsipede,splitjaw} false
   Skills:
   - sound{s=block.chain.hit;sc=ui;volume=1} @self
   - sound{s=block.chain.break;sc=ui;volume=0.55;repeat=10;repeati=1} @self

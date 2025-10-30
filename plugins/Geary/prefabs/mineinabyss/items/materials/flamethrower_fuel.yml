@@ -12,6 +12,7 @@ resourcepack:
 set.recipes:
   result:
     prefab: mineinabyss:flamethrower_fuel
+    amount: 4
   discoverRecipes: true
   group: mineinabyss:flamethrower_fuel
   recipes:
