@@ -21,6 +21,7 @@ dosetori:
     FollowRange: 32
     MaxCombatDistance: 128
     PreventOtherDrops: true
+    MovementSpeed: 0.32
     Silent: true
   Model:
     Id: dosetori
@@ -37,7 +38,7 @@ dosetori:
     # - CancelEvent{sync=true} ~onAttack
     # - skill{s=Damage_3} @self ~onAttack
     - bodyclamp{m=dosetori;c=15} @self ~onSpawnOrLoad
-    - setspeed{type=flying;speed=1.3} @self ~onSpawnOrLoad
+    #- setspeed{type=flying;speed=1.3} @self ~onSpawnOrLoad
     - state{mid=dosetori;s=attack} @self ~onAttack
     - effect:sound{s=mineinabyss:entity.dosetori.ambient;v=4;p=0.8} @self ~onAmbient
     - effect:sound{s=mineinabyss:entity.dosetori.death;v=4;p=0.8} @self ~onDeath

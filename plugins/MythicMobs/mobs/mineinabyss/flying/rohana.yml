@@ -16,7 +16,7 @@ rohana:
     Silent: true
     FollowRange: 17
     PreventOtherDrops: true
-  # MovementSpeed: 0.3
+    MovementSpeed: 0.32
   Equipment:
     - TORCH HAND
   DamageModifiers:
@@ -33,6 +33,6 @@ rohana:
 
   Skills:
     - bodyclamp{m=rohana;c=15} @self ~onSpawnOrLoad
-    - setspeed{type=flying;speed=1} @self ~onSpawnOrLoad
+    #- setspeed{type=flying;speed=1} @self ~onSpawnOrLoad
     - state{mid=rohana;s=attack} @self ~onAttack
     - skill{s=displayHealth} ~onDamaged

@@ -23,7 +23,7 @@ splitjaw:
     MaxCombatDistance: 128
     LockPitch: true
     Interactable: true
-    # MovementSpeed: 0.6
+    MovementSpeed: 0.7
     PreventSunburn: true
     PreventOtherDrops: true
     Silent: true
@@ -46,7 +46,7 @@ splitjaw:
   Skills:
     # - CancelEvent{sync=true} ~onAttack
     - bodyclamp{m=splitjaw;c=15} @self ~onSpawnOrLoad
-    - setspeed{type=flying;speed=1.35} @self ~onSpawnOrLoad
+    #- setspeed{type=flying;speed=1.35} @self ~onSpawnOrLoad
     - state{mid=splitjaw;s=attack} @self ~onAttack
     - DefaultState{m=splitjaw;t=walk;s=walk_aggro} @self ~onEnterCombat
     - DefaultState{m=splitjaw;t=walk;s=walk} @self ~onDropCombat

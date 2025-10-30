@@ -22,6 +22,7 @@ corpse_weeper:
     MaxCombatDistance: 128
     PreventOtherDrops: true
     Silent: true
+    MovementSpeed: 0.53
   Model:
     Id: corpse_weeper
     ViewRadius: 48
@@ -38,7 +39,7 @@ corpse_weeper:
     # - CancelEvent{sync=true} ~onAttack
     # - skill{s=Damage_3} @self ~onAttack
     - bodyclamp{m=corpse_weeper;c=15} @self ~onSpawnOrLoad
-    - setspeed{type=flying;speed=1.7} @self ~onSpawnOrLoad
+    #- setspeed{type=flying;speed=1.7} @self ~onSpawnOrLoad
     - state{mid=corpse_weeper;s=attack} @self ~onAttack
     - effect:sound{s=mineinabyss:entity.corpseweeper.ambient;v=4;p=0.8} @self ~onAmbient
     - effect:sound{s=mineinabyss:entity.corpseweeper.death;v=4;p=0.8} @self ~onDeath

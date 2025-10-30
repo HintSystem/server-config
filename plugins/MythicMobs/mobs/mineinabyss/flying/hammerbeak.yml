@@ -87,7 +87,7 @@ hammerbeakLarge:
     Silent: true
     PreventOtherDrops: true
     FollowRange: 45
-    MovementSpeed: 0.0
+    MovementSpeed: 0.4
     KnockbackResistance: 1.0
   DamageModifiers:
     - FALL 0.01

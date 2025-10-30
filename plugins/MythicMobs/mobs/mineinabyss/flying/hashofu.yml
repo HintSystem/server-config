@@ -16,7 +16,7 @@ hashofu:
     FollowRange: 17
     PreventOtherDrops: true
     Silent: true
-  # MovementSpeed: 0.4
+    MovementSpeed: 0.4
   Model:
     Id: hashofu
     ViewRadius: 48
@@ -29,5 +29,5 @@ hashofu:
     - geary mineinabyss:hashofu_body 1-3
   Skills:
     - bodyclamp{m=hashofu;c=15} @self ~onSpawnOrLoad
-    - setspeed{type=flying;speed=1.2} @self ~onSpawnOrLoad
+    #- setspeed{type=flying;speed=1.2} @self ~onSpawnOrLoad
     - skill{s=displayHealth} ~onDamaged
