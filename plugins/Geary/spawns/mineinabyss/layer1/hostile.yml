@@ -52,3 +52,20 @@ l1_hammerbeakLarge:
     - $remove maxNearby
     - maxNearby:
         amount: 1
+
+l1_spookmanta:
+ inherit: l1_hostile
+ chance: 0.08
+ type: mm:spookmanta
+
+l1_pumpkinshell:
+ inherit: l1_hostile
+ type: mm:pumpkinshell
+ priority: 0.15
+ chance: 0.1
+
+l1_man_prayer:
+ inherit: l1_hostile
+ type: mm:man_prayer
+ chance: 0.04
+ amount: 1
