@@ -9,6 +9,9 @@ global:
         - spawns.db
         - spawns.db-shm
         - spawns.db-wal
+    plugins/Packy/resourcepacks:
+      deleteUntracked: true
+
 feat/mobs:
   copyPaths:
     - source: plugins/Geary/prefabs/mineinabyss/mobs
@@ -70,6 +73,21 @@ feat/bosses:
   copyPaths:
     - source: "{{ privateSettingsDest }}/plugins/MythicMobs/packs/bosses"
       dest: plugins/MythicMobs/packs/bosses
+
+feat/events:
+  copyPaths:
+    - source: "{{ privateSettingsDest }}/plugins/MythicMobs/packs/halloween"
+      dest: plugins/MythicMobs/packs/halloween
+    - source: "{{ privateSettingsDest }}/plugins/Geary/prefabs/mineinabyss/items"
+      dest: plugins/Geary/prefabs/mineinabyss/items
+    - source: "{{ privateSettingsDest }}/plugins/Geary/prefabs/cosmetics"
+      dest: plugins/Geary/prefabs/cosmetics
+    - source: "{{ privateSettingsDest }}/mc-resourcepacks/common"
+      dest: plugins/Packy/resourcepacks/common
+    - source: "{{ privateSettingsDest }}/mc-resourcepacks/cosmetics"
+      dest: plugins/Geary/template_pack
+    - source: "{{ privateSettingsDest }}/mc-resourcepacks/cosmetics"
+      dest: plugins/Packy/resourcepacks/cosmetics
 
 feat/loot_chests:
   copyPaths:
