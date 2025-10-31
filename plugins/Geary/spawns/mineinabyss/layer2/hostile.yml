@@ -62,7 +62,7 @@ l2_hammerbeakLarge:
 
 l2_spookmanta:
  inherit: l2_hostile
- chance: 0.13
+ chance: 0.1
  type: mm:spookmanta
 
 l2_pumpkinshell:

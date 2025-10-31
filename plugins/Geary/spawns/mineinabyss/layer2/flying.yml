@@ -22,3 +22,9 @@ l2_corpse_weeper: { inherit: l2_flying, type: mm:corpse_weeper, priority: 0.3, c
 
 # Rare
 l2_splitjaw: { inherit: l2_flying, type: mm:splitjaw, priority: 0.01, chance: 0.05}
+
+l2_spookmanta_flying:
+  inherit: l2_flying
+  type: mm:spookmanta_flying
+  priority: 0.2
+  chance: 0.05

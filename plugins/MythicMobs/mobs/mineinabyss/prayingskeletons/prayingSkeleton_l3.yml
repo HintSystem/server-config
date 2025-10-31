@@ -17,3 +17,4 @@ prayingSkeleton_l3:
     - skill{s=relicDrop;delay=25;item=FrayedMurmurDrop;grade=3} ~onDeath 0.02
     - skill{s=relicDrop;delay=30;item=MermaidBurpDrop;grade=3} ~onDeath 0.02
     - skill{s=relicDrop;delay=35;item=CritCharmDrop;grade=4} ~onDeath 0.04
+    - summon{type=man_prayer;amount=1;radius=1} @self ~onDeath 0.04

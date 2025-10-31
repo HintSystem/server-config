@@ -18,3 +18,4 @@ prayingSkeleton_l5:
     - skill{s=relicDrop;delay=30;item=BoneStaffDrop;grade=3} ~onDeath 0.03
     - skill{s=relicDrop;delay=35;item=NerveTunedFibersDrop;grade=3} ~onDeath 0.03
     - skill{s=relicDrop;delay=40;item=MonisceltiDrop;grade=4} ~onDeath 0.06
+    - summon{type=man_prayer;amount=1;radius=1} @self ~onDeath 0.04

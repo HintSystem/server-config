@@ -94,7 +94,7 @@ l4_tachikatana:
 
 l4_spookmanta:
  inherit: l4_hostile
- chance: 0.2
+ chance: 0.15
  type: mm:spookmanta
 
 l4_pumpkinshell:

@@ -19,3 +19,9 @@ l3_splitjaw:
   type: mm:splitjaw
   priority: 0.5
   chance: 0.2
+
+l3_spookmanta_flying:
+  inherit: l3_flying
+  type: mm:spookmanta_flying
+  priority: 0.2
+  chance: 0.05
