@@ -7,7 +7,7 @@ shiftingpikecharge:
   Conditions:
   #- stance{s=spikeless;str=true} false
   Skills:
-    - aura{auraName=boundinglance;duration=200;c=1;maxStacks=5;cotd=true} @self
+    - aura{auraName=boundinglance;duration=200;c=1;maxStacks=5;cotd=false} @self
     - potion{t=SLOW;l=1;d=20;p=false} @Self
     - skill{s=boundinghealready} @self
     - skill{s=boundingdamageready} @self
