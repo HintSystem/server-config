@@ -10,7 +10,7 @@ shiver_mist_hit_:
   - command{c="execute at <caster.uuid> run extracommands:exp <caster.name> -80";op=true}
   - potion{t=SLOW;l=2;d=20;p=false} @Self
   - delay 10
-  - spin{duration=40;velocity=0.5} @self
+  #- spin{duration=40;velocity=0.5} @self
   #- skill{s=shiver_mist_area_projectile;delay=0}
   - skill{s=shiver_mist_area_projectile;delay=20}
   - skill{s=shiver_mist_area_projectile;delay=40}

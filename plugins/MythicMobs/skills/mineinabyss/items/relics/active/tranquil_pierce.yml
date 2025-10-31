@@ -45,5 +45,5 @@ tranquil_pierce_throw:
 trident_impact:
   Skills:
     - sound{s=item.trident.hit;sc=ui;p=1;v=0.6} @self
-    - damage{a=40}
+    - damage{a=35}
     - shieldbreak{duration=150}

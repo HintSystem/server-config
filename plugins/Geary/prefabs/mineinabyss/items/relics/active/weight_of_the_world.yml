@@ -10,7 +10,7 @@ set.item:
   enchantmentGlintOverride: true
   enchantments:
     - enchant: minecraft:density
-      level: 4
+      level: 3
   enchantable: 0
   #itemFlags: [ HIDE_ENCHANTS ]
   unbreakable: {}

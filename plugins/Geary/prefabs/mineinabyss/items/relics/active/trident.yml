@@ -31,7 +31,7 @@ observe:
         text: <red>Out of Charge
   - cooldown:
       id: tranquilpierce
-      length: 15s
+      length: 22s
       display: <#68CCBF>Tranquil Pierce
   - mythicSkills:
     - tranquil_pierce_throw

@@ -25,7 +25,7 @@ observe:
         text: <red>Lacks Charge
   - cooldown:
       id: hammer_smash
-      length: 35s
+      length: 32s
       display: <#79EDE2>Necrometallic Sledge
   - mythicSkills:
     - necrometallic_sledge_ability
