@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "time",
+    "source": "daytime",
+    "wobble": false,
+    "entries": [
+      {
+        "threshold": 0.0,
+        "model": {
+          "type": "model",
+          "model": "event:carved_pumpkins/pumpkin_face_lit"
+        }
+      },
+      {
+        "threshold": 0.5,
+        "model": {
+          "type": "model",
+          "model": "event:carved_pumpkins/pumpkin_face"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "event:carved_pumpkins/pumpkin_face"
+    }
+  }
+}

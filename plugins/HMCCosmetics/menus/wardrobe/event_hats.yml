@@ -94,7 +94,7 @@ items:
     type: cosmetic
     cosmetic: witch_hat_1
   skull_gasmask:
-    slots: 4
+    slots: 5
     item:
       material: hmccosmetics:skull_gasmask
       lore:
@@ -111,6 +111,24 @@ items:
         - "<red>Locked</red>"
     type: cosmetic
     cosmetic: skull_gasmask
+  pumpkin_face:
+    slots: 6
+    item:
+      material: hmccosmetics:pumpkin_face
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:pumpkin_face
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      material: hmccosmetics:pumpkin_face
+      lore:
+        - "<red>Locked</red>"
+    type: cosmetic
+    cosmetic: pumpkin_face
 
   home_button:
     slots: 49

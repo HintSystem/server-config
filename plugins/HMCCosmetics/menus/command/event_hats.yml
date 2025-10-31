@@ -135,6 +135,27 @@ items:
     currency: mitty_token
     cost: 1
     cosmetic: skull_gasmask
+  pumpkin_face:
+    slots: 6
+    item:
+      material: hmccosmetics:pumpkin_face
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:pumpkin_face
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:pumpkin_face
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    currency: mitty_token
+    cost: 1
+    cosmetic: pumpkin_face
 
   home_button:
     slots: 49

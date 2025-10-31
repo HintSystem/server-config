@@ -28,3 +28,9 @@ skull_gasmask:
   permission: "hmccosmetics.hat.skull_gasmask"
   item:
     material: geary:cosmetics:skull_gasmask
+pumpkin_face:
+  slot: HELMET
+  permission: "hmccosmetics.hat.pumpkin_face"
+  item:
+    material: PAPER
+    item-model: event:carved_pumpkins/pumpkin_face
