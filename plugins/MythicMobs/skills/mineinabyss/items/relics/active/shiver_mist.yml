@@ -7,7 +7,7 @@ shiver_mist_hit: # Shim for geary
   - skill{s=shiver_mist_hit_}
 shiver_mist_hit_:
   Skills:
-  - command{c="execute at <caster.uuid> run extracommands:exp <caster.name> -80";op=true}
+  - command{c="execute at <caster.uuid> run extracommands:exp add <caster.name> -80";op=true}
   - potion{t=SLOW;l=2;d=20;p=false} @Self
   - delay 10
   #- spin{duration=40;velocity=0.5} @self
@@ -78,7 +78,7 @@ shiver_mist: # Shim for geary
   - skill{s=shiver_mist_}
 shiver_mist_:
   Skills:
-  - command{c="execute at <caster.uuid> run extracommands:exp <caster.name> -80";op=true}
+  - command{c="execute at <caster.uuid> run extracommands:exp add <caster.name> -80";op=true}
   - potion{t=SLOW;l=2;d=60;p=false} @Self
   - sound{s=entity.evoker.prepare_attack;sc=ui;volume=0.6;pitch=1.2;repeat=3;repeatinterval=5} @self
   - sound{s=block.enchantment_table.use;sc=ui;volume=0.5;pitch=0.8;repeat=2;repeatinterval=6} @self
@@ -235,7 +235,7 @@ shiver_mist_charger_:
 
 # shiver_mist:
 #   Skills:
-#   - command{c="execute at <caster.uuid> run extracommands:exp <caster.name> -80";op=true}
+#   - command{c="execute at <caster.uuid> run extracommands:exp add <caster.name> -80";op=true}
 #   - potion{t=SLOW;l=2;d=20;p=false} @Self
 #   - sound{s=entity.evoker.prepare_attack;sc=ui;volume=0.6;pitch=1.2;repeat=3;repeatinterval=5} @self
 #   - sound{s=block.enchantment_table.use;sc=ui;volume=0.5;pitch=0.8;repeat=2;repeatinterval=6} @self

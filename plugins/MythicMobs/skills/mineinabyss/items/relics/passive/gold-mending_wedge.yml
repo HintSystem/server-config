@@ -2,7 +2,7 @@ gold-mending_wedge:
   Conditions:
   Cooldown: 10
   Skills:
-  - command{c="execute at <caster.uuid> run extracommands:exp <caster.name> -250";op=true}
+  - command{c="execute at <caster.uuid> run extracommands:exp add <caster.name> -250";op=true}
   - Aura{auraName=verdaudown;onTick=verdaudown;interval=60;duration=120000} @self
   - skill{s=effaxfeed} @self
 
