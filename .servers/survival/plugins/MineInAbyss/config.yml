@@ -24,7 +24,7 @@ descent:
 displayLocker:
   enabled: true
 gondolas:
-  enabled: true
+  enabled: false
 guilds:
   enabled: true
 hubstorage:
@@ -39,11 +39,11 @@ lootCrates:
 misc:
   enabled: true
 music:
-  enabled: true
+  enabled: false
 shopkeeping:
   enabled: true
 okiboTravel:
-  enabled: true
+  enabled: false
 orthBanking:
   enabled: true
   balanceHudId: "balance_empty_offhand"
@@ -60,16 +60,16 @@ patreon:
 playerProfile:
   enabled: true
   validBackgroundIds:
-    - "orth_background"
-    - "ancient_ship"
-    - "nanachi_hut"
-    - "golden_bridge"
-    - "layer2_windmills"
-    - "layer6"
-    - "seeker_camp"
-    - "funeral_plaque"
+  - "orth_background"
+  - "ancient_ship"
+  - "nanachi_hut"
+  - "golden_bridge"
+  - "layer2_windmills"
+  - "layer6"
+  - "seeker_camp"
+  - "funeral_plaque"
 pvp:
-  enabled: false
+  enabled: true
 relics:
   enabled: true
 tools:
