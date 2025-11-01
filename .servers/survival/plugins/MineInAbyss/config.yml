@@ -14,7 +14,7 @@ core:
   serverLinks: []
 cosmetics:
   enabled: true
-  equipWhistleCosmetic: false
+  equipWhistleCosmetic: true
 curse:
   enabled: true
 custom_hud:
@@ -24,7 +24,7 @@ descent:
 displayLocker:
   enabled: true
 gondolas:
-  enabled: false
+  enabled: true
 guilds:
   enabled: true
 hubstorage:
@@ -39,11 +39,11 @@ lootCrates:
 misc:
   enabled: true
 music:
-  enabled: false
+  enabled: true
 shopkeeping:
-  enabled: false
+  enabled: true
 okiboTravel:
-  enabled: false
+  enabled: true
 orthBanking:
   enabled: true
   balanceHudId: "balance_empty_offhand"
@@ -60,16 +60,16 @@ patreon:
 playerProfile:
   enabled: true
   validBackgroundIds:
-  - "orth_background"
-  - "ancient_ship"
-  - "nanachi_hut"
-  - "golden_bridge"
-  - "layer2_windmills"
-  - "layer6"
-  - "seeker_camp"
-  - "funeral_plaque"
+    - "orth_background"
+    - "ancient_ship"
+    - "nanachi_hut"
+    - "golden_bridge"
+    - "layer2_windmills"
+    - "layer6"
+    - "seeker_camp"
+    - "funeral_plaque"
 pvp:
-  enabled: true
+  enabled: false
 relics:
   enabled: true
 tools:
