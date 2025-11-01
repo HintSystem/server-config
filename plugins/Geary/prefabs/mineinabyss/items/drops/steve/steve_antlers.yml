@@ -1,7 +1,11 @@
 set.item:
-  type: minecraft:dead_fire_coral
+  type: minecraft:paper
   itemName: <#2597D9>Steve Antlers
   itemModel: mineinabyss:steve_antlers
   lore:
   - <yellow>Can be obtained by hunting down
   - <#2597D9>Steve <yellow>in the <green>Goblets of Giants<yellow>.
+resourcepack:
+  textures:
+    layers:
+      - mineinabyss:item/creature_drops/steve_antlers
