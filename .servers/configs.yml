@@ -180,6 +180,7 @@ survival:
     - feat/hud
     - feat/hiddenore
     - feat/ost
+    - feat/events
 
 build:
   variables:
