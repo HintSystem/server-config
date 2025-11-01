@@ -1,0 +1,23 @@
+l2_HalloweenSpawner_22:
+  MobName: spookmanta
+  World: world
+  X: 49090
+  Y: 61
+  Z: 200
+  Radius: 4
+  RadiusY: 4
+  UseTimer: true  
+  MaxMobs: 8
+  MobsPerSpawn: 1
+  Cooldown: 10
+  CooldownTimer: 10
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 50
+  LeashRange: 22
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []

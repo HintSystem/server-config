@@ -1,0 +1,23 @@
+l5_HalloweenSpawner_44:
+  MobName: 30%man_prayer,70%spookmanta
+  World: world
+  X: 230218
+  Y: 176
+  Z: -599
+  Radius: 6
+  RadiusY: 2
+  UseTimer: true  
+  MaxMobs: 8
+  MobsPerSpawn: 1
+  Cooldown: 15
+  CooldownTimer: 15
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 60
+  LeashRange: 20
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []

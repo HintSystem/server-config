@@ -1,0 +1,23 @@
+l4_HalloweenSpawner_35:
+  MobName: steve_boss
+  World: world
+  X: 181080
+  Y: -26
+  Z: 489
+  Radius: 4
+  RadiusY: 2
+  UseTimer: true  
+  MaxMobs: 1
+  MobsPerSpawn: 1
+  Cooldown: 600
+  CooldownTimer: 600
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 50
+  LeashRange: 40
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: false
+  Breakable: false
+  Conditions: []

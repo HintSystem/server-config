@@ -1,0 +1,23 @@
+l2_HalloweenSpawner_17:
+  MobName: 30%man_prayer,50%pumpkinshell,20%spookmanta
+  World: world
+  X: 48827
+  Y: 82
+  Z: -128
+  Radius: 5
+  RadiusY: 2
+  UseTimer: true  
+  MaxMobs: 4
+  MobsPerSpawn: 1
+  Cooldown: 10
+  CooldownTimer: 10
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 50
+  LeashRange: 12
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []

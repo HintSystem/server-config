@@ -1,0 +1,23 @@
+l4_HalloweenSpawner_37:
+  MobName: 38%man_prayer,40%spookmanta,20%pumpkinshell,2%steve_boss
+  World: world
+  X: 180986
+  Y: -137
+  Z: 1049
+  Radius: 6
+  RadiusY: 2
+  UseTimer: true  
+  MaxMobs: 10
+  MobsPerSpawn: 1
+  Cooldown: 10
+  CooldownTimer: 10
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 50
+  LeashRange: 25
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
