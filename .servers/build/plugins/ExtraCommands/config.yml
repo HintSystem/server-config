@@ -3,6 +3,7 @@ afk:
   text: ':space_-4::afk:'
 dailyRestarts:
   enabled: true
+  skipIfUptimeLessThan: 4h
   # Aiming for survival + 12h
   hour: 14
   minute: 0
