@@ -87,7 +87,7 @@ vineblaster:
     - cancelevent{sync=true} @Self ~onAttack
 
 wanabushi:
-  Type: SILVERFISH
+  Type: VINDICATOR
   Modules:
     ThreatTable: true
   Display: "<green>Wanabushi"
@@ -121,7 +121,7 @@ wanabushi:
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
-    - skill:allyvineblasterattack @Self ~onTimer:10
+    - skill{s=allyvineblasterattack} @Self ~onTimer:10
     # - skill{s=vineblastermortar} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
     - remove{delay=500} @self ~onSpawn
