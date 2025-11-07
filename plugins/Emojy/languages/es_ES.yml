@@ -1,0 +1,166 @@
+mineinabyss.tutorial.start.1: >
+  <yellow>¡Bienvenido a <bold><gradient:#ff7043:#ffca28:#ff7043>Mine in Abyss<!bold><yellow>!
+  
+  <#FBFB98>Favor de seguir el tutorial.
+
+mineinabyss.tutorial.start.2: >
+  <#FBFB98>El tutorial te guiará
+  
+  hacia el <yellow><bold>Abismo<!bold><#FBFB98> -->
+
+mineinabyss.tutorial.climb.1: >
+  <#44CCCC>Es posible <aqua><bold>escalar paredes<!bold></aqua>:
+
+   
+
+  - apoyate contra la pared,
+  
+  - manten vista hacia la pared,
+  
+  - sostiene el <aqua><italic>clic derecho<!italic></aqua>,
+
+  - presiona <aqua><italic>espacio<!italic></aqua> para ascender.
+
+mineinabyss.tutorial.climb.2: >
+  <#44CCCC>¿Quién necesita apilar bloques
+
+  cuando simplemente puedes escalar? :siggy:
+
+mineinabyss.tutorial.climb.3: >
+  <blue><bold>Nota:<!bold><#3B3BB0> Presiona el clic izquierdo
+  
+  para impulsarte de la pared.
+
+mineinabyss.tutorial.water: >
+  <green><bold>El agua en movimiento<!bold>
+  
+  <#3BB23B>causa daño.
+
+mineinabyss.tutorial.falling: >
+  <green><bold>El agua no
+  
+  cancela el daño de caída.<!bold>
+  
+  <#3BB23B>No hay manera de
+  
+  evitar el daño de caída.
+
+mineinabyss.tutorial.rules.1: >
+  <yellow><bold><underlined>Reglas del servidor:</underlined><!bold>
+
+  Conducta:
+
+  <#FBFB98>> No debes <#FFCC66>hackear</#FFCC66>, <#FFCC66>grifear</#FFCC66> o <#FFCC66>robar</#FFCC66>.
+
+  > No debes <#FFCC66>explotar</#FFCC66> de algún error.
+  
+    Favor de reportarlos en el servidor de discord.
+
+  > No causar <#FFCC66>spam</#FFCC66> o <#FFCC66>disputar</#FFCC66> en el chat.
+
+  > No debes <#FFCC66>pelear</#FFCC66> con o <#FFCC66>acosar</#FFCC66> a otras personas.
+
+   
+
+  <yellow>Además:
+
+  <#FBFB98>> No construyas escaleras o elevadores
+  
+    en ninguna de las capas 1, 2 o 3.
+
+  > No discutas sobre Made in Abyss
+  
+    después de la 2da temporada del anime.
+
+   
+
+  <yellow>Para una lista completa de las reglas, visita
+  
+  <italic>www.mineinabyss.com/rules<!italic>
+
+mineinabyss.tutorial.rules.2: >
+  <#44CCCC>Pasa a través
+  
+  de la puerta para <aqua><italic>aceptar
+  
+  las reglas<!italic></aqua>
+
+  y <aqua><italic><bold>continúa hacia
+  
+  el Abismo...<!bold><!italic></aqua>
+
+mineinabyss.tutorial.bonfire: >
+  <#FBFB98>Es posible fabricar <aqua><bold>puntos de reaparición<!bold></aqua>
+  
+  llamados <italic>bonfire<!italic>.
+  
+  Busca en el <aqua>libro de recetas dentro de
+  
+  la mesa de trabajo</aqua> para más información.
+
+mineinabyss.tutorial.outside.1: >
+  <#B2B2B2>Usa el comando <#7D7D7D><bold>/tutorial<!bold></#7D7D7D> si deseas recorrer el tutorial de nuevo.
+
+mineinabyss.tutorial.outside.2: >
+  <aqua>Sigue este camino debajo
+  
+  hacia el <blue><bold>Abismo<!bold></blue>...
+
+mineinabyss.tutorial.outside.3: >
+  <#FBFB98>Sigue este camino arriba
+  
+  hacia <gold><bold>Orth<!bold></gold>...
+
+mineinabyss.tutorial.links: >
+  <white>Si tienes dudas,
+  
+  escribe <#FFCC66><bold>/wiki<!bold></#FFCC66>.
+
+   
+  
+  <#3B3BB0>Unete a nuestra comunidad en Discord
+  
+  con <blue><bold>/discord<!bold></blue>.
+
+mineinabyss.tutorial.emotes: >
+  <green>Puedes usar emotes
+  
+  escribiendo <dark_green><underlined>:nombredelemote:</underlined> :siggy:
+
+  <green>Puedes encontrar todos los emotes
+  
+  con <dark_green><bold>/emojy list
+
+   
+
+  <yellow>Aportadores de </yellow><gold>Patreon <yellow>y <gold>Ko-Fi
+  
+  <yellow>también tienen acceso
+
+  <yellow>a GIFs como <white>:gurawave:
+
+mineinabyss.tutorial.recipes: >
+  <#3BB23B>¡Contamos con bastantes <green><bold>items personalizados<!bold></green>
+  
+  así como <green><bold>recetas personalizadas<!bold></green>!
+  
+  Para revisarlas, ve a tu inventario
+  
+  y presiona el <green><italic>Libro de Recetas<!italic></green>.
+
+mineinabyss.tutorial.end:
+  <dark_aqua>¡Ahora estás en tu propia cuenta!
+  
+  Encuentra o haz tu propio camino...
+
+mineinabyss.tutorial.guildhq.1: >
+  <#FBFB98>Camino a <gold><bold>Orth<!bold></gold>
+
+mineinabyss.tutorial.guildhq.2: >
+  <aqua>Camino al <blue><bold>Abismo<!bold></blue>
+
+mineinabyss.tutorial.guildhq.3: >
+  <aqua>Camino debajo hacia el <blue><bold>Abismo<!bold>
+
+mineinabyss.tutorial.cosmetics.1: <yellow>¡Camino al <gold><bold>Guardarropa de Cosméticos!
+mineinabyss.tutorial.cosmetics.2: <gold><bold>¡Guardarropa de Cosméticos!

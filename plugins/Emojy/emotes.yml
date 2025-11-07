@@ -128,8 +128,8 @@ emotes:
   - id: nou
   - id: troll
   - id: bell
-  - id: okibosmug
-  - id: okibosad
+  - id: okibliss
+  - id: okibeg
     font: mineinabyss:whistles
     texture: mineinabyss:whistles/bell.png
   - id: redw

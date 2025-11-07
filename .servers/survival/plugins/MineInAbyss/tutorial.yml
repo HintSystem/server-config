@@ -42,7 +42,7 @@ tutorialEntities:
   - location:
       x: -183.5
       y: 52.5
-      z: -471.5
+      z: -473.5
     text: <lang:mineinabyss.tutorial.end></lang>
   - location:
       x: -142.5
@@ -95,17 +95,17 @@ tutorialEntities:
     text: <lang:mineinabyss.tutorial.rules.2></lang>
   - location:
       x: -162.0
-      y: 98.5
-      z: -520.0
+      y: 99.5
+      z: -522.0
     text: <lang:mineinabyss.tutorial.recipes></lang>
     billboard: FIXED
     leftRotation:
       y: 0.819152
       w: -0.57357645
   - location:
-      x: -170.5
-      y: 54.5
-      z: -484.5
+      x: -159.5
+      y: 55.5
+      z: -478.5
     text: <lang:mineinabyss.tutorial.emotes></lang>
   - location:
       x: -136.5
@@ -126,9 +126,9 @@ tutorialEntities:
       z: -626.5
     text: <lang:mineinabyss.tutorial.falling></lang>
   - location:
-      x: -164.5
+      x: -162.5
       y: 85.5
-      z: -502.5
+      z: -505.5
     text: <lang:mineinabyss.tutorial.links></lang>
   - location:
       x: -152.5
