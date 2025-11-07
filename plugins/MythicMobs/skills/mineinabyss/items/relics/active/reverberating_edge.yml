@@ -40,7 +40,7 @@ reverberating_edge_vibrate_2:
   - effect:particles{particle=ash;amount=5;hS=0.5;vS=1;speed=0;y=0.5;size=1.5} @self
 
 reverberating_edge_vibrate_3:
-  Cooldown: 
+  Cooldown: 0.6
   Conditions:
     - hasaurastacks{n=reverberatingedgestack;s=7to8} true
   Skills:
@@ -49,7 +49,7 @@ reverberating_edge_vibrate_3:
   #- sound{s=block.bone_block.step;sc=ui;p=4;v=0.4} @self #sound only if we can find a good reverb type sound
 
 reverberating_edge_vibrate_4:
-  Cooldown:
+  Cooldown: 0.6
   Conditions:
     - hasaurastacks{n=reverberatingedgestack;s=9to10} true
   Skills:

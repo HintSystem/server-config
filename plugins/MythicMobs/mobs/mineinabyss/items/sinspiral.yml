@@ -1,5 +1,8 @@
 sin_spiral:
   Type: ARMOR_STAND
+  KillMessages:
+  - '<target.name> spiraled out of control thanks to <parent.name>.'
+  - '<target.name> went into a spiral because of <parent.name>.'
   Options:
     Marker: false
     Small: false

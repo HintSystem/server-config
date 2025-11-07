@@ -138,8 +138,8 @@ L5PSSherdDrops:
 
 TosubachiDrop:
   TotalItems: 1
-  TriggerConditions:
-    - variableisset{var=caster.flamethrower-used} true
+  Conditions:
+    - hasaura{n=flamethrowerroast} true
   Drops:
   - geary mineinabyss:tosubachi 1-1 1 nolooting
 

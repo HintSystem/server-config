@@ -19,6 +19,9 @@ CyanSwings_1:
   Pose:
       Head: 0,0,180
   ItemHead: CyanSwings
+  KillMessages:
+  - '<target.name> was cut into halves by <parent.name>.'
+  - '<target.name> was slashed by <parent.name>.'
   Options:
     Marker: true
     Small: false
@@ -36,6 +39,9 @@ CyanSwings_2:
   Pose:
       Head: 0,0,45
   ItemHead: CyanSwings
+  KillMessages:
+  - '<target.name> was cut into halves by <parent.name>.'
+  - '<target.name> was slashed by <parent.name>.'
   Options:
     Marker: true
     Small: false
@@ -53,6 +59,9 @@ CyanSwings_3:
   Pose:
       Head: 0,0,0
   ItemHead: CyanSwings
+  KillMessages:
+  - '<target.name> was cut into halves by <parent.name>.'
+  - '<target.name> was slashed by <parent.name>.'
   Options:
     Marker: true
     Small: false
@@ -70,6 +79,9 @@ CyanSwings_4:
   Pose:
       Head: 0,0,135
   ItemHead: CyanSwings
+  KillMessages:
+  - '<target.name> was cut into halves by <parent.name>.'
+  - '<target.name> was slashed by <parent.name>.'
   Options:
     Marker: true
     Small: false
@@ -87,6 +99,9 @@ crescent_projectile:
   Type: ARMOR_STAND
   AITargetSelectors:
   - players
+  KillMessages:
+  - '<target.name> was cut into halves by <parent.name>.'
+  - '<target.name> was slashed by <parent.name>.'
   Options:
     Marker: true
     Small: false

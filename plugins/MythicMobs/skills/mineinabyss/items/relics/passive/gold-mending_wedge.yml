@@ -12,7 +12,7 @@ effaxfeed:
   - effect:sound{s=entity.shulker.ambient;sc=ui;p=1.3} @Self
   - delay 1
   - effect:sound{s=entity.shulker.ambient;sc=ui;p=1.5} @Self
-  - potion{t=REGENERATION;d=200;l=1} @self
+  - potion{t=REGENERATION;d=240;l=1} @self
 
 verdaudown:
   Conditions:

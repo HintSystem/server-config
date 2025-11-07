@@ -15,7 +15,7 @@ observe:
   - cooldown:
       id: necrometallic_blade_effect
       length: 20s
-      display: <#B7DFB7>Necrometallic Blade
+      display: <#4e5563>Necrometallic Blade
   - mythicSkills:
     - necrometallic_blade_effect
   itemLeftClick:

@@ -244,12 +244,13 @@
 			"scale": [0.9, 0.9, 0.9]
 		},
 		"head": {
-			"rotation": [-36, 180, 0],
+			"rotation": [-36, -180, 0],
 			"translation": [-8.5, -23.25, -1.75]
 		},
 		"fixed": {
 			"rotation": [90, -45, 90],
-			"translation": [-4.5, 2.5, 0]
+			"translation": [-4.5, 2.5, 0],
+			"scale": [1.4, 1.4, 1.4]
 		}
 	}
 }

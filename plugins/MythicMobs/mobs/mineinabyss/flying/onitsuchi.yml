@@ -22,7 +22,7 @@ onitsuchi:
     MaxCombatDistance: 128
     PreventOtherDrops: true
     Silent: true
-    MovementSpeed: 0.42
+    MovementSpeed: 0.39
   Model:
     Id: onitsuchi
     ViewRadius: 48

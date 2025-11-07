@@ -6,6 +6,9 @@ yukonokage_soul_wisp:
 yukonokage_soul_wisp_1:
   MobType: vex
   Display: '&bsoulwisp'
+  KillMessages:
+  - '<target.name> was claimed by a soul under <parent.name> control.'
+  - '<target.name> soul was harvested by <parent.name>.'
   Collidable: false
   Interactable: false
   Health: 9999

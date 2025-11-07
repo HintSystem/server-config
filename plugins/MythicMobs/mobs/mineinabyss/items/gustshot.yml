@@ -1,5 +1,8 @@
 gust-shot_center:
   Type: ARMOR_STAND
+  KillMessages:
+  - '<target.name> was flung into the air by <parent.name>.'
+  - '<target.name> was sent flying by <parent.name>.'
   Options:
     Marker: false
     Small: false

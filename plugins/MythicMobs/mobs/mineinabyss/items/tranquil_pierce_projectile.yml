@@ -2,6 +2,9 @@ tranquil_pierce_projectile:
   Type: ARMOR_STAND
   AITargetSelectors:
   - players
+  KillMessages:
+  - '<target.name> was impaled by <parent.name>.'
+  - '<target.name> failed to escape <parent.name>.'
   Options:
     Marker: true
     Invisible: true

@@ -60,7 +60,7 @@ flamethrower-start:
 flamethrower-hit-visible:
   Skills:
   - ignite{ticks=150}
-  - aura{auraName=flamethrowerroast;duration=200;i=1;c=1;maxStacks=1;cotd=false;rd=true}
+  - aura{auraName=flamethrowerroast;duration=100;i=1;c=1;maxStacks=1;cotd=false;rd=true;cod=false} @target
   
 flamethrower-hit-shield:
   Skills:
@@ -68,8 +68,8 @@ flamethrower-hit-shield:
 
 flamethrower-hit-damage:
   Skills:
-  - damage{amount=0.25;pkb=true;ii=true;pi=true}
-  - damage{amount=0.25;pkb=true;ii=true;pi=true;ignorearmor=true}
+  - damage{amount=0.5;pkb=true;ii=true;pi=true}
+  - damage{amount=0.5;pkb=true;ii=true;pi=true;ignorearmor=true}
 
 ####################################################################
 ######################### Passive Ability ##########################

@@ -2,6 +2,9 @@ Tidal_Wave:
   Type: ARMOR_STAND
   AITargetSelectors:
   - players
+  KillMessages:
+  - '<target.name> was watered by <parent.name>.'
+  - '<target.name> was crushed under the tides of <parent.name>.'
   Options:
     Marker: true
     Small: false
