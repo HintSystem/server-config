@@ -20,9 +20,3 @@ l4_hammerbeakLarge:
   priority: 0.5
   chance: 0.45
 # Uncommon
-
-l4_spookmanta_flying:
-  inherit: l4_flying
-  type: mm:spookmanta_flying
-  priority: 0.2
-  chance: 0.05

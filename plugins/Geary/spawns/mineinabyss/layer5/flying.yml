@@ -12,9 +12,3 @@ l5_flying:
 # Common
 # onitsuchi,chikyuoebi,uibuta,swarmhoarder
 l5_onitsuchi: { inherit: l5_flying, type: mm:onitsuchi, priority: 0.5 }
-
-l5_spookmanta_flying:
-  inherit: l5_flying
-  type: mm:spookmanta_flying
-  priority: 0.2
-  chance: 0.05

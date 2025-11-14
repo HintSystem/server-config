@@ -95,7 +95,7 @@ l5_ikonia: { inherit: l5_hostile_sand, type: mm:ikonia, priority: 0.04, chance: 
 
 l5_spookmanta:
  inherit: l5_hostile
- chance: 0.15
+ chance: 0.2
  type: mm:spookmanta
 
 l5_pumpkinshell:

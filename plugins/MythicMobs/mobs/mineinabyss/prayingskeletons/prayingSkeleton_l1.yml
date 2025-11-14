@@ -20,4 +20,3 @@ prayingSkeleton_l1:
     - skill{s=relicDrop;delay=25;item=VerdauEffaxDrop;grade=2} ~onDeath 0.01
     - skill{s=relicDrop;delay=5;item=BoundingLanceDrop;grade=1} ~onDeath 0.002
     - skill{s=relicDrop;item=CapillaryBladeDrop;grade=1} ~onDeath 0.002
-    - summon{type=man_prayer;amount=1;radius=1} @self ~onDeath 0.04

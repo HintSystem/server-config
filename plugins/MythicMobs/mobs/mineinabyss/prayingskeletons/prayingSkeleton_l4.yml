@@ -17,4 +17,3 @@ prayingSkeleton_l4:
     - skill{s=relicDrop;delay=25;item=HealingStaffDrop;grade=3} ~onDeath 0.03
     - skill{s=relicDrop;delay=30;item=WaveCharmDrop;grade=3} ~onDeath 0.03
     - skill{s=relicDrop;delay=35;item=RespiratisDrop;grade=4} ~onDeath 0.06
-    - summon{type=man_prayer;amount=1;radius=1} @self ~onDeath 0.04

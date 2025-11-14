@@ -47,7 +47,7 @@ l3_himushi:
 
 l3_spookmanta:
  inherit: l3_hostile
- chance: 0.15
+ chance: 0.2
  type: mm:spookmanta
 
 l3_pumpkinshell:
