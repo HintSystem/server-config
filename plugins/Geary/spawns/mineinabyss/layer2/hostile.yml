@@ -60,20 +60,3 @@ l2_hammerbeakLarge:
 #  chance: 0.7
 #  amount: 1
 
-l2_spookmanta:
- inherit: l2_hostile
- chance: 0.13
- type: mm:spookmanta
-
-l2_pumpkinshell:
- inherit: l2_hostile
- type: mm:pumpkinshell
- priority: 0.15
- chance: 0.1
-
-l2_man_prayer:
- inherit: l2_hostile
- type: mm:man_prayer
- chance: 0.05
- amount: 1
-

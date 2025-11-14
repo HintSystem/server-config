@@ -91,30 +91,3 @@ l4_tachikatana:
 #  type: mm:spawnrandomamongus
 #  chance: 0.3
 #  amount: 1
-
-l4_spookmanta:
- inherit: l4_hostile
- chance: 0.2
- type: mm:spookmanta
-
-l4_pumpkinshell:
- inherit: l4_hostile
- type: mm:pumpkinshell
- priority: 0.15
- chance: 0.2
-l4_steve_boss:
- inherit: l4_hostile
- type: mm:steve_boss
- chance: 0.02
- priority: 0.4
- conditions:
-   - $inherit
-   - $remove maxNearby
-   - maxNearby:
-       amount: 1
-
-l4_man_prayer:
- inherit: l4_hostile
- type: mm:man_prayer
- chance: 0.2
- amount: 1

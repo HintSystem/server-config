@@ -44,30 +44,3 @@ l3_himushi:
 #  inherit: l3_hostile
 #  type: mm:fapukuon
 #  priority: 0.4
-
-l3_spookmanta:
- inherit: l3_hostile
- chance: 0.2
- type: mm:spookmanta
-
-l3_pumpkinshell:
- inherit: l3_hostile
- type: mm:pumpkinshell
- priority: 0.15
- chance: 0.2
-# l3_steve_boss:
-#  inherit: l3_hostile
-#  type: mm:steve_boss
-#  chance: 0.01
-#  priority: 0.4
-#  conditions:
-#    - $inherit
-#    - $remove maxNearby
-#    - maxNearby:
-#        amount: 1
-
-l3_man_prayer:
- inherit: l3_hostile
- type: mm:man_prayer
- chance: 0.15
- amount: 1
