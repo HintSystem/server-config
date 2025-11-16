@@ -88,8 +88,6 @@ feat/events:
       dest: plugins/Geary/template_pack
     - source: "{{ privateSettingsDest }}/mc-resourcepacks/cosmetics"
       dest: plugins/Packy/resourcepacks/cosmetics
-    - source: "{{ privateSettingsDest }}/.servers/survival/plugins/MineInAbyss"
-      dest: plugins/MineInAbyss
 
 feat/loot_chests:
   copyPaths:
