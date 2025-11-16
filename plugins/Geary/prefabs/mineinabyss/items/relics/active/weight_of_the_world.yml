@@ -8,9 +8,9 @@ set.item:
   - <#43583c>amounts of kinetic energy. It bears a high risk of personal injury in use.
   - <#5e7b54><i>Active ability. The longer the fall, the more damage it deals.
   enchantmentGlintOverride: true
-  enchantments:
-    - enchant: minecraft:density
-      level: 3
+  # enchantments:
+  #   - enchant: minecraft:density
+  #     level: 3
   enchantable: 0
   #itemFlags: [ HIDE_ENCHANTS ]
   unbreakable: {}
