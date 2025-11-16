@@ -37,14 +37,13 @@ l5_hostile_sand:
           - SOUL_SOIL
           - SOUL_SAND
 
-l5_hostile_quartz_cave:
+l5_hostile_sea_of_glass:
   inherit: l5_hostile
   conditions:
     - $inherit
     - $remove blockBelow
     - blockBelow:
-        allow: [ "moss_carpet", "lily_pad", "pink_stained_glass", "purple_stained_glass", "quartz_block", "quartz_stairs", "sea_lantern" ]
-        deny: [ "diorite" ]
+        allow: [ "#glass" ]
 
 
 
@@ -92,6 +91,9 @@ l5_kagi_tachikiri: { inherit: l5_hostile_sand, type: mm:kagi_tachikiri }
 l5_virinsipede: { inherit: l5_hostile_sand, type: mm:virinsipede, priority: 0.1, chance: 0.05 }
 
 l5_ikonia: { inherit: l5_hostile_sand, type: mm:ikonia, priority: 0.04, chance: 0.04 }
+
+# Glass
+l5_sporemanta: { inherit: l5_hostile_sea_of_glass, type: mm:ikonia, priority: 0.07, chance: 0.05 }
 
 #l5_hornballer:
 #  inherit: l5_hostile

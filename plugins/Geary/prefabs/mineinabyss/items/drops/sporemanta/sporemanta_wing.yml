@@ -3,8 +3,25 @@ set.item:
   itemName: <#6C19BF>Spore Manta Wing
   itemModel: mineinabyss:sporemanta_wing
   lore:
-  - ':layer_5:'
+  - ':layer_5::cosmetic_orth_coin:'
   - <#f1b259>Leathery wing laced in a poisonous powder
+  food:
+    saturation: 0.8
+    nutrition: 2
+  consumable:
+    animation: EAT
+
+observe:
+  itemConsumed:
+  - become: parent
+  - applyPotionEffects:
+    - type: minecraft:poison
+      duration: 10s
+      amplifier: 1
+    - type: minecraft:hunger
+      duration: 10s
+      amplifier: 3
+
 resourcepack:
   textures:
     layers:
