@@ -382,18 +382,12 @@ items:
     locked-equipped-item:
       material: hmccosmetics:ghost_seek_cosmetic
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>10:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Unequip</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
+        - "<red>Locked</red> <white>|</white>"
     locked-item:
       material: hmccosmetics:ghost_seek_cosmetic
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>10:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Try</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
+        - "<red>Locked</red> <white>|</white>"
     type: mia_cosmetic
-    currency: orth_coin
-    cost: 10
     cosmetic: ghost_seek_cosmetic
   zephyr_disk_cosmetic:
     slots: 14
@@ -410,18 +404,12 @@ items:
     locked-equipped-item:
       material: hmccosmetics:zephyr_disk_cosmetic
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>10:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Unequip</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
+        - "<red>Locked</red> <white>|</white>"
     locked-item:
       material: hmccosmetics:zephyr_disk_cosmetic
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>10:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Try</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
+        - "<red>Locked</red> <white>|</white>"
     type: mia_cosmetic
-    currency: orth_coin
-    cost: 10
     cosmetic: zephyr_disk_cosmetic
 
 
