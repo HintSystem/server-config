@@ -2,6 +2,7 @@ set.recipes:
   discoverRecipes: true
   result:
     type: minecraft:glow_lichen
+    amount: 2
   recipes:
     - type: shapeless
       items:

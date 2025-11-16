@@ -1,0 +1,15 @@
+set.recipes:
+  discoverRecipes: true
+  result:
+    type: minecraft:firefly_bush
+    amount: 6
+  recipes:
+    - type: shaped
+      items:
+        S: { prefab: mineinabyss:plant_matter}
+        P: { prefab: mineinabyss:sporemanta_powder}
+        R: { prefab: mineinabyss:sprittleshrub_root}
+      configuration: |-
+        | P |
+        |PSP|
+        |SRS|
