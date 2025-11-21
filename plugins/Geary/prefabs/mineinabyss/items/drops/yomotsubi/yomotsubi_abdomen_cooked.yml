@@ -10,7 +10,7 @@ set.item:
     nutrition: 1
   consumable:
     animation: EAT
-  disableItemInteractions: {}
+disableItemInteractions: {}
 resourcepack:
   textures:
     layers:

@@ -10,7 +10,7 @@ set.item:
     nutrition: 1
   consumable:
     animation: EAT
-  disableItemInteractions: {}
+disableItemInteractions: {}
 replaceBurnedDrop:
   prefab: mineinabyss:yomotsubi_abdomen_cooked
 resourcepack:
