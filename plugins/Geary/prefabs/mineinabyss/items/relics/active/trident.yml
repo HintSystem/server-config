@@ -17,6 +17,7 @@ set.item:
       level: 5
   #itemFlags: [ HIDE_ENCHANTS ]
   unbreakable: {}
+  enchantmentGlintOverride: false
   enchantable: 0
 resourcepack:
   model: mineinabyss:item/relics/tranquil_pierce

@@ -12,6 +12,7 @@ set.item:
   - <#83a0a3><i>the pent-up souls in a violent burst of
   - <#83a0a3><i>spectral energy, tearing through all nearby life.
   unbreakable: {}
+  enchantmentGlintOverride: false
 observe:
   itemLeftClick:
   - become: parent

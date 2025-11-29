@@ -10,6 +10,7 @@ set.item:
   - <#23374A><i>Active ability. Shoots a barrage of arrows
   - <#23374A><i>and lunges user backwards on left click.
   unbreakable: {}
+  enchantmentGlintOverride: false
 observe:
   itemLeftClick:
   - become: parent

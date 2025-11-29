@@ -7,12 +7,11 @@ set.item:
   - <#43583c>The metal making up this weapon requires wielders to build up mass
   - <#43583c>amounts of kinetic energy. It bears a high risk of personal injury in use.
   - <#5e7b54><i>Active ability. The longer the fall, the more damage it deals.
-  enchantmentGlintOverride: true
+  enchantmentGlintOverride: false
   enchantments:
     - enchant: minecraft:density
-      level: 0
+      level: 1
   enchantable: 0
-  #itemFlags: [ HIDE_ENCHANTS ]
   unbreakable: {}
 resourcepack:
   textures:

@@ -10,6 +10,7 @@ set.item:
   - <#781219><i>Active ability. Heals the user on kill. After 10 
   - <#781219><i>hits, right click to siphon health from nearby targets.
   unbreakable: {}
+  enchantmentGlintOverride: false
 observe:
   itemLeftClick:
   - become: parent

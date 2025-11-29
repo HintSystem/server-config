@@ -9,6 +9,7 @@ set.item:
   - <#505350><i>Active ability. Each hit creates charges and deals additional
   - <#505350><i>damage at 7 charges. Takes 10 charges to stun surroundings on right click.
   unbreakable: {}
+  enchantmentGlintOverride: false
 observe:
   itemLeftClick:
   - become: parent

@@ -15,6 +15,7 @@ set.item:
     - enchant: minecraft:efficiency
       level: 5
   enchantable: 0
+  enchantmentGlintOverride: false
   unbreakable: {}
   weapon:
     damagePerAttack: 0

@@ -10,6 +10,7 @@ set.item:
   - <#31524E><i>followed by a large impact which poisons the surroundings.
   - <#31524E><i>Inflicts a poison like effect on the target on left click.
   unbreakable: {}
+  enchantmentGlintOverride: false
 observe:
   itemLeftClick:
   - become: parent

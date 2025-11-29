@@ -14,6 +14,7 @@ set.item:
     - enchant: minecraft:efficiency
       level: 6
   enchantable: 0
+  enchantmentGlintOverride: false
   unbreakable: {}
 observe:
   itemRightClick:

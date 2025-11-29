@@ -1,5 +1,5 @@
 set.item:
-  type: minecraft:resin_clump
+  type: minecraft:paper
   itemName: <#9C0F2C>Cooked Yomotsubi Abdomen
   itemModel: mineinabyss:yomotsubi_abdomen_cooked
   lore:
@@ -10,7 +10,6 @@ set.item:
     nutrition: 1
   consumable:
     animation: EAT
-disableItemInteractions: {}
 resourcepack:
   textures:
     layers:

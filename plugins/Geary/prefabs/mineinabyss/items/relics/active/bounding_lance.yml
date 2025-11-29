@@ -10,6 +10,7 @@ set.item:
   - <#695654><i>Active ability. Charges on right click. Has
   - <#695654><i>3 different buff modes based on the users charges on left click.
   unbreakable: {}
+  enchantmentGlintOverride: false
 observe:
   itemRightClick:
   - become: parent
