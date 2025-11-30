@@ -19,7 +19,7 @@ observe:
         text: <red>Lacks Charge
   - cooldown:
       id: sinspiral
-      length: 44s
+      length: 30s
       display: <gold>Sin Spiral
   - mythicSkills:
     - sin_spiral
