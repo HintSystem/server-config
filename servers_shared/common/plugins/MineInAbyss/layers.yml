@@ -44,7 +44,7 @@ layers:
     - "ITEM_SLIME"
   hasPvpDefault: false
   liquidFlowLimit: -1
-  equipWhistleCosmetic: true
+  equipWhistleCosmetic: false
   blockBlacklist:
   - "LADDER"
   - "RAIL"
@@ -98,7 +98,7 @@ layers:
     - "ITEM_SLIME"
   hasPvpDefault: false
   liquidFlowLimit: -1
-  equipWhistleCosmetic: true
+  equipWhistleCosmetic: false
   blockBlacklist:
   - "LADDER"
   - "RAIL"
@@ -170,7 +170,7 @@ layers:
     duration: "4s"
   hasPvpDefault: true
   liquidFlowLimit: -1
-  equipWhistleCosmetic: true
+  equipWhistleCosmetic: false
   blockBlacklist:
   - "LADDER"
   - "RAIL"
@@ -233,7 +233,7 @@ layers:
     duration: "4s"
   hasPvpDefault: true
   liquidFlowLimit: -1
-  equipWhistleCosmetic: true
+  equipWhistleCosmetic: false
   blockBlacklist:
   - "RAIL"
   - "POWERED_RAIL"
@@ -295,7 +295,7 @@ layers:
     duration: "4s"
   hasPvpDefault: true
   liquidFlowLimit: -1
-  equipWhistleCosmetic: true
+  equipWhistleCosmetic: false
   blockBlacklist: []
   songs: []
   sections:

@@ -14,7 +14,7 @@ core:
   serverLinks: []
 cosmetics:
   enabled: true
-  equipWhistleCosmetic: true
+  equipWhistleCosmetic: false
 curse:
   enabled: false
 custom_hud:

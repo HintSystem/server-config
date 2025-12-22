@@ -42,7 +42,7 @@ layers:
       - "2023_l1s1"
       - "2023_l1s2"
       - "2023_l1s3"
-    equipWhistleCosmetic: true
+    equipWhistleCosmetic: false
   - id: "layertwo"
     name: "<#175ABF>Forest of Temptation"
     sub: "<#286FBF>1510-2580 blocks"
@@ -65,7 +65,7 @@ layers:
       - "2023_l2s0"
       - "2023_l2s1"
       - "2023_l2s2"
-    equipWhistleCosmetic: true
+    equipWhistleCosmetic: false
   - id: "layerthree"
     name: "<#D428B1>Great Fault"
     sub: "<#E82CC2>2580–4020 blocks"
@@ -91,7 +91,7 @@ layers:
       - "2023_l3s1"
       - "2023_l3s2"
       - "2023_l3s3"
-    equipWhistleCosmetic: true
+    equipWhistleCosmetic: false
   - id: "layerfour"
     name: "<#9E1E84>The Goblets of Giants"
     sub: "<#77237A>4020–5850 blocks"
@@ -119,7 +119,7 @@ layers:
       - "2023_l4s3"
       - "2023_l4s4"
       - "2023_l4s5"
-    equipWhistleCosmetic: true
+    equipWhistleCosmetic: false
   - id: "layerfive"
     name: "<#3B3B3B>Sea of Corpses"
     sub: "<#545454>5850–7200 blocks"
@@ -142,5 +142,5 @@ layers:
       - "2023_l5s1"
       - "2023_l5s2"
       - "2023_l5s3"
-    equipWhistleCosmetic: true
+    equipWhistleCosmetic: false
 hubSectionName: "hub"
