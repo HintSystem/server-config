@@ -176,6 +176,8 @@ feat/events:
     # Other
     - source: "{{ privateSettingsDest }}/servers_shared/plugins/MythicMobs/packs/halloween"
       dest:   plugins/MythicMobs/packs/halloween
+    - source: "{{ privateSettingsDest }}/servers_shared/plugins/MythicMobs/packs/christmas"
+      dest:   plugins/MythicMobs/packs/christmas
     - source: "{{ privateSettingsDest }}/servers/survival/plugins/MineInAbyss"
       dest:   plugins/MineInAbyss
 

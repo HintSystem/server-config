@@ -47,3 +47,24 @@ pumpkin_face:
     name: Pumpkin Face
     material: PAPER
     model-id: mineinabyss:cosmetics/hats/pumpkin_face
+antlers_hat1:
+  slot: HELMET
+  permission: "hmccosmetics.hat.antlers_hat1"
+  item:
+    material: PAPER
+    name: "Christmas Antlers"
+    model-id: mineinabyss:cosmetics/hats/antlers_hat1
+holiday_hat1:
+  slot: HELMET
+  permission: "hmccosmetics.hat.holiday_hat1"
+  item:
+    material: PAPER
+    name: "Christmas Hat"
+    model-id: mineinabyss:cosmetics/hats/holiday_hat1
+scarf_hat1:
+  slot: HELMET
+  permission: "hmccosmetics.hat.scarf_hat1"
+  item:
+    material: PAPER
+    name: "Red Scarf"
+    model-id: mineinabyss:cosmetics/hats/scarf_hat1
