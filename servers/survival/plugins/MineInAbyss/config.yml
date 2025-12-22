@@ -24,7 +24,7 @@ descent:
 displayLocker:
   enabled: true
 gondolas:
-  enabled: false
+  enabled: true
 guilds:
   enabled: true
 hubstorage:
@@ -43,7 +43,7 @@ music:
 shopkeeping:
   enabled: true
 okiboTravel:
-  enabled: false
+  enabled: true
 orthBanking:
   enabled: true
   balanceHudId: "balance_empty_offhand"
