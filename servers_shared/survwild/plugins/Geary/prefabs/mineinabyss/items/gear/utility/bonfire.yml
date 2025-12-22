@@ -1,7 +1,7 @@
 set.item:
   itemName: <#FF9D26>Bonfire
   type: minecraft:paper
-  itemModel: mineinabyss:bonfire
+  itemModel: mineinabyss:gear/utility/bonfire
   maxStackSize: 16
 set.recipes:
   discoverRecipes: true
