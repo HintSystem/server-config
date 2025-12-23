@@ -81,6 +81,17 @@ l5_tachikatana: # rare spawn
     - maxNearby:
         amount: 2
 
+l5_santama:
+  inherit: l5_hostile
+  type: mm:santama
+  chance: 0.01
+  priority: 0.015
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 1
+
 # Snow
 l5_octoliar: { inherit: l5_hostile_snow, type: mm:octoliar }
 l5_horncrier: { inherit: l5_hostile_snow, type: mm:horncrier }
