@@ -29,7 +29,7 @@ marulk_hat:
   item:
     name: Marulk's Hat
     material: PAPER
-    model-id: mineinabyss:cosmetics/hats/marulk_cap
+    model-id: mineinabyss:cosmetics/hats/marulk_hat
 nanachi_hat:
   slot: HELMET
   permission: "hmccosmetics.hat.nanachi_hat"
