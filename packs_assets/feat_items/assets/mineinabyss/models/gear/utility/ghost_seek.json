@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 32],
 	"textures": {
-		"0": "mineinabyss:gear/utility/ghost_seek",
-		"particle": "mineinabyss:gear/utility/ghost_seek"
+		"0": "mineinabyss:gear/utility/ghost_seek_off",
+		"particle": "mineinabyss:gear/utility/ghost_seek_off"
 	},
 	"elements": [
 		{

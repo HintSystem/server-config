@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"3": "mineinabyss:gear/utility/bonfire_meat",
-		"6": "minecraft:item/backpacks/yellow_backpack",
+		"6": "minecraft:block/backpacks/yellow_backpack",
 		"particle": "mineinabyss:gear/utility/bonfire_log"
 	},
 	"elements": [
