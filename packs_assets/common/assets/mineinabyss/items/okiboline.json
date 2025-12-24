@@ -1,6 +1,29 @@
 {
   "model": {
-    "type": "model",
-    "model": "mineinabyss:npc/okiboline"
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "mineinabyss:npc/okiboline"
+      },
+      {
+        "type": "minecraft:select",
+        "cases": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "mineinabyss:npc/okiboline_christmas_hat"
+            },
+            "when": [ "12" ]
+          }
+        ],
+        "pattern": "MM",
+        "property": "minecraft:local_time"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "mineinabyss:npc/okiboline"
+    }
   }
 }
