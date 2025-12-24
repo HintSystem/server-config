@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/fishing_rod",
-		"particle": "item/fishing_rod"
+		"0": "mineinabyss:gear/tools/fishing_rod",
+		"particle": "mineinabyss:gear/tools/fishing_rod"
 	},
 	"elements": [
 		{
