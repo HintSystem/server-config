@@ -256,6 +256,9 @@ emotes:
   - id: ysanw
     font: mineinabyss:whistles
     texture: mineinabyss:ui/prefixes/whistle_patreon/ysanw.png
+  - id: relw
+    font: mineinabyss:whistles
+    texture: mineinabyss:ui/prefixes/whistle_patreon/relw.png
 # prefixes: server
   - id: adventure
     template: roles
