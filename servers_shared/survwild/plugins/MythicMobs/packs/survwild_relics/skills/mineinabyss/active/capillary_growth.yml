@@ -75,7 +75,7 @@ capillary_growth_heal:
   Skills:
   - auraremove{aura=capillarygrowthstack} @self
   - effect:particles{particle=heart;amount=1;speed=0;hS=0.3;vS=0.3;y=1;size=0.5} @self
-  - potion{t=HEALTH_BOOST;d=60} @self
+  - potion{t=HEALTH_BOOST;d=120} @self
   - heal{a=1;repeat=3;repeatInterval=30} @self
 
 capillary_growth_syphon:
@@ -84,7 +84,7 @@ capillary_growth_syphon:
   Skills:
   - auraremove{aura=capillarysyphonstack} @EIR{r=4}
   - effect:particles{particle=damage_indicator;amount=5;speed=0;hS=0.5;vS=1;y=1;size=1} @EIR{r=4}
-  - potion{t=WITHER;d=50;l=2} @EIR{r=4}
+  - potion{t=WITHER;d=60;l=2} @EIR{r=4}
   - damage{a=5;is=true;ia=true;repeat=3;repeatInterval=30} @EIR{r=4;ignore=players}
   - damage{a=4;is=true;ia=true;repeat=3;repeatInterval=30} @EIR{r=4}
 
