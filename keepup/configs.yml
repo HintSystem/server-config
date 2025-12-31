@@ -178,6 +178,10 @@ feat/events:
       dest:   plugins/MythicMobs/packs/halloween
     - source: "{{ privateSettingsDest }}/servers_shared/survwild/plugins/MythicMobs/packs/christmas"
       dest:   plugins/MythicMobs/packs/christmas
+    - source: "{{ privateSettingsDest }}/servers_shared/survwild/plugins/MythicMobs/packs/april_fools"
+      dest:   plugins/MythicMobs/packs/april_fools
+    - source: "{{ privateSettingsDest }}/servers_shared/survwild/plugins/MythicMobs/packs/valentines_day"
+      dest:   plugins/MythicMobs/packs/valentines_day
     - source: "{{ privateSettingsDest }}/servers/survival/plugins/MineInAbyss"
       dest:   plugins/MineInAbyss
 
