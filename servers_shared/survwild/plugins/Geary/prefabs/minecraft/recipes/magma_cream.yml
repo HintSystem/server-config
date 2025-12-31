@@ -14,3 +14,7 @@ set.recipes:
       items:
         - prefab: mineinabyss:abyssal_snail_gunk
         - prefab: mineinabyss:swarmshocker_charged_powder
+    - type: shapeless
+      items:
+        - prefab: mineinabyss:splitjaw_gunk
+        - prefab: mineinabyss:swarmshocker_jelly
