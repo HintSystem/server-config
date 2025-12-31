@@ -33,6 +33,8 @@ blocky:placableOn:
 blocky:drops:
   drops:
     - item: mineinabyss:bonfire
+      silkTouchedDrop:
+        prefab: mineinabyss:bonfire
 copyToInstances:
   persisting:
     bonfire:bonfire: { }
