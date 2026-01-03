@@ -88,13 +88,13 @@ l4_tachikatana:
 l4_santama:
   inherit: l4_hostile
   type: mm:santama
-  chance: 0.05
-  priority: 0.15
+  chance: 0.1
+  priority: 0.3
   conditions:
     - $inherit
     - $remove maxNearby
     - maxNearby:
-        amount: 1
+        amount: 2
 
 
 #l4_spawnrandomamongus:
