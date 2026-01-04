@@ -35,17 +35,6 @@ l3_himushi:
     - blockBelow:
         allow: ["gilded_blackstone", "coal_block", "black_concrete", "obsidian" ]
 
-l3_santama:
-  inherit: l3_hostile
-  type: mm:santama
-  chance: 0.05
-  priority: 0.25
-  conditions:
-    - $inherit
-    - $remove maxNearby
-    - maxNearby:
-        amount: 1
-
 #l3_spawnrandomamongus:
 #  inherit: l3_hostile
 #  type: mm:spawnrandomamongus
