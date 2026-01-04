@@ -141,21 +141,11 @@ items:
       lore:
         - ""
         - "<red>[Left Click - <i>Unequip</i>]"
-    locked-equipped-item:
-      material: hmccosmetics:antlers_hat1
-      lore:
-        - "<red>Locked</red> <white>|</white> <gold>1:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Unequip</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
     locked-item:
       material: hmccosmetics:antlers_hat1
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>1:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Try</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
-    type: mia_cosmetic
-    currency: orth_coin
-    cost: 1
+        - "<red>Locked</red>"
+    type: cosmetic
     cosmetic: antlers_hat1
   holiday_hat1:
     slots: 8
@@ -169,21 +159,11 @@ items:
       lore:
         - ""
         - "<red>[Left Click - <i>Unequip</i>]"
-    locked-equipped-item:
-      material: hmccosmetics:holiday_hat1
-      lore:
-        - "<red>Locked</red> <white>|</white> <gold>1:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Unequip</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
     locked-item:
       material: hmccosmetics:holiday_hat1
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>1:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Try</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
-    type: mia_cosmetic
-    currency: orth_coin
-    cost: 1
+        - "<red>Locked</red>"
+    type: cosmetic
     cosmetic: holiday_hat1
   scarf_hat1:
     slots: 9
@@ -197,21 +177,11 @@ items:
       lore:
         - ""
         - "<red>[Left Click - <i>Unequip</i>]"
-    locked-equipped-item:
-      material: hmccosmetics:scarf_hat1
-      lore:
-        - "<red>Locked</red> <white>|</white> <gold>1:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Unequip</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
     locked-item:
       material: hmccosmetics:scarf_hat1
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>1:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Try</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
-    type: mia_cosmetic
-    currency: orth_coin
-    cost: 1
+        - "<red>Locked</red>"
+    type: cosmetic
     cosmetic: scarf_hat1
 
   home_button:
