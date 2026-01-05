@@ -1,24 +1,22 @@
 shadowball:
-  Cooldown:
-  Conditions:
   Skills:
   - command{c="execute at <caster.uuid> run extracommands:exp add <caster.name> -40";op=true}
   - sound{s=entity.ender_dragon.shoot;;volume=1;pitch=1.2} @origin
   - sound{s=entity.ender_dragon.shoot;;volume=1;pitch=1.6} @origin
   - effect:particles{particle=smoke;amount=25;hS=0.3;vS=0.2;speed=0.05;y=1.5} @origin
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
+  #- projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
   - effect:particles{particle=smoke;amount=5;hS=0.3;vS=0.2;speed=0.05;y=1.5;size=3;forwardOffset=0.2} @origin
   - delay 7
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
+ # - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
   - effect:particles{particle=smoke;amount=5;hS=0.3;vS=0.2;speed=0.05;y=1.5;size=3;forwardOffset=0.2} @origin
   - delay 7
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
+  #- projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
   - effect:particles{particle=smoke;amount=5;hS=0.3;vS=0.2;speed=0.05;y=1.5;size=3;forwardOffset=0.2} @origin
   - delay 7
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
+  #- projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
   - effect:particles{particle=smoke;amount=5;hS=0.3;vS=0.2;speed=0.05;y=1.5;size=3;forwardOffset=0.2} @origin
   - delay 7
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
+  #- projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;onEnd=shadowballend;sE=true;hp=true;a=0.93} @targetlocation
   - effect:particles{particle=smoke;amount=5;hS=0.3;vS=0.2;speed=0.05;y=1.5;size=3;forwardOffset=0.2} @origin
 
 shadowballtick:
@@ -49,7 +47,6 @@ shadowballend:
   - sound{s=entity.player.attack.crit;volume=0.8;pitch=0.6;cooldown=1} @origin
 
 buddstone_tap:
-  Conditions:
   Cooldown: 1
   Skills:
   - potion{t=SLOW;l=3;d=50;p=false} @Self
@@ -85,14 +82,10 @@ buddstone_tap_projectile:
   - projectile{onTick=tpmageTick;onHit=pgcrystalHit;onHitBlock=tpmageHit;i=1;v=14;mr=20;hnp=true;pi=true;sB=true;sE=true} @forward{f=1000}
 
 tpmageTick:
-  Conditions:
-  Cooldown:
   Skills:
   - effect:particles{particle=reddust;color=#E0115F;a=5;hs=0.1;vs=0.1} @origin
   - effect:particles{particle=reddust;color=#FF4255;a=2;hs=0.02;vs=0.02} @origin
 tpmageHit:
-  Conditions:
-  Cooldown:
   Skills:
   - effect:particles{p=smoke;color=#fff400;y=0;amount=25;speed=0.05;hS=1.8;vS=0.3} @Origin
   - effect:sound{s=block.copper_bulb.break;sc=ui;volume=0.6;pitch=0.2} @origin
@@ -104,8 +97,6 @@ tpmageHit:
   - sound{s=entity.player.attack.crit;sc=ui;volume=0.8;pitch=0.6;cooldown=1} @origin
 
 pgcrystalHit:
-  Conditions:
-  Cooldown:
   Skills:
   - effect:particles{p=smoke;color=#fff400;y=0;amount=25;speed=0.05;hS=1.8;vS=0.3} @Origin
   - effect:sound{s=block.copper_bulb.break;sc=ui;volume=0.6;pitch=0.2} @origin
@@ -120,7 +111,5 @@ buddstone_tap_charge: # Shim for geary
   Skills:
   - skill{s=buddstone_tap_charge_}
 buddstone_tap_charge_:
-  Cooldown:
-  Conditions:
   Skills:
   - aura{auraName=buddstonetapcharge;duration=3;c=1;maxStacks=1;cotd=false;rd=true} @self
