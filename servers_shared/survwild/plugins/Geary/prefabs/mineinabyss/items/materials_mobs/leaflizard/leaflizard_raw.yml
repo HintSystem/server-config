@@ -1,7 +1,7 @@
 set.item:
   type: minecraft:clock
-  itemName: <#454545>Leaflizard Tail
-  itemModel: mineinabyss:materials_mobs/leaflizard_cooked
+  itemName: <#454545>Tesuchi Tail
+  itemModel: mineinabyss:materials_mobs/tesuchi_cooked
   lore:
   - <yellow>Obtained by cutting of the
   - <yellow>tail of a <#616161>Tail<yellow>in the
@@ -14,4 +14,4 @@ set.item:
   consumable:
     animation: EAT
 replaceBurnedDrop:
-  prefab: mineinabyss:leaflizard_cooked
+  prefab: mineinabyss:tesuchi_cooked

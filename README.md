@@ -55,7 +55,7 @@ The following MythicMobs mob and skill files were originally created by `queenof
 
 - demonfish
 - hammerbeak
-- leaflizard
+- tesuchi
 - shroombear
 - silkfang
 - stinger

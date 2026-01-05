@@ -1,7 +1,7 @@
 set.item:
   type: minecraft:clock
-  itemName: <#454545>Cooked Leaflizard Tail
-  itemModel: mineinabyss:materials_mobs/leaflizard_cooked
+  itemName: <#454545>Cooked Tesuchi Tail
+  itemModel: mineinabyss:materials_mobs/tesuchi_cooked
   lore:
   - <yellow>Obtained by cutting of the tail
   - <yellow>of a <#454545>Hashofu <yellow>in the
@@ -18,11 +18,11 @@ set.recipes:
   recipes:
   - type: furnace
     input:
-      prefab: mineinabyss:leaflizard_raw
+      prefab: mineinabyss:tesuchi_raw
     experience: 1
     cookingTime: 100
   - type: smoking
     input:
-      prefab: mineinabyss:leaflizard_raw
+      prefab: mineinabyss:tesuchi_raw
     experience: 2
     cookingTime: 50

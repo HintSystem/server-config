@@ -156,7 +156,7 @@ virishock:
     - damage{amount=40;ignoreArmor=false} @PlayersInRadius{r=12}
 
 
-leaflizardDisguise:
+tesuchiDisguise:
   Cooldown: 10
   Conditions:
     - targetwithin{d=5}
@@ -166,26 +166,26 @@ leaflizardDisguise:
     - sound{s=block.candle.extinguish;p=0.5;v=0.82;sc=neutral} @self
     - sound{s=entity.frog.ambient;p=1.9;v=0.82;sc=neutral} @self
     - effect:particles{particle=falling_spore_blossom;a=30;hs=0.9;vs=0.04;y=0.2;repeat=2;repeatInterval=1} @self
-    - partvisibility{m=leafLizard;v=false;p=torso} @self
-    - partvisibility{m=leafLizard;v=false;p=head} @self
-    - partvisibility{m=leafLizard;v=false;p=backtorso} @self
-    - partvisibility{m=leafLizard;v=false;p=frontarml} @self
-    - partvisibility{m=leafLizard;v=false;p=frontarmr} @self
-    - partvisibility{m=leafLizard;v=false;p=reararml} @self
-    - partvisibility{m=leafLizard;v=false;p=reararmr} @self
+    - partvisibility{m=tesuchi;v=false;p=torso} @self
+    - partvisibility{m=tesuchi;v=false;p=head} @self
+    - partvisibility{m=tesuchi;v=false;p=backtorso} @self
+    - partvisibility{m=tesuchi;v=false;p=frontarml} @self
+    - partvisibility{m=tesuchi;v=false;p=frontarmr} @self
+    - partvisibility{m=tesuchi;v=false;p=reararml} @self
+    - partvisibility{m=tesuchi;v=false;p=reararmr} @self
     - setstance{s=hiding} @self
     - delay <random.160to200>
-    - partvisibility{m=leafLizard;v=true;p=torso} @self
-    - partvisibility{m=leafLizard;v=true;p=head} @self
-    - partvisibility{m=leafLizard;v=true;p=backtorso} @self
-    - partvisibility{m=leafLizard;v=true;p=frontarml} @self
-    - partvisibility{m=leafLizard;v=true;p=frontarmr} @self
-    - partvisibility{m=leafLizard;v=true;p=reararml} @self
-    - partvisibility{m=leafLizard;v=true;p=reararmr} @self
+    - partvisibility{m=tesuchi;v=true;p=torso} @self
+    - partvisibility{m=tesuchi;v=true;p=head} @self
+    - partvisibility{m=tesuchi;v=true;p=backtorso} @self
+    - partvisibility{m=tesuchi;v=true;p=frontarml} @self
+    - partvisibility{m=tesuchi;v=true;p=frontarmr} @self
+    - partvisibility{m=tesuchi;v=true;p=reararml} @self
+    - partvisibility{m=tesuchi;v=true;p=reararmr} @self
     - sound{s=entity.frog.ambient;p=1.9;v=0.82;sc=neutral;sync=true} @self
     - setstance{s=clear} @self
 
-leaflizardInvis:
+tesuchiInvis:
   Cooldown: 0.0
   Conditions:
     - stance{s=hiding} true
@@ -194,7 +194,7 @@ leaflizardInvis:
     - potion{t=SPEED;l=4;force=true;p=false;d=15} @self
 
 
-leaflizardstep:
+tesuchiStep:
   Cooldown: 0
   Conditions:
     - onground{} true
@@ -202,7 +202,7 @@ leaflizardstep:
     - sound{s=entity.frog.tongue;sc=neutral;p=<random.float.1.9to2.0>;v=0.8} @self
     - sound{s=entity.frog.eat;sc=neutral;p=<random.float.1.9to2.0>;v=0.8} @self
 
-bloodEffectleaflizard:
+bloodEffectTesuchi:
   Cooldown: 0.1
   Skills:
     - effect:particles{particle=block;m=red_concrete_powder;a=3;hs=0.4;vs=0.1;s=0} #
@@ -210,7 +210,7 @@ bloodEffectleaflizard:
     - effect:particles{particle=block;m=nether_wart_block;a=5;hs=0.15;vs=0.1;s=0}    # Remove if there are
     - effect:particles{particle=block;m=weeping_vines;a=12;hs=0.15;vs=0.15;s=0}       # children or otherwise.
 
-leaflizardHurt:
+tesuchiHurt:
   Cooldown: 0.3
   Skills:
     - sound{s=entity.frog.hurt;sc=neutral;p=<random.float.1.9to2.0>;v=1.1} @self
@@ -223,7 +223,7 @@ leaflizardHurt:
     - sound{s=block.coral_block.break;p=2.0;v=0.26;sc=neutral;sync=true} @self
     - sound{s=block.frogspawn.hatch;p=2.0;v=0.82;sc=neutral;sync=true} @self
 
-leaflizardDeath:
+tesuchiDeath:
   Cooldown: 0.3
   Skills:
     - sound{s=entity.frog.death;sc=neutral;p=<random.float.1.8to1.9>;v=1.1} @self

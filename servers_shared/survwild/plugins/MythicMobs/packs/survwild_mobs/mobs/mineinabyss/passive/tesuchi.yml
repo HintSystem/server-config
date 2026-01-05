@@ -11,7 +11,7 @@ tesuchi:
     - float
   AITargetSelectors:
     - clear
-  Faction: leaflizards
+  Faction: tesuchis
   Health: 20 # change this
   Damage: 0 # keep this 0
   Options:
@@ -28,7 +28,7 @@ tesuchi:
     - TosubachiDrop
 
   Model:
-    Id: leaflizard
+    Id: tesuchi
     ViewRadius: 48
     Drive: false
     DamageTint: true
@@ -44,8 +44,8 @@ tesuchi:
 
     ########### FX
     - skill{s=bloodEffectSmall} @self ~onHurt <100%
-    - skill{s=leaflizardHurt} @self ~onHurt
-    - skill{s=leaflizardDeath} @self ~onDeath
-    #- summon{type=leaflizardCorpse;amount=1;radius=0;delay=16} @self ~onDeath
-    - skill{s=leaflizardDisguise;delay=<random.0to20>} @self ~onTimer:20
-    - skill{s=leaflizardInvis} @self ~onTimer:10
+    - skill{s=tesuchiHurt} @self ~onHurt
+    - skill{s=tesuchiDeath} @self ~onDeath
+    #- summon{type=tesuchiCorpse;amount=1;radius=0;delay=16} @self ~onDeath
+    - skill{s=tesuchiDisguise;delay=<random.0to20>} @self ~onTimer:20
+    - skill{s=tesuchiInvis} @self ~onTimer:10

@@ -25,7 +25,7 @@ dungeonhammerbeak:
     PreventOtherDrops: true
     Silent: true
   Model:
-    Id: hammerbeakremodel
+    Id: hammerbeak_giant
     ViewRadius: 48
     Scale: 0.6
     Drive: false
@@ -92,7 +92,7 @@ dungeonhammerbeakLarge:
   Drops:
 
   Model:
-    Id: hammerbeakremodel
+    Id: hammerbeak_giant
     Scale: 1
   Skills:
     # Misc
