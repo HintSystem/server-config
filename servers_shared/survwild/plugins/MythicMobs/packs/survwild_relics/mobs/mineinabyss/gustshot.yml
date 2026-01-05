@@ -17,6 +17,5 @@ gust-shot_center:
   - throw{velocity=14;velocityY=7;delay=1} @EntitiesInRadius{r=4} ~onSpawn
   - damage{a=20} @EntitiesInRadius{r=4} ~onSpawn
   - damage{a=5} @EntitiesInRadius{r=4;ignore=players} ~onSpawn
-  - damage{a=30} @EntitiesInRadius{r=2;conditions=[
-                              - entitywithin{d=2} true     ]} ~onSpawn
+  - damage{a=30} @EntitiesInRadius{r=2} ~onSpawn                          
   - remove{delay=5} @self ~onSpawn

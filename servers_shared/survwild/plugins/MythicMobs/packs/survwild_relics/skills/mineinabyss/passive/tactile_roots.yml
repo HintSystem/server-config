@@ -1,6 +1,4 @@
 tactile_roots_trigger:
-  Conditions:
-  - inInventory
   Skills:
   - skill{s=tactile_roots_speed} @self
   - skill{s=tactile_roots_slow} @self
