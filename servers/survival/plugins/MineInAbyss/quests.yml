@@ -1,7 +1,7 @@
 visitQuests:
   dummy:
     questId: dummy
-    displayName: Dummy
+    displayName: Dummy1
     locations:
       - name: dummy_1
         locationCenter: 0,0,1
