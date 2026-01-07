@@ -5,7 +5,7 @@ set.item:
   lore:
   - ':layer_3:'
   - <#DB5807><i>A powerful magma core.
-  - <#DB5807><i>Could be usefull in powerfull relics..
+  - <#DB5807><i>Could be useful in powerful relics...
 resourcepack:
   model: mineinabyss:materials_mobs/himushi_core
   textures:
