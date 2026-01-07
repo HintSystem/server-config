@@ -1,0 +1,8 @@
+set.recipes:
+  discoverRecipes: true
+  removeRecipes:
+    - "minecraft:netherite_spear"
+  result:
+    type: minecraft:netherite_spear
+    amount: 1
+  recipes: []
