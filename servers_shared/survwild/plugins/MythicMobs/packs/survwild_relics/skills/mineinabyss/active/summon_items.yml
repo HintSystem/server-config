@@ -7,29 +7,6 @@ wanabushi_summon:
     - sound{s=entity.evoker.prepare_summon;sc=ui;p=0.8;v=0.5} @Self
 
 
-luckybackup1:
-  Skills:
-    - summon{type=backupskele1;amount=1;radius=2;ctt=true;itt=true;os=true} @self
-luckybackup2:
-  Skills:
-    - summon{type=backupskele2;amount=1;radius=2;ctt=true;itt=true;os=true} @self
-luckybackup3:
-  Skills:
-    - summon{type=backupskele3;amount=1;radius=2;ctt=true;itt=true;os=true} @self
-luckybackup4:
-  Skills:
-    - summon{type=backupskele4;amount=1;radius=2;ctt=true;itt=true;os=true} @self
-luckybackup5:
-  Skills:
-    - summon{type=backupskele5;amount=1;radius=2;ctt=true;itt=true;os=true} @self
-goldenbackup:
-  Skills:
-    - summon{type=testbackup;amount=1;radius=2;ctt=true;itt=true;os=true} @self
-testbackup:
-  Skills:
-    - summon{type=testbackup;amount=1;radius=2;ctt=true;itt=true;os=true} @self
-
-
 avineblaster_tick:
   Skills:
     - effect:particles{particle=FALLING_SPORE_BLOSSOM;amount=10;hS=.3;vS=.3;speed=0.05}

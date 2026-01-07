@@ -7,13 +7,3 @@ Kuon_Summon:
   Skills:
     - gcd{ticks=20}
     - summon{type=kuongatari_summon;amount=1;radius=3} @self
-
-fapukuon_summon:
-  Cooldown: 999
-  Conditions:
-    - offgcd true
-    - targetwithin{d=20} true
-    #- incombat true
-  Skills:
-    - gcd{ticks=20}
-    - summon{type=fapukuon_summon;amount=2;radius=3} @self
