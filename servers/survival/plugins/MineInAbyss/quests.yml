@@ -4,13 +4,9 @@ visitQuests:
     displayName: Dummy
     locations:
       - name: dummy_1
-        locationCenter:
-          x: 0
-          y: 0
-          z: 0
+        locationCenter: 0,0,1
         radius: 50
-    gearyRewards: {}
-    vanillaRewards: {}
+    rewards: {}
     perms: []
 fetchQuests: {}
 killQuests: {}

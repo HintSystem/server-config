@@ -17,7 +17,7 @@ cosmetics:
   equipWhistleCosmetic: false
 curse:
   enabled: false
-custom_hud:
+customHud:
   enabled: false
 descent:
   enabled: false
