@@ -2,11 +2,7 @@ npcs:
   gondola_assistant_gb:
     id: gondola_assistant_gb
     displayName: Belze
-    location:
-      x: -397.0
-      y: 128.0
-      z: -35.0
-      yaw: 45
+    location: -397.0,128.0,-35.0 45,0
     scale: [1, 1, 1]
     bbModel: npcgondola_variant3
     tradeTable:
@@ -20,11 +16,7 @@ npcs:
   gondola_assistant_ww:
     id: gondola_assistant_ww
     displayName: Warka
-    location:
-      x: -295.0
-      y: -58.0
-      z: 376.0
-      yaw: 330
+    location: -295.0,-58.0,376.0 330,0
     scale: [1, 1, 1]
     bbModel: npcgondola_variant1
     tradeTable:
@@ -38,11 +30,7 @@ npcs:
   gondola_assistant_sc:
     id: gondola_assistant_sc
     displayName: Yelme
-    location:
-      x: 82633.5
-      y: 104.0
-      z: -93.5
-      yaw: 135
+    location: 82633.5,104.0,-93.5 135,0
     scale: [1, 1, 1]
     bbModel: yelme
     tradeTable:
@@ -56,11 +44,7 @@ npcs:
   station_guildhq_npc:
     id: station_guildhq_npc
     displayName: Traveling Merchant
-    location:
-      x: -154.5
-      y: 135.0
-      z: -535.5
-      yaw: 315
+    location: -154.5,135.0,-535.5 315,0
     scale: [1, 1, 1]
     bbModel: npcgondola_variant2
     tradeTable:
@@ -72,11 +56,7 @@ npcs:
   station_guildhq_okibo:
     id: station_guildhq_okibo
     displayName: Okibo
-    location:
-      x: -149.0
-      y: 135.0
-      z: -537.0
-      yaw: 45
+    location: -149.0,135.0,-537.0 45,0
     scale: [1.8, 1.8, 1.8]
     bbModel: okibo
     tradeTable:
@@ -88,11 +68,7 @@ npcs:
   station_residential_npc:
     id: station_residential_npc
     displayName: Traveling Merchant
-    location:
-      x: -329.5
-      y: 183.0
-      z: -491.5
-      yaw: 315
+    location: -329.5,183.0,-491.5 315,0
     scale: [1, 1, 1]
     bbModel: npcgondola_variant2
     tradeTable:
@@ -104,11 +80,7 @@ npcs:
   station_residential_okibo:
     id: station_residential_okibo
     displayName: Okibo
-    location:
-      x: -326.0
-      y: 183.0
-      z: -493.0
-      yaw: 270
+    location: -326.0,183.0,-493.0 270,0
     scale: [1.8, 1.8, 1.8]
     bbModel: okibo
     tradeTable:
@@ -120,11 +92,7 @@ npcs:
   station_grandpier_npc:
     id: station_grandpier_npc
     displayName: Traveling Merchant
-    location:
-      x: -564.5
-      y: 128.0
-      z: -20.5
-      yaw: 270
+    location: -564.5,128.0,-20.5 270,0
     scale: [1, 1, 1]
     bbModel: npcgondola_variant2
     tradeTable:
@@ -136,11 +104,7 @@ npcs:
   station_grandpier_okibo:
     id: station_grandpier_okibo
     displayName: Okibo
-    location:
-      x: -566.5
-      y: 128.0
-      z: -23.0
-      yaw: 315
+    location: -566.5,128.0,-23.0 315,0
     scale: [1.8, 1.8, 1.8]
     bbModel: okibo
     tradeTable:
@@ -152,11 +116,7 @@ npcs:
   station_netherwgate_npc:
     id: station_netherwgate_npc
     displayName: Traveling Merchant
-    location:
-      x: -506.5
-      y: 112.0
-      z: 358.5
-      yaw: 90
+    location: -506.5,112.0,358.5 90,0
     scale: [1, 1, 1]
     bbModel: npcgondola_variant2
     tradeTable:
@@ -168,11 +128,7 @@ npcs:
   station_netherwgate_okibo:
     id: station_netherwgate_okibo
     displayName: Okibo
-    location:
-      x: -508.5
-      y: 112.0
-      z: 354.5
-      yaw: 315
+    location: -508.5,112.0,354.5 315,0
     scale: [1.8, 1.8, 1.8]
     bbModel: okibo
     tradeTable:
@@ -184,11 +140,7 @@ npcs:
   station_wharfeast_npc:
     id: station_wharfeast_npc
     displayName: Traveling Merchant
-    location:
-      x: 105.5
-      y: 82.0
-      z: 610.5
-      yaw: 315
+    location: 105.5,82.0,610.5 315,0
     scale: [1, 1, 1]
     bbModel: npcgondola_variant2
     tradeTable:
@@ -200,11 +152,7 @@ npcs:
   station_wharfeast_okibo:
     id: station_wharfeast_okibo
     displayName: Okibo
-    location:
-      x: 101.0
-      y: 82.0
-      z: 613.0
-      yaw: 225
+    location: 101.0,82.0,613.0 225,0
     scale: [1.8, 1.8, 1.8]
     bbModel: okibo
     tradeTable:
@@ -216,11 +164,7 @@ npcs:
   station_blackmarket_npc:
     id: station_blackmarket_npc
     displayName: Traveling Merchant
-    location:
-      x: 14.5
-      y: 135.0
-      z: 683.5
-      yaw: 180
+    location: 14.5,135.0,683.5 180,0
     scale: [1, 1, 1]
     bbModel: npcgondola_variant2
     tradeTable:
@@ -232,11 +176,7 @@ npcs:
   station_blackmarket_okibo:
     id: station_blackmarket_okibo
     displayName: Okibo
-    location:
-      x: 16.5
-      y: 135.0
-      z: 685.5
-      yaw: 135
+    location: 16.5,135.0,685.5 135,0
     scale: [1.8, 1.8, 1.8]
     bbModel: okibo
     tradeTable:
@@ -248,11 +188,7 @@ npcs:
   station_towerdist_npc:
     id: station_towerdist_npc
     displayName: Traveling Merchant
-    location:
-      x: 487.5
-      y: 126.0
-      z: -177.5
-      yaw: 225
+    location: 487.5,126.0,-177.5 225,0
     scale: [1, 1, 1]
     bbModel: npcgondola_variant2
     tradeTable:
@@ -264,11 +200,7 @@ npcs:
   station_towerdist_okibo:
     id: station_towerdist_okibo
     displayName: Okibo
-    location:
-      x: 484.5
-      y: 126.0
-      z: -178.0
-      yaw: 315
+    location: 484.5,126.0,-178.0 315,0
     scale: [1.8, 1.8, 1.8]
     bbModel: okibo
     tradeTable:

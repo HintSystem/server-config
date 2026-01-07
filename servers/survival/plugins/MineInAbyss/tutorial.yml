@@ -4,80 +4,41 @@ firstJoinLocation:
   z: -613.5
   yaw: 45.0
 tutorialEntities:
-  - location:
-      x: -128.5
-      y: 136.0
-      z: -533.5
+  - location: -128.5,136.0,-533.5
     text: <lang:mineinabyss.tutorial.guildhq.1></lang>
-  - location:
-      x: -117.5
-      y: 136.0
-      z: -543.5
+  - location: -117.5,136.0,-543.5
     text: <lang:mineinabyss.tutorial.guildhq.2></lang>
-  - location:
-      x: -120.5
-      y: 136.0
-      z: -569.5
+  - location: -120.5,136.0,-569.5
     text: <lang:mineinabyss.tutorial.guildhq.3></lang>
-  - location:
-      x: -124.5
-      y: 135.0
-      z: -540.5
+  - location: -124.5,135.0,-540.5
     text: <lang:mineinabyss.tutorial.rules.1>
     alignment: LEFT
     billboard: FIXED
     leftRotation:
       y: 0.43837118
       w: 0.8987941
-  - location:
-      x: -112.0
-      y: 136.0
-      z: -564.5
+  - location: -112.0,136.0,-564.5
     text: <lang:mineinabyss.tutorial.cosmetics.1></lang>
-  - location:
-      x: -14.0
-      y: 141.0
-      z: -522.5
+  - location: -14.0,141.0,-522.5
     text: <lang:mineinabyss.tutorial.cosmetics.2></lang>
-  - location:
-      x: -183.5
-      y: 52.5
-      z: -473.5
+  - location: -183.5,52.5,-473.5
     text: <lang:mineinabyss.tutorial.end></lang>
-  - location:
-      x: -142.5
-      y: 116.0
-      z: -612.5
+  - location: -142.5,116.0,-612.5
     text: <lang:mineinabyss.tutorial.water></lang>
-  - location:
-      x: -114.5
-      y: 116.0
-      z: -611.5
+  - location: -114.5,116.0,-611.5
     text: <lang:mineinabyss.tutorial.start.1></lang>
-  - location:
-      x: -122.625
-      y: 110.0625
-      z: -602.0625
+  - location: -122.625,110.0625,-602.0625
     text: <lang:mineinabyss.tutorial.start.2></lang>
     billboard: FIXED
     leftRotation:
       y: 0.9781476
       w: 0.20791149
-  - location:
-      x: -133.0
-      y: 110.5
-      z: -606.0
+  - location: -133.0,110.5,-606.0
     text: <lang:mineinabyss.tutorial.climb.1></lang>
     alignment: LEFT
-  - location:
-      x: -139.5
-      y: 116.0
-      z: -605.5
+  - location: -139.5,116.0,-605.5
     text: <lang:mineinabyss.tutorial.climb.2></lang>
-  - location:
-      x: -160.5
-      y: 105.0
-      z: -617.5
+  - location: -160.5,105.0,-617.5
     text: <lang:mineinabyss.tutorial.rules.1></lang>
     alignment: LEFT
     billboard: FIXED
@@ -88,29 +49,17 @@ tutorialEntities:
     leftRotation:
       y: 0.6
       w: 0.8
-  - location:
-      x: -160.5
-      y: 105.5
-      z: -613.5
+  - location: -160.5,105.5,-613.5
     text: <lang:mineinabyss.tutorial.rules.2></lang>
-  - location:
-      x: -162.0
-      y: 99.5
-      z: -522.0
+  - location: -162.0,99.5,-522.0
     text: <lang:mineinabyss.tutorial.recipes></lang>
     billboard: FIXED
     leftRotation:
       y: 0.819152
       w: -0.57357645
-  - location:
-      x: -159.5
-      y: 55.5
-      z: -478.5
+  - location: -159.5,55.5,-478.5
     text: <lang:mineinabyss.tutorial.emotes></lang>
-  - location:
-      x: -136.5
-      y: 116.5
-      z: -608.0
+  - location: -136.5,116.5,-608.0
     text: <lang:mineinabyss.tutorial.climb.3></lang>
     billboard: FIXED
     scale:
@@ -120,39 +69,21 @@ tutorialEntities:
     leftRotation:
       y: -0.09584575
       w: 0.9953962
-  - location:
-      x: -146.5
-      y: 116.0
-      z: -626.5
+  - location: -146.5,116.0,-626.5
     text: <lang:mineinabyss.tutorial.falling></lang>
-  - location:
-      x: -162.5
-      y: 85.5
-      z: -505.5
+  - location: -162.5,85.5,-505.5
     text: <lang:mineinabyss.tutorial.links></lang>
-  - location:
-      x: -152.5
-      y: 120.0
-      z: -547.5
+  - location: -152.5,120.0,-547.5
     text: <lang:mineinabyss.tutorial.outside.3></lang>
-  - location:
-      x: -162.0
-      y: 115.5
-      z: -543.0
+  - location: -162.0,115.5,-543.0
     text: <lang:mineinabyss.tutorial.outside.2></lang>
-  - location:
-      x: -161.875
-      y: 118.875
-      z: -561.3125
+  - location: -161.875,118.875,-561.3125
     text: <lang:mineinabyss.tutorial.bonfire></lang>
     billboard: FIXED
     leftRotation:
       y: 0.26723838
       w: 0.96363044
-  - location:
-      x: -504.0
-      y: 112.0
-      z: 362.0
+  - location: -504.0,112.0,362.0
     text: <lang:mineinabyss.poi.orth_netherworldgate></lang>
 start:
   region:

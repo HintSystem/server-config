@@ -1,60 +1,35 @@
 okiboStations:
   - id: GuildHQ
     displayName: Guild HQ
-    location:
-      x: -149
-      y: 135
-      z: -534
+    location: -149,135,-534
     iconHitboxOffset: 0.01,0.25,-0.25
   - id: Residential
     displayName: Residential District
-    location:
-      x: -325
-      y: 183
-      z: -489
+    location: -325,183,-489
     iconHitboxOffset: 0.01,0.30,0
   - id: GrandPier
     displayName: Grand Pier
-    location:
-      x: -563
-      y: 128
-      z: -19
+    location: -563,128,-19
     iconHitboxOffset: 0.01,0.22,0.22
   - id: NetherworldGate
     displayName: Gate to the Netherworld
-    location:
-      x: -509
-      y: 112
-      z: 361
+    location: -509,112,361
     iconHitboxOffset: 0.01,-0.00,0.33
   - id: BlackMarket
     displayName: Black Market
-    location:
-      x: 10
-      y: 135
-      z: 682
+    location: 10,135,682
     iconHitboxOffset: 0.01,-0.30,0.18
   - id: WharfEast
     displayName: Wharf District East
-    location:
-      x: 105
-      y: 82
-      z: 613
+    location: 105,82,613
     iconHitboxOffset: 0.01,-0.15,0.08
   - id: TowerDistrict
     displayName: Tower District
-    location:
-      x: 490
-      y: 126
-      z: -180
+    location: 490,126,-180
     iconHitboxOffset: 0.01,0.03,-0.35
 okiboMaps:
   - station: GuildHQ
-    location:
-      x: -152.5
-      y: 137.0
-      z: -536.5
-      yaw: 90
+    location: -152.5,137.0,-536.5 90,0
     scale: 1.3,1.3,1.3
     offset: 0,-1,0
     hitboxes:
@@ -69,11 +44,7 @@ okiboMaps:
       offset: 0.0,-0.08,0.01
       scale: 1,1,1
   - station: Residential
-    location:
-      x: -326.5
-      y: 184.5
-      z: -492.0
-      yaw: 90
+    location: -326.5,184.5,-492.0 90,0
     scale: 1.3,1.3,1.3
     offset: 0,-1,0
     hitboxes:
@@ -88,10 +59,7 @@ okiboMaps:
       offset: 0.0,-0.08,0.01
       scale: 1,1,1
   - station: GrandPier
-    location:
-      x: -564.5
-      y: 129.5
-      z: -17.5
+    location: -564.5,129.5,-17.5
     scale: 1.3,1.3,1.3
     offset: 0,-1,0
     hitboxes:
@@ -106,11 +74,7 @@ okiboMaps:
       offset: 0.0,-0.08,0.01
       scale: 1,1,1
   - station: NetherworldGate
-    location:
-      x: -509.5
-      y: 113.0
-      z: 356.5
-      yaw: 135.0
+    location: -509.5,113.0,356.5 135.0,0
     scale: 1.3,1.3,1.3
     offset: 0,-1,0
     hitboxes:
@@ -125,11 +89,7 @@ okiboMaps:
       offset: 0.0,-0.08,0.01
       scale: 1,1,1
   - station: BlackMarket
-    location:
-      x: 13.0
-      y: 136.0
-      z: 684.0
-      yaw: -135.0
+    location: 13.0,136.0,684.0 -135.0,0
     scale: 1.3,1.3,1.3
     offset: 0,-1,0
     hitboxes:
@@ -144,11 +104,7 @@ okiboMaps:
       offset: 0.0,-0.08,0.01
       scale: 1,1,1
   - station: WharfEast
-    location:
-      x: 104.0
-      y: 83.5
-      z: 611.5
-      yaw: 45.0
+    location: 104.0,83.5,611.5 45.0,0
     scale: 1.3,1.3,1.3
     offset: 0,-1,0
     hitboxes:
@@ -163,11 +119,7 @@ okiboMaps:
       offset: 0.0,-0.08,0.01
       scale: 1,1,1
   - station: TowerDistrict
-    location:
-      x: 488.5
-      y: 127.5
-      z: -176.0
-      yaw: -45.0
+    location: 488.5,127.5,-176.0 -45.0,0
     scale: 1.3,1.3,1.3
     offset: 0,-1,0
     hitboxes:
