@@ -3,8 +3,8 @@ set.item:
   itemName: <#454545>Cooked Tesuchi Tail
   itemModel: mineinabyss:materials_mobs/tesuchi_cooked
   lore:
-  - <yellow>Obtained by cutting of the tail
-  - <yellow>of a <#454545>Hashofu <yellow>in the
+  - ':layer_1::layer_2:'
+  - <yellow>Obtained by cutting of the <#616161>Tail</#616161> in the
   - <green>Edge of the Abyss<yellow>and <green>Forest of Temptation<yellow>.
   - <#595959><i>tastes more like chicken now.
   - <#595959><i>it's not so squishy anymore...
@@ -18,11 +18,11 @@ set.recipes:
   recipes:
   - type: furnace
     input:
-      prefab: mineinabyss:tesuchi_raw
+      prefab: mineinabyss:tesuchi_tail
     experience: 1
     cookingTime: 100
   - type: smoking
     input:
-      prefab: mineinabyss:tesuchi_raw
+      prefab: mineinabyss:tesuchi_tail
     experience: 2
     cookingTime: 50
