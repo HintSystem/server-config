@@ -41,6 +41,7 @@ Model-Generator:
   Compile-Post-Server: true
   Enable-Error: true
   Debug-Level: 1
+  Log-Only-Error-Models: true
   Namespace: modelengine
   Create-Zip: true
   Create-Atlas: true
