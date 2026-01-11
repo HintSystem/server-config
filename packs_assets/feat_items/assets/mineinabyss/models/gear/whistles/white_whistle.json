@@ -1,1 +1,7 @@
-{"parent":"mineinabyss:gear/whistles/base_whistle","textures":{"particle":"mineinabyss:gear/whistles/white_whistle","0":"mineinabyss:gear/whistles/white_whistle"}}
+{
+  "parent": "mineinabyss:gear/whistles/base_whistle",
+  "textures": {
+    "0": "mineinabyss:gear/whistles/white_whistle",
+    "particle": "mineinabyss:gear/whistles/white_whistle"
+  }
+}
