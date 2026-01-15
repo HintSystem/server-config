@@ -31,12 +31,12 @@ cosmetic-settings:
 
   # This is a list of worlds that cosmetics are hidden in. When a player enters one of these worlds, their cosmetics will be hidden.
   disabled-worlds:
-  - disabledworld
+    - disabledworld
   disabled-gamemode:
     enabled: true
     # Which gamemodes should cosmetics be disabled for. This is useful for servers that have a creative world. All options are here, https://hub.spigotmc.org/javadocs/spigot/org/bukkit/GameMode.html
     gamemodes:
-    - SPECTATOR
+      - SPECTATOR
 
   # This disables the entire internal emote system within the plugin. This option requires a restart.
   emote-enable: false
@@ -105,11 +105,11 @@ menu-settings:
     # The shading is done through the title and by shifting textures around. This is done by offsets.
     # Only Nexo is support by default. Vanilla can't properly handle it without a lot of unicodes and ItemsAdder adds weird offsets and decolors it. (This is why it is disabled by default)
     enabled: true
-    first-row-shift: ':space_-169:'
-    sequent-row-shift: ':space_-165:'
-    individual-column-shift: ':space_-3:'
-    background: ':shade_row_<row>|c: '
-    clear-background: ':clear_row_<row>|c: '
+    first-row-shift: ":space_-169:"
+    sequent-row-shift: ":space_-165:"
+    individual-column-shift: ":space_-3:"
+    background: ":shade_row_<row>|c: "
+    clear-background: ":clear_row_<row>|c: "
     #These use MiniMessage for color! https://docs.advntr.dev/minimessage/format.html#color
     equipped-cosmetic-color: <yellow>
     equipable-cosmetic-color: <green>
@@ -123,7 +123,7 @@ dye-menu:
   # If you use ItemsAdder, set this to "<white>:img_offset_-8::img_dye_menu:"
   # If you use Oraxen, set this to "<white><s:-8><g:dye_menu>"
   # If you use Nexo, set this to "<white><shift:-8><glyph:dye_menu>"
-  title: ':space_-8::cosmetic_dye_menu:'
+  title: ":space_-8::cosmetic_dye_menu:"
   input-slot: 10
   output-slot: 16
 hook-settings:
@@ -171,7 +171,7 @@ wardrobe:
     # If you use ItemsAdder, set this to "<black>%img_title%
     # If you use Oraxen, set this to "<black><glyph:title>"
     # If you use Nexo, set this to "<black>%nexo_title%" and use PlaceholderAPI
-    text: '<black>:wardrobe_transition|c:'
+    text: "<black>:wardrobe_transition|c:"
     delay: 20
     title-fade-in: 1000
     title-stay: 500
