@@ -1,8 +1,4 @@
-firstJoinLocation:
-  x: -112.5
-  y: 115.0
-  z: -613.5
-  yaw: 45.0
+firstJoinLocation: -112.5,115.0,-613.5 45.0,0
 tutorialEntities:
   - location: -128.5,136.0,-533.5
     text: <lang:mineinabyss.tutorial.guildhq.1></lang>
