@@ -6,7 +6,7 @@ visitQuests:
       - name: dummy_1
         locationCenter: 0,0,1
         radius: 50
-    rewards: {}
+    rewards: []
     perms: []
 fetchQuests: {}
 killQuests: {}
