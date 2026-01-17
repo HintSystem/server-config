@@ -4,7 +4,7 @@ gondolas:
     lowerLoc: 16097, -208, 368
     displayItem:
       type: minecraft:stone
-    displayName: WW A
+    customName: WW A
     warpZoneRange: 3
     no_access_message: Buy access to this gondola from route warden Warka at the Waterwheel
       Gondola in Orth.
@@ -15,7 +15,7 @@ gondolas:
     lowerLoc: 49205, 163, 175
     displayItem:
       type: minecraft:stone
-    displayName: WW B
+    customName: WW B
     warpZoneRange: 3
     no_access_message: Buy access to this gondola from route warden Warka at the Waterwheel
       Gondola in Orth.
@@ -26,7 +26,7 @@ gondolas:
     lowerLoc: 15995, 43, -31
     displayItem:
       type: minecraft:stone
-    displayName: GP A
+    customName: GP A
     warpZoneRange: 3
     no_access_message: Buy access to this gondola from route warden Belze at the Grand
       Pier in Orth.
@@ -37,7 +37,7 @@ gondolas:
     lowerLoc: 16050, -171, -51
     displayItem:
       type: minecraft:stone
-    displayName: GP B
+    customName: GP B
     warpZoneRange: 3
     no_access_message: Buy access to this gondola from route warden Belze at the Grand
       Pier in Orth.
@@ -48,7 +48,7 @@ gondolas:
     lowerLoc: 32594, -160, -6
     displayItem:
       type: minecraft:stone
-    displayName: GP C
+    customName: GP C
     warpZoneRange: 3
     no_access_message: Buy access to this gondola from route warden Belze at the Grand
       Pier in Orth.
@@ -59,7 +59,7 @@ gondolas:
     lowerLoc: 82630.5, 104, -88.5
     displayItem:
       type: minecraft:stone
-    displayName: SC A
+    customName: SC A
     warpZoneRange: 3
     no_access_message: Talk to Yelme at the bottom of this gondola to get access.
     warpCooldown: 5000
