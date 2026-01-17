@@ -12,7 +12,7 @@ set.item:
     - enchant: minecraft:density
       level: 1
   enchantable: 0
-  tooltip_display:
+  tooltipDisplay:
     hiddenComponents:
       - enchantments
   unsetComponents:
