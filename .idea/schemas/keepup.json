@@ -1,0 +1,79 @@
+{
+  "$ref": "#/$defs/Inventory",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "YamlContentPolymorphicSerializer<CopyPath>": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "required": [
+            "source"
+          ],
+          "properties": {
+            "dest": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "com.mineinabyss.keepup.config_sync.ConfigDefinition": {
+      "type": "object",
+      "properties": {
+        "copyPaths": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/YamlContentPolymorphicSerializer<CopyPath>"
+          },
+          "description": "List of paths to copy, each specifies a source and destination. If only a string is specified, assumes source and dest are the same (up to relative paths.)"
+        },
+        "files": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "deleteUntracked": {
+                "type": "boolean",
+                "description": "Whether to delete files that are no longer specified in any Keepup sources. Keepup will look at all files copied over and delete anything in this directory that wasn't part of this list."
+              },
+              "keep": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Specifies specific files or directories to NOT delete, ex. (`test.yml` will keep a single file, `someDirectory/` will keep an entire directory.)"
+              }
+            }
+          },
+          "description": "Options for destination paths, ex. deleting untracked files."
+        },
+        "include": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of other configs to include in this config, properties will be merged with this config taking precedence."
+        },
+        "variables": {
+          "type": "object",
+          "description": "Variables to be passed into pebble templates. (ex. someValue: 100)."
+        }
+      }
+    },
+    "kotlinx.serialization.ContextualSerializer<Any>": {
+      "type": "object"
+    },
+    "Inventory": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/com.mineinabyss.keepup.config_sync.ConfigDefinition"
+      }
+    }
+  }
+}

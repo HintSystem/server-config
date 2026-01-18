@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=../.idea/schemas/keepup.json
 #{% set privateSettingsDest = "/configs/server-config-private" %}#
 global:
   files:
