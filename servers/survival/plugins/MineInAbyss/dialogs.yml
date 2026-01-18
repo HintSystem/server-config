@@ -1,71 +1,61 @@
-configs:
-  gondola_unlock_ww:
-    characterName: Warka
-    answers:
-      - text: Yes
-        replyMessage: Awesome, step onto the gondola and I'll send you down!
-        npc: null
-        action:
-          name: gondolaAction
-      - text: No
-        replyMessage: No problem, see you around!
-        npc: null
-    pages:
-      - lines:
-          - Hello there delver!
-      - lines:
-          - I can give you permanent access
-          - to this gondola route for 32
-          - Orth Coins.
-      - lines:
-          - Would you like to purchase access?
-  gondola_unlock_gp:
-    characterName: Belze
-    answers:
-      - text: Yes
-        replyMessage: Awesome, step onto the gondola and I'll send you down!
-        npc: null
-        action:
-          name: gondolaAction
-      - text: No
-        replyMessage: No problem, see you around!
-        npc: null
-    pages:
-      - lines:
-          - Hello there delver!
-      - lines:
-          - I can give you permanent access
-          - to this gondola route for 50
-          - Orth Coins.
-      - lines:
-          - Would you like to purchase access?
-  gondola_unlock_sc:
-    characterName: Yelme
-    answers:
-      - text: Yes, please!
-        replyMessage: Alright, step inside.
-        npc: null
-        action:
-          name: gondolaAction
-      - text: No
-        replyMessage: Are you sure?
-        npc: null
-    pages:
-      - lines:
-          - What do we have here? New faces!?
-          - Welcome to Seeker Camp!
-      - lines:
-          - Do you want to use this gondola
-          - to go up?
-  orth_station_npc:
-    characterName: Traveling Merchant
-    pages:
-      - lines:
-          - Do you want to travel around Orth?
-          - Click a marker on the map, and I'll
-          - send you on your way.
-  orth_station_okibo:
-    characterName: Okibo
-    pages:
-      - lines:
-          - "..."
+gondola_unlock_ww:
+  characterName: Warka
+  pages:
+    - lines:
+        - "Hello there delver!"
+    - lines:
+        - "I can give you permanent access"
+        - "to this gondola route for 32"
+        - "Orth Coins."
+    - lines:
+        - "Would you like to purchase access?"
+      answers:
+        - text: "Yes"
+          replyMessage: "Awesome, step onto the gondola and I'll send you down!"
+          action: GONDOLA
+        - text: "No"
+          replyMessage: "No problem, see you around!"
+gondola_unlock_gp:
+  characterName: Belze
+  pages:
+    - lines:
+        - "Hello there delver!"
+    - lines:
+        - "I can give you permanent access"
+        - "to this gondola route for 50"
+        - "Orth Coins."
+    - lines:
+        - "Would you like to purchase access?"
+      answers:
+        - text: "Yes"
+          replyMessage: "Awesome, step onto the gondola and I'll send you down!"
+          action: GONDOLA
+        - text: "No"
+          replyMessage: "No problem, see you around!"
+gondola_unlock_sc:
+  characterName: Yelme
+  pages:
+    - lines:
+        - "What do we have here? New faces!?"
+        - "Welcome to Seeker Camp!"
+    - lines:
+        - "Do you want to use this gondola"
+        - "to go up?"
+      answers:
+        - text: "Yes, please!"
+          replyMessage: "Alright, step inside."
+          action: GONDOLA
+        - text: "No"
+          replyMessage: "Are you sure?"
+orth_station_npc:
+  characterName: Traveling Merchant
+  pages:
+    - lines:
+        - "Do you want to travel around Orth?"
+        - "Click a marker on the map, and I'll"
+        - "send you on your way."
+orth_station_okibo:
+  characterName: Okibo
+  pages:
+    - lines:
+        - "..."

@@ -7,12 +7,10 @@ npcs:
     bbModel: npcgondola_variant3
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
     type: GONDOLA
     dialogId: gondola_unlock_gp
     ticketId: route_l1_grandpier
-    questEndId: null
   gondola_assistant_ww:
     id: gondola_assistant_ww
     customName: Warka
@@ -21,12 +19,10 @@ npcs:
     bbModel: npcgondola_variant1
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
     type: GONDOLA
     dialogId: gondola_unlock_ww
     ticketId: route_l1_wwgondola
-    questEndId: null
   gondola_assistant_sc:
     id: gondola_assistant_sc
     customName: Yelme
@@ -35,12 +31,10 @@ npcs:
     bbModel: yelme
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
     type: GONDOLA
     dialogId: gondola_unlock_sc
     ticketId: route_l2_seekercamp
-    questEndId: null
   station_guildhq_npc:
     id: station_guildhq_npc
     customName: Traveling Merchant
@@ -49,20 +43,18 @@ npcs:
     bbModel: npcgondola_variant2
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_npc
   station_guildhq_okibo:
     id: station_guildhq_okibo
     customName: Okibo
     location: -149.0,135.0,-537.0 45,0
-    type: DIALOGUE
+    type: DIALOG
     scale: 1.8,1.8,1.8
     bbModel: okibo
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
     dialogId: orth_station_okibo
   station_residential_npc:
@@ -73,9 +65,8 @@ npcs:
     bbModel: npcgondola_variant2
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_npc
   station_residential_okibo:
     id: station_residential_okibo
@@ -85,9 +76,8 @@ npcs:
     bbModel: okibo
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_okibo
   station_grandpier_npc:
     id: station_grandpier_npc
@@ -97,9 +87,8 @@ npcs:
     bbModel: npcgondola_variant2
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_npc
   station_grandpier_okibo:
     id: station_grandpier_okibo
@@ -109,9 +98,8 @@ npcs:
     bbModel: okibo
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_okibo
   station_netherwgate_npc:
     id: station_netherwgate_npc
@@ -121,9 +109,8 @@ npcs:
     bbModel: npcgondola_variant2
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_npc
   station_netherwgate_okibo:
     id: station_netherwgate_okibo
@@ -133,9 +120,8 @@ npcs:
     bbModel: okibo
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_okibo
   station_wharfeast_npc:
     id: station_wharfeast_npc
@@ -145,9 +131,8 @@ npcs:
     bbModel: npcgondola_variant2
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_npc
   station_wharfeast_okibo:
     id: station_wharfeast_okibo
@@ -157,9 +142,8 @@ npcs:
     bbModel: okibo
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_okibo
   station_blackmarket_npc:
     id: station_blackmarket_npc
@@ -169,9 +153,8 @@ npcs:
     bbModel: npcgondola_variant2
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_npc
   station_blackmarket_okibo:
     id: station_blackmarket_okibo
@@ -181,9 +164,8 @@ npcs:
     bbModel: okibo
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_okibo
   station_towerdist_npc:
     id: station_towerdist_npc
@@ -193,9 +175,8 @@ npcs:
     bbModel: npcgondola_variant2
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_npc
   station_towerdist_okibo:
     id: station_towerdist_okibo
@@ -205,7 +186,6 @@ npcs:
     bbModel: okibo
     tradeTable:
       id: test_table
-      trades: []
     tradeTableId: ""
-    type: DIALOGUE
+    type: DIALOG
     dialogId: orth_station_okibo
