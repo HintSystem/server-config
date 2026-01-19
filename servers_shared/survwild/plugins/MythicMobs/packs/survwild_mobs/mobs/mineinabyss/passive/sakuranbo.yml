@@ -32,3 +32,4 @@ sakuranbo:
 
   Skills:
     - skill{s=displayHealth} ~onDamaged
+    - particle{p=instant_effect;color=#BEA233;power=1;delay=20} @self ~onDeath
