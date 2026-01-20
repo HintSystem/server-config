@@ -26,6 +26,7 @@ updaters:
   AIR: true
   EXPERIENCE: true
   RESPAWNING: true
-pack-support: all
+pack-support:
+  min: 1.21.11
 default-namespace: mythichud
 config-version: 11
