@@ -36,3 +36,4 @@ rohana:
     #- setspeed{type=flying;speed=1} @self ~onSpawnOrLoad
     - state{mid=rohana;s=attack} @self ~onAttack
     - skill{s=displayHealth} ~onDamaged
+    - particle{p=effect;color=#EF44ED;power=1;delay=30} @self ~onDeath
