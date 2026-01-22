@@ -1,19 +1,30 @@
 {
-  "logical_height": 256,
-  "infiniburn": "#minecraft:infiniburn_overworld",
-  "effects": "minecraft:overworld",
-  "ambient_light": 0,
-  "respawn_anchor_works": true,
-  "has_raids": true,
-  "min_y": -256,
-  "height": 512,
-  "natural": false,
-  "coordinate_scale": 1,
-  "piglin_safe": false,
-  "bed_works": false,
+  "coordinate_scale": 1.0,
   "has_skylight": true,
   "has_ceiling": false,
-  "ultrawarm": false,
+  "ambient_light": 0,
+  "has_fixed_time": false,
+  "monster_spawn_block_light_limit": 1,
   "monster_spawn_light_level": 1,
-  "monster_spawn_block_light_limit": 1
+  "logical_height": 256,
+  "min_y": -256,
+  "height": 512,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "skybox": "overworld",
+  "cardinal_light": "default",
+  "attributes": {
+    "gameplay/bed_rule": {
+      "can_sleep": "always",
+      "can_set_spawn": "never",
+      "explodes": false,
+      "error_message": "Cannot sleep right now!"
+    },
+    "gameplay/can_pillager_patrol_spawn": false,
+    "gameplay/can_start_raid": false,
+    "gameplay/cat_waking_up_gift_chance": 0.0,
+    "gameplay/nether_portal_spawns_piglin": false,
+    "gameplay/respawn_anchor_works": false,
+    "gameplay/water_evaporates": false,
+    "gameplay/fast_lava": false
+  }
 }
