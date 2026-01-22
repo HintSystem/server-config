@@ -10,7 +10,7 @@ tutorialEntities:
     text: <lang:mineinabyss.tutorial.rules.1>
     alignment: LEFT
     billboard: FIXED
-    leftRotation: 0,0,0.43837118,0.8987941
+    leftRotation: 0,0.45,0,0.9
   - location: -112.0,136.0,-564.5
     text: <lang:mineinabyss.tutorial.cosmetics.1>
   - location: -14.0,141.0,-522.5
@@ -24,7 +24,7 @@ tutorialEntities:
   - location: -122.625,110.0625,-602.0625
     text: <lang:mineinabyss.tutorial.start.2>
     billboard: FIXED
-    leftRotation: 0,0,0.9781476,0.20791149
+    leftRotation: 0,1,0,0.2
   - location: -133.0,110.5,-606.0
     text: <lang:mineinabyss.tutorial.climb.1>
     alignment: LEFT
@@ -34,7 +34,7 @@ tutorialEntities:
     text: <lang:mineinabyss.tutorial.rules.1>
     alignment: LEFT
     billboard: FIXED
-    leftRotation: 0,0,0.6,0.8
+    leftRotation: 0,0.6,0,0.8
   - location: -160.5,105.5,-613.5
     text: <lang:mineinabyss.tutorial.rules.2>
   - location: -162.0,99.5,-522.0
@@ -46,7 +46,7 @@ tutorialEntities:
   - location: -136.5,116.5,-608.0
     text: <lang:mineinabyss.tutorial.climb.3>
     billboard: FIXED
-    leftRotation: 0,0-0.09584575,0.9953962
+    leftRotation: 0,-0.1,0,1
   - location: -146.5,116.0,-626.5
     text: <lang:mineinabyss.tutorial.falling>
   - location: -162.5,85.5,-505.5
@@ -58,7 +58,7 @@ tutorialEntities:
   - location: -161.875,118.875,-561.3125
     text: <lang:mineinabyss.tutorial.bonfire>
     billboard: FIXED
-    leftRotation: 0,0,0.26723838,0.96363044
+    leftRotation: 0,0.350,0,0.950
   - location: -504.0,112.0,362.0
     text: <lang:mineinabyss.poi.orth_netherworldgate>
 start:
