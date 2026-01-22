@@ -3,140 +3,140 @@ sections:
     region:
       start: -1536,255,-1536
       end: 1534,1,1534
-    world: world
+    world: survival2023
     refTop: 0,0,0
     refBottom: 0,-256,0
   - name: 2023_l1s0
     region:
       start: -768,0,-768
       end: 767,-256,767
-    world: world
+    world: survival2023
     refTop: 0,0,0
     refBottom: 0,-256,0
   - name: 2023_l1s1
     region:
       start: 15617,255,-767
       end: 17150,-256,766
-    world: world
+    world: survival2023
     refTop: 16384,224,0
     refBottom: 16384,-256,0
   - name: 2023_l1s2
     region:
       start: 32001,255,-767
       end: 33534,-256,766
-    world: world
+    world: survival2023
     refTop: 32768,224,0
     refBottom: 32768,-256,0
   - name: 2023_l1s3
     region:
       start: 48385,255,-767
       end: 49918,73,766
-    world: world
+    world: survival2023
     refTop: 49152,224,0
     refBottom: 49152,-256,0
   - name: 2023_l2s0
     region:
       start: 48385,72,-767
       end: 49918,-256,766
-    world: world
+    world: survival2023
     refTop: 49152,224,0
     refBottom: 49152,-256,0
   - name: 2023_l2s1
     region:
       start: 64769,255,-767
       end: 66302,-256,766
-    world: world
+    world: survival2023
     refTop: 65536,224,0
     refBottom: 65536,-256,0
   - name: 2023_l2s2
     region:
       start: 80513,255,-1407
       end: 83326,-23,1405
-    world: world
+    world: survival2023
     refTop: 81920,224,0
     refBottom: 81920,-256,0
   - name: 2023_l3s0
     region:
       start: 81537,-22,-383
       end: 82301,-256,382
-    world: world
+    world: survival2023
     refTop: 81920,224,0
     refBottom: 81920,-256,0
   - name: 2023_l3s1
     region:
       start: 97921,255,-383
       end: 98686,-256,382
-    world: world
+    world: survival2023
     refTop: 98304,224,0
     refBottom: 98304,-256,0
   - name: 2023_l3s2
     region:
       start: 114305,255,-383
       end: 115070,-256,382
-    world: world
+    world: survival2023
     refTop: 114688,224,0
     refBottom: 114688,-256,0
   - name: 2023_l3s3
     region:
       start: 130688,255,-384
       end: 131454,7,383
-    world: world
+    world: survival2023
     refTop: 131072,224,0
     refBottom: 131072,-256,0
   - name: 2023_l4s1
     region:
       start: 130177,6,-895
       end: 131966,-256,894
-    world: world
+    world: survival2023
     refTop: 131072,224,0
     refBottom: 131072,-256,0
   - name: 2023_l4s2
     region:
       start: 146561,255,-895
       end: 148350,-256,894
-    world: world
+    world: survival2023
     refTop: 147456,224,0
     refBottom: 147456,-256,0
   - name: 2023_l4s3
     region:
       start: 162945,255,-895
       end: 164735,-256,894
-    world: world
+    world: survival2023
     refTop: 163840,224,0
     refBottom: 163840,-256,0
   - name: 2023_l4s4
     region:
       start: 178689,255,-1535
       end: 181758,-256,1534
-    world: world
+    world: survival2023
     refTop: 180224,224,0
     refBottom: 180224,-256,0
   - name: 2023_l4s5
     region:
       start: 193921,255,-2687
       end: 199422,132,2814
-    world: world
+    world: survival2023
     refTop: 196608,224,0
     refBottom: 196608,-256,0
   - name: 2023_l5s1
     region:
       start: 193921,131,-2687
       end: 199422,-256,2814
-    world: world
+    world: survival2023
     refTop: 196608,224,0
     refBottom: 196608,-256,0
   - name: 2023_l5s2
     region:
       start: 210305,255,-2431
       end: 215934,-256,2814
-    world: world
+    world: survival2023
     refTop: 212992,224,0
     refBottom: 212992,-256,0
   - name: 2023_l5s3
     region:
       start: 227329,255,-2175
       end: 232318,-256,2558
-    world: world
+    world: survival2023
     refTop: 229376,224,0
     refBottom: 229376,-256,0
 # The damage players will take when outside a managed section.
@@ -158,9 +158,11 @@ time:
   # How often to synchronize time between worlds
   updateInterval: 30m
   # The main synchronization world. Other worlds will get synchronized based on the time in this world.
-  mainWorld: world
+  mainworld: world
   # The worlds where time should be synchronized with the mainWorld. Optionally specify a time offset (leave 0 if no offset is desired)
   syncedWorlds:
     world: 0
+    survival2023: 0
 worlds:
   - world
+  - survival2023
