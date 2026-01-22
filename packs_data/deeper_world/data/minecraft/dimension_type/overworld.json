@@ -1,30 +1,40 @@
 {
-  "coordinate_scale": 1.0,
-  "has_skylight": true,
-  "has_ceiling": false,
-  "ambient_light": 0,
-  "has_fixed_time": false,
-  "monster_spawn_block_light_limit": 1,
-  "monster_spawn_light_level": 1,
-  "logical_height": 256,
-  "min_y": -256,
-  "height": 512,
-  "infiniburn": "#minecraft:infiniburn_overworld",
-  "skybox": "overworld",
-  "cardinal_light": "default",
+  "ambient_light": 0.0,
   "attributes": {
-    "gameplay/bed_rule": {
-      "can_sleep": "always",
+    "minecraft:audio/ambient_sounds": {},
+    "minecraft:audio/background_music": {},
+    "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "never",
+      "can_sleep": "when_dark",
       "explodes": false,
-      "error_message": "Cannot sleep right now!"
+      "error_message": {
+        "translate": "block.minecraft.bed.no_sleep"
+      }
     },
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:visual/cloud_color": "#ccffffff",
+    "minecraft:visual/cloud_height": 192.33,
+    "minecraft:visual/fog_color": "#c0d8ff",
+    "minecraft:visual/sky_color": "#78a7ff",
     "gameplay/can_pillager_patrol_spawn": false,
     "gameplay/can_start_raid": false,
     "gameplay/cat_waking_up_gift_chance": 0.0,
-    "gameplay/nether_portal_spawns_piglin": false,
-    "gameplay/respawn_anchor_works": false,
     "gameplay/water_evaporates": false,
     "gameplay/fast_lava": false
-  }
+  },
+  "coordinate_scale": 1.0,
+  "has_ceiling": false,
+  "has_skylight": true,
+  "height": 512,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "logical_height": 256,
+  "min_y": -256,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 7,
+    "min_inclusive": 0
+  },
+  "timelines": "#minecraft:in_overworld"
 }
