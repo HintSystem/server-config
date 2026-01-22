@@ -1,4 +1,237 @@
 sections:
+# 2021
+  - name: 2021_l1s1
+    region:
+        start: -769,255,-769
+        end: 768,0,768
+    world: survival2021
+    refTop: 0,255,0
+    refBottom: 0,0,0
+  - name: 2021_l1s2
+    region:
+        start: 847,255,-641
+        end: 2128,0,640
+    world: survival2021
+    refTop: 1488,224,0
+    refBottom: 1488,0,0
+  - name: 2021_l1s3
+    region:
+        start: 2223,255,-513
+        end: 3248,0,512
+    world: survival2021
+    refTop: 2736,224,0
+    refBottom: 2736,0,0
+  - name: 2021_l1s4
+    region:
+        start: 3327,255,-513
+        end: 4352,0,512
+    world: survival2021
+    refTop: 3840,224,0
+    refBottom: 3840,0,0
+  - name: 2021_l1s5
+    region:
+        start: 4447,255,-401
+        end: 5216,0,368
+    world: survival2021
+    refTop: 4832,224,0
+    refBottom: 4832,0,0
+  - name: 2021_l1s6
+    region:
+        start: 5311,255,-401
+        end: 6080,0,368
+    world: survival2021
+    refTop: 5696,224,0
+    refBottom: 5696,0,0
+  - name: 2021_l1s7
+    region:
+        start: 6159,255,-513
+        end: 7184,215,512
+    world: survival2021
+    refTop: 6672,224,0
+    refBottom: 6672,0,0
+  - name: 2021_l2s0
+    region:
+        start: 6159,214,-513
+        end: 7184,0,512
+    world: survival2021
+    refTop: 6672,224,0
+    refBottom: 6672,0,0
+  - name: 2021_l2s1
+    region:
+        start: 7279,255,-513
+        end: 8304,0,511
+    world: survival2021
+    refTop: 7792,224,0
+    refBottom: 7792,0,0
+  - name: 2021_l2s2
+    region:
+        start: 8399,255,-513
+        end: 9424,0,512
+    world: survival2021
+    refTop: 8912,224,0
+    refBottom: 8912,0,0
+  - name: 2021_l2s3
+    region:
+        start: 9519,255,-385
+        end: 10288,0,384
+    world: survival2021
+    refTop: 9904,224,0
+    refBottom: 9904,0,0
+  - name: 2021_l2s4
+    region:
+        start: 10383,255,-1457
+        end: 13200,0,1360
+    world: survival2021
+    refTop: 11792,224,0
+    refBottom: 11792,0,0
+  - name: 2021_l3s0
+    region:
+        start: 13279,255,-385
+        end: 14048,0,384
+    world: survival2021
+    refTop: 13664,224,0
+    refBottom: 13664,0,0
+  - name: 2021_l3s1
+    region:
+        start: 14111,255,-385
+        end: 14880,0,384
+    world: survival2021
+    refTop: 14496,224,0
+    refBottom: 14496,0,0
+  - name: 2021_l3s2
+    region:
+        start: 14111,255,-385
+        end: 14880,0,384
+    world: survival2021
+    refTop: 14496,224,0
+    refBottom: 14496,0,0
+  - name: 2021_l3s3
+    region:
+        start: 14943,255,-385
+        end: 15712,0,384
+    world: survival2021
+    refTop: 15328,224,0
+    refBottom: 15328,0,0
+  - name: 2021_l3s4
+    region:
+        start: 15775,255,-385
+        end: 16544,0,384
+    world: survival2021
+    refTop: 16160,224,0
+    refBottom: 16160,0,0
+  - name: 2021_l3s5
+    region:
+        start: 16607,255,-385
+        end: 17376,0,384
+    world: survival2021
+    refTop: 16992,224,0
+    refBottom: 16992,0,0
+  - name: 2021_l3s6
+    region:
+        start: 17439,255,-385
+        end: 18208,0,384
+    world: survival2021
+    refTop: 17824,224,0
+    refBottom: 17824,0,0
+  - name: 2021_l3s7
+    region:
+        start: 18271,255,-385
+        end: 19040,0,384
+    world: survival2021
+    refTop: 18656,224,0
+    refBottom: 18656,0,0
+  - name: 2021_l4s0
+    region:
+        start: 19119,255,-897
+        end: 20912,0,896
+    world: survival2021
+    refTop: 20016,224,0
+    refBottom: 20016,0,0
+  - name: 2021_l4s1
+    region:
+        start: 20960,255,-752
+        end: 22495,0,783
+    world: survival2021
+    refTop: 21728,224,0
+    refBottom: 21728,0,0
+  - name: 2021_l4s2
+    region:
+        start: 22544,255,-752
+        end: 24079,0,783
+    world: survival2021
+    refTop: 23312,224,0
+    refBottom: 23312,0,0
+  - name: 2021_l4s3
+    region:
+        start: 24127,255,-753
+        end: 25664,0,784
+    world: survival2021
+    refTop: 24896,224,0
+    refBottom: 24896,0,0
+  - name: 2021_l4s4
+    region:
+        start: 26287,255,-625
+        end: 27568,0,656
+    world: survival2021
+    refTop: 26928,224,0
+    refBottom: 26928,0,0
+  - name: 2021_l4s5
+    region:
+        start: 28255,255,-881
+        end: 30048,0,912
+    world: survival2021
+    refTop: 29152,224,0
+    refBottom: 29152,0,0
+  - name: 2021_l4s6
+    region:
+        start: 31023,255,-1025
+        end: 33072,0,1024
+    world: survival2021
+    refTop: 32048,224,0
+    refBottom: 32048,0,0
+  - name: 2021_l4s7
+    region:
+        start: 34047,255,-1521
+        end: 37120,0,1552
+    world: survival2021
+    refTop: 35584,224,0
+    refBottom: 35584,0,0
+  - name: 2021_l5s0
+    region:
+        start: 37391,255,-2497
+        end: 42896,0,3008
+    world: survival2021
+    refTop: 40144,224,0
+    refBottom: 40144,0,0
+  - name: 2021_l5s1
+    region:
+        start: 42991,255,-2305
+        end: 48240,0,2816
+    world: survival2021
+    refTop: 45616,224,0
+    refBottom: 45616,0,0
+  - name: 2021_l5s2
+    region:
+        start: 48319,255,-2353
+        end: 53312,0,2896
+    world: survival2021
+    refTop: 50816,224,0
+    refBottom: 50816,0,0
+  - name: 2021_l5s3
+    region:
+        start: 53407,255,-2113
+        end: 58400,0,2624
+    world: survival2021
+    refTop: 55904,224,0
+    refBottom: 55904,0,0
+  - name: 2021_l5s4
+    region:
+        start: 58479,255,-1553
+        end: 62064,0,2032
+    world: survival2021
+    refTop: 60272,224,0
+    refBottom: 60272,0,0
+# 2023
   - name: 2023_orth
     region:
       start: -1536,255,-1536
@@ -165,4 +398,5 @@ time:
     survival2023: 0
 worlds:
   - world
+  - survival2021
   - survival2023
