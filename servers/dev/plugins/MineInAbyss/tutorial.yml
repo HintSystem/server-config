@@ -15,7 +15,7 @@ tutorialEntities:
     text: <lang:mineinabyss.tutorial.cosmetics.1>
   - location: -14.0,141.0,-522.5
     text: <lang:mineinabyss.tutorial.cosmetics.2>
-  - location: -183.5,52.5,-473.5
+  - location: -153.6,55.5,-461.3
     text: <lang:mineinabyss.tutorial.end>
   - location: -142.5,116.0,-612.5
     text: <lang:mineinabyss.tutorial.water>
