@@ -1,6 +1,6 @@
 Settings:
   lang: en
-  interaction: LeftClick # LeftClick / LeftClickEntity / LeftClickPlayer / RightClick / RightClickEntity / RightClickPlayer / SwapHand
+  interaction: LeftClickEntity # LeftClick / LeftClickEntity / LeftClickPlayer / RightClick / RightClickEntity / RightClickPlayer / SwapHand
   exit: Sneak # Sneak / None
   hide-chat: true
   scroll-cooldown: 5
@@ -16,4 +16,4 @@ Hooks:
   MMOCore: false
 
 First-Install: false # Don't touch if you don't know what you're doing
-# d90f5d423aba4d22657d47137223212c
+# d79207a398b6b0b580dc50f2c4f9cb06
