@@ -1,7 +1,7 @@
 set.item:
   type: minecraft:clock
   itemName: <#454545>Cooked Tesuchi Tail
-  itemModel: mineinabyss:materials_mobs/tesuchi_cooked
+  itemModel: mineinabyss:materials_mobs/tesuchi_tail
   lore:
   - ':layer_1::layer_2:'
   - <yellow>Obtained by cutting of the <#616161>Tail</#616161> in the
@@ -18,11 +18,11 @@ set.recipes:
   recipes:
   - type: furnace
     input:
-      prefab: mineinabyss:tesuchi_tail
+      prefab: mineinabyss:tesuchi_tail_cooked
     experience: 1
     cookingTime: 100
   - type: smoking
     input:
-      prefab: mineinabyss:tesuchi_tail
+      prefab: mineinabyss:tesuchi_tail_cooked
     experience: 2
     cookingTime: 50
