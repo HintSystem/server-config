@@ -3,7 +3,7 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:relics/vverdaueffax
   lore:
-  - ':layer_1::layer_2: Grade II Relic'
+  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_1"><sprite:gui:"mineinabyss:ui/prefixes/layer/layer_2"> Grade II Relic'
   - <#43583c>Outside of the Abyss, this Relic fetches a high
   - <#43583c>price for its uses in chronic pain treatment. 
   - <#5e7b54><i>Passive slot ability. Grants fast regen

@@ -3,7 +3,7 @@ set.item:
   itemName: <#9C0F2C>Cooked Yomotsubi Abdomen
   itemModel: mineinabyss:yomotsubi_abdomen_cooked
   lore:
-  - ':layer_3::layer_5:'
+  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_3"><sprite:gui:"mineinabyss:ui/prefixes/layer/layer_5">'
   - <#9c5d2c><i>Tastes suprisingly good.
   food:
     saturation: 0.6

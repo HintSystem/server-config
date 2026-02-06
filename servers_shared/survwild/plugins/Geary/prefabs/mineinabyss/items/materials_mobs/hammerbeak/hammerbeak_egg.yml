@@ -3,7 +3,7 @@ set.item:
   itemName: <#613F0C>Hammerbeak Egg
   itemModel: mineinabyss:materials_mobs/hammerbeak_egg
   lore:
-  - ':layer_1::layer_2::layer_4:'
+  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_1"><sprite:gui:"mineinabyss:ui/prefixes/layer/layer_2"><sprite:gui:"mineinabyss:ui/prefixes/layer/layer_4">'
   - <yellow>Can be used as a cooking ingredient
   - <yellow>or mischievious acts of tomfoolery.
   - <#A9CCCA><i>Mother Hammerbeak does
