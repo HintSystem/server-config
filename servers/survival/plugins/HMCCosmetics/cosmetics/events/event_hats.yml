@@ -68,3 +68,10 @@ scarf_hat1:
     material: PAPER
     name: "Red Scarf"
     model-id: mineinabyss:cosmetics/hats/scarf_hat1
+artist_hat:
+  slot: HELMET
+  permission: "hmccosmetics.hat.artist_hat"
+  item:
+    material: PAPER
+    name: "Artist Hat"
+    model-id: mineinabyss:cosmetics/hats/artist_hat

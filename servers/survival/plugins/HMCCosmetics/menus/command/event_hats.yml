@@ -219,6 +219,27 @@ items:
     currency: orth_coin
     cost: 1
     cosmetic: scarf_hat1
+  artist_hat:
+    slots: 10
+    item:
+      material: hmccosmetics:artist_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:artist_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      model-id: cosmetics:question_mark_button
+      material: hmccosmetics:artist_hat
+      lore:
+        - "<red>Locked"
+    type: cosmetic
+    currency: orth_coin
+    cost: 1
+    cosmetic: artist_hat
 
   home_button:
     slots: 49
