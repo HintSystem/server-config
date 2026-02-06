@@ -3,7 +3,7 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:relics/tactile_roots
   lore:
-  - ':layer_2: Grade III Relic'
+  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_2"> Grade III Relic'
   - <#d7c9b3>The perfect cave raiding boots for those with a green thumb… or toe?
   - <#ebdcc6><i>Passive slot ability. Grants movement 
   - <#ebdcc6><i>based on the block the user is on.

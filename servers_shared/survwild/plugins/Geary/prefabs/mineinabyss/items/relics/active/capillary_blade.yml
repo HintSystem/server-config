@@ -3,7 +3,7 @@ set.item:
   itemModel: mineinabyss:relics/capillary_blade
   itemName: <#a30711><b>Capillary Growth
   lore:
-  - ':layer_1: Grade I Relic'
+  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_1"> Grade I Relic'
   - <#c7000e>Rather unceremoniously cobbled together from the
   - <#c7000e>remains of an Interference Unit, this sword 
   - <#c7000e>carries on its user's mysterious directives.
