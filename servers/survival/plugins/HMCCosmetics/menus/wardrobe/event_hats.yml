@@ -183,6 +183,24 @@ items:
         - "<red>Locked</red>"
     type: cosmetic
     cosmetic: scarf_hat1
+  artist_hat:
+    slots: 10
+    item:
+      material: hmccosmetics:artist_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:artist_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      material: hmccosmetics:artist_hat
+      lore:
+        - "<red>Locked</red>"
+    type: cosmetic
+    cosmetic: artist_hat
 
   home_button:
     slots: 49
