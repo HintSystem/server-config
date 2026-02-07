@@ -3,7 +3,7 @@ set.item:
   itemModel: mineinabyss:relics/reverberating_edge
   itemName: <#232423><b>Reverberating Edge
   lore:
-  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_4"> Grade I Relic'
+  - '<emojy:layer_4> Grade I Relic'
   - <#393C39>The innate abilities carried by this dagger might make its use
   - <#393C39>look effortless, but it’s actually taxing on the wielder.
   - <font:small_text><gray><shadow:#00000000>Active ability. Each hit creates charges and deals additional

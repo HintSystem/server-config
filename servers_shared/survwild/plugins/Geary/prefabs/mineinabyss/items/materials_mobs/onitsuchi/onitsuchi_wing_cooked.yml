@@ -3,7 +3,7 @@ set.item:
   itemName: <#5C471D>Cooked Onitsuchi Wing
   itemModel: mineinabyss:materials_mobs/onitsuchi_wing_cooked
   lore:
-  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_4"><sprite:gui:"mineinabyss:ui/prefixes/layer/layer_5">'
+  - '<emojy:layer_4><emojy:layer_5>'
   - <yellow>Can also be acquired from cooking
   - <#A9CCCA><i>This tastes delicious!
   food:

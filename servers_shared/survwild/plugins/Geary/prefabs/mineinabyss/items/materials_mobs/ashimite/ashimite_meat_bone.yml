@@ -2,4 +2,4 @@ set.item:
   type: minecraft:bone
   itemName: <#2597D9>Ashimite Meat Bone
   lore:
-  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_5">'
+  - '<emojy:layer_5>'

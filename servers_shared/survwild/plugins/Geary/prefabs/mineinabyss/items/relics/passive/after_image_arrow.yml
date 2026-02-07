@@ -3,7 +3,7 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:relics/after_image_arrow
   lore:
-  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_2"> Grade II Relic'
+  - '<emojy:layer_2> Grade II Relic'
   - <#43583c>The hard-light copies of projectiles produced 
   - <#43583c>by this Relic still hurt as though they were real. 
   - <#5e7b54><i>Passive slot ability. On bow and crossbow use

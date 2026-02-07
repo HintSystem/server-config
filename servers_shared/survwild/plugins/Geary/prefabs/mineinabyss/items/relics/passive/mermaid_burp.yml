@@ -3,7 +3,7 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:relics/mermaid_burp
   lore:
-  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_3"> Grade III Relic'
+  - '<emojy:layer_3> Grade III Relic'
   - <#d7c9b3>The air produced by this Relic has a notably fishy smell. 
   - <#ebdcc6><i>Passive slot ability. Grants water breathing.
 passive:

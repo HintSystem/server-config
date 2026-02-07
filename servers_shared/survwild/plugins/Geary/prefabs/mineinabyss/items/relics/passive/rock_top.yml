@@ -3,7 +3,7 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:relics/rock_top
   lore:
-  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_1"> Grade IV Relic'
+  - '<emojy:layer_1> Grade IV Relic'
   - <#BB9672>Fanatics posture that even if the world itself
   - <#BB9672>were to stop spinning, Rock Top would not. 
   - <#C4A484><i>Passive slot ability. Slowly spins the user.
