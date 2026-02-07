@@ -3,7 +3,7 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:relics/animal_totem
   lore:
-  - '<sprite:gui:"mineinabyss:ui/prefixes/layer/layer_1"><sprite:gui:"mineinabyss:ui/prefixes/layer/layer_2"> Grade IV Relic'
+  - '<emojy:layer_1><emojy:layer_2> Grade IV Relic'
   - <#BB9672>Stories have been passed around about a Cave Raider who used this 
   - <#BB9672>Relic to keep himself constantly awake through his expeditions.
   - <#C4A484><i>Passive slot ability. Grants short speed buffs when equipped.
