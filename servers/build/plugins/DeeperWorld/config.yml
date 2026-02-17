@@ -182,6 +182,6 @@ time:
   # The worlds where time should be synchronized with the mainWorld. Optionally specify a time offset (leave 0 if no offset is desired)
   syncedWorlds:
     world: 0
-bedrockBlockingInvalidTeleport: true
+bedrockBlockingInvalidTeleport: false
 worlds:
   - world
