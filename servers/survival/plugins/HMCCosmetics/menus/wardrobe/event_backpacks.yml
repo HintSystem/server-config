@@ -228,19 +228,15 @@ items:
 
       material: hmccosmetics:okibo_wuv_backpack
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>10:cosmetic_orth_coin:"
-        - "<yellow>[Left Click - <i>Unequip</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
+        - "<red>Locked</red>"
+        - "<yellow>[Left Click - <i>Try</i>]"
     locked-item:
 
       material: hmccosmetics:okibo_wuv_backpack
       lore:
-        - "<red>Locked</red> <white>|</white> <gold>10:cosmetic_orth_coin:"
+        - "<red>Locked</red>"
         - "<yellow>[Left Click - <i>Try</i>]"
-        - "<red>[Right Click - <i>Buy</i>]"
     type: mia_cosmetic
-    currency: orth_coin
-    cost: 10
     cosmetic: okibo_wuv_backpack
     actions:
       on-equip:
