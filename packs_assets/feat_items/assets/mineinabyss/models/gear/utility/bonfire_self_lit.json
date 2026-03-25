@@ -1,9 +1,67 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"parent": "mineinabyss:gear/utility/bonfire_lit",
-	"texture_size": [64, 64],
+	"texture_size": [32, 32],
 	"textures": {
-		"fire": "minecraft:block/soul_campfire_fire",
-		"particle": "minecraft:block/soul_campfire_fire"
-	}
+		"4": "mineinabyss:gear/utility/bonfire_fire_selected",
+		"particle": "mineinabyss:gear/utility/campfire_log"
+	},
+	"elements": [
+		{
+			"from": [3.8, -6, 8],
+			"to": [13.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -2.25, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 11], "texture": "#4"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"south": {"uv": [0, 0, 7, 11], "texture": "#4"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#4"}
+			}
+		},
+		{
+			"from": [8, -6, 2.8],
+			"to": [8, 16, 13.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -2.25, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"east": {"uv": [0, 0, 7, 11], "texture": "#4"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"west": {"uv": [0, 0, 7, 11], "texture": "#4"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 10.5, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "awesomenameforallbonfireassets",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "fire_types",
+					"origin": [8, 4.75, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "saved",
+							"origin": [8, 4.75, 8],
+							"color": 0,
+							"children": [0, 1]
+						}
+					]
+				}
+			]
+		}
+	]
 }
