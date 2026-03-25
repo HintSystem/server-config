@@ -1,0 +1,35 @@
+mockwater_fluid:
+  Skills:
+  - skill{s=mockwater_fluid_}
+  - summonPassenger{type=swarmshocker}
+
+mockwater_fluid_:
+  Cooldown:
+  Conditions:
+  Skills:
+  - aura{auraName=mockwaterfluid;onStart=mockwater_fluid_passenger;onTick=mockwater_fluid_tick;onEnd=mockwater_fluid_end;duration=60;c=1;maxStacks=2;cotd=false;rd=true;cod=true;i=40} @self
+
+mockwater_fluid_passenger:
+  Cooldown: 40
+  Conditions:
+  Skills:
+  - summonPassenger{type=swarmshocker} @self
+
+mockwater_fluid_tick:
+  Cooldown:
+  Conditions:
+  Skills:
+  - bouncy{auraName=mockwaterfluidbounce;onBounceSkill=mockwater_fluid_bounce;ce=false;d=60} @self
+  #add particle effect
+
+mockwater_fluid_end:
+  Cooldown: 20
+  Conditions:
+  Skills:
+  - remove{type=swarmshocker} @EIR{r=2}
+
+mockwater_fluid_bounce:
+  Cooldown: 10
+  Conditions:
+  Skills:
+  #add entering water sound
