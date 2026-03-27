@@ -20,3 +20,9 @@ tickets:
     ticketName: Seeker Camp Gondola Ticket
     ticketPrice: 0
     consumeWhenUsed: false
+  aprilfools_ticket:
+    gondolasInRoute:
+      - aprilfools_warp_a
+    ticketName: April Fools Warp Ticket
+    ticketPrice: 0
+    consumeWhenUsed: false

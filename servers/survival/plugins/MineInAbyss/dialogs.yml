@@ -59,3 +59,69 @@ orth_station_okibo:
   pages:
     - lines:
         - "..."
+aprilfools_quest_npc1:
+  characterName: One Handsome Fellow
+  pages:
+    - lines:
+        - "Wanna start quest 1?"
+      answers:
+        - text: "Yes, please!"
+          replyMessage: "Alright, step inside."
+          action: unlockQuestAction
+        - text: "No"
+          replyMessage: "Are you sure?"
+aprilfools_quest_npc2:
+  characterName: Two-Faced Fellow
+  pages:
+    - lines:
+        - "Wanna start quest 2?"
+      answers:
+        - text: "Yes, please!"
+          replyMessage: "Alright, step inside."
+          action: unlockQuestAction
+        - text: "No"
+          replyMessage: "Are you sure?"
+aprilfools_quest_npc3:
+  characterName: The Final Fellow
+  pages:
+    - lines:
+        - "Wanna start quest 3?"
+      answers:
+        - text: "Yes, please!"
+          replyMessage: "Alright, step inside."
+          action: unlockQuestAction
+        - text: "No"
+          replyMessage: "Are you sure?"
+aprilfools_quest_npc1_end:
+  characterName: One Handsome Fellow
+  pages:
+    - lines:
+        - "Wanna end quest 1?"
+      answers:
+        - text: "Yes, please!"
+          replyMessage: "Alright, step inside."
+          action: completeQuestAction
+        - text: "No"
+          replyMessage: "Are you sure?"
+aprilfools_quest_npc2_end:
+  characterName: Two-Faced Fellow
+  pages:
+    - lines:
+        - "Wanna end quest 2?"
+      answers:
+        - text: "Yes, please!"
+          replyMessage: "Alright, step inside."
+          action: completeQuestAction
+        - text: "No"
+          replyMessage: "Are you sure?"
+aprilfools_quest_npc3_end:
+  characterName: The Final Fellow
+  pages:
+    - lines:
+        - "Wanna end quest 3?"
+      answers:
+        - text: "Yes, please!"
+          replyMessage: "Alright, step inside."
+          action: completeQuestAction
+        - text: "No"
+          replyMessage: "Are you sure?"

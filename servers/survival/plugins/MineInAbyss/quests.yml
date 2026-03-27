@@ -8,5 +8,32 @@ visitQuests:
         radius: 50
     rewards: []
     perms: []
+  aprilfools_quest_1:
+    questId: aprilfools_quest_1
+    displayName: Quest 1
+    locations:
+      - name: quest_1_loc
+        locationCenter: -48.5,121,-32.5 april_fools_2026
+        radius: 2
+    perms:
+      - hmccosmetics.hat.gas_mask_1
+  aprilfools_quest_2:
+    questId: aprilfools_quest_2
+    displayName: Quest 2
+    locations:
+      - name: quest_2_loc
+        locationCenter: -221.5,99.0,-110.6 april_fools_2026
+        radius: 5
+    perms:
+      - hmccosmetics.hat.gas_mask_2
+  aprilfools_quest_3:
+    questId: aprilfools_quest_3
+    displayName: Quest 3
+    locations:
+      - name: quest_3_loc
+        locationCenter: 378,89,247 april_fools_2026
+        radius: 10
+    perms:
+      - hmccosmetics.hat.gas_mask_3
 fetchQuests: {}
 killQuests: {}
