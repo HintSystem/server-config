@@ -28,6 +28,7 @@ simple_bandage_stopped:
 simple_bandage_windup: 
   Skills:
   - effect:particles{particle=instant_effect;amount=3;hS=0.7;vS=0.1;y=1} @self
+  - potion{t=SLOW;l=5;d=20;p=false} @self
   - effect:sound{s=item.bone_meal.use;sc=ui;v=0.6;p=0.2} @self #supporting sound to consumable within geary
 
 simple_bandage_consume:

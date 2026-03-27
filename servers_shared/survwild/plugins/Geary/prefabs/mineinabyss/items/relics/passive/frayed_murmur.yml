@@ -15,7 +15,7 @@ passive:
   - become: parent
   - ensure:
         mythicConditions:
-          - hasaurastacks{n=reliceffectcancel} false
+          - hasaura{n=reliceffectcancel} false
         inSlot:
           slots: [ 9, 10 ]
           item: mineinabyss:frayed_murmur

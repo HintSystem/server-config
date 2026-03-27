@@ -3,7 +3,7 @@ rock_top:
   Conditions:
   Skills:
   - aura{auraName=rocktopspin;onTick=rock_top_spin;onEnd=rock_top_confusion;duration=50;c=1;maxStacks=1;cotd=false} @self
-  - skill{s=rock_top_static}
+  #- skill{s=rock_top_static}
 
 rock_top_spin:
   Cooldown:
@@ -51,7 +51,7 @@ rock_top_static_tick_checker_1000:
   - onAttack{oH=rock_top_static_discharge_1000;cE=false;auraname=rocktopstaticdischarge1000}
   - skill{s=rock_top_static_self_discharge_1000}
 
-rock_top_static_self_discharge_1000:
+rock_top_static_discharge_1000:
   Cooldown: 200
   Skills:
   - fakelightning @target
@@ -60,6 +60,32 @@ rock_top_static_self_discharge_1000:
   - damage{a=50} @target
 
 rock_top_static_self_discharge_1000:
+  Cooldown: 200
+  TargetConditions:
+    - onblock{m=WATER,IRON_BLOCK} true
+  Skills:
+  - fakelightning @self
+  - auraremove{aura=rocktopstatic} @self
+  - delay 5
+  - damage{a=100} @self
+
+rock_top_static_tick_checker_900:
+  Cooldown:
+  Conditions:
+    - hasaurastacks{n=rocktopstatic;s=10} true
+  Skills:
+  - onAttack{oH=rock_top_static_discharge_900;cE=false;auraname=rocktopstaticdischarge1000}
+  - skill{s=rock_top_static_self_discharge_900}
+
+rock_top_static_discharge_900:
+  Cooldown: 200
+  Skills:
+  - fakelightning @target
+  - auraremove{aura=rocktopstatic} @self
+  - delay 5
+  - damage{a=40} @target
+
+rock_top_static_self_discharge_900:
   Cooldown: 200
   TargetConditions:
     - onblock{m=WATER,IRON_BLOCK} true
