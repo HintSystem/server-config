@@ -192,7 +192,7 @@ npcs:
   aprilfools_quest_npc1:
     id: aprilfools_quest_npc1
     customName: One Handsome Fellow
-    location: 97.5,144.0,6.5 -178.0,0 april_fools_2026
+    location: 97.5,144.0,6.5 41.0,0 april_fools_2026
     scale: 1,1,1
     bbModel: backrooms_npc
     tradeTable:

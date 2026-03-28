@@ -31,7 +31,7 @@ visitQuests:
     displayName: Quest 3
     locations:
       - name: quest_3_loc
-        locationCenter: 378,89,247 april_fools_2026
+        locationCenter: 378,89,-247 april_fools_2026
         radius: 10
     perms:
       - hmccosmetics.hat.gas_mask_3

@@ -26,3 +26,4 @@ tickets:
     ticketName: April Fools Warp Ticket
     ticketPrice: 0
     consumeWhenUsed: false
+    unlockedByDefault: true

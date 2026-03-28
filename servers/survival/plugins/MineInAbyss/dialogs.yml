@@ -67,7 +67,7 @@ aprilfools_quest_npc1:
       answers:
         - text: "Yes, please!"
           replyMessage: "Alright, step inside."
-          action: unlockQuestAction
+          action: QUEST_UNLOCK
         - text: "No"
           replyMessage: "Are you sure?"
 aprilfools_quest_npc2:
@@ -78,7 +78,7 @@ aprilfools_quest_npc2:
       answers:
         - text: "Yes, please!"
           replyMessage: "Alright, step inside."
-          action: unlockQuestAction
+          action: QUEST_UNLOCK
         - text: "No"
           replyMessage: "Are you sure?"
 aprilfools_quest_npc3:
@@ -89,7 +89,7 @@ aprilfools_quest_npc3:
       answers:
         - text: "Yes, please!"
           replyMessage: "Alright, step inside."
-          action: unlockQuestAction
+          action: QUEST_UNLOCK
         - text: "No"
           replyMessage: "Are you sure?"
 aprilfools_quest_npc1_end:
@@ -100,7 +100,7 @@ aprilfools_quest_npc1_end:
       answers:
         - text: "Yes, please!"
           replyMessage: "Alright, step inside."
-          action: completeQuestAction
+          action: QUEST_COMPLETE
         - text: "No"
           replyMessage: "Are you sure?"
 aprilfools_quest_npc2_end:
@@ -111,7 +111,7 @@ aprilfools_quest_npc2_end:
       answers:
         - text: "Yes, please!"
           replyMessage: "Alright, step inside."
-          action: completeQuestAction
+          action: QUEST_COMPLETE
         - text: "No"
           replyMessage: "Are you sure?"
 aprilfools_quest_npc3_end:
@@ -122,6 +122,6 @@ aprilfools_quest_npc3_end:
       answers:
         - text: "Yes, please!"
           replyMessage: "Alright, step inside."
-          action: completeQuestAction
+          action: QUEST_COMPLETE
         - text: "No"
           replyMessage: "Are you sure?"

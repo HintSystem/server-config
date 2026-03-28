@@ -66,7 +66,7 @@ gondolas:
     consumeTicket: false
   aprilfools_warp_a:
     upperLoc: 19,99,-134 april_fools_2026
-    lowerLoc: -56.5,127,-24.5 april_fools_2026
+    lowerLoc: -56.5,127,-246.5 april_fools_2026
     displayItem:
       type: minecraft:stone
     itemName: AF A
