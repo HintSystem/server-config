@@ -198,7 +198,7 @@ npcs:
     tradeTable:
       id: test_table
     tradeTableId: ""
-    type: DIALOG
+    type: QUEST
     dialogId: aprilfools_quest_npc1
     questId: aprilfools_quest_1
     questEndId: aprilfools_quest_npc1_end
@@ -211,7 +211,7 @@ npcs:
     tradeTable:
       id: test_table
     tradeTableId: ""
-    type: DIALOG
+    type: QUEST
     dialogId: aprilfools_quest_npc2
     questId: aprilfools_quest_2
     questEndId: aprilfools_quest_npc2_end
@@ -224,7 +224,7 @@ npcs:
     tradeTable:
       id: test_table
     tradeTableId: ""
-    type: DIALOG
+    type: QUEST
     dialogId: aprilfools_quest_npc3
     questId: aprilfools_quest_3
     questEndId: aprilfools_quest_npc3_end
