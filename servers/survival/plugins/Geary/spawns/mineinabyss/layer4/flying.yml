@@ -20,3 +20,9 @@ l4_hammerbeakLarge:
   priority: 0.5
   chance: 0.45
 # Uncommon
+
+l4_mail_balloon:
+  inherit: l4_flying
+  type: mm:mail_balloon_map
+  priority: 0.5
+  chance: 0.1
