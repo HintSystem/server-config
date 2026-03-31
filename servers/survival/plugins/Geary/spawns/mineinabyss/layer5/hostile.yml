@@ -95,16 +95,16 @@ l5_ikonia: { inherit: l5_hostile_sand, type: mm:ikonia, priority: 0.04, chance: 
 # Glass
 l5_sporemanta: { inherit: l5_hostile_sea_of_glass, type: mm:sporemanta, priority: 1, chance: 1 }
 
-#l5_hornballer:
-#  inherit: l5_hostile
-#  chance: 0.3
-#  type: mm:hornballer
+l5_hornballer:
+ inherit: l5_hostile
+ priority: 0.3
+ type: mm:hornballer
 
-#l5_fapukuon:
-#  inherit: l5_hostile
-#  type: mm:fapukuon
-#  priority: 0.4
-#  chance: 0.3
+l5_fapukuon:
+ inherit: l5_hostile
+ type: mm:fapukuon
+ priority: 0.4
+ chance: 0.3
 #l5_tama:
 #  inherit: l5_hostile
 #  type: mm:tama
