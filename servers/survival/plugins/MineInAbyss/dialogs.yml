@@ -63,43 +63,54 @@ aprilfools_quest_npc1:
   characterName: One Handsome Fellow
   pages:
     - lines:
-        - "Wanna start quest 1?"
+        - "Secret tunnel!"
+        - "Secret tunnel!"
+        - "To the Office!"
+    - lines:
+        - "Secret, secret, secret, secret"
+        - "Secret tunnel! (Oh-oh)"
+        - "Secret tunnel! (Oh-oh)"
+        - "To the Office! (Woah-oh-oh)"
+    - lines:
+        - "Secret, secret, secret, secret tunnel,"
+        - "yeah"
       answers:
-        - text: "Yes, please!"
-          replyMessage: "Alright, step inside."
+        - text: "Yeah!"
+          replyMessage: "Woah-oh-oh!"
           action: QUEST_UNLOCK
-        - text: "No"
-          replyMessage: "Are you sure?"
 aprilfools_quest_npc2:
   characterName: Two-Faced Fellow
   pages:
     - lines:
-        - "Wanna start quest 2?"
+        - "Crawling through the highest rise."
+        - "Crack code good. Thou shall be wise,"
+    - lines:
+        - "for secret tunnel is just the start,"
+        - "of the utmost cracking part."
       answers:
-        - text: "Yes, please!"
-          replyMessage: "Alright, step inside."
+        - text: "Let's get crackin'!"
+          replyMessage: "Woo!"
           action: QUEST_UNLOCK
-        - text: "No"
-          replyMessage: "Are you sure?"
 aprilfools_quest_npc3:
   characterName: The Final Fellow
   pages:
     - lines:
-        - "Wanna start quest 3?"
+        - "Subtle Pull subtly pulls subtle pulls"
+        - "when subtle pulls pull subtly."
+    - lines:
+        - "Or whatever that means."
       answers:
-        - text: "Yes, please!"
-          replyMessage: "Alright, step inside."
+        - text: "Pull me down with it"
+          replyMessage: "Pull me once"
           action: QUEST_UNLOCK
-        - text: "No"
-          replyMessage: "Are you sure?"
 aprilfools_quest_npc1_end:
   characterName: One Handsome Fellow
   pages:
     - lines:
-        - "Wanna end quest 1?"
+        - "Did you find the secret tunnel?"
       answers:
-        - text: "Yes, please!"
-          replyMessage: "Alright, step inside."
+        - text: "Yes!"
+          replyMessage: "New cosmetic unlocked!"
           action: QUEST_COMPLETE
         - text: "No"
           replyMessage: "Are you sure?"
@@ -107,10 +118,10 @@ aprilfools_quest_npc2_end:
   characterName: Two-Faced Fellow
   pages:
     - lines:
-        - "Wanna end quest 2?"
+        - "Crack!"
       answers:
-        - text: "Yes, please!"
-          replyMessage: "Alright, step inside."
+        - text: "Crack, I did!"
+          replyMessage: "New cosmetic unlocked!"
           action: QUEST_COMPLETE
         - text: "No"
           replyMessage: "Are you sure?"
@@ -118,10 +129,17 @@ aprilfools_quest_npc3_end:
   characterName: The Final Fellow
   pages:
     - lines:
-        - "Wanna end quest 3?"
+        - "Wait... Someone made it to the end?"
+        - "Despite the odds?"
+    - lines:
+        - "If you thought the level design was"
+        - "kinda stinky, first of all,"
+        - "blame InsertDeadEndHere."
+    - lines:
+        - "But more importantly, here is a cool"
+        - "gas mask."
+        - "May you never smell his tunnels again!"
       answers:
-        - text: "Yes, please!"
-          replyMessage: "Alright, step inside."
+        - text: "redeem gas mask"
+          replyMessage: "April fools event completed!"
           action: QUEST_COMPLETE
-        - text: "No"
-          replyMessage: "Are you sure?"
