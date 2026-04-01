@@ -1,7 +1,7 @@
 emotes:
 # event
-- id: silhouette
-- id: face
+  - id: silhouette
+  - id: face
 # logo
   - id: logo
     font: minecraft:default
