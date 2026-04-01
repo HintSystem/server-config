@@ -276,6 +276,7 @@ survival:
     - feat/survival-mobs
     - feat/survival-npcs
     - feat/survival-orespawns
+    - feat/survival-events
 
 # Servers for development
 
