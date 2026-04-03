@@ -339,7 +339,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 75
-        spawnCap: 10
+        spawnCap: 7
         sectionMinY: -220
         sectionMaxY: -20
         spawnNoise: 5
@@ -356,7 +356,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 75
-        spawnCap: 35
+        spawnCap: 17
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 5
@@ -373,7 +373,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 75
-        spawnCap: 35
+        spawnCap: 17
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 5
@@ -390,7 +390,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 75
-        spawnCap: 10
+        spawnCap: 7
         sectionMinY: 50
         sectionMaxY: 220
         spawnNoise: 5
@@ -407,7 +407,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 75
-        spawnCap: 10
+        spawnCap: 7
         sectionMinY: -220
         sectionMaxY: 50
         spawnNoise: 5
@@ -424,7 +424,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 75
-        spawnCap: 35
+        spawnCap: 17
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 5
@@ -441,7 +441,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 120
-        spawnCap: 35
+        spawnCap: 17
         sectionMinY: -10
         sectionMaxY: 220
         spawnNoise: 5
@@ -458,7 +458,7 @@ types:
           conditions:
             - isOpenArea: { range: 3 }
         spreadRadius: 75
-        spawnCap: 3
+        spawnCap: 2
         sectionMinY: -220
         sectionMaxY: -100
         spawnNoise: 5
@@ -475,7 +475,7 @@ types:
           conditions:
             - isOpenArea: { range: 3 }
         spreadRadius: 75
-        spawnCap: 6
+        spawnCap: 4
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 3
@@ -492,7 +492,7 @@ types:
           conditions:
             - isOpenArea: { range: 3 }
         spreadRadius: 75
-        spawnCap: 6
+        spawnCap: 4
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 3
@@ -509,7 +509,7 @@ types:
           conditions:
             - isOpenArea: { range: 3 }
         spreadRadius: 75
-        spawnCap: 3
+        spawnCap: 2
         sectionMinY: 60
         sectionMaxY: 220
         spawnNoise: 3
@@ -526,7 +526,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 100
-        spawnCap: 30
+        spawnCap: 15
         sectionMinY: -220
         sectionMaxY: -60
         spawnNoise: 5
@@ -543,7 +543,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 100
-        spawnCap: 60
+        spawnCap: 30
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 5
@@ -560,7 +560,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 100
-        spawnCap: 60
+        spawnCap: 30
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 5
@@ -577,7 +577,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 100
-        spawnCap: 60
+        spawnCap: 30
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 5
@@ -594,7 +594,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 100
-        spawnCap: 8
+        spawnCap: 4
         sectionMinY: 140
         sectionMaxY: 220
         spawnNoise: 5
@@ -611,7 +611,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 100
-        spawnCap: 50
+        spawnCap: 25
         sectionMinY: -220
         sectionMaxY: 100
         spawnNoise: 5
@@ -628,7 +628,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 100
-        spawnCap: 80
+        spawnCap: 40
         sectionMinY: -220
         sectionMaxY: 220
         spawnNoise: 5
@@ -645,7 +645,7 @@ types:
           conditions:
             - isOpenArea: { range: 5 }
         spreadRadius: 100
-        spawnCap: 40
+        spawnCap: 20
         sectionMinY: 0
         sectionMaxY: 220
         spawnNoise: 5
