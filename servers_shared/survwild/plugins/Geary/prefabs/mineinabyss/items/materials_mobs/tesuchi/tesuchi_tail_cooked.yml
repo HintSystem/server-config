@@ -18,11 +18,11 @@ set.recipes:
   recipes:
   - type: furnace
     input:
-      prefab: mineinabyss:tesuchi_tail_cooked
+      prefab: mineinabyss:tesuchi_tail
     experience: 1
     cookingTime: 100
   - type: smoking
     input:
-      prefab: mineinabyss:tesuchi_tail_cooked
+      prefab: mineinabyss:tesuchi_tail
     experience: 2
     cookingTime: 50
