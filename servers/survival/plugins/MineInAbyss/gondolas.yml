@@ -64,13 +64,3 @@ gondolas:
     noAccessMessage: Talk to Yelme at the bottom of this gondola to get access.
     warpCooldown: 5s
     consumeTicket: false
-  aprilfools_warp_a:
-    upperLoc: 19,99,-134 april_fools_2026
-    lowerLoc: -56.5,127,-246.5 april_fools_2026
-    displayItem:
-      type: minecraft:stone
-    itemName: AF A
-    warpZoneRange: 5
-    noAccessMessage: This warp is broken. Tell us in \#bug-reports!
-    warpCooldown: 0s
-    consumeTicket: false
