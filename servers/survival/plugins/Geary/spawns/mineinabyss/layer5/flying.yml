@@ -12,9 +12,3 @@ l5_flying:
 # Common
 # onitsuchi,chikyuoebi,uibuta,swarmhoarder
 l5_onitsuchi: { inherit: l5_flying, type: mm:onitsuchi, priority: 0.5 }
-
-l5_mail_balloon:
-  inherit: l5_flying
-  type: mm:mail_balloon_map
-  priority: 0.05
-  chance: 0.1

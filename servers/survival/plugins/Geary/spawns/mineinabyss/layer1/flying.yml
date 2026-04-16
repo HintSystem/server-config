@@ -19,9 +19,3 @@ l1_splitjaw:
   type: mm:splitjaw
   priority: 0.5
   chance: 0.04
-
-l1_mail_balloon:
-  inherit: l1_flying
-  type: mm:mail_balloon_map
-  priority: 0.9
-  chance: 0.1
