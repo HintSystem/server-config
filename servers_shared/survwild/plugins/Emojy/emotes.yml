@@ -265,6 +265,9 @@ emotes:
   - id: pinceredw
     font: mineinabyss:whistles
     texture: mineinabyss:ui/prefixes/whistle_patreon/pinceredw.png
+  - id: envoyw
+    font: mineinabyss:whistles
+    texture: mineinabyss:ui/prefixes/whistle_patreon/envoyw.png
 # prefixes: server
   - id: adventure
     template: roles
