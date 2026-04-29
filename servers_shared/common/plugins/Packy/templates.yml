@@ -21,7 +21,7 @@ feat_mobs:
   filePath: Packy/resourcepacks/feat_mobs
 feat_music:
   default: true
-  required: true
+  required: false
   filePath: Packy/resourcepacks/feat_music
 feat_uis:
   default: true
