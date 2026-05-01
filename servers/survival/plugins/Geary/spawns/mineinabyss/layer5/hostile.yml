@@ -73,8 +73,8 @@ l5_swarmhoarder: # uncommon spawn
 l5_tachikatana: # rare spawn
   inherit: l5_hostile
   type: mm:tachikatana
-  chance: 0.015
-  priority: 0.02
+  chance: 0.03
+  priority: 0.03
   conditions:
     - $inherit
     - $remove maxNearby
@@ -87,8 +87,8 @@ l5_horncrier: { inherit: l5_hostile_snow, type: mm:horncrier }
 l5_tachikatana_snow: # rare spawn
   inherit: l5_hostile_snow
   type: mm:tachikatana
-  chance: 0.1
-  priority: 0.1
+  chance: 0.5
+  priority: 0.5
   conditions:
     - $inherit
     - $remove maxNearby
