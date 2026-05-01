@@ -84,6 +84,16 @@ l5_tachikatana: # rare spawn
 # Snow
 l5_octoliar: { inherit: l5_hostile_snow, type: mm:octoliar }
 l5_horncrier: { inherit: l5_hostile_snow, type: mm:horncrier }
+l5_tachikatana_snow: # rare spawn
+  inherit: l5_hostile_snow
+  type: mm:tachikatana
+  chance: 0.1
+  priority: 0.1
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 2
 
 # Sand
 l5_spikewalker: { inherit: l5_hostile_sand, type: mm:spikewalker }
