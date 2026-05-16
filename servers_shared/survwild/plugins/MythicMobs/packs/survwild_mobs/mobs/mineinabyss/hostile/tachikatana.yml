@@ -2,7 +2,7 @@ tachikatana:
   Type: ZOMBIE
   SpawnCategory: miniboss
   Display: "<#00FFFF>Tachikatana"
-  Health: 180
+  Health: 220
   Damage: 0
   AIGoalSelectors:
     - clear
@@ -61,5 +61,6 @@ tachikatana:
     #- skill{s=Changetarget} ~onTimer:160 <99%
     - dismount ~onDamaged
     - propel{v=1;delay=1} @trigger ~onDamaged ?~distance{d=>10}
+    - heal{amount=100} @self ~onKill
     #- state{mid=tachikatana;s=swipe_attack;li=3;lo=3} @self ~onAttack
 

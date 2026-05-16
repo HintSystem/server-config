@@ -16,7 +16,7 @@ tachiATTACKDamage:
   Skills:
     - shieldbreak{duration=50} @target
     - delay 1
-    - damage{amount=14} @target
+    - damage{amount=16} @target
     - effect:particles{particle=block_crack;m=redstone_block;amount=45;hS=.25;vS=1;speed=.01} @target
     #- skill{s=Bleeding} @target
     # - recoil{r=15;pitch=-0.2} @target
