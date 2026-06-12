@@ -1,0 +1,25 @@
+set.item:
+  itemName: <#f7e7ce>Almighty Boat Push
+  type: minecraft:clock
+  itemModel: mineinabyss:relics/makihige_totem
+  lore:
+  - '<emojy:layer_4> Grade IV Disappointment'
+  - <#d7c9b3>Goooooaaaaaal.
+  - <font:small_text><gray><shadow:#00000000>Active ability. Used to push boats. Consumable.
+observe:
+  itemRightClick:
+  - become: parent
+  - cooldown:
+      id: iceboatpush
+      length: 10s
+      display: <#f7e7ce>Almighty Boat Push
+  - mythicSkills:
+    - ice_boat_wave
+  - consumeItem:
+      type: mineinabyss:ice_boat_charm
+    when:
+    - chance: 1
+resourcepack:
+  textures:
+    layers:
+    - mineinabyss:relics/makihige_totem
