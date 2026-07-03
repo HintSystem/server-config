@@ -1,0 +1,33 @@
+battle_on_the_ice_weakness_anchor:
+  Type: PIG
+  Display: "<red>Average Sports Fan"
+  AIGoalSelectors:
+    - clear
+    - lookatplayers
+  AITargetSelectors:
+    - clear
+  Health: 9999
+  Damage: 0
+  Options:
+    Silent: true
+    PreventOtherDrops: true
+    Collidable: false
+    KnockbackResistance: 1
+    Invincible: true
+  Model:
+    Id: guildmaster
+    ViewRadius: 40
+    Drive: false
+    DamageTint: false
+    Scale: 1
+
+  DamageModifiers:
+    - FALL 0.001
+    - DROWNING 0.001
+    - ENTITY_SWEEP_ATTACK 0.001
+  Skills:
+    - effect:sound{s=entity.vindicator.celebrate;sc=passive;v=0.55;p=1.45} @self ~onInteract
+    - potion{type=WEAKNESS;d=1000000;l=0} @trigger ~onInteract
+    - sendtoast{icon=ice;message="Let the games begin!";frame=goal} @PIR{r=5} ~onInteract
+    - speak{offset=0.5;radius=30;maxlinelength=30;lineprefix="&5";message=" <b>Right click for weakness. Good luck!";chatprefix=<caster.name>&f<&co>;duration=10000;sendchatmessage=false} @self ~onSpawn
+    - speak{offset=0.5;radius=30;maxlinelength=30;lineprefix="&5";message=" <b>Right click for weakness. Good luck!";chatprefix=<caster.name>&f<&co>;duration=10000;sendchatmessage=false} @self ~onTimer:10000
